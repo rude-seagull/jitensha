@@ -14,7 +14,7 @@ The technical constitution of this project. Any technology decision not covered 
 | Layer | Choice | Why |
 |---|---|---|
 | Site generator | **Astro 5**, `output: 'static'` | Content Collections validate every lesson's frontmatter against a zod schema at build time — with hundreds of lessons, broken metadata fails the build instead of shipping. Ships zero JS by default. |
-| Content | **Markdown** in `src/content/lessons/` | Human-writable, diff-able, portable. Frontmatter contract defined in `CLAUDE.md`; the zod schema must mirror it exactly. |
+| Content | **Markdown** in `src/content/lessons/` | Human-writable, diff-able, portable. Frontmatter contract defined in `CLAUDE.md`; the zod schema must mirror it exactly (`level` is an integer 1-5, `system` an enum of the 9 system slugs). |
 | Styling | **Plain CSS** with custom properties | No CSS framework. Design tokens as `--custom-properties`; light + dark via `prefers-color-scheme` with a manual toggle persisted in localStorage. |
 | Interactivity | **Vanilla JS ES modules** in `src/scripts/` | No client framework. Small, focused modules per feature. |
 | Search | **Pagefind** | Indexes at build time, tiny runtime, fully static, works on GitHub Pages. Runs as a post-build step. |

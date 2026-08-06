@@ -6,9 +6,9 @@ Operating manual for Claude Code in this repository. Read `TECHSTACK.md` next �
 
 **Name: « Jitensha »** — Japanese for bicycle (自転車, literally "vehicle that moves by itself"), echoing the course's core promise: self-sufficiency. Tagline (French): « Apprends la mécanique vélo, de zéro à héros ».
 
-An extremely detailed, interactive bicycle mechanic course in French, taking a total beginner from zero to "home mechanic pro". It ships as a fully static website (Astro + Markdown), with `localStorage` as the only state mechanism. Covers every kind of bike: city/commuter, road, MTB, e-bikes, bikepacking rigs, fixies, custom and exotic builds.
+An extremely detailed, interactive bicycle mechanic course in French, taking a total beginner from zero to shop-grade mastery. It ships as a fully static website (Astro + Markdown), with `localStorage` as the only state mechanism. Covers every kind of bike: city/commuter, road, MTB, e-bikes, bikepacking rigs, fixies, cargo, folding, vintage, custom and exotic builds.
 
-Depth ceiling: everything doable in a home workshop — full overhauls, bearing services, wheel truing, hydraulic bleeds, drivetrain tuning. Explicitly **out of scope**: frame building/facing, suspension damper internals, and anything requiring shop-only machinery.
+Depth ceiling (raised 2026-08-06): everything up to shop-grade craft — full overhauls, bearing services, hydraulic bleeds, drivetrain tuning, **wheel building from scratch, frame-up custom builds (thread chasing, facing, steerer cutting), suspension damper service, and custom paint**. Explicitly **out of scope**: frame *fabrication* (welding, brazing, tube mitering) and anything requiring industrial machinery.
 
 ## Golden rules
 
@@ -35,7 +35,7 @@ Every lesson Markdown file must carry this frontmatter (enforced by the Astro co
 
 ```yaml
 title: "Réparer une crevaison"       # French, sentence case
-level: 1                              # 1 Débutant | 2 Intermédiaire | 3 Avancé | 4 Expert
+level: 1                              # 1 Débutant | 2 Intermédiaire | 3 Avancé | 4 Expert | 5 Maître
 system: "roues-et-pneus"              # system slug, see Curriculum model
 order: 3                              # position within level × system
 status: "draft"                       # draft | review | validated
@@ -61,27 +61,29 @@ The course promises an *extreme amount* of precise, up-to-date, proofed referenc
 
 ## Curriculum model: levels × systems
 
-The course is a matrix. Four progressive **levels** each revisit the bike **systems** with increasing depth — a guided path from zero to hero rather than a flat reference manual.
+The course is a matrix. Five progressive **levels** each revisit the bike **systems** with increasing depth — a guided path from zero to hero rather than a flat reference manual.
 
 Levels:
 
-1. **Débutant** — first contact: fix a flat, adjust saddle, basic checks, lubrication
-2. **Intermédiaire** — adjustments: derailleur indexing, brake setup and bleeds, chain replacement
-3. **Avancé** — overhauls: bearings, headsets, hubs, bottom brackets, wheel truing
-4. **Expert** — mastery: custom builds, exotic setups, fixies, diagnostics, edge cases
+1. **Débutant** — first contact: safety checks, fix a flat, cleaning and lubrication, basic adjustments, reading the machine
+2. **Intermédiaire** — adjust & replace: derailleur indexing, pads, cables and housing, chains, tubeless, torque discipline
+3. **Avancé** — overhauls: bearings (hubs, headsets, bottom brackets), hydraulic bleeds, truing, fork lower-leg service
+4. **Expert** — diagnostics and systems: methodical creak hunting, electronic groupsets, e-bike deep dive, exotic standards, compatibility arbitration
+5. **Maître** — shop-grade craft: wheel building, frame-up builds, suspension internals, custom paint, DIY tooling
 
 Systems (slugs used in frontmatter):
 
-- `fondamentaux` — anatomy, tools, workshop setup, safety
-- `roues-et-pneus` — tires, tubes, tubeless, truing, hubs
-- `freinage` — rim brakes, mechanical and hydraulic discs
-- `transmission` — chains, derailleurs, cassettes, cranks, hub gears, singlespeed
-- `direction-et-peripheriques` — headset, bars, stem, saddle, seatpost, racks/fenders
-- `suspension` — forks and shocks (external service only)
-- `vae` — e-bike systems: motors, batteries, sensors
-- `cas-exotiques` — rare setups, vintage, custom builds
+- `fondamentaux` — anatomy, geometry & materials, metrology and torque, workshop method, cleaning, equipment guides
+- `roues-et-pneus` — tires, tubes, tubeless, hubs and freehubs, truing, wheel building
+- `freinage` — rim brakes, mechanical and hydraulic discs, bleeds, pads, rotors
+- `transmission` — chains, derailleurs, cassettes, cranks, pedals, electronic groupsets, hub gears, belt drive, singlespeed
+- `direction-et-peripheriques` — headset, cockpit, saddle, seatposts and droppers, cables and routing, racks/fenders, fitting
+- `suspension` — forks and shocks, setup, lower-leg and air-can service, damper service
+- `vae` — e-bike systems: motors, batteries, sensors, diagnostics, law
+- `cas-exotiques` — vintage, fixies, cargo, bikepacking, folding, tandems, adapted cycles, rare standards
+- `montage-et-peinture` — frame prep, frame-up assembly, custom paint and finish
 
-The full lesson matrix will live in `CURRICULUM.md` (not yet written).
+The full lesson matrix lives in [`CURRICULUM.md`](CURRICULUM.md), with per-system detail files under `docs/curriculum/`.
 
 ## Architecture snapshot (planned — see TECHSTACK.md)
 
@@ -115,13 +117,24 @@ Decided (2026-08-05): **Jitensha** (自転車), proposed and confirmed by the us
 |---|---|---|
 | `CLAUDE.md` | how Claude works here (this file) | active |
 | `TECHSTACK.md` | technical constitution — stack, state, constraints, rejected tech | active |
-| `CURRICULUM.md` | full levels × systems lesson matrix | planned |
+| `CURRICULUM.md` | full levels × systems lesson matrix | active |
+| `docs/curriculum/<system>.md` | per-system lesson specs (objectives, TP, criteria, reference leads) | active |
 | `GLOSSAIRE.md` | canonical French bike terminology | planned |
+
+## Writing a lesson
+
+`CURRICULUM.md` and `docs/curriculum/` are the design contract: each lesson already has its title, level, duration, objectives, tools, safety points, TP with measurable validation criteria, and **reference leads** (source + subject, deliberately without URLs). Writing a lesson means:
+
+1. Take its spec from `docs/curriculum/<system>.md`.
+2. Research each reference lead on the web, verify the URL resolves and the content matches, record the access date. Drop any lead that cannot be verified; add better sources when you find them.
+3. Write the lesson in French per the frontmatter contract above, `status: draft`.
+
+Never invent a URL to satisfy a lead — golden rule 3 outranks completeness.
 
 ## Roadmap (next steps, in order)
 
-1. `git init`, GitHub repo, GitHub Pages setup
-2. `CURRICULUM.md` — the complete lesson matrix
+1. ~~`git init`, GitHub repo, GitHub Pages setup~~ — done
+2. ~~`CURRICULUM.md` — the complete lesson matrix~~ — done
 3. Astro scaffolding per `TECHSTACK.md`
 4. Design system and first components (workshop-clean, light + dark)
 5. First content module: Niveau 1 lessons
