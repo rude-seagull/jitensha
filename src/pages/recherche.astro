@@ -11,7 +11,7 @@ const baseUrl = import.meta.env.BASE_URL;
 
 <BaseLayout
   title="Recherche"
-  description="Cherche parmi les 317 leçons du cours : une pièce, une panne, un standard, un outil."
+  description="Recherche sur les 317 leçons du cours : pièces, pannes, standards, outils."
   search
 >
   <div class="page search-page">
@@ -20,8 +20,8 @@ const baseUrl = import.meta.env.BASE_URL;
     <header class="search-page__header">
       <h1>Recherche</h1>
       <p class="search-page__lede">
-        Une pièce, une panne, un standard, un outil : la recherche porte sur le contenu
-        complet des leçons, objectifs et critères de validation compris.
+        La recherche porte sur le contenu complet des leçons : objectifs, outils,
+        consignes de sécurité et critères de validation compris.
       </p>
     </header>
 
@@ -41,9 +41,8 @@ const baseUrl = import.meta.env.BASE_URL;
 
     <noscript>
       <p class="search-page__noscript">
-        La recherche a besoin de JavaScript. Sans lui, parcours le cours par{' '}
-        <a href={href()}>niveau</a> ou par <a href={href('atelier')}>système</a> — tout le
-        contenu reste accessible.
+        La recherche nécessite JavaScript. Le contenu reste intégralement accessible par{' '}
+        <a href={href()}>niveau</a> ou par <a href={href('atelier')}>système</a>.
       </p>
     </noscript>
   </div>

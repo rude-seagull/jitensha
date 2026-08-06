@@ -3,14 +3,14 @@ import BaseLayout from '../layouts/BaseLayout.astro';
 import { href } from '../lib/paths';
 ---
 
-<BaseLayout title="Page introuvable" description="Cette page n'existe pas.">
+<BaseLayout title="Page introuvable" description="Cette adresse ne correspond à aucune page du site.">
   <div class="page notfound">
-    <h1>Chaîne déraillée</h1>
-    <p>Cette page n'existe pas — ou plus. Remets-toi sur les rails :</p>
+    <h1>Page introuvable</h1>
+    <p>Cette adresse ne correspond à aucune page du site.</p>
     <ul>
-      <li><a href={href()}>Le parcours</a>, par niveau, du débutant au maître</li>
-      <li><a href={href('atelier')}>L'atelier</a>, rangé par système du vélo</li>
-      <li><a href={href('recherche')}>La recherche</a>, si tu sais ce que tu cherches</li>
+      <li><a href={href()}>Parcours</a> — les cinq niveaux, du débutant au maître</li>
+      <li><a href={href('atelier')}>Atelier</a> — le contenu indexé par système</li>
+      <li><a href={href('recherche')}>Recherche</a> — sur l'ensemble des leçons</li>
     </ul>
   </div>
 </BaseLayout>

@@ -4,7 +4,7 @@ Operating manual for Claude Code in this repository. Read `TECHSTACK.md` next �
 
 ## Project
 
-**Name: « Jitensha »** — Japanese for bicycle (自転車, literally "vehicle that moves by itself"), echoing the course's core promise: self-sufficiency. Tagline (French): « Apprends la mécanique vélo, de zéro à héros ».
+**Name: « Jitensha »** — Japanese for bicycle (自転車, literally "vehicle that moves by itself"), echoing the course's core promise: self-sufficiency. Tagline (French): « Mécanique vélo, de la crevaison au rayonnage » — replaced « de zéro à héros » on 2026-08-06 under golden rule 6.
 
 An extremely detailed, interactive bicycle mechanic course in French, taking a total beginner from zero to shop-grade mastery. It ships as a fully static website (Astro + Markdown), with `localStorage` as the only state mechanism. Covers every kind of bike: city/commuter, road, MTB, e-bikes, bikepacking rigs, fixies, cargo, folding, vintage, custom and exotic builds.
 
@@ -17,6 +17,7 @@ Depth ceiling (raised 2026-08-06): everything up to shop-grade craft — full ov
 3. **Never invent references.** Every external link (video, article, technical doc) must be real, verified to exist, and current. If a reference cannot be verified, it does not go in. Record an access date for each.
 4. **Safety first.** Any step where a mistake can hurt someone — brakes, steerer tubes/stems, quick releases and thru-axles, torque specs on carbon, e-bike batteries and wiring — gets an explicit warning callout in the lesson. Never soften or omit safety guidance for brevity.
 5. **Readable at the bike stand.** Mobile readability and accessibility are non-negotiable: semantic HTML, `lang="fr"`, alt text on every image, diagrams meaningful without color alone. The site must remain 100% readable with JS disabled.
+6. **Tone: neutral, professional, analytical, almost cold.** State what something is or does; let the facts and the numbers carry the persuasion. No coaching imperatives, no rhetorical questions to the reader, no justifying clauses that lecture, no puns, no self-congratulation. Interface copy uses impersonal constructions rather than tutoiement. A course built on measurable validation loses its authority the moment its own copy sounds like a motivational poster.
 
 ## Content workflow
 
@@ -144,7 +145,7 @@ Lesson routes come straight from the collection id, so `src/content/lessons/frei
 
 ## Naming
 
-Decided (2026-08-05): **Jitensha** (自転車), proposed and confirmed by the user. The name doesn't say "bike repair" to a French speaker on its own, so the tagline must always accompany the logo/title in first-contact contexts (homepage, meta description, social cards).
+Decided (2026-08-05): **Jitensha** (自転車), proposed and confirmed by the user. The name doesn't say "bike repair" to a French speaker on its own, so a descriptive line must always accompany the logo/title in first-contact contexts (homepage, meta description, social cards). The header wordmark carries « cours de mécanique vélo » for that reason.
 
 ## Documentation map
 

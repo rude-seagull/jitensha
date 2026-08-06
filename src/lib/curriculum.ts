@@ -7,11 +7,11 @@ export type System = (typeof SYSTEMS)[number];
 export type Level = 1 | 2 | 3 | 4 | 5;
 
 export const LEVELS = [
-  { n: 1, label: 'Débutant', tagline: "Tes premiers gestes : contrôles de sécurité, crevaison, nettoyage, réglages de base." },
-  { n: 2, label: 'Intermédiaire', tagline: 'Régler et remplacer : indexation, plaquettes, câbles, chaînes, tubeless, discipline du couple.' },
-  { n: 3, label: 'Avancé', tagline: 'Réviser : roulements, purges hydrauliques, dévoilage, service de fourche.' },
-  { n: 4, label: 'Expert', tagline: 'Diagnostiquer et arbitrer : craquements, groupes électroniques, VAE, standards exotiques.' },
-  { n: 5, label: 'Maître', tagline: "Le geste d'atelier : rayonnage, montage depuis cadre nu, internes de suspension, peinture." },
+  { n: 1, label: 'Débutant', tagline: 'Contrôles de sécurité, crevaison, nettoyage, lubrification, réglages de base.' },
+  { n: 2, label: 'Intermédiaire', tagline: 'Réglages et remplacements : indexation, plaquettes, câbles, chaînes, tubeless, serrage au couple.' },
+  { n: 3, label: 'Avancé', tagline: 'Révisions : roulements, purges hydrauliques, dévoilage, service de fourche.' },
+  { n: 4, label: 'Expert', tagline: 'Diagnostic et arbitrage : craquements, groupes électroniques, VAE, standards exotiques.' },
+  { n: 5, label: 'Maître', tagline: "Travaux d'atelier : rayonnage, montage depuis cadre nu, internes de suspension, peinture." },
 ] as const satisfies readonly { n: Level; label: string; tagline: string }[];
 
 export const SYSTEM_META: Record<System, { label: string; tagline: string }> = {

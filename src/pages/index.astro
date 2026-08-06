@@ -40,22 +40,21 @@ const heroCriteria = [
 
 <BaseLayout
   title="Jitensha"
-  description="Cours de mécanique vélo gratuit et interactif : de zéro à héros, sur tous les types de vélos. 317 leçons, 1787 critères de validation chiffrés."
+  description="Cours de mécanique vélo en accès libre, couvrant tous les types de vélos. 317 leçons, 323 travaux pratiques, 1787 critères de validation mesurables."
 >
   <section class="hero">
     <div class="page hero__inner">
       <div class="hero__pitch">
-        <p class="eyebrow">Cours de mécanique vélo · gratuit · sans compte</p>
-        <h1>Apprends à réparer.<br />Et sache quand c'est réussi.</h1>
+        <p class="eyebrow">Accès libre · sans compte · sans traceur</p>
+        <h1>Mécanique vélo,<br />de la crevaison au rayonnage.</h1>
         <p class="hero__lede">
-          Du premier démonte-pneu jusqu'au rayonnage et au montage depuis un cadre nu.
-          Ville, route, VTT, VAE, cargo, fixie, vintage. Chaque leçon se termine par un
-          travail pratique dont les critères se mesurent — parce qu'on n'apprend pas la
-          mécanique en lisant.
+          Cours complet couvrant tous les types de vélos : ville, route, VTT, VAE, cargo,
+          fixie, vintage. Chaque leçon se conclut par un travail pratique assorti de
+          critères de validation mesurables — tolérances, couples, seuils.
         </p>
         <p class="hero__actions">
-          <a class="button" href={levelUrl(1)}>Commencer au niveau 1</a>
-          <a class="button button--quiet" href={href('atelier')}>Voir l'atelier</a>
+          <a class="button" href={levelUrl(1)}>Ouvrir le niveau 1</a>
+          <a class="button button--quiet" href={href('atelier')}>Ouvrir l'atelier</a>
         </p>
       </div>
 
@@ -79,7 +78,7 @@ const heroCriteria = [
         </ol>
         {/* In flow, not absolutely positioned: the seal can never land on the text. */}
         <div class="sheet__foot">
-          <span class="sheet__verdict">Tous les critères tenus</span>
+          <span class="sheet__verdict">Critères satisfaits</span>
           <Stamp size="lg" label="Validé" id="hero-stamp" hidden />
         </div>
       </figure>
@@ -88,8 +87,11 @@ const heroCriteria = [
 
   <section class="page levels">
     <div class="levels__head">
-      <h2>Le parcours</h2>
-      <p>Cinq niveaux qui reprennent chacun tous les systèmes du vélo, un cran plus loin.</p>
+      <h2>Parcours</h2>
+      <p>
+        Cinq niveaux successifs. Chacun reprend l'ensemble des systèmes du vélo à un degré
+        d'exigence supérieur.
+      </p>
     </div>
 
     <ol class="levels__list">
@@ -113,10 +115,8 @@ const heroCriteria = [
 
   <section class="page systems">
     <div class="levels__head">
-      <h2>Les neuf systèmes</h2>
-      <p>
-        Une panne précise plutôt qu'un parcours ? Le même cours, rangé par domaine.
-      </p>
+      <h2>Systèmes</h2>
+      <p>Le même contenu, indexé par domaine plutôt que par niveau.</p>
     </div>
     <ul class="systems__list">
       {
@@ -140,7 +140,7 @@ const heroCriteria = [
       <div><dt>Heures d'atelier</dt><dd class="num">≈ {totalHours(lessons)}</dd></div>
     </dl>
     <div class="totals__progress">
-      <p class="eyebrow">Ta progression</p>
+      <p class="eyebrow">Progression</p>
       <ProgressBar lessonIds={allIds} label="Progression totale du cours" />
     </div>
   </section>
