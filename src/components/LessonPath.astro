@@ -64,7 +64,6 @@ const ids = lessons.map((lesson) => lesson.id);
     --gap-x: 2.75rem;
     --gap-y: 3.25rem;
     --card-h: 8.75rem;
-    --line-col: var(--line-strong);
   }
 
   .path {
@@ -84,6 +83,7 @@ const ids = lessons.map((lesson) => lesson.id);
   /* ---- Card: fixed height, which is what keeps the grid geometry knowable ---- */
 
   .step__card {
+    position: relative;
     display: flex;
     flex-direction: column;
     gap: var(--space-2);
@@ -163,60 +163,122 @@ const ids = lessons.map((lesson) => lesson.id);
     color: var(--surface);
   }
 
-  /* ---- Connectors ---------------------------------------------------------- */
+  /* ---- Connectors ----------------------------------------------------------
+   *
+   * Four pieces, meeting at the MIDDLE of the row gap so the run never touches a card:
+   *
+   *   [ card ]--flow-->[ card ]          .step__flow   horizontal, between cards
+   *      |                    |
+   *      |                 ::after       drop from a row-end card to mid-gap
+   *   ::before <--- run ------'          run at mid-gap, then drop into the next card
+   *      v
+   *   [ card ]                           .step__card::before   arrowhead
+   *
+   * Dashes are painted with repeating gradients rather than `border-style: dashed`,
+   * which keeps the phase identical on horizontal and vertical runs and avoids a
+   * ragged corner where they join.
+   */
 
-  /* Horizontal run toward the next card, sitting in the column gap. */
+  .path-wrap {
+    --dash: 5px;
+    --gap-half: calc(var(--gap-y) / 2);
+  }
+
+  /* Horizontal run toward the next card in the same row. */
   .step__flow {
     position: absolute;
     left: 100%;
     top: calc(var(--card-h) / 2);
-    width: var(--gap-x);
-    border-top: 1px solid var(--line-col);
+    width: calc(var(--gap-x) - 5px);
+    height: 1px;
+    background-image: repeating-linear-gradient(
+      to right,
+      var(--path-line) 0 var(--dash),
+      transparent var(--dash) calc(var(--dash) * 2)
+    );
   }
 
   .step__flow::after {
     content: '';
     position: absolute;
-    right: 0;
-    top: -4px;
+    left: 100%;
+    top: -3.5px;
     border-top: 4px solid transparent;
     border-bottom: 4px solid transparent;
-    border-left: 5px solid var(--line-col);
+    border-left: 5px solid var(--path-line);
+  }
+
+  /* Row end: drop from the card down to mid-gap. */
+  .step::after {
+    content: '';
+    position: absolute;
+    left: 50%;
+    top: 100%;
+    width: 1px;
+    height: var(--gap-half);
+    background-image: repeating-linear-gradient(
+      to bottom,
+      var(--path-line) 0 var(--dash),
+      transparent var(--dash) calc(var(--dash) * 2)
+    );
   }
 
   /*
-   * Return sweep, drawn by the card that OPENS a row: it runs from under the last card
-   * of the previous row back to this one, then drops in. Width is the exact
-   * centre-to-centre distance across the row.
+   * Row start: the return run at mid-gap, then the drop into this card. The width is
+   * the exact centre-to-centre distance back across the row; `max()` keeps the box
+   * paintable at one column, where that distance collapses to zero and only the drop
+   * should remain.
    */
   .step::before {
     content: '';
     position: absolute;
-    bottom: 100%;
     left: 50%;
-    width: calc((var(--cols) - 1) * (100% + var(--gap-x)));
-    height: var(--gap-y);
-    border-top: 1px solid var(--line-col);
-    border-left: 1px solid var(--line-col);
-    border-top-left-radius: 10px;
+    bottom: 100%;
+    width: max(1px, calc((var(--cols) - 1) * (100% + var(--gap-x))));
+    height: var(--gap-half);
+    background-image:
+      repeating-linear-gradient(
+        to right,
+        var(--path-line) 0 var(--dash),
+        transparent var(--dash) calc(var(--dash) * 2)
+      ),
+      repeating-linear-gradient(
+        to bottom,
+        var(--path-line) 0 var(--dash),
+        transparent var(--dash) calc(var(--dash) * 2)
+      );
+    background-size:
+      100% 1px,
+      1px 100%;
+    background-position:
+      left top,
+      left top;
+    background-repeat: no-repeat;
   }
 
-  /* Arrowhead dropping into the card the sweep leads to. */
-  .step::after {
+  /* Arrowhead entering the card the return leads to. */
+  .step__card::before {
     content: '';
     position: absolute;
-    bottom: 100%;
     left: calc(50% - 4px);
+    bottom: 100%;
     border-left: 4px solid transparent;
     border-right: 4px solid transparent;
-    border-top: 5px solid var(--line-col);
+    border-top: 5px solid var(--path-line);
   }
 
-  /* ---- Column counts, and the connector rules that follow from them --------- */
+  /* ---- Column counts, and the connector rules that follow from them ---------
+   *
+   * Ranges are mutually exclusive on purpose. With overlapping `min-width` blocks a
+   * lower breakpoint's `nth-child` rule (0,3,0) outranks a higher one's reset (0,2,0)
+   * and media queries add no specificity, so two-column sweeps survived into the
+   * four-column layout. Exclusive ranges make exactly one block apply.
+   */
 
-  /* Connectors are opt-in: each exclusive range below turns on only the ones it needs. */
+  .step__flow,
   .step::before,
-  .step::after {
+  .step::after,
+  .step__card::before {
     display: none;
   }
 
@@ -225,14 +287,14 @@ const ids = lessons.map((lesson) => lesson.id);
       --cols: 1;
     }
 
-    /* Single column: every card ends its row, so the sweep collapses to a plain drop
-       and no horizontal connector is ever drawn. */
-    .step__flow {
-      display: none;
+    /* Every card both ends and starts a row, so the chain is drawn in two halves:
+       the drop out of one card and the drop into the next. */
+    .step:not(:last-child)::after {
+      display: block;
     }
 
     .step:not(:first-child)::before,
-    .step:not(:first-child)::after {
+    .step:not(:first-child) .step__card::before {
       display: block;
     }
   }
@@ -242,13 +304,16 @@ const ids = lessons.map((lesson) => lesson.id);
       --cols: 2;
     }
 
-    .step:nth-child(2n) .step__flow,
-    .step:last-child .step__flow {
-      display: none;
+    .step:not(:nth-child(2n)):not(:last-child) .step__flow {
+      display: block;
+    }
+
+    .step:nth-child(2n):not(:last-child)::after {
+      display: block;
     }
 
     .step:nth-child(2n + 1):not(:first-child)::before,
-    .step:nth-child(2n + 1):not(:first-child)::after {
+    .step:nth-child(2n + 1):not(:first-child) .step__card::before {
       display: block;
     }
   }
@@ -258,13 +323,16 @@ const ids = lessons.map((lesson) => lesson.id);
       --cols: 3;
     }
 
-    .step:nth-child(3n) .step__flow,
-    .step:last-child .step__flow {
-      display: none;
+    .step:not(:nth-child(3n)):not(:last-child) .step__flow {
+      display: block;
+    }
+
+    .step:nth-child(3n):not(:last-child)::after {
+      display: block;
     }
 
     .step:nth-child(3n + 1):not(:first-child)::before,
-    .step:nth-child(3n + 1):not(:first-child)::after {
+    .step:nth-child(3n + 1):not(:first-child) .step__card::before {
       display: block;
     }
   }
@@ -274,13 +342,16 @@ const ids = lessons.map((lesson) => lesson.id);
       --cols: 4;
     }
 
-    .step:nth-child(4n) .step__flow,
-    .step:last-child .step__flow {
-      display: none;
+    .step:not(:nth-child(4n)):not(:last-child) .step__flow {
+      display: block;
+    }
+
+    .step:nth-child(4n):not(:last-child)::after {
+      display: block;
     }
 
     .step:nth-child(4n + 1):not(:first-child)::before,
-    .step:nth-child(4n + 1):not(:first-child)::after {
+    .step:nth-child(4n + 1):not(:first-child) .step__card::before {
       display: block;
     }
   }

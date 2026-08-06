@@ -75,6 +75,9 @@
   --acier: #5e6671;
   --line: #d5dae1;
   --line-strong: #b6bec8;
+  /* Path connectors carry meaning (the sequence), so they need the 3:1 of a
+     meaningful graphic — not the 1.6:1 that --line-strong gives against the page. */
+  --path-line: #7e8895;
 
   --indigo: #1f3a5f;        /* aizome — structure, links, levels */
   --indigo-hover: #162943;
@@ -100,6 +103,7 @@
   --acier: #98a1ab;
   --line: #2b3138;
   --line-strong: #3f474f;
+  --path-line: #6a747f;
 
   --indigo: #8fb4dc;
   --indigo-hover: #b3cdea;
@@ -126,6 +130,7 @@
     --acier: #98a1ab;
     --line: #2b3138;
     --line-strong: #3f474f;
+    --path-line: #6a747f;
 
     --indigo: #8fb4dc;
     --indigo-hover: #b3cdea;
