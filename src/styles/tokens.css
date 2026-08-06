@@ -5,9 +5,15 @@
  * course is built on 1787 measurable criteria, so the stamp is what a validation
  * looks like here.
  *
- * The one rule that carries the identity: --vermillon is stamp ink. It appears on a
- * validation or a safety warning, and nowhere else. Spending it as a general brand
- * accent would dissolve the whole idea.
+ * Two colour rules carry the identity, and both are about restraint:
+ *
+ *   --vermillon is stamp ink. It appears on a validation or a safety warning, and
+ *   nowhere else. Spending it as a general accent would dissolve the whole idea.
+ *
+ *   --asagi is the journey. 浅葱 comes out of the same indigo vat at a lower
+ *   concentration — the historical sibling of the primary, not a colour picked at
+ *   random. It marks progression: the path connectors, the sequence numbers, the
+ *   progress fills. Where something advances, it shifts indigo → asagi.
  *
  * The ground is deliberately COOL — workshop light under fluorescent tubes, not aged
  * paper. Warm cream with a terracotta accent is the reflex this project avoids.
@@ -24,14 +30,16 @@
   --body: var(--font-body), var(--font-sans-fallback);
   --mono: var(--font-mono), var(--font-mono-fallback);
 
-  --text-xs: 0.78rem;
-  --text-sm: 0.875rem;
-  --text-base: 1rem;
-  --text-lg: 1.125rem;
-  --text-xl: 1.3rem;
-  --text-2xl: clamp(1.5rem, 1.28rem + 0.95vw, 1.9rem);
-  --text-3xl: clamp(1.9rem, 1.45rem + 2vw, 2.9rem);
-  --text-4xl: clamp(2.3rem, 1.5rem + 3.4vw, 4rem);
+  /* Scale raised ~12% over the original: an 18px body is what a phone in a badly lit
+     garage actually needs. Ratios between steps are unchanged, so hierarchy holds. */
+  --text-xs: 0.875rem;
+  --text-sm: 0.9375rem;
+  --text-base: 1.125rem;
+  --text-lg: 1.25rem;
+  --text-xl: 1.4375rem;
+  --text-2xl: clamp(1.7rem, 1.45rem + 1.05vw, 2.15rem);
+  --text-3xl: clamp(2.15rem, 1.65rem + 2.2vw, 3.25rem);
+  --text-4xl: clamp(2.6rem, 1.7rem + 3.8vw, 4.5rem);
 
   --leading-tight: 1.08;
   --leading-snug: 1.3;
@@ -54,13 +62,14 @@
   --space-9: 6rem;
 
   /* ---- Layout ---------------------------------------------------------- */
-  --measure: 66ch;
+  --measure: 62ch;
   --width-page: 78rem;
   --radius-sm: 3px;
-  --radius-md: 6px;
-  --radius-lg: 10px;
+  --radius-md: 7px;
+  --radius-lg: 12px;
 
   --transition: 140ms ease;
+  --hover: 180ms cubic-bezier(0.2, 0.7, 0.3, 1);
   --press: 180ms cubic-bezier(0.2, 1.6, 0.4, 1);
 
   /* ---- Colour: light --------------------------------------------------- */
@@ -75,13 +84,13 @@
   --acier: #5e6671;
   --line: #d5dae1;
   --line-strong: #b6bec8;
-  /* Path connectors carry meaning (the sequence), so they need the 3:1 of a
-     meaningful graphic — not the 1.6:1 that --line-strong gives against the page. */
-  --path-line: #7e8895;
 
   --indigo: #1f3a5f;        /* aizome — structure, links, levels */
   --indigo-hover: #162943;
   --indigo-soft: #dee6f0;
+
+  --asagi: #1a707c;         /* 浅葱 — THE JOURNEY: paths, sequence, progress */
+  --asagi-soft: #dcedf0;
 
   --vermillon: #c93a22;     /* STAMP INK — validation and safety only */
   --vermillon-soft: #fbe7e2;
@@ -91,6 +100,15 @@
   --valide-soft: #dfeee5;
 
   --focus-ring: #1f3a5f;
+
+  /* Elevation is opacity-animated on a pseudo-element, never a transitioned
+     box-shadow, so hover stays on the compositor. */
+  --shadow-card: 0 1px 2px rgb(20 24 29 / 6%), 0 8px 20px -6px rgb(20 24 29 / 14%);
+  --wash: radial-gradient(
+    120% 90% at 82% 0%,
+    color-mix(in oklab, var(--asagi) 12%, transparent) 0%,
+    transparent 62%
+  );
 }
 
 :root[data-theme='dark'] {
@@ -103,11 +121,13 @@
   --acier: #98a1ab;
   --line: #2b3138;
   --line-strong: #3f474f;
-  --path-line: #6a747f;
 
   --indigo: #8fb4dc;
   --indigo-hover: #b3cdea;
   --indigo-soft: #1b2b3f;
+
+  --asagi: #67c6d3;
+  --asagi-soft: #123037;
 
   --vermillon: #f0705a;
   --vermillon-soft: #331914;
@@ -117,6 +137,13 @@
   --valide-soft: #16281d;
 
   --focus-ring: #8fb4dc;
+
+  --shadow-card: 0 1px 2px rgb(0 0 0 / 40%), 0 10px 24px -6px rgb(0 0 0 / 55%);
+  --wash: radial-gradient(
+    120% 90% at 82% 0%,
+    color-mix(in oklab, var(--asagi) 14%, transparent) 0%,
+    transparent 62%
+  );
 }
 
 @media (prefers-color-scheme: dark) {
@@ -130,11 +157,13 @@
     --acier: #98a1ab;
     --line: #2b3138;
     --line-strong: #3f474f;
-    --path-line: #6a747f;
 
     --indigo: #8fb4dc;
     --indigo-hover: #b3cdea;
     --indigo-soft: #1b2b3f;
+
+    --asagi: #67c6d3;
+    --asagi-soft: #123037;
 
     --vermillon: #f0705a;
     --vermillon-soft: #331914;
@@ -144,5 +173,12 @@
     --valide-soft: #16281d;
 
     --focus-ring: #8fb4dc;
+
+    --shadow-card: 0 1px 2px rgb(0 0 0 / 40%), 0 10px 24px -6px rgb(0 0 0 / 55%);
+    --wash: radial-gradient(
+      120% 90% at 82% 0%,
+      color-mix(in oklab, var(--asagi) 14%, transparent) 0%,
+      transparent 62%
+    );
   }
 }

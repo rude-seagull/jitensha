@@ -110,10 +110,16 @@ The full lesson matrix lives in [`CURRICULUM.md`](CURRICULUM.md), with per-syste
 
 Grounded in keirin frame culture: an approved NJS frame carries a stamp, and this course rests on 1787 measurable criteria, so a *hanko* is what a validation looks like here.
 
-**The rule that carries the identity:** `--vermillon` is stamp ink. It appears on a validation or a safety warning, and nowhere else. Spending it as a general accent dissolves the whole idea — use `--indigo` for structure and links instead.
+**Two colour rules carry the identity, and both are about restraint:**
+
+- `--vermillon` is **stamp ink**. It appears on a validation or a safety warning, and nowhere else. Spending it as a general accent dissolves the whole idea.
+- `--asagi` is **the journey**. 浅葱 comes out of the same indigo vat at a lower concentration — the historical sibling of the primary, not a colour picked at random. It marks progression: path connectors, sequence numbers, progress fills, hover accents. Where something advances, it shifts indigo → asagi.
+
+`--indigo` remains structure and links. Any new colour must earn a job of that kind; decoration is what makes a palette look arbitrary.
 
 - **Ground is cool** (`--paper` #eceff2): workshop light under fluorescent tubes. Warm cream with a terracotta accent is the reflex this project deliberately avoids.
-- **Typography by role:** Bricolage Grotesque for headings only (variable width axis, set tight), Atkinson Hyperlegible Next for body — drawn by the Braille Institute for low-vision readers, which is the honest choice for a phone in a badly lit garage — and JetBrains Mono for every number, because tolerances and torques are content here, not metadata. Use `.num` to opt a fragment into it.
+- **Typography by role:** Bricolage Grotesque for headings only (variable width axis, set tight), Atkinson Hyperlegible Next for body — drawn by the Braille Institute for low-vision readers, which is the honest choice for a phone in a badly lit garage — and JetBrains Mono for every number, because tolerances and torques are content here, not metadata. Use `.num` to opt a fragment into it. **Body is 18px**; the scale was raised ~12% over the original because the first pass read too small for the actual usage.
+- **Motion is cheap or it does not ship.** Hover states animate `transform` and `opacity` only — elevation rides on a pseudo-element's opacity rather than a transitioned `box-shadow`. The path's colour progression is a `color-mix` driven by a `--t` custom property computed at build time: no image, no canvas, no script. Every lift is cancelled under `prefers-reduced-motion`.
 - **The seal** (`Stamp.astro`) carries 自, "self", from 自転車. It lands on a finished lesson, a fully ticked exercise, or a completed level — never as decoration, and always in flow rather than absolutely positioned, so it cannot land on text.
 - **Logo** (`HeadBadge.astro`) is a head badge, the plate riveted to a frame's head tube. Flat and geometric; a vintage heraldic crest is the failure mode.
 - **Motion** is one orchestrated moment (the press) plus state transitions. `prefers-reduced-motion` must remove the animation without removing the seal.

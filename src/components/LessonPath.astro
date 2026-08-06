@@ -1,5 +1,6 @@
 ---
 import Stamp from './Stamp.astro';
+import SystemIcon from './SystemIcon.astro';
 import { lessonUrl, type Lesson } from '../lib/curriculum';
 
 /*
@@ -11,13 +12,12 @@ import { lessonUrl, type Lesson } from '../lib/curriculum';
  * exactly which card ends a row and which one opens the next, so every connector is
  * placed in pure CSS with no JavaScript and no measurement.
  *
- * The return sweep is drawn by `.step::before` on the card that opens a row. Its width
- * is `(cols - 1) × (100% + gap)` — precisely the centre-to-centre distance back to the
- * last card of the previous row, since all columns are equal. At one column that
- * expression collapses to zero and the sweep degenerates into the vertical connector a
- * single-column chain needs, which is why the mobile case needs no special handling.
+ * The hue advances with the sequence. Each step carries `--t`, its position from 0 to 1,
+ * computed here; CSS mixes indigo → asagi by that ratio. The gradient is therefore a
+ * property of the data rather than decoration painted over it — and it costs nothing at
+ * runtime: no image, no canvas, no script.
  *
- * Robustness note: the NUMBERS carry the sequence; the arrows only reinforce it. A
+ * Robustness note: the NUMBERS carry the sequence; the connectors only reinforce it. A
  * connector misbehaving at some unforeseen width cannot make the order ambiguous.
  */
 
@@ -28,15 +28,28 @@ interface Props {
 
 const { lessons, label } = Astro.props;
 const ids = lessons.map((lesson) => lesson.id);
+const last = Math.max(1, lessons.length - 1);
 ---
 
 <div class="path-wrap">
   <ol class="path" aria-label={label}>
     {
       lessons.map((lesson, index) => (
-        <li class="step" data-lesson-card data-lesson={lesson.id}>
+        <li
+          class="step"
+          data-lesson-card
+          data-lesson={lesson.id}
+          style={`--t:${(index / last).toFixed(4)}`}
+        >
           <a class="step__card" href={lessonUrl(lesson)}>
-            <span class="step__node num">{String(index + 1).padStart(2, '0')}</span>
+            <span class="step__head">
+              <span class="step__node num">{String(index + 1).padStart(2, '0')}</span>
+              {/* The system's defining artefact — the caliper, the 3-cross lacing, the
+                  rotor — so a card still says what it belongs to out of context. */}
+              <span class="step__mark" aria-hidden="true">
+                <SystemIcon system={lesson.data.system} size={22} />
+              </span>
+            </span>
             <span class="step__title">{lesson.data.title}</span>
             <span class="step__meta">
               <span class="num">{lesson.data.duration} min</span>
@@ -48,6 +61,9 @@ const ids = lessons.map((lesson) => lesson.id);
           </a>
           {/* Horizontal connector toward the next card; CSS hides it at row ends. */}
           <span class="step__flow" aria-hidden="true" />
+          {/* Arrowhead from the return sweep. Kept outside the card so the hover lift
+              cannot detach it from the line. */}
+          <span class="step__enter" aria-hidden="true" />
         </li>
       ))
     }
@@ -62,8 +78,10 @@ const ids = lessons.map((lesson) => lesson.id);
 <style>
   .path-wrap {
     --gap-x: 2.75rem;
-    --gap-y: 3.25rem;
-    --card-h: 8.75rem;
+    --gap-y: 3.5rem;
+    --gap-half: calc(var(--gap-y) / 2);
+    --card-h: 11.5rem;
+    --dash: 5px;
   }
 
   .path {
@@ -78,59 +96,81 @@ const ids = lessons.map((lesson) => lesson.id);
 
   .step {
     position: relative;
+    /* Position along the sequence, mixed from the two brand colours. Both endpoints
+       clear contrast on every ground, so every blend between them does too. */
+    --hue: color-mix(in oklab, var(--indigo), var(--asagi) calc(var(--t) * 100%));
   }
 
   /* ---- Card: fixed height, which is what keeps the grid geometry knowable ---- */
 
   .step__card {
     position: relative;
+    overflow: hidden;
     display: flex;
     flex-direction: column;
     gap: var(--space-2);
     height: var(--card-h);
-    padding: var(--space-3) var(--space-4) var(--space-3) var(--space-3);
+    padding: var(--space-4);
     background: var(--surface);
     border: 1px solid var(--line);
-    border-radius: var(--radius-md);
+    border-radius: var(--radius-lg);
     text-decoration: none;
     color: var(--ink);
     transition:
-      border-color var(--transition),
-      background var(--transition);
+      transform var(--hover),
+      border-color var(--hover);
   }
 
   .step__card:hover {
-    border-color: var(--indigo);
+    transform: translateY(-3px);
+    border-color: color-mix(in oklab, var(--hue) 55%, transparent);
+  }
+
+  /* Elevation rides on opacity so hover stays off the layout and paint paths. */
+  .step__card::after {
+    content: '';
+    position: absolute;
+    inset: 0;
+    border-radius: inherit;
+    box-shadow: var(--shadow-card);
+    opacity: 0;
+    transition: opacity var(--hover);
+    pointer-events: none;
+  }
+
+  .step__card:hover::after {
+    opacity: 1;
   }
 
   .step__node {
     display: grid;
     place-items: center;
-    width: 1.75rem;
-    height: 1.75rem;
+    width: 2.1rem;
+    height: 2.1rem;
     flex-shrink: 0;
-    border: 1px solid var(--line-strong);
+    border: 1px solid color-mix(in oklab, var(--hue) 45%, transparent);
     border-radius: var(--radius-sm);
+    background: color-mix(in oklab, var(--hue) 9%, var(--surface));
     font-size: var(--text-xs);
     font-weight: 600;
-    color: var(--acier);
-    background: var(--paper);
+    color: var(--hue);
   }
 
   .step__title {
     flex: 1;
     font-weight: 650;
-    font-size: var(--text-sm);
+    font-size: var(--text-base);
     line-height: var(--leading-snug);
-    /* Safety net only: Niveau 1 titles are capped at 52 characters upstream. */
+    /* Three lines, not two: at 18px a 50-character title can need a third when the
+       words break badly. The card is sized for three so nothing ever clips. */
     display: -webkit-box;
     -webkit-box-orient: vertical;
-    -webkit-line-clamp: 2;
+    -webkit-line-clamp: 3;
     overflow: hidden;
   }
 
   .step__card:hover .step__title {
-    color: var(--indigo);
+    color: var(--hue);
   }
 
   .step__meta {
@@ -152,6 +192,26 @@ const ids = lessons.map((lesson) => lesson.id);
     font-weight: 700;
   }
 
+  .step__head {
+    display: flex;
+    align-items: center;
+    gap: var(--space-3);
+  }
+
+  .step__mark {
+    display: flex;
+    color: var(--hue);
+    opacity: 0.55;
+    transition:
+      opacity var(--hover),
+      transform var(--hover);
+  }
+
+  .step__card:hover .step__mark {
+    opacity: 1;
+    transform: translateX(2px);
+  }
+
   .step[data-done='true'] .step__card {
     background: var(--valide-soft);
     border-color: transparent;
@@ -163,28 +223,33 @@ const ids = lessons.map((lesson) => lesson.id);
     color: var(--surface);
   }
 
+  .step[data-done='true'] .step__mark {
+    color: var(--valide);
+  }
+
+  @media (prefers-reduced-motion: reduce) {
+    .step__card:hover,
+    .step__card:hover .step__mark {
+      transform: none;
+    }
+  }
+
   /* ---- Connectors ----------------------------------------------------------
    *
    * Four pieces, meeting at the MIDDLE of the row gap so the run never touches a card:
    *
-   *   [ card ]--flow-->[ card ]          .step__flow   horizontal, between cards
+   *   [ card ]--flow-->[ card ]          .step__flow    horizontal, between cards
    *      |                    |
    *      |                 ::after       drop from a row-end card to mid-gap
    *   ::before <--- run ------'          run at mid-gap, then drop into the next card
    *      v
-   *   [ card ]                           .step__card::before   arrowhead
+   *   .step__enter                       arrowhead into the card
    *
    * Dashes are painted with repeating gradients rather than `border-style: dashed`,
    * which keeps the phase identical on horizontal and vertical runs and avoids a
    * ragged corner where they join.
    */
 
-  .path-wrap {
-    --dash: 5px;
-    --gap-half: calc(var(--gap-y) / 2);
-  }
-
-  /* Horizontal run toward the next card in the same row. */
   .step__flow {
     position: absolute;
     left: 100%;
@@ -193,7 +258,7 @@ const ids = lessons.map((lesson) => lesson.id);
     height: 1px;
     background-image: repeating-linear-gradient(
       to right,
-      var(--path-line) 0 var(--dash),
+      var(--hue) 0 var(--dash),
       transparent var(--dash) calc(var(--dash) * 2)
     );
   }
@@ -205,7 +270,7 @@ const ids = lessons.map((lesson) => lesson.id);
     top: -3.5px;
     border-top: 4px solid transparent;
     border-bottom: 4px solid transparent;
-    border-left: 5px solid var(--path-line);
+    border-left: 5px solid var(--hue);
   }
 
   /* Row end: drop from the card down to mid-gap. */
@@ -218,7 +283,7 @@ const ids = lessons.map((lesson) => lesson.id);
     height: var(--gap-half);
     background-image: repeating-linear-gradient(
       to bottom,
-      var(--path-line) 0 var(--dash),
+      var(--hue) 0 var(--dash),
       transparent var(--dash) calc(var(--dash) * 2)
     );
   }
@@ -239,12 +304,12 @@ const ids = lessons.map((lesson) => lesson.id);
     background-image:
       repeating-linear-gradient(
         to right,
-        var(--path-line) 0 var(--dash),
+        var(--hue) 0 var(--dash),
         transparent var(--dash) calc(var(--dash) * 2)
       ),
       repeating-linear-gradient(
         to bottom,
-        var(--path-line) 0 var(--dash),
+        var(--hue) 0 var(--dash),
         transparent var(--dash) calc(var(--dash) * 2)
       );
     background-size:
@@ -256,15 +321,13 @@ const ids = lessons.map((lesson) => lesson.id);
     background-repeat: no-repeat;
   }
 
-  /* Arrowhead entering the card the return leads to. */
-  .step__card::before {
-    content: '';
+  .step__enter {
     position: absolute;
     left: calc(50% - 4px);
     bottom: 100%;
     border-left: 4px solid transparent;
     border-right: 4px solid transparent;
-    border-top: 5px solid var(--path-line);
+    border-top: 5px solid var(--hue);
   }
 
   /* ---- Column counts, and the connector rules that follow from them ---------
@@ -276,9 +339,9 @@ const ids = lessons.map((lesson) => lesson.id);
    */
 
   .step__flow,
+  .step__enter,
   .step::before,
-  .step::after,
-  .step__card::before {
+  .step::after {
     display: none;
   }
 
@@ -294,7 +357,7 @@ const ids = lessons.map((lesson) => lesson.id);
     }
 
     .step:not(:first-child)::before,
-    .step:not(:first-child) .step__card::before {
+    .step:not(:first-child) .step__enter {
       display: block;
     }
   }
@@ -313,7 +376,7 @@ const ids = lessons.map((lesson) => lesson.id);
     }
 
     .step:nth-child(2n + 1):not(:first-child)::before,
-    .step:nth-child(2n + 1):not(:first-child) .step__card::before {
+    .step:nth-child(2n + 1):not(:first-child) .step__enter {
       display: block;
     }
   }
@@ -332,7 +395,7 @@ const ids = lessons.map((lesson) => lesson.id);
     }
 
     .step:nth-child(3n + 1):not(:first-child)::before,
-    .step:nth-child(3n + 1):not(:first-child) .step__card::before {
+    .step:nth-child(3n + 1):not(:first-child) .step__enter {
       display: block;
     }
   }
@@ -351,7 +414,7 @@ const ids = lessons.map((lesson) => lesson.id);
     }
 
     .step:nth-child(4n + 1):not(:first-child)::before,
-    .step:nth-child(4n + 1):not(:first-child) .step__card::before {
+    .step:nth-child(4n + 1):not(:first-child) .step__enter {
       display: block;
     }
   }

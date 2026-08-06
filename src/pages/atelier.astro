@@ -92,11 +92,34 @@ const systems = SYSTEM_ORDER.map((system) => {
     background: var(--surface);
     border: 1px solid var(--line);
     border-radius: var(--radius-lg);
-    transition: border-color var(--transition);
+    overflow: hidden;
+    transition:
+      transform var(--hover),
+      border-color var(--hover),
+      box-shadow var(--hover);
   }
 
   .system:hover {
-    border-color: var(--line-strong);
+    transform: translateY(-3px);
+    border-color: color-mix(in oklab, var(--asagi) 50%, transparent);
+    box-shadow: var(--shadow-card);
+  }
+
+  .system__icon {
+    transition:
+      background var(--hover),
+      color var(--hover);
+  }
+
+  .system:hover .system__icon {
+    background: color-mix(in oklab, var(--asagi) 16%, var(--surface));
+    color: var(--asagi);
+  }
+
+  @media (prefers-reduced-motion: reduce) {
+    .system:hover {
+      transform: none;
+    }
   }
 
   .system__link {
