@@ -67,7 +67,9 @@ references:
     # their absence is what marks a lead as still unresearched.
 ```
 
-Regenerate all 317 files from the curriculum with `npm run generate:lessons`. It rewrites frontmatter only and preserves any prose already written below the closing `---`, so it is safe to re-run after a curriculum change.
+**Title length: 52 characters maximum.** Lesson cards have a fixed height, so a bloated title either overflows or gets clipped. The long titles all followed the pattern « Sujet : a, b et c », where the enumeration after the colon simply repeats the lesson's own `objectives` — cut it. Applied to Niveau 1; the other levels follow when their path layout ships.
+
+`docs/curriculum/curriculum.json` is the source of truth for the whole curriculum; the lesson Markdown and the curriculum docs are generated from it. After any edit run **`npm run curriculum:build`** — it validates the structural invariants, regenerates the 317 lesson files (rewriting frontmatter only, preserving prose written below the closing `---`), and re-renders `CURRICULUM.md` and `docs/curriculum/*.md`. Never edit those by hand.
 
 ## Reference quality bar
 
@@ -115,6 +117,9 @@ Grounded in keirin frame culture: an approved NJS frame carries a stamp, and thi
 - **The seal** (`Stamp.astro`) carries 自, "self", from 自転車. It lands on a finished lesson, a fully ticked exercise, or a completed level — never as decoration, and always in flow rather than absolutely positioned, so it cannot land on text.
 - **Logo** (`HeadBadge.astro`) is a head badge, the plate riveted to a frame's head tube. Flat and geometric; a vintage heraldic crest is the failure mode.
 - **Motion** is one orchestrated moment (the press) plus state transitions. `prefers-reduced-motion` must remove the animation without removing the seal.
+- **The lesson path** (`LessonPath.astro`) draws an ordered sequence as a serpentine. Its layout is a grid whose **column count is fixed per breakpoint**, in **mutually exclusive media ranges**: a wrapping flex row cannot tell which card ends a row, and overlapping `min-width` blocks leak because a lower breakpoint's `nth-child` rule outranks a higher one's reset — media queries add no specificity. Piloted on Niveau 1; rolling it out is deleting one condition in `niveau/[level].astro`.
+
+**Progressive enhancement has a trap worth remembering:** the UA rule for `[hidden]` is `display: none` at the lowest specificity, so any component `display` silently defeats it. `base.css` restores it globally with `!important`. When verifying that no dead control appears without JavaScript, check the **computed display**, not the presence of the attribute.
 
 Run the contrast audit before changing any colour: every pair the design actually uses must clear WCAG AA in both themes.
 

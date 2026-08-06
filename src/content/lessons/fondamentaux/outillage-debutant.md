@@ -1,5 +1,5 @@
 ---
-title: "T'équiper niveau 1 : le kit débutant et ton coin atelier"
+title: "S'équiper : kit de base et coin atelier"
 level: 1
 system: "fondamentaux"
 order: 3

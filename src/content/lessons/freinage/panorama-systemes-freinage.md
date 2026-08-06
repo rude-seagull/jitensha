@@ -1,5 +1,5 @@
 ---
-title: "Panorama des freins : identifie ce qui équipe ton vélo"
+title: "Panorama des systèmes de freinage"
 level: 1
 system: "freinage"
 order: 1

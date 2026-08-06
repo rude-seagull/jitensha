@@ -135,7 +135,7 @@ Critères de validation :
 
 - **Durée :** 45 min
 - **Prérequis :**
-  - [Lire le poste de pilotage : direction, cockpit, selle et leurs standards](direction-et-peripheriques.md) `anatomie-poste-pilotage`
+  - [Anatomie du poste de pilotage](direction-et-peripheriques.md) `anatomie-poste-pilotage`
   - [Boîtiers filetés : identifier et remplacer (BSA, italien, T47)](transmission.md) `boitier-pedalier-filete`
   - [Freinage des vélos lourds : VAE et cargo](freinage.md) `freinage-vae-cargo`
   - Connaître les formats d'axes et d'écartements de roues *(roues-et-pneus)*
@@ -517,7 +517,7 @@ Critères de validation :
 
 - **Durée :** 40 min
 - **Prérequis :**
-  - [Lire le poste de pilotage : direction, cockpit, selle et leurs standards](direction-et-peripheriques.md) `anatomie-poste-pilotage`
+  - [Anatomie du poste de pilotage](direction-et-peripheriques.md) `anatomie-poste-pilotage`
   - [Réviser un jeu de direction ahead : dépose de fourche, roulements, graissage](direction-et-peripheriques.md) `revision-jeu-direction-ahead`
 - **Outils :** Fraise à surfacer/aléser guidée pour tube de direction (ou service atelier), Pied à coulisse numérique, Huile de coupe, Dégraissant, chiffons, Lampe, Cuvettes de jeu de direction pour contrôle à blanc
 
@@ -548,7 +548,7 @@ Critères de validation :
 - **Durée :** 35 min
 - **Prérequis :**
   - [Réparer un filetage : taraud et filet rapporté (Helicoil)](fondamentaux.md) `filetages-reparation-taraud-helicoil`
-  - [Panorama des freins : identifie ce qui équipe ton vélo](freinage.md) `panorama-systemes-freinage`
+  - [Panorama des systèmes de freinage](freinage.md) `panorama-systemes-freinage`
 - **Outils :** Alésoir ou brosse cylindrique de tube de selle, Fraise à surfacer post-mount (ou service atelier), Tarauds M5/M6/M10×1, Huile de coupe, Pied à coulisse, Tige de selle au diamètre nominal, Graisse ou pâte carbone selon matériau
 
 **Objectifs :**
@@ -808,7 +808,7 @@ Critères de validation :
 - **Durée :** 40 min
 - **Prérequis :**
   - [Reconnaître un VAE et identifier son architecture](vae.md) `vae-identifier-architecture`
-  - [Panorama des vélos atypiques : vintage, fixie, cargo, pliant, tandem](cas-exotiques.md) `panorama-velos-atypiques`
+  - [Panorama des vélos atypiques](cas-exotiques.md) `panorama-velos-atypiques`
   - [Contrôle final et première sortie : le M-check de livraison](#m-check-livraison) `m-check-livraison`
   - [Le M-check : contrôle de sécurité en 8 minutes](fondamentaux.md) `m-check`
 - **Outils :** Clés dynamométriques, Documentation constructeur du système moteur, Réglet (entrefer capteur), Gaines/durites grande longueur, Colliers et guides de faisceau

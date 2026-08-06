@@ -1,5 +1,5 @@
 ---
-title: "Régler sa selle : hauteur express, assiette et serrage sûr"
+title: "Régler sa selle : hauteur, assiette, serrage"
 level: 1
 system: "direction-et-peripheriques"
 order: 2

@@ -1,5 +1,5 @@
 ---
-title: "Inspecter tes freins : contrôle fonctionnel et mesure d'usure"
+title: "Inspecter les freins et mesurer l'usure"
 level: 1
 system: "freinage"
 order: 2

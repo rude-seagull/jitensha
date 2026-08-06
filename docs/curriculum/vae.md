@@ -40,7 +40,7 @@ Critères de validation :
 - article — E-MOUNTAINBIKE Magazine : comparatif des motorisations VAE et de leurs caractéristiques techniques
 - doc — LEVA (Light Electric Vehicle Association) : glossaire et fondamentaux du light electric vehicle
 
-### 2. Charger et stocker une batterie Li-ion sans la tuer `vae-batterie-charge-stockage`
+### 2. Charger et stocker une batterie Li-ion `vae-batterie-charge-stockage`
 
 - **Durée :** 30 min
 - **Prérequis :**
@@ -76,11 +76,11 @@ Critères de validation :
 - doc — LEVA (Light Electric Vehicle Association) : bonnes pratiques de charge et de stockage des packs de mobilité légère
 - article — Upway : entretien et durée de vie d'une batterie de vélo électrique
 
-### 3. Batterie Li-ion : reconnaître le danger et réagir à un incident `vae-securite-li-ion-incident`
+### 3. Batterie Li-ion : danger et conduite à tenir `vae-securite-li-ion-incident`
 
 - **Durée :** 30 min
 - **Prérequis :**
-  - [Charger et stocker une batterie Li-ion sans la tuer](#vae-batterie-charge-stockage) `vae-batterie-charge-stockage`
+  - [Charger et stocker une batterie Li-ion](#vae-batterie-charge-stockage) `vae-batterie-charge-stockage`
 - **Outils :** gants de manutention, bac métallique ou seau métallique à couvercle, sable sec ou vermiculite, extincteur adapté (eau pulvérisée avec additif) accessible, détecteur de fumée dans le local, appareil photo pour tracer l'état du pack
 - **⚠️ Sécurité :**
   - Une cellule gonflée, percée, déformée ou ayant subi un choc violent est un pack condamné : il ne se répare pas, ne se recharge pas, ne se transporte pas normalement.
@@ -113,7 +113,7 @@ Critères de validation :
 - article — Battery University : mécanisme de l'emballement thermique et sécurité des accumulateurs lithium-ion
 - doc — Corepile / filière de collecte des piles et accumulateurs : conditions de reprise et de collecte des batteries de vélo endommagées
 
-### 4. Écran et commande : piloter l'assistance et lire ce que la machine dit `vae-ecran-modes-assistance`
+### 4. Écran et commande : piloter l'assistance `vae-ecran-modes-assistance`
 
 - **Durée :** 25 min
 - **Prérequis :**
@@ -146,7 +146,7 @@ Critères de validation :
 - doc — Mahle / ebikemotion : interface iWoc et lecture d'état sur les systèmes X35 et X20
 - article — Upway : comprendre les niveaux d'assistance et leur impact sur l'autonomie
 
-### 5. Ce qu'est légalement un VAE : EN 15194, 25 km/h et 250 W `vae-cadre-legal-en15194`
+### 5. Cadre légal du VAE : EN 15194, 25 km/h, 250 W `vae-cadre-legal-en15194`
 
 - **Durée :** 30 min
 - **Prérequis :**
@@ -183,9 +183,9 @@ Critères de validation :
 
 - **Durée :** 35 min
 - **Prérequis :**
-  - [Déposer et reposer une roue : serrage rapide, axe traversant, écrous](roues-et-pneus.md) `depose-repose-roue`
-  - [Laver ton vélo et lubrifier la chaîne](fondamentaux.md) `lavage-et-lubrification`
-  - [Batterie Li-ion : reconnaître le danger et réagir à un incident](#vae-securite-li-ion-incident) `vae-securite-li-ion-incident`
+  - [Déposer et reposer une roue](roues-et-pneus.md) `depose-repose-roue`
+  - [Laver le vélo et lubrifier la chaîne](fondamentaux.md) `lavage-et-lubrification`
+  - [Batterie Li-ion : danger et conduite à tenir](#vae-securite-li-ion-incident) `vae-securite-li-ion-incident`
 - **Outils :** seau, éponge, brosses douces, dégraissant de chaîne (sans projection vers le moteur), chiffons microfibre, graisse diélectrique ou spray contacts, compresseur basse pression ou soufflette (usage prudent), pied d'atelier
 - **⚠️ Sécurité :**
   - Jamais de nettoyeur haute pression sur un VAE : le jet force l'eau à travers les joints de moteur, de moyeu et de connecteur, et provoque des pannes différées non couvertes par la garantie.
@@ -222,7 +222,7 @@ Critères de validation :
 
 - **Durée :** 30 min
 - **Prérequis :**
-  - [Batterie Li-ion : reconnaître le danger et réagir à un incident](#vae-securite-li-ion-incident) `vae-securite-li-ion-incident`
+  - [Batterie Li-ion : danger et conduite à tenir](#vae-securite-li-ion-incident) `vae-securite-li-ion-incident`
   - [La clé dynamométrique : choisir, utiliser, préserver](fondamentaux.md) `cle-dynamometrique`
 - **Outils :** clés Allen 3/4/5 mm, clé dynamométrique 2-14 N·m, clés du verrou de batterie, graisse silicone et lubrifiant sec pour barillet, graisse diélectrique, chiffons, loupe ou lampe d'inspection
 - **⚠️ Sécurité :**
@@ -257,8 +257,8 @@ Critères de validation :
 
 - **Durée :** 35 min
 - **Prérequis :**
-  - [Écran et commande : piloter l'assistance et lire ce que la machine dit](#vae-ecran-modes-assistance) `vae-ecran-modes-assistance`
-  - [Déposer et reposer une roue : serrage rapide, axe traversant, écrous](roues-et-pneus.md) `depose-repose-roue`
+  - [Écran et commande : piloter l'assistance](#vae-ecran-modes-assistance) `vae-ecran-modes-assistance`
+  - [Déposer et reposer une roue](roues-et-pneus.md) `depose-repose-roue`
 - **Outils :** réglet ou pied à coulisse, clés Allen 2,5/3/4 mm, clé dynamométrique 2-14 N·m, colliers de serrage (rilsan) neufs, aimant de rechange adapté au système, lampe d'inspection
 - **⚠️ Sécurité :**
   - Ne jamais déplacer l'aimant sur un rayon en le forçant : un aimant serré sur un rayon aluminium ou carbone peut l'amorcer ; desserrer complètement avant de coulisser.
@@ -328,7 +328,7 @@ Critères de validation :
 - **Durée :** 35 min
 - **Prérequis :**
   - [Reconnaître un VAE et identifier son architecture](#vae-identifier-architecture) `vae-identifier-architecture`
-  - [Écran et commande : piloter l'assistance et lire ce que la machine dit](#vae-ecran-modes-assistance) `vae-ecran-modes-assistance`
+  - [Écran et commande : piloter l'assistance](#vae-ecran-modes-assistance) `vae-ecran-modes-assistance`
 - **Outils :** smartphone avec applications constructeur installées, câble de charge et prise secteur, batterie chargée à plus de 50 %, connexion internet stable, carnet d'atelier
 - **⚠️ Sécurité :**
   - Ne jamais lancer une mise à jour avec une batterie sous 50 % ou un smartphone en fin de charge : une interruption en cours d'écriture peut rendre un composant inutilisable et non réparable hors atelier agréé.
@@ -399,7 +399,7 @@ Critères de validation :
 
 - **Durée :** 40 min
 - **Prérequis :**
-  - [Batterie Li-ion : reconnaître le danger et réagir à un incident](#vae-securite-li-ion-incident) `vae-securite-li-ion-incident`
+  - [Batterie Li-ion : danger et conduite à tenir](#vae-securite-li-ion-incident) `vae-securite-li-ion-incident`
   - [Le carnet d'atelier et la pratique délibérée](fondamentaux.md) `carnet-atelier`
 - **Outils :** multimètre numérique (catégorie CAT III minimum, cordons fusibles), pointes de test fines / micro-grip, pince crocodile, résistances et piles de calibration pour l'entraînement, carnet d'atelier, gants d'électricien fins (facultatif mais recommandé)
 - **⚠️ Sécurité :**
@@ -438,7 +438,7 @@ Critères de validation :
 - **Durée :** 40 min
 - **Prérequis :**
   - [Multimètre : prise en main sur un système 36/48 V](#vae-multimetre-prise-en-main) `vae-multimetre-prise-en-main`
-  - [Batterie Li-ion : reconnaître le danger et réagir à un incident](#vae-securite-li-ion-incident) `vae-securite-li-ion-incident`
+  - [Batterie Li-ion : danger et conduite à tenir](#vae-securite-li-ion-incident) `vae-securite-li-ion-incident`
 - **Outils :** multimètre numérique, pointes de test fines, support isolant et incombustible, chargeur d'origine, tableau de conversion tension/état de charge, carnet d'atelier
 - **⚠️ Sécurité :**
   - Ne jamais court-circuiter les bornes de sortie d'un pack, même une fraction de seconde : l'arc peut souder les pointes et amorcer un emballement.
@@ -475,7 +475,7 @@ Critères de validation :
 - **Durée :** 30 min
 - **Prérequis :**
   - [Multimètre : prise en main sur un système 36/48 V](#vae-multimetre-prise-en-main) `vae-multimetre-prise-en-main`
-  - [Charger et stocker une batterie Li-ion sans la tuer](#vae-batterie-charge-stockage) `vae-batterie-charge-stockage`
+  - [Charger et stocker une batterie Li-ion](#vae-batterie-charge-stockage) `vae-batterie-charge-stockage`
 - **Outils :** multimètre numérique, pointes de test fines adaptées au connecteur de charge, chargeurs de plusieurs marques/tensions, chronomètre, carnet d'atelier
 - **⚠️ Sécurité :**
   - Un chargeur délivrant 54,6 V branché sur un pack 36 V (fin de charge 42 V) surcharge massivement les cellules et provoque un emballement : vérifier la tension de sortie AVANT tout branchement sur un pack inconnu.
@@ -619,7 +619,7 @@ Critères de validation :
 
 - **Durée :** 40 min
 - **Prérequis :**
-  - [Écran et commande : piloter l'assistance et lire ce que la machine dit](#vae-ecran-modes-assistance) `vae-ecran-modes-assistance`
+  - [Écran et commande : piloter l'assistance](#vae-ecran-modes-assistance) `vae-ecran-modes-assistance`
   - [Capteur de vitesse : aimant, entrefer et remplacement](#vae-capteur-vitesse-aimant-entrefer) `vae-capteur-vitesse-aimant-entrefer`
   - [Tester la continuité d'un faisceau et localiser une coupure](#vae-continuite-faisceau) `vae-continuite-faisceau`
 - **Outils :** VAE équipé Bosch avec écran fonctionnel, smartphone avec application constructeur, multimètre, réglet, tableau des codes imprimé, carnet d'atelier
@@ -691,7 +691,7 @@ Critères de validation :
 
 - **Durée :** 40 min
 - **Prérequis :**
-  - [Déposer et reposer une roue : serrage rapide, axe traversant, écrous](roues-et-pneus.md) `depose-repose-roue`
+  - [Déposer et reposer une roue](roues-et-pneus.md) `depose-repose-roue`
   - [La clé dynamométrique : choisir, utiliser, préserver](fondamentaux.md) `cle-dynamometrique`
   - [Connectique Higo et Julet : identifier, ouvrir, entretenir, remplacer](#vae-connecteurs-higo-julet) `vae-connecteurs-higo-julet`
 - **Outils :** clés plates 17/18 mm ou clé à douille selon axe, clé dynamométrique 10-60 N·m, bras de couple adapté, rondelles cannelées / rondelles anti-rotation d'origine, frein-filet moyenne résistance, pied à coulisse, lampe d'inspection, colliers rilsan
@@ -925,9 +925,9 @@ Critères de validation :
 
 - **Durée :** 45 min
 - **Prérequis :**
-  - [Charger et stocker une batterie Li-ion sans la tuer](#vae-batterie-charge-stockage) `vae-batterie-charge-stockage`
+  - [Charger et stocker une batterie Li-ion](#vae-batterie-charge-stockage) `vae-batterie-charge-stockage`
   - [Sertir, souder et réparer un conducteur de VAE](#vae-sertissage-reparation-fil) `vae-sertissage-reparation-fil`
-  - [Batterie Li-ion : reconnaître le danger et réagir à un incident](#vae-securite-li-ion-incident) `vae-securite-li-ion-incident`
+  - [Batterie Li-ion : danger et conduite à tenir](#vae-securite-li-ion-incident) `vae-securite-li-ion-incident`
   - [Perte d'autonomie : mesurer la santé réelle d'un pack](#vae-autonomie-soh-diagnostic) `vae-autonomie-soh-diagnostic`
 - **Outils :** multimètre numérique, pointes de test très fines, support isolant incombustible, tournevis de précision et outil de dépose de collage, gants isolants, sable sec ou bac de confinement à proximité, extincteur adapté accessible, thermomètre infrarouge, carnet d'atelier
 - **⚠️ Sécurité :**
@@ -1127,8 +1127,8 @@ Critères de validation :
 - **Prérequis :**
   - [Mesurer un pack : tension, état de charge et premières conclusions](#vae-mesure-batterie-tension-soc) `vae-mesure-batterie-tension-soc`
   - [Perte d'autonomie : mesurer la santé réelle d'un pack](#vae-autonomie-soh-diagnostic) `vae-autonomie-soh-diagnostic`
-  - [Charger et stocker une batterie Li-ion sans la tuer](#vae-batterie-charge-stockage) `vae-batterie-charge-stockage`
-  - [Batterie Li-ion : reconnaître le danger et réagir à un incident](#vae-securite-li-ion-incident) `vae-securite-li-ion-incident`
+  - [Charger et stocker une batterie Li-ion](#vae-batterie-charge-stockage) `vae-batterie-charge-stockage`
+  - [Batterie Li-ion : danger et conduite à tenir](#vae-securite-li-ion-incident) `vae-securite-li-ion-incident`
   - [Déposer et reposer une batterie : verrous, rails et packs intégrés](#vae-depose-repose-batterie) `vae-depose-repose-batterie`
   - [Chargeur : contrôler la sortie et identifier un chargeur inadapté](#vae-chargeur-controle-mesure) `vae-chargeur-controle-mesure`
 - **Outils :** multimètre, pied à coulisse et réglet pour relever les interfaces mécaniques, balance (le poids d'un pack trahit une capacité fantaisiste), appareil photo pour documenter références, étiquettes et numéros de série, tableur pour le comparatif chiffré, application constructeur ou outil de diagnostic (E-TUBE, Bosch, Bafang) selon le système, bac de transport non conducteur pour le pack déposé
@@ -1219,7 +1219,7 @@ Critères de validation :
 
 - **Durée :** 45 min
 - **Prérequis :**
-  - [Batterie Li-ion : reconnaître le danger et réagir à un incident](#vae-securite-li-ion-incident) `vae-securite-li-ion-incident`
+  - [Batterie Li-ion : danger et conduite à tenir](#vae-securite-li-ion-incident) `vae-securite-li-ion-incident`
   - [Perte d'autonomie : mesurer la santé réelle d'un pack](#vae-autonomie-soh-diagnostic) `vae-autonomie-soh-diagnostic`
   - [Le carnet d'atelier et la pratique délibérée](fondamentaux.md) `carnet-atelier`
   - [Passer pro : certifications, formations, statut](fondamentaux.md) `passer-pro`
@@ -1305,7 +1305,7 @@ Critères de validation :
 - **Prérequis :**
   - [Reconstruire un pack 1/3 : choisir et apparier les cellules](#vae-pack-choix-cellules) `vae-pack-choix-cellules`
   - [Sertir, souder et réparer un conducteur de VAE](#vae-sertissage-reparation-fil) `vae-sertissage-reparation-fil`
-  - [Batterie Li-ion : reconnaître le danger et réagir à un incident](#vae-securite-li-ion-incident) `vae-securite-li-ion-incident`
+  - [Batterie Li-ion : danger et conduite à tenir](#vae-securite-li-ion-incident) `vae-securite-li-ion-incident`
 - **Outils :** soudeuse par points à décharge capacitive ou machine à transformateur adaptée, bande de nickel pur 0,15 à 0,20 mm, largeur adaptée au courant, rondelles isolantes (fish paper) et film Kapton, holders / spacers plastiques pour cellules, ruban adhésif fibre et gaine thermorétractable de pack, pince coupante et cisaille à métal fine, multimètre et charge de test connue pour la mesure de chute de tension, thermomètre infrarouge, lunettes de protection et gants non conducteurs, bac de sable ou extincteur adapté à portée immédiate
 - **⚠️ Sécurité :**
   - Une soudeuse par points délivre plusieurs centaines d'ampères : un contact accidentel entre l'électrode et le pôle opposé crée un court-circuit franc sur des cellules chargées. Une seule électrode en main, l'autre posée, jamais de câblage bricolé.
@@ -1354,7 +1354,7 @@ Critères de validation :
   - [Reconstruire un pack 2/3 : soudure par points et assemblage mécanique](#vae-pack-assemblage-soudure) `vae-pack-assemblage-soudure`
   - [BMS et pack ouvert : diagnostic d'un déséquilibre cellulaire](#vae-bms-pack-diagnostic) `vae-bms-pack-diagnostic`
   - [Chargeur : contrôler la sortie et identifier un chargeur inadapté](#vae-chargeur-controle-mesure) `vae-chargeur-controle-mesure`
-  - [Charger et stocker une batterie Li-ion sans la tuer](#vae-batterie-charge-stockage) `vae-batterie-charge-stockage`
+  - [Charger et stocker une batterie Li-ion](#vae-batterie-charge-stockage) `vae-batterie-charge-stockage`
   - [Atelier VAE : stockage, transport, déchets et traçabilité](#vae-atelier-conformite-stockage) `vae-atelier-conformite-stockage`
 - **Outils :** BMS adapté (S correct, courants continu et de crête suffisants, port de charge séparé ou commun selon le montage), multimètre de résolution 0,01 V, fer à souder et connectique de fils d'équilibrage, chargeur à courant réglable ou alimentation de laboratoire pour la première charge, charge résistive ou banc de décharge pour le test de capacité, thermomètre infrarouge et sonde de température, support incombustible et bac ou sac de charge, extincteur adapté ou bac de sable, détecteur de fumée dans la pièce, chronomètre et feuille de relevé
 - **⚠️ Sécurité :**
@@ -1403,7 +1403,7 @@ Critères de validation :
   - [BMS et pack ouvert : diagnostic d'un déséquilibre cellulaire](#vae-bms-pack-diagnostic) `vae-bms-pack-diagnostic`
   - [Mesurer un pack : tension, état de charge et premières conclusions](#vae-mesure-batterie-tension-soc) `vae-mesure-batterie-tension-soc`
   - [Perte d'autonomie : mesurer la santé réelle d'un pack](#vae-autonomie-soh-diagnostic) `vae-autonomie-soh-diagnostic`
-  - [Batterie Li-ion : reconnaître le danger et réagir à un incident](#vae-securite-li-ion-incident) `vae-securite-li-ion-incident`
+  - [Batterie Li-ion : danger et conduite à tenir](#vae-securite-li-ion-incident) `vae-securite-li-ion-incident`
   - [Atelier VAE : stockage, transport, déchets et traçabilité](#vae-atelier-conformite-stockage) `vae-atelier-conformite-stockage`
   - savoir diagnostiquer un BMS et mesurer l'équilibrage d'un pack ouvert *(vae)*
   - [Sertir, souder et réparer un conducteur de VAE](#vae-sertissage-reparation-fil) `vae-sertissage-reparation-fil`

@@ -1,5 +1,5 @@
 ---
-title: "Contrôle de sécurité d'un vélo ancien avant de rouler"
+title: "Contrôle de sécurité d'un vélo ancien"
 level: 1
 system: "cas-exotiques"
 order: 3

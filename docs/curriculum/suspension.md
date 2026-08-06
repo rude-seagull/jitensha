@@ -8,7 +8,7 @@ Système « suspension » de Jitensha : de la découverte des suspensions (fourc
 
 ## Niveau 1 — Débutant
 
-### 1. Panorama des suspensions : qui suspend quoi, et pourquoi `suspension-panorama-types`
+### 1. Panorama des types de suspension `suspension-panorama-types`
 
 - **Durée :** 25 min
 - **Prérequis :**
@@ -42,7 +42,7 @@ Critères de validation :
 - **Durée :** 30 min
 - **Prérequis :**
   - [Mesurer et décoder : pied à coulisse et marquages](fondamentaux.md) `pied-a-coulisse-et-marquages`
-  - [Panorama des suspensions : qui suspend quoi, et pourquoi](#suspension-panorama-types) `suspension-panorama-types`
+  - [Panorama des types de suspension](#suspension-panorama-types) `suspension-panorama-types`
 - **Outils :** Pied à coulisse numérique, Lampe d'inspection, Carnet d'atelier
 
 **Objectifs :**
@@ -67,7 +67,7 @@ Critères de validation :
 - article — Park Tool : anatomie et terminologie des fourches suspendues
 - article — Glisse Alpine : fonctionnement d'une fourche VTT en français
 
-### 3. Anatomie d'un amortisseur arrière : entraxe, course et montages `suspension-anatomie-amortisseur`
+### 3. Anatomie d'un amortisseur arrière `suspension-anatomie-amortisseur`
 
 - **Durée :** 30 min
 - **Prérequis :**
@@ -97,12 +97,12 @@ Critères de validation :
 - article — Vojo Magazine : comprendre les amortisseurs VTT : entraxe, course, trunnion
 - video — GMBN Tech : anatomie d'un amortisseur arrière
 
-### 4. Laver, essuyer, inspecter : l'entretien courant qui sauve ta fourche `suspension-lavage-inspection`
+### 4. Entretien courant d'une fourche `suspension-lavage-inspection`
 
 - **Durée :** 30 min
 - **Prérequis :**
   - Connaître les bases du nettoyage vélo (produits, ordre, rinçage) *(fondamentaux)*
-  - [Anatomie d'un amortisseur arrière : entraxe, course et montages](#suspension-anatomie-amortisseur) `suspension-anatomie-amortisseur`
+  - [Anatomie d'un amortisseur arrière](#suspension-anatomie-amortisseur) `suspension-anatomie-amortisseur`
   - [Anatomie d'une fourche télescopique](#suspension-anatomie-fourche) `suspension-anatomie-fourche`
 - **Outils :** Seau et brosse douce, Chiffons microfibre propres, Nettoyant vélo doux, Lampe d'inspection, Carnet d'atelier
 - **⚠️ Sécurité :**
@@ -131,7 +131,7 @@ Critères de validation :
 - video — Park Tool : inspection de sécurité d'un VTT suspendu
 - article — Endurotribe : entretien courant des suspensions en français
 
-### 5. Molettes, clics et blocage : piloter les réglages sans se tromper `suspension-molettes-et-blocage`
+### 5. Molettes, clics et blocage `suspension-molettes-et-blocage`
 
 - **Durée :** 25 min
 - **Prérequis :**
@@ -259,7 +259,7 @@ Critères de validation :
 - **Prérequis :**
   - [Régler le SAG de l'amortisseur](#sag-amortisseur) `sag-amortisseur`
   - [Régler le SAG de la fourche](#sag-fourche) `sag-fourche`
-  - [Molettes, clics et blocage : piloter les réglages sans se tromper](#suspension-molettes-et-blocage) `suspension-molettes-et-blocage`
+  - [Molettes, clics et blocage](#suspension-molettes-et-blocage) `suspension-molettes-et-blocage`
 - **Outils :** Carnet d'atelier, Un trottoir ou une marche basse
 
 **Objectifs :**
@@ -381,7 +381,7 @@ Critères de validation :
 - **Durée :** 30 min
 - **Prérequis :**
   - [La clé dynamométrique : choisir, utiliser, préserver](fondamentaux.md) `cle-dynamometrique`
-  - [Laver, essuyer, inspecter : l'entretien courant qui sauve ta fourche](#suspension-lavage-inspection) `suspension-lavage-inspection`
+  - [Entretien courant d'une fourche](#suspension-lavage-inspection) `suspension-lavage-inspection`
 - **Outils :** Clé dynamométrique 2-14 N·m avec embouts hex/Torx, Réglet, Chiffons, Carnet d'atelier
 
 **Objectifs :**
@@ -410,10 +410,10 @@ Critères de validation :
 
 - **Durée :** 40 min
 - **Prérequis :**
-  - [Panorama des suspensions : qui suspend quoi, et pourquoi](#suspension-panorama-types) `suspension-panorama-types`
+  - [Panorama des types de suspension](#suspension-panorama-types) `suspension-panorama-types`
   - [Suspensions à ressort : tarage et précharge, du VTT au vélo de ville](#ressort-helicoidal-precharge) `ressort-helicoidal-precharge`
   - [Tige de selle : mesurer, graisser ou pâter, prévenir le grippage](direction-et-peripheriques.md) `entretien-tige-selle`
-  - [Régler sa selle : hauteur express, assiette et serrage sûr](direction-et-peripheriques.md) `reglages-selle-essentiels`
+  - [Régler sa selle : hauteur, assiette, serrage](direction-et-peripheriques.md) `reglages-selle-essentiels`
 - **Outils :** Jeu de six pans 4, 5, 6 mm et torx T25/T30, Clé dynamométrique 2-20 N·m, Pèse-personne, Réglet et mètre ruban, Collier témoin ou joint torique de repère, Graisse et dégraissant, Kit d'élastomères ou de ressorts constructeur, Chasse-bagues ou tourillon adapté si bagues à remplacer, Chiffons non pelucheux
 - **⚠️ Sécurité :**
   - Repère d'insertion minimale : une tige suspendue est plus longue et travaille en levier. Sortie au-delà du repère, elle casse ou fend le tube de selle.
@@ -457,7 +457,7 @@ Critères de validation :
 
 - **Durée :** 30 min
 - **Prérequis :**
-  - [Anatomie d'un amortisseur arrière : entraxe, course et montages](#suspension-anatomie-amortisseur) `suspension-anatomie-amortisseur`
+  - [Anatomie d'un amortisseur arrière](#suspension-anatomie-amortisseur) `suspension-anatomie-amortisseur`
   - [Anatomie d'une fourche télescopique](#suspension-anatomie-fourche) `suspension-anatomie-fourche`
 - **Outils :** Lampe d'inspection, Carnet d'atelier
 
@@ -522,7 +522,7 @@ Critères de validation :
 - **Prérequis :**
   - [Identifier sa suspension : numéro de série, kit joints et tableau d'huiles](#identifier-modele-kit-huiles) `identifier-modele-kit-huiles`
   - [La clé dynamométrique : choisir, utiliser, préserver](fondamentaux.md) `cle-dynamometrique`
-  - [Déposer et reposer une roue : serrage rapide, axe traversant, écrous](roues-et-pneus.md) `depose-repose-roue`
+  - [Déposer et reposer une roue](roues-et-pneus.md) `depose-repose-roue`
 - **Outils :** Clés hex/douilles selon manuel, Maillet plastique ou outil de décollage, Seringue graduée, Huile de bain au grade du manuel (souvent 0W-30), Kit joints (racleurs + mousses), Outil de pose de joints racleurs du bon diamètre, Graisse spécifiée (SRAM Butter ou équivalent), Bac de récupération d'huile, Alcool isopropylique et chiffons, Clé dynamométrique
 - **⚠️ Sécurité :**
   - Dépressuriser totalement la chambre à air avant de toucher aux vis de pied, vérifier deux fois.
@@ -819,7 +819,7 @@ Critères de validation :
 
 - **Durée :** 40 min
 - **Prérequis :**
-  - [Anatomie d'un amortisseur arrière : entraxe, course et montages](#suspension-anatomie-amortisseur) `suspension-anatomie-amortisseur`
+  - [Anatomie d'un amortisseur arrière](#suspension-anatomie-amortisseur) `suspension-anatomie-amortisseur`
   - [Pivots de cadre : contrôle, jeu et couples de la cinématique](#controle-pivots-tout-suspendu) `controle-pivots-tout-suspendu`
 - **Outils :** Mètre et réglet, Pompe de suspension (pour dégonfler/regonfler proprement), Sangle, Carnet d'atelier
 
@@ -1034,7 +1034,7 @@ Critères de validation :
 
 - **Durée :** 45 min
 - **Prérequis :**
-  - [Anatomie d'un amortisseur arrière : entraxe, course et montages](#suspension-anatomie-amortisseur) `suspension-anatomie-amortisseur`
+  - [Anatomie d'un amortisseur arrière](#suspension-anatomie-amortisseur) `suspension-anatomie-amortisseur`
   - [Identifier sa suspension : numéro de série, kit joints et tableau d'huiles](#identifier-modele-kit-huiles) `identifier-modele-kit-huiles`
   - [Service air can : joints, graisse et progressivité de l'amortisseur](#service-air-can-amortisseur) `service-air-can-amortisseur`
   - [Douilles et visserie d'amortisseur : le jeu qui se prend pour un roulement mort](#douilles-amortisseur) `douilles-amortisseur`

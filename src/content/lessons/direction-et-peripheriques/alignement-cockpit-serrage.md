@@ -1,5 +1,5 @@
 ---
-title: "Aligner et resserrer le cockpit après une chute ou un transport"
+title: "Aligner et resserrer le cockpit"
 level: 1
 system: "direction-et-peripheriques"
 order: 3

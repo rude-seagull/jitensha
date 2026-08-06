@@ -1,5 +1,5 @@
 ---
-title: "Charger et stocker une batterie Li-ion sans la tuer"
+title: "Charger et stocker une batterie Li-ion"
 level: 1
 system: "vae"
 order: 2

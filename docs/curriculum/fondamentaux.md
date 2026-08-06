@@ -8,7 +8,7 @@ Le socle de tout le cursus Jitensha : anatomie et taxonomie du vélo, géométri
 
 ## Niveau 1 — Débutant
 
-### 1. Reconnaître toutes les familles de vélos `familles-de-velos`
+### 1. Reconnaître les familles de vélos `familles-de-velos`
 
 - **Durée :** 30 min
 - **Outils :** Smartphone (photos), Carnet et stylo
@@ -37,7 +37,7 @@ Critères de validation :
 
 - **Durée :** 45 min
 - **Prérequis :**
-  - [Reconnaître toutes les familles de vélos](#familles-de-velos) `familles-de-velos`
+  - [Reconnaître les familles de vélos](#familles-de-velos) `familles-de-velos`
 - **Outils :** Un vélo complet (cobaye ou perso), 40 étiquettes adhésives, Carnet
 
 **Objectifs :**
@@ -61,7 +61,7 @@ Critères de validation :
 - doc — Cytech Theory One : anatomie du vélo
 - video — GCN : nommer toutes les pièces d'un vélo
 
-### 3. T'équiper niveau 1 : le kit débutant et ton coin atelier `outillage-debutant`
+### 3. S'équiper : kit de base et coin atelier `outillage-debutant`
 
 - **Durée :** 30 min
 - **Prérequis :**
@@ -144,73 +144,36 @@ Critères de validation :
 - article — Park Tool : inspection de sécurité pré-ride
 - doc — Cytech Theory One : contrôles de sécurité du cycle
 
-### 6. Mesurer et décoder : pied à coulisse et marquages `pied-a-coulisse-et-marquages`
+### 6. Trouver des vélos cobayes pas chers `velos-cobayes`
 
-- **Durée :** 40 min
+- **Durée :** 30 min
 - **Prérequis :**
-  - [Anatomie du vélo : nomme chaque pièce](#anatomie-velo) `anatomie-velo`
-- **Outils :** Pied à coulisse numérique (résolution 0,01 mm), Vélo cobaye, Carnet
+  - [Le M-check : contrôle de sécurité en 8 minutes](#m-check) `m-check`
+  - [Reconnaître les familles de vélos](#familles-de-velos) `familles-de-velos`
+- **Outils :** Grille d'évaluation (10 critères), Lampe, Aimant (test matériau), Multitool
 
 **Objectifs :**
-- Utiliser un pied à coulisse numérique au 1/100 mm : mise à zéro, becs extérieurs/intérieurs, jauge de profondeur, erreurs classiques
-- Mesurer les diamètres critiques : tige de selle, cintre, pivot, axes
-- Décoder les marquages : dimension sur flanc de pneu, diamètre et insertion minimale gravés sur tige de selle, couples gravés sur potence, marquages de chaîne et de cassette
-- Constituer la fiche dimensionnelle d'un vélo pour acheter des pièces compatibles
+- Sourcer des cobayes : petites annonces locales, ateliers vélo participatifs, ressourceries/recycleries, dons de voisinage, encombrants
+- Évaluer en 10 minutes si un vélo est un bon cobaye : cadre sain (pas de rouille traversante ni fissure), standards courants, pièces exploitables
+- Séquencer tes acquisitions selon la progression du cursus : VTT rigide acier → route alu à disques → tout-suspendu → VAE d'occasion → cadre sacrificiel pour la peinture
+- Négocier et fixer un budget plafond par cobaye
 
-**TP — Relevé dimensionnel : 10 mesures + 5 marquages**
+**TP — Prospection réelle et grille d'évaluation**
 
-Sur un cobaye, réalise 10 mesures au pied à coulisse (chaque mesure deux fois) et décode 5 marquages (pneu, tige de selle, potence, cintre, autre au choix). Consigne tout dans un tableau.
+Repère 5 vélos candidats (annonces ou terrain), évalue chacun avec la grille de 10 critères, et conclus : achat ou rejet argumenté. Établis ton plan d'acquisition.
 
 Critères de validation :
-1. 1. 10 mesures doublées : écart entre les deux prises ≤ 0,05 mm pour chacune
-2. 2. Diamètre de tige de selle mesuré à ±0,1 mm de la valeur gravée
-3. 3. 5 marquages décodés sans erreur (signification complète expliquée par écrit)
-4. 4. Tableau dimensionnel archivé dans le carnet, réutilisable pour un achat de pièce
+1. 1. Grille de 10 critères remplie pour 5 vélos (cadre, rouille, standards, transmission, roues, prix)
+2. 2. 1 cobaye acquis à petit prix OU 3 rejets argumentés par des défauts rédhibitoires correctement identifiés
+3. 3. Plan d'acquisition sur 6-12 mois écrit, aligné sur la séquence du cursus, budget total plafonné et chiffré
 
 **Pistes de références** *(URLs vérifiées à la rédaction de la leçon)* :
-- article — Park Tool : utilisation du pied à coulisse en mécanique vélo
-- article — Bike Gremlin : dimensions et standards courants (tiges de selle, cintres, axes)
-- article — Sheldon Brown : marquages de pneus et dimensions
-- doc — Mitutoyo : bonnes pratiques de mesure au pied à coulisse
+- article — L'Heureux Cyclage : réseau des ateliers vélo participatifs et réemploi
+- video — GCN : acheter un vélo d'occasion : pièges à éviter
+- article — Park Tool : inspecter un vélo d'occasion avant achat
+- article — Bike Gremlin : évaluer l'état d'un vélo d'occasion
 
-### 7. Visserie : empreintes, filetages et pas inversés `empreintes-et-filetages`
-
-- **Durée :** 40 min
-- **Prérequis :**
-  - [Mesurer et décoder : pied à coulisse et marquages](#pied-a-coulisse-et-marquages) `pied-a-coulisse-et-marquages`
-- **Outils :** Jeu de clés Allen et Torx, Tournevis Phillips, JIS et Pozidriv, Boîte de vis variées (récup), Loupe ou lampe
-
-**Objectifs :**
-- Distinguer hex, Torx, Phillips, JIS et Pozidriv, et comprendre le cam-out (la Phillips est conçue pour sauter, la JIS non)
-- Reconnaître une vis JIS (point ou X près de la croix, typique des butées de dérailleur Shimano) et utiliser le bon tournevis
-- Mémoriser les pas inversés : pédale gauche à filetage gauche, cuvette droite d'un boîtier BSA à filetage gauche
-- Choisir l'outil exact et l'engager à fond pour ne jamais arrondir une empreinte
-
-**TP — Tri de 10 vis mystères**
-
-Constitue (ou fais constituer) un lot de 10 vis variées. Pour chacune : empreinte exacte, diamètre au pied à coulisse, sens du pas.
-
-Critères de validation :
-1. 1. ≥ 9/10 empreintes identifiées correctement (hex/Torx/Phillips/JIS/Pozidriv, avec taille)
-2. 2. 10/10 diamètres mesurés à ±0,1 mm
-3. 3. Sens du pas correct pour 10/10 (contrôle par vissage dans un écrou ou observation de l'hélice)
-
-**TP — Prédire les pas inversés sur un vélo réel**
-
-Sur un cobaye, prédis par écrit le sens de desserrage des deux pédales, puis vérifie physiquement (sans forcer, dégrippant si besoin).
-
-Critères de validation :
-1. 1. Prédictions écrites AVANT manipulation : 2/2 correctes
-2. 2. Les deux pédales desserrées puis resserrées sans arrondir les plats ni l'empreinte
-3. 3. Règle mnémotechnique personnelle formulée et consignée au carnet
-
-**Pistes de références** *(URLs vérifiées à la rédaction de la leçon)* :
-- article — Bike Gremlin : tournevis Phillips, JIS et Pozidriv expliqués
-- article — Park Tool : filetages du vélo et sens de vissage
-- article — Sheldon Brown : filetages et pas inversés (pédales, boîtier)
-- article — BikeRadar : tournevis JIS Park Tool DSD et empreintes cruciformes
-
-### 8. Laver ton vélo et lubrifier la chaîne `lavage-et-lubrification`
+### 7. Laver le vélo et lubrifier la chaîne `lavage-et-lubrification`
 
 - **Durée :** 45 min
 - **Prérequis :**
@@ -250,36 +213,73 @@ Critères de validation :
 - video — GCN : laver son vélo comme un pro en 10 minutes
 - article — Park Tool : lubrification de la chaîne : quand et comment
 
-### 9. Trouver des vélos cobayes pas chers `velos-cobayes`
+### 8. Mesurer et décoder : pied à coulisse et marquages `pied-a-coulisse-et-marquages`
 
-- **Durée :** 30 min
+- **Durée :** 40 min
 - **Prérequis :**
-  - [Le M-check : contrôle de sécurité en 8 minutes](#m-check) `m-check`
-  - [Reconnaître toutes les familles de vélos](#familles-de-velos) `familles-de-velos`
-- **Outils :** Grille d'évaluation (10 critères), Lampe, Aimant (test matériau), Multitool
+  - [Anatomie du vélo : nomme chaque pièce](#anatomie-velo) `anatomie-velo`
+- **Outils :** Pied à coulisse numérique (résolution 0,01 mm), Vélo cobaye, Carnet
 
 **Objectifs :**
-- Sourcer des cobayes : petites annonces locales, ateliers vélo participatifs, ressourceries/recycleries, dons de voisinage, encombrants
-- Évaluer en 10 minutes si un vélo est un bon cobaye : cadre sain (pas de rouille traversante ni fissure), standards courants, pièces exploitables
-- Séquencer tes acquisitions selon la progression du cursus : VTT rigide acier → route alu à disques → tout-suspendu → VAE d'occasion → cadre sacrificiel pour la peinture
-- Négocier et fixer un budget plafond par cobaye
+- Utiliser un pied à coulisse numérique au 1/100 mm : mise à zéro, becs extérieurs/intérieurs, jauge de profondeur, erreurs classiques
+- Mesurer les diamètres critiques : tige de selle, cintre, pivot, axes
+- Décoder les marquages : dimension sur flanc de pneu, diamètre et insertion minimale gravés sur tige de selle, couples gravés sur potence, marquages de chaîne et de cassette
+- Constituer la fiche dimensionnelle d'un vélo pour acheter des pièces compatibles
 
-**TP — Prospection réelle et grille d'évaluation**
+**TP — Relevé dimensionnel : 10 mesures + 5 marquages**
 
-Repère 5 vélos candidats (annonces ou terrain), évalue chacun avec la grille de 10 critères, et conclus : achat ou rejet argumenté. Établis ton plan d'acquisition.
+Sur un cobaye, réalise 10 mesures au pied à coulisse (chaque mesure deux fois) et décode 5 marquages (pneu, tige de selle, potence, cintre, autre au choix). Consigne tout dans un tableau.
 
 Critères de validation :
-1. 1. Grille de 10 critères remplie pour 5 vélos (cadre, rouille, standards, transmission, roues, prix)
-2. 2. 1 cobaye acquis à petit prix OU 3 rejets argumentés par des défauts rédhibitoires correctement identifiés
-3. 3. Plan d'acquisition sur 6-12 mois écrit, aligné sur la séquence du cursus, budget total plafonné et chiffré
+1. 1. 10 mesures doublées : écart entre les deux prises ≤ 0,05 mm pour chacune
+2. 2. Diamètre de tige de selle mesuré à ±0,1 mm de la valeur gravée
+3. 3. 5 marquages décodés sans erreur (signification complète expliquée par écrit)
+4. 4. Tableau dimensionnel archivé dans le carnet, réutilisable pour un achat de pièce
 
 **Pistes de références** *(URLs vérifiées à la rédaction de la leçon)* :
-- article — L'Heureux Cyclage : réseau des ateliers vélo participatifs et réemploi
-- video — GCN : acheter un vélo d'occasion : pièges à éviter
-- article — Park Tool : inspecter un vélo d'occasion avant achat
-- article — Bike Gremlin : évaluer l'état d'un vélo d'occasion
+- article — Park Tool : utilisation du pied à coulisse en mécanique vélo
+- article — Bike Gremlin : dimensions et standards courants (tiges de selle, cintres, axes)
+- article — Sheldon Brown : marquages de pneus et dimensions
+- doc — Mitutoyo : bonnes pratiques de mesure au pied à coulisse
 
-### 10. Ne pas apprendre seul : ateliers participatifs, communautés et art de poser une question technique `apprendre-en-communaute`
+### 9. Visserie : empreintes, filetages et pas inversés `empreintes-et-filetages`
+
+- **Durée :** 40 min
+- **Prérequis :**
+  - [Mesurer et décoder : pied à coulisse et marquages](#pied-a-coulisse-et-marquages) `pied-a-coulisse-et-marquages`
+- **Outils :** Jeu de clés Allen et Torx, Tournevis Phillips, JIS et Pozidriv, Boîte de vis variées (récup), Loupe ou lampe
+
+**Objectifs :**
+- Distinguer hex, Torx, Phillips, JIS et Pozidriv, et comprendre le cam-out (la Phillips est conçue pour sauter, la JIS non)
+- Reconnaître une vis JIS (point ou X près de la croix, typique des butées de dérailleur Shimano) et utiliser le bon tournevis
+- Mémoriser les pas inversés : pédale gauche à filetage gauche, cuvette droite d'un boîtier BSA à filetage gauche
+- Choisir l'outil exact et l'engager à fond pour ne jamais arrondir une empreinte
+
+**TP — Tri de 10 vis mystères**
+
+Constitue (ou fais constituer) un lot de 10 vis variées. Pour chacune : empreinte exacte, diamètre au pied à coulisse, sens du pas.
+
+Critères de validation :
+1. 1. ≥ 9/10 empreintes identifiées correctement (hex/Torx/Phillips/JIS/Pozidriv, avec taille)
+2. 2. 10/10 diamètres mesurés à ±0,1 mm
+3. 3. Sens du pas correct pour 10/10 (contrôle par vissage dans un écrou ou observation de l'hélice)
+
+**TP — Prédire les pas inversés sur un vélo réel**
+
+Sur un cobaye, prédis par écrit le sens de desserrage des deux pédales, puis vérifie physiquement (sans forcer, dégrippant si besoin).
+
+Critères de validation :
+1. 1. Prédictions écrites AVANT manipulation : 2/2 correctes
+2. 2. Les deux pédales desserrées puis resserrées sans arrondir les plats ni l'empreinte
+3. 3. Règle mnémotechnique personnelle formulée et consignée au carnet
+
+**Pistes de références** *(URLs vérifiées à la rédaction de la leçon)* :
+- article — Bike Gremlin : tournevis Phillips, JIS et Pozidriv expliqués
+- article — Park Tool : filetages du vélo et sens de vissage
+- article — Sheldon Brown : filetages et pas inversés (pédales, boîtier)
+- article — BikeRadar : tournevis JIS Park Tool DSD et empreintes cruciformes
+
+### 10. Ateliers participatifs et communautés techniques `apprendre-en-communaute`
 
 - **Durée :** 30 min
 - **Prérequis :**
@@ -320,7 +320,7 @@ Critères de validation :
 - doc — Park Tool : Repair Help : vocabulaire normalisé des composants pour décrire une panne
 - article — Velovert et Velotaf : Forums francophones : sections mécanique, usages et qualité des réponses
 
-### 11. Piloter ta progression : objectifs, auto-évaluation et seuils de reprise `pilotage-progression`
+### 11. Piloter sa progression et se réévaluer `pilotage-progression`
 
 - **Durée :** 35 min
 - **Prérequis :**
@@ -363,7 +363,7 @@ Critères de validation :
 
 - **Durée :** 30 min
 - **Prérequis :**
-  - [T'équiper niveau 1 : le kit débutant et ton coin atelier](#outillage-debutant) `outillage-debutant`
+  - [S'équiper : kit de base et coin atelier](#outillage-debutant) `outillage-debutant`
 - **Outils :** Liste de référence du kit niveau 2, Carnet (budget)
 
 **Objectifs :**
@@ -564,7 +564,7 @@ Critères de validation :
 
 - **Durée :** 40 min
 - **Prérequis :**
-  - [Laver ton vélo et lubrifier la chaîne](#lavage-et-lubrification) `lavage-et-lubrification`
+  - [Laver le vélo et lubrifier la chaîne](#lavage-et-lubrification) `lavage-et-lubrification`
 - **Outils :** Dégraissant, Machine à laver la chaîne ou bac, Brosses transmission, Grattoir plastique (galets), Chiffons, Gants nitrile, Lubrifiant
 - **⚠️ Sécurité :**
   - Dégraissants et solvants : gants nitrile, local ventilé, jamais près d'une flamme ; ne jette pas les résidus à l'évier (déchetterie).
@@ -653,8 +653,8 @@ Critères de validation :
 - **Durée :** 45 min
 - **Prérequis :**
   - [Le M-check : contrôle de sécurité en 8 minutes](#m-check) `m-check`
-  - [Mesurer l'usure d'une chaîne (et savoir quand il est déjà trop tard)](transmission.md) `usure-chaine-mesure-jauge`
-  - [Inspecter tes freins : contrôle fonctionnel et mesure d'usure](freinage.md) `inspection-freins-usure`
+  - [Mesurer l'usure d'une chaîne](transmission.md) `usure-chaine-mesure-jauge`
+  - [Inspecter les freins et mesurer l'usure](freinage.md) `inspection-freins-usure`
   - [Retoucher un voile sur le vélo et contrôler l'usure de la jante](roues-et-pneus.md) `retouche-voile-et-usure-jante`
   - [Jeu de direction ahead : détecter le jeu et régler la précharge](direction-et-peripheriques.md) `precharge-jeu-direction-ahead`
   - [Acier, alu, carbone, titane : reconnaître et respecter chaque matériau](#materiaux-cadres) `materiaux-cadres`
@@ -701,7 +701,7 @@ Critères de validation :
 - **Durée :** 35 min
 - **Prérequis :**
   - [Le M-check : contrôle de sécurité en 8 minutes](#m-check) `m-check`
-  - [Aligner et resserrer le cockpit après une chute ou un transport](direction-et-peripheriques.md) `alignement-cockpit-serrage`
+  - [Aligner et resserrer le cockpit](direction-et-peripheriques.md) `alignement-cockpit-serrage`
   - [Patte de dérailleur : contrôle visuel, standards et UDH](transmission.md) `patte-derailleur-controle-visuel`
   - [Retoucher un voile sur le vélo et contrôler l'usure de la jante](roues-et-pneus.md) `retouche-voile-et-usure-jante`
   - [Acier, alu, carbone, titane : reconnaître et respecter chaque matériau](#materiaux-cadres) `materiaux-cadres`
@@ -795,7 +795,7 @@ Critères de validation :
 
 - **Durée :** 40 min
 - **Prérequis :**
-  - [Laver ton vélo et lubrifier la chaîne](#lavage-et-lubrification) `lavage-et-lubrification`
+  - [Laver le vélo et lubrifier la chaîne](#lavage-et-lubrification) `lavage-et-lubrification`
   - [Graisse, pâte carbone, frein-filet, antiseize : quoi, où, pourquoi](#pates-assemblage) `pates-assemblage`
   - [Ton calendrier d'entretien : 25 h, 50 h, 100 h](#calendrier-entretien) `calendrier-entretien`
   - [Tige de selle : mesurer, graisser ou pâter, prévenir le grippage](direction-et-peripheriques.md) `entretien-tige-selle`
@@ -843,10 +843,10 @@ Critères de validation :
 
 - **Durée :** 35 min
 - **Prérequis :**
-  - [Laver ton vélo et lubrifier la chaîne](#lavage-et-lubrification) `lavage-et-lubrification`
+  - [Laver le vélo et lubrifier la chaîne](#lavage-et-lubrification) `lavage-et-lubrification`
   - [Le M-check : contrôle de sécurité en 8 minutes](#m-check) `m-check`
   - [Ton calendrier d'entretien : 25 h, 50 h, 100 h](#calendrier-entretien) `calendrier-entretien`
-  - [Charger et stocker une batterie Li-ion sans la tuer](vae.md) `vae-batterie-charge-stockage`
+  - [Charger et stocker une batterie Li-ion](vae.md) `vae-batterie-charge-stockage`
   - [Le contrôle 25 h : intervalles, couples et joint témoin](suspension.md) `controle-25h-suspension`
   - [Réparer et entretenir un tubeless : mèches, patchs internes, préventif](roues-et-pneus.md) `reparation-entretien-tubeless`
 - **Outils :** pompe à pied avec manomètre fiable, pompe haute pression pour suspensions, chargeur d'origine du VAE, hygromètre, absorbeur d'humidité ou déshumidificateur, crochets de rangement dimensionnés ou pied d'atelier, housse respirante (jamais une bâche plastique étanche), alcool isopropylique et chiffons non pelucheux, cale de transport pour étriers hydrauliques, carnet d'atelier et calendrier de rappels
@@ -939,8 +939,8 @@ Critères de validation :
 - **Prérequis :**
   - [T'équiper niveau 2 : couple, transmission, câblerie](#outillage-intermediaire) `outillage-intermediaire`
   - [Graisse, pâte carbone, frein-filet, antiseize : quoi, où, pourquoi](#pates-assemblage) `pates-assemblage`
-  - [Laver ton vélo et lubrifier la chaîne](#lavage-et-lubrification) `lavage-et-lubrification`
-  - [Batterie Li-ion : reconnaître le danger et réagir à un incident](vae.md) `vae-securite-li-ion-incident`
+  - [Laver le vélo et lubrifier la chaîne](#lavage-et-lubrification) `lavage-et-lubrification`
+  - [Batterie Li-ion : danger et conduite à tenir](vae.md) `vae-securite-li-ion-incident`
 - **Outils :** masque FFP3 (jetable ou demi-masque à filtres P3), lunettes de protection enveloppantes, gants nitrile jetables et gants mécaniques, aspirateur à filtration HEPA ou captation à la source, ventilation croisée ou extracteur, bac de rétention et bidons étiquetés, étiqueteuse et marqueur indélébile, extincteur contrôlé (date < 12 mois), trousse de premiers secours et point d'eau claire ou rince-œil, tapis anti-fatigue, pied d'atelier réglable en hauteur, éclairage d'appoint et application luxmètre
 - **⚠️ Sécurité :**
   - Poussières de carbone : masque FFP3 + captation à la source dès que tu coupes ou ponces du carbone. Les fibres sont irritantes pour les voies respiratoires, la peau et les yeux, restent en suspension et ne se voient pas.
@@ -1049,7 +1049,7 @@ Critères de validation :
 - **Prérequis :**
   - [Chasse, offset, empattement : la géométrie qui pilote](#geometrie-direction-chasse) `geometrie-direction-chasse`
   - [Stack, reach et ratio STR : lire une géométrie](#geometrie-stack-reach) `geometrie-stack-reach`
-  - [T'équiper niveau 1 : le kit débutant et ton coin atelier](#outillage-debutant) `outillage-debutant`
+  - [S'équiper : kit de base et coin atelier](#outillage-debutant) `outillage-debutant`
 - **Outils :** Pied d'atelier, Niveau à bulle, Fil à plomb, Mètre ruban et réglet, Inclinomètre (application), Calculatrice
 
 **Objectifs :**
@@ -1172,7 +1172,7 @@ Critères de validation :
 
 - **Durée :** 45 min
 - **Prérequis :**
-  - [Mesurer l'usure d'une chaîne (et savoir quand il est déjà trop tard)](transmission.md) `usure-chaine-mesure-jauge`
+  - [Mesurer l'usure d'une chaîne](transmission.md) `usure-chaine-mesure-jauge`
   - [Inspecter un cadre : fissures, fatigue, impacts](#inspection-cadre) `inspection-cadre`
   - [Ton mémo de couples et de tolérances : le construire et le tenir à jour](#memo-couples-tolerances) `memo-couples-tolerances`
   - [Acheter d'occasion : inspection en 20 minutes et devis de remise en état](#acheter-occasion-inspection) `acheter-occasion-inspection`
@@ -1404,7 +1404,7 @@ Critères de validation :
 - **Durée :** 45 min
 - **Prérequis :**
   - [Réviser des pédales : roulements, axes, broches et mécanismes](transmission.md) `pedales-entretien-roulements`
-  - [Lire le poste de pilotage : direction, cockpit, selle et leurs standards](direction-et-peripheriques.md) `anatomie-poste-pilotage`
+  - [Anatomie du poste de pilotage](direction-et-peripheriques.md) `anatomie-poste-pilotage`
   - [Cartographie complète de la visserie d'un vélo](#cartographie-visserie) `cartographie-visserie`
 - **Outils :** Pied d'atelier, Clés dynamométriques, Graisse et pâtes d'assemblage, Carnet (journal de diagnostic)
 
@@ -1521,7 +1521,7 @@ Critères de validation :
   - [L'essai de contrôle : valider une intervention en roulant](#essai-de-controle) `essai-de-controle`
   - [Inspecter un cadre : fissures, fatigue, impacts](#inspection-cadre) `inspection-cadre`
   - [Réparer, remplacer ou renoncer : arbres de décision d'usure et de coût](#reparer-remplacer-renoncer) `reparer-remplacer-renoncer`
-  - [Ce qu'est légalement un VAE : EN 15194, 25 km/h et 250 W](vae.md) `vae-cadre-legal-en15194`
+  - [Cadre légal du VAE : EN 15194, 25 km/h, 250 W](vae.md) `vae-cadre-legal-en15194`
   - [Débridage : mécanismes, détection et conséquences](vae.md) `vae-debridage-detection`
   - [Bruits de freinage : diagnostic et décontamination](freinage.md) `bruits-freins-diagnostic-decontamination`
 - **Outils :** fiche d'entrée et fiche de sortie imprimées, appareil photo et stockage daté, clés dynamométriques 2-14 N·m et 10-60 N·m, outillage d'atelier complet, chronomètre, carnet d'atelier, moyen de contact pour la relance à J+15, classeur ou dossier numérique d'archivage

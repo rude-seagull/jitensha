@@ -1,5 +1,5 @@
 ---
-title: "Batterie Li-ion : reconnaître le danger et réagir à un incident"
+title: "Batterie Li-ion : danger et conduite à tenir"
 level: 1
 system: "vae"
 order: 3

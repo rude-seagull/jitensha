@@ -9,6 +9,9 @@
     "build": "astro build && pagefind --site dist",
     "preview": "astro preview",
     "check": "astro check",
+    "curriculum:validate": "node scripts/validate-curriculum.mjs",
+    "curriculum:render": "node scripts/render-curriculum.mjs",
+    "curriculum:build": "npm run curriculum:validate && node scripts/generate-lessons.mjs && npm run curriculum:render",
     "generate:lessons": "node scripts/generate-lessons.mjs"
   },
   "dependencies": {

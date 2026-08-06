@@ -1,5 +1,5 @@
 ---
-title: "Anatomie d'un amortisseur arrière : entraxe, course et montages"
+title: "Anatomie d'un amortisseur arrière"
 level: 1
 system: "suspension"
 order: 3

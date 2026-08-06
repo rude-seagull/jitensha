@@ -1,5 +1,5 @@
 ---
-title: "Lire un vélo vintage : potence plongeur, roue libre, clavettes, friction"
+title: "Anatomie d'un vélo vintage"
 level: 1
 system: "cas-exotiques"
 order: 2

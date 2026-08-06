@@ -1,5 +1,5 @@
 ---
-title: "Laver, essuyer, inspecter : l'entretien courant qui sauve ta fourche"
+title: "Entretien courant d'une fourche"
 level: 1
 system: "suspension"
 order: 4

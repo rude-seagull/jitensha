@@ -1,8 +1,8 @@
 ---
-title: "Laver ton vélo et lubrifier la chaîne"
+title: "Laver le vélo et lubrifier la chaîne"
 level: 1
 system: "fondamentaux"
-order: 8
+order: 7
 status: "draft"
 duration: 45
 objectives:

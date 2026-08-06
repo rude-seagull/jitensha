@@ -8,7 +8,7 @@ Tout ce qui arrête un vélo : freins sur jante (dual pivot, V-brake, cantilever
 
 ## Niveau 1 — Débutant
 
-### 1. Panorama des freins : identifie ce qui équipe ton vélo `panorama-systemes-freinage`
+### 1. Panorama des systèmes de freinage `panorama-systemes-freinage`
 
 - **Durée :** 25 min
 - **Prérequis :**
@@ -37,11 +37,11 @@ Critères de validation :
 - video — GCN Tech : Freins sur jante vs freins à disque expliqués
 - article — Bike Gremlin : Types de freins de vélo : avantages et inconvénients
 
-### 2. Inspecter tes freins : contrôle fonctionnel et mesure d'usure `inspection-freins-usure`
+### 2. Inspecter les freins et mesurer l'usure `inspection-freins-usure`
 
 - **Durée :** 35 min
 - **Prérequis :**
-  - [Panorama des freins : identifie ce qui équipe ton vélo](#panorama-systemes-freinage) `panorama-systemes-freinage`
+  - [Panorama des systèmes de freinage](#panorama-systemes-freinage) `panorama-systemes-freinage`
   - [Mesurer et décoder : pied à coulisse et marquages](fondamentaux.md) `pied-a-coulisse-et-marquages`
 - **Outils :** Pied à coulisse numérique, Lampe de poche, Loupe ou appareil photo macro, Carnet d'atelier
 - **⚠️ Sécurité :**
@@ -72,12 +72,12 @@ Critères de validation :
 - video — GCN Tech : Contrôle sécurité du vélo avant de rouler (M-check)
 - article — Matos Vélo : Usure des jantes et témoins d'usure
 
-### 3. Réglage express d'un frein sur jante : barillet, garde et débrayage `reglage-express-frein-jante`
+### 3. Réglage express d'un frein sur jante `reglage-express-frein-jante`
 
 - **Durée :** 30 min
 - **Prérequis :**
-  - [Inspecter tes freins : contrôle fonctionnel et mesure d'usure](#inspection-freins-usure) `inspection-freins-usure`
-  - [Valves et gonflage : Presta, Schrader, Dunlop et la bonne pression](roues-et-pneus.md) `valves-et-gonflage`
+  - [Inspecter les freins et mesurer l'usure](#inspection-freins-usure) `inspection-freins-usure`
+  - [Valves et gonflage : Presta, Schrader, Dunlop](roues-et-pneus.md) `valves-et-gonflage`
 - **Outils :** Clés Allen 2-5 mm, Tournevis cruciforme, Mètre ruban ou réglet
 
 **Objectifs :**
@@ -102,13 +102,13 @@ Critères de validation :
 - article — Park Tool : Rôle et usage du barillet de tension
 - video — GCN Tech : Régler ses freins route en 5 minutes
 
-### 4. Frein à disque : le contrôle express qui règle 80 % des soucis `controle-express-frein-disque`
+### 4. Frein à disque : le contrôle express `controle-express-frein-disque`
 
 - **Durée :** 35 min
 - **Prérequis :**
-  - [Inspecter tes freins : contrôle fonctionnel et mesure d'usure](#inspection-freins-usure) `inspection-freins-usure`
-  - [Déposer et reposer une roue : serrage rapide, axe traversant, écrous](roues-et-pneus.md) `depose-repose-roue`
-  - [Panorama des freins : identifie ce qui équipe ton vélo](#panorama-systemes-freinage) `panorama-systemes-freinage`
+  - [Inspecter les freins et mesurer l'usure](#inspection-freins-usure) `inspection-freins-usure`
+  - [Déposer et reposer une roue](roues-et-pneus.md) `depose-repose-roue`
+  - [Panorama des systèmes de freinage](#panorama-systemes-freinage) `panorama-systemes-freinage`
 - **Outils :** Clés six pans 5 mm et torx T25, Clé dynamométrique 2-20 N·m, Alcool isopropylique et chiffons propres non pelucheux, Lampe frontale ou feuille blanche pour le contre-jour, Carte de visite ou cale papier fine, Gants nitrile propres, Réglet
 - **⚠️ Sécurité :**
   - Ne touche jamais la piste de freinage du disque ni la surface des plaquettes avec les doigts : le gras de la peau suffit à diviser le freinage.
@@ -152,7 +152,7 @@ Critères de validation :
 
 - **Durée :** 35 min
 - **Prérequis :**
-  - [Réglage express d'un frein sur jante : barillet, garde et débrayage](#reglage-express-frein-jante) `reglage-express-frein-jante`
+  - [Réglage express d'un frein sur jante](#reglage-express-frein-jante) `reglage-express-frein-jante`
   - [La clé dynamométrique : choisir, utiliser, préserver](fondamentaux.md) `cle-dynamometrique`
 - **Outils :** Clés Allen 4-5 mm, Clé dynamométrique 2-14 N·m, Cale de toe-in ou élastique large, Dégraissant doux, Patins neufs adaptés
 - **⚠️ Sécurité :**
@@ -316,9 +316,9 @@ Critères de validation :
 
 - **Durée :** 40 min
 - **Prérequis :**
-  - [Inspecter tes freins : contrôle fonctionnel et mesure d'usure](#inspection-freins-usure) `inspection-freins-usure`
+  - [Inspecter les freins et mesurer l'usure](#inspection-freins-usure) `inspection-freins-usure`
   - Savoir serrer au couple, y compris avec un embout Torx T25 *(fondamentaux)*
-  - [Déposer et reposer une roue : serrage rapide, axe traversant, écrous](roues-et-pneus.md) `depose-repose-roue`
+  - [Déposer et reposer une roue](roues-et-pneus.md) `depose-repose-roue`
 - **Outils :** Clé Torx T25, Clé dynamométrique 2-14 N·m et 10-60 N·m, Outil Center Lock (type démonte-cassette ou externe selon lockring), Clés Allen 4-5 mm, Lampe ou feuille blanche (contraste visuel), Gants nitrile ou chiffon propre
 - **⚠️ Sécurité :**
   - Ne touche jamais la piste de freinage du disque à mains nues.
@@ -490,8 +490,8 @@ Critères de validation :
 
 - **Durée :** 40 min
 - **Prérequis :**
-  - [Frein à disque : le contrôle express qui règle 80 % des soucis](#controle-express-frein-disque) `controle-express-frein-disque`
-  - [Inspecter tes freins : contrôle fonctionnel et mesure d'usure](#inspection-freins-usure) `inspection-freins-usure`
+  - [Frein à disque : le contrôle express](#controle-express-frein-disque) `controle-express-frein-disque`
+  - [Inspecter les freins et mesurer l'usure](#inspection-freins-usure) `inspection-freins-usure`
   - [Remplacer des plaquettes de frein à disque](#remplacement-plaquettes-disque) `remplacement-plaquettes-disque`
   - [Remplacer câble et gaine de frein](#cable-gaine-frein-remplacement) `cable-gaine-frein-remplacement`
   - [Réparer en pleine cambrousse : la trousse et les gestes bikepacking](cas-exotiques.md) `bikepacking-trousse-terrain`
@@ -537,9 +537,9 @@ Critères de validation :
 
 - **Durée :** 35 min
 - **Prérequis :**
-  - [Panorama des freins : identifie ce qui équipe ton vélo](#panorama-systemes-freinage) `panorama-systemes-freinage`
-  - [Remplacer poignées et grips : lock-on, silicone, colle et bouchons](direction-et-peripheriques.md) `remplacer-poignees-grips`
-  - [Aligner et resserrer le cockpit après une chute ou un transport](direction-et-peripheriques.md) `alignement-cockpit-serrage`
+  - [Panorama des systèmes de freinage](#panorama-systemes-freinage) `panorama-systemes-freinage`
+  - [Remplacer poignées et grips](direction-et-peripheriques.md) `remplacer-poignees-grips`
+  - [Aligner et resserrer le cockpit](direction-et-peripheriques.md) `alignement-cockpit-serrage`
   - [La clé dynamométrique : choisir, utiliser, préserver](fondamentaux.md) `cle-dynamometrique`
 - **Outils :** Clés six pans 3, 4, 5 mm et torx T25, Clé dynamométrique 2-20 N·m, Réglet et niveau ou application inclinomètre, Ruban de masquage et marqueur fin, Dégraissant et chiffons, Pied d'atelier, Appareil photo ou smartphone pour les contrôles de position
 - **⚠️ Sécurité :**
@@ -831,7 +831,7 @@ Critères de validation :
 - **Prérequis :**
   - [Monter un disque et centrer l'étrier](#montage-rotor-centrage-etrier) `montage-rotor-centrage-etrier`
   - [Composés de plaquettes et rodage (bed-in)](#plaquettes-composes-rodage) `plaquettes-composes-rodage`
-  - [Ce qu'est légalement un VAE : EN 15194, 25 km/h et 250 W](vae.md) `vae-cadre-legal-en15194`
+  - [Cadre légal du VAE : EN 15194, 25 km/h, 250 W](vae.md) `vae-cadre-legal-en15194`
 - **Outils :** Clés Allen/Torx, clé dynamométrique 2-14 N·m, Adaptateur Post Mount +20 ou +43 mm, Disque 180/203 mm adapté, Décamètre (mesure de distance d'arrêt), Charge d'essai arrimée (sacs, lest) pour cargo
 - **⚠️ Sécurité :**
   - VAE : coupe l'assistance et retire la batterie avant toute intervention sur les freins (leviers à capteur de coupure).

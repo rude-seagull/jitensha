@@ -1,5 +1,5 @@
 ---
-title: "Reconnaître toutes les familles de vélos"
+title: "Reconnaître les familles de vélos"
 level: 1
 system: "fondamentaux"
 order: 1

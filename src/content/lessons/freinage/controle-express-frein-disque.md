@@ -1,5 +1,5 @@
 ---
-title: "Frein à disque : le contrôle express qui règle 80 % des soucis"
+title: "Frein à disque : le contrôle express"
 level: 1
 system: "freinage"
 order: 4

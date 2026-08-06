@@ -12,7 +12,7 @@ Tout ce qui transforme ton coup de pédale en avancement : chaînes, cassettes, 
 
 - **Durée :** 30 min
 - **Prérequis :**
-  - [T'équiper niveau 1 : le kit débutant et ton coin atelier](fondamentaux.md) `outillage-debutant`
+  - [S'équiper : kit de base et coin atelier](fondamentaux.md) `outillage-debutant`
 - **Outils :** pied d'atelier, lampe frontale, chiffon, carnet d'atelier, smartphone pour les photos
 
 **Objectifs :**
@@ -70,7 +70,7 @@ Critères de validation :
 - doc — SRAM : principe DoubleTap, un levier deux fonctions
 - doc — Campagnolo : utilisation des commandes Ergopower
 
-### 3. Bien utiliser ses vitesses : cadence, anticipation, croisement de chaîne `utiliser-vitesses-cadence-croisement`
+### 3. Utiliser ses vitesses : cadence et croisement `utiliser-vitesses-cadence-croisement`
 
 - **Durée :** 25 min
 - **Prérequis :**
@@ -100,7 +100,7 @@ Critères de validation :
 - article — Park Tool : principes de passage et usure liée à l'usage
 - doc — Shimano : recommandations d'utilisation des combinaisons plateau/pignon
 
-### 4. Mesurer l'usure d'une chaîne (et savoir quand il est déjà trop tard) `usure-chaine-mesure-jauge`
+### 4. Mesurer l'usure d'une chaîne `usure-chaine-mesure-jauge`
 
 - **Durée :** 25 min
 - **Prérequis :**
@@ -137,7 +137,7 @@ Critères de validation :
 - **Prérequis :**
   - [Anatomie de la transmission : nommer et identifier](#anatomie-transmission) `anatomie-transmission`
   - [Visserie : empreintes, filetages et pas inversés](fondamentaux.md) `empreintes-et-filetages`
-  - [T'équiper niveau 1 : le kit débutant et ton coin atelier](fondamentaux.md) `outillage-debutant`
+  - [S'équiper : kit de base et coin atelier](fondamentaux.md) `outillage-debutant`
 - **Outils :** Clé à pédale 15 mm à long bras, Jeu de clés six pans, 6 et 8 mm (branche longue), Clé dynamométrique 10-60 N·m, Brosse laiton et chiffons propres, Dégraissant, Graisse ou antiseize (pâte cuivre/aluminium), Pied d'atelier, Lampe frontale
 - **⚠️ Sécurité :**
   - Une pédale serrée « à la main » finit par se dévisser en roulant et arrache le filetage de la manivelle : le couple final est obligatoire, sur les deux côtés.
@@ -187,8 +187,8 @@ Critères de validation :
 
 - **Durée :** 35 min
 - **Prérequis :**
-  - [Mesurer l'usure d'une chaîne (et savoir quand il est déjà trop tard)](#usure-chaine-mesure-jauge) `usure-chaine-mesure-jauge`
-  - [Déposer et reposer une roue : serrage rapide, axe traversant, écrous](roues-et-pneus.md) `depose-repose-roue`
+  - [Mesurer l'usure d'une chaîne](#usure-chaine-mesure-jauge) `usure-chaine-mesure-jauge`
+  - [Déposer et reposer une roue](roues-et-pneus.md) `depose-repose-roue`
 - **Outils :** dérive-chaîne d'atelier, réglet acier, pied d'atelier, carnet d'atelier, chaîne neuve
 
 **Objectifs :**
@@ -255,7 +255,7 @@ Critères de validation :
 
 - **Durée :** 35 min
 - **Prérequis :**
-  - [Déposer et reposer une roue : serrage rapide, axe traversant, écrous](roues-et-pneus.md) `depose-repose-roue`
+  - [Déposer et reposer une roue](roues-et-pneus.md) `depose-repose-roue`
   - [Étalonne ta main : pratique délibérée du couple](fondamentaux.md) `etalonnage-sensoriel-couple`
 - **Outils :** outil d'alignement de patte (type DAG-2.2), jeu de clés Allen, patte de rechange, réglet acier, pied d'atelier
 - **⚠️ Sécurité :**
@@ -322,7 +322,7 @@ Critères de validation :
 
 - **Durée :** 30 min
 - **Prérequis :**
-  - [Mesurer l'usure d'une chaîne (et savoir quand il est déjà trop tard)](#usure-chaine-mesure-jauge) `usure-chaine-mesure-jauge`
+  - [Mesurer l'usure d'une chaîne](#usure-chaine-mesure-jauge) `usure-chaine-mesure-jauge`
   - [Remplacer une chaîne : dérive-chaîne, attache rapide, rivet](#chaine-remplacement) `chaine-remplacement`
 - **Outils :** multi-outil avec dérive-chaîne intégré, attache rapide de secours au bon nombre de vitesses, pince à attache rapide compacte, gants jetables, chronomètre
 
@@ -450,7 +450,7 @@ Critères de validation :
 
 - **Durée :** 30 min
 - **Prérequis :**
-  - [Déposer et reposer une roue : serrage rapide, axe traversant, écrous](roues-et-pneus.md) `depose-repose-roue`
+  - [Déposer et reposer une roue](roues-et-pneus.md) `depose-repose-roue`
   - [La clé dynamométrique : choisir, utiliser, préserver](fondamentaux.md) `cle-dynamometrique`
 - **Outils :** fouet à chaîne, démonte-cassette adapté au corps, clé plate 24 mm ou cliquet, clé dynamométrique 10-60 N·m, graisse, chiffons, appareil photo
 
@@ -704,7 +704,7 @@ Critères de validation :
 - **Prérequis :**
   - [Patte de dérailleur : contrôle visuel, standards et UDH](#patte-derailleur-controle-visuel) `patte-derailleur-controle-visuel`
   - [Indexer un dérailleur arrière (tension de câble)](#derailleur-arriere-indexation) `derailleur-arriere-indexation`
-  - [Mesurer l'usure d'une chaîne (et savoir quand il est déjà trop tard)](#usure-chaine-mesure-jauge) `usure-chaine-mesure-jauge`
+  - [Mesurer l'usure d'une chaîne](#usure-chaine-mesure-jauge) `usure-chaine-mesure-jauge`
   - [Le carnet d'atelier et la pratique délibérée](fondamentaux.md) `carnet-atelier`
 - **Outils :** jauge d'usure de chaîne, outil d'alignement de patte, réglet acier, câble neuf de test, gaine de test, lampe, pied d'atelier, chronomètre
 
@@ -808,7 +808,7 @@ Critères de validation :
 - **Durée :** 40 min
 - **Prérequis :**
   - [Mesurer et corriger la ligne de chaîne](#ligne-de-chaine) `ligne-de-chaine`
-  - [Déposer et reposer une roue : serrage rapide, axe traversant, écrous](roues-et-pneus.md) `depose-repose-roue`
+  - [Déposer et reposer une roue](roues-et-pneus.md) `depose-repose-roue`
 - **Outils :** smartphone avec l'application de mesure sonique Gates, jauge de tension type Krikit, réglet acier ou outil d'alignement laser, clés Allen, clé dynamométrique, pied d'atelier
 - **⚠️ Sécurité :**
   - Ne fais jamais levier avec un tournevis pour enfiler une courroie carbone : tu romps des fibres invisibles à l'œil et la courroie casse plus tard sans prévenir. On desserre le tendeur ou on ouvre le maillon du cadre, point.
@@ -843,7 +843,7 @@ Critères de validation :
 - **Durée :** 35 min
 - **Prérequis :**
   - [Indexer un dérailleur arrière (tension de câble)](#derailleur-arriere-indexation) `derailleur-arriere-indexation`
-  - [Déposer et reposer une roue : serrage rapide, axe traversant, écrous](roues-et-pneus.md) `depose-repose-roue`
+  - [Déposer et reposer une roue](roues-et-pneus.md) `depose-repose-roue`
 - **Outils :** clés plates 15 mm, clés Allen, tournevis, câble et gaine de rechange, clé dynamométrique 10-60 N·m, pied d'atelier, chiffons
 
 **Objectifs :**
@@ -875,7 +875,7 @@ Critères de validation :
 
 - **Durée :** 45 min
 - **Prérequis :**
-  - [Bien utiliser ses vitesses : cadence, anticipation, croisement de chaîne](#utiliser-vitesses-cadence-croisement) `utiliser-vitesses-cadence-croisement`
+  - [Utiliser ses vitesses : cadence et croisement](#utiliser-vitesses-cadence-croisement) `utiliser-vitesses-cadence-croisement`
   - [Calculer la longueur de chaîne](#chaine-longueur-calcul) `chaine-longueur-calcul`
   - [Mesurer et corriger la ligne de chaîne](#ligne-de-chaine) `ligne-de-chaine`
   - [Déposer et reposer une cassette](#cassette-depose-repose) `cassette-depose-repose`
@@ -1216,7 +1216,7 @@ Critères de validation :
 - **Durée :** 35 min
 - **Prérequis :**
   - [Reconnaître un VAE et identifier son architecture](vae.md) `vae-identifier-architecture`
-  - [Mesurer l'usure d'une chaîne (et savoir quand il est déjà trop tard)](#usure-chaine-mesure-jauge) `usure-chaine-mesure-jauge`
+  - [Mesurer l'usure d'une chaîne](#usure-chaine-mesure-jauge) `usure-chaine-mesure-jauge`
   - [Mesurer et corriger la ligne de chaîne](#ligne-de-chaine) `ligne-de-chaine`
 - **Outils :** jauge d'usure de chaîne, pied à coulisse numérique, clés Allen et Torx, clé dynamométrique, outil d'extraction de plateau de moteur central, cales de contrôle d'entrefer, carnet d'atelier
 - **⚠️ Sécurité :**
@@ -1288,7 +1288,7 @@ Critères de validation :
 
 - **Durée :** 45 min
 - **Prérequis :**
-  - [Mesurer l'usure d'une chaîne (et savoir quand il est déjà trop tard)](#usure-chaine-mesure-jauge) `usure-chaine-mesure-jauge`
+  - [Mesurer l'usure d'une chaîne](#usure-chaine-mesure-jauge) `usure-chaine-mesure-jauge`
   - [Remplacer une chaîne : dérive-chaîne, attache rapide, rivet](#chaine-remplacement) `chaine-remplacement`
   - [Ton calendrier d'entretien : 25 h, 50 h, 100 h](fondamentaux.md) `calendrier-entretien`
 - **Outils :** mijoteuse dédiée à thermostat, paraffine et additifs, essence minérale et alcool dénaturé, bocaux à couvercle, crochet ou fil de suspension, thermomètre de cuisson, jauge d'usure de chaîne, gants nitrile, extincteur

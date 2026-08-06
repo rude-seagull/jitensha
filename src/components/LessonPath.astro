@@ -1,0 +1,296 @@
+---
+import Stamp from './Stamp.astro';
+import { lessonUrl, type Lesson } from '../lib/curriculum';
+
+/*
+ * An ordered lesson sequence drawn as a serpentine: cards flow left to right, and at
+ * the end of each row the connector sweeps back to the left to start the next one.
+ *
+ * The layout is a grid with a COLUMN COUNT FIXED PER BREAKPOINT rather than a wrapping
+ * flex row. That is the whole trick: with the column count known, `nth-child` can tell
+ * exactly which card ends a row and which one opens the next, so every connector is
+ * placed in pure CSS with no JavaScript and no measurement.
+ *
+ * The return sweep is drawn by `.step::before` on the card that opens a row. Its width
+ * is `(cols - 1) × (100% + gap)` — precisely the centre-to-centre distance back to the
+ * last card of the previous row, since all columns are equal. At one column that
+ * expression collapses to zero and the sweep degenerates into the vertical connector a
+ * single-column chain needs, which is why the mobile case needs no special handling.
+ *
+ * Robustness note: the NUMBERS carry the sequence; the arrows only reinforce it. A
+ * connector misbehaving at some unforeseen width cannot make the order ambiguous.
+ */
+
+interface Props {
+  lessons: Lesson[];
+  label: string;
+}
+
+const { lessons, label } = Astro.props;
+const ids = lessons.map((lesson) => lesson.id);
+---
+
+<div class="path-wrap">
+  <ol class="path" aria-label={label}>
+    {
+      lessons.map((lesson, index) => (
+        <li class="step" data-lesson-card data-lesson={lesson.id}>
+          <a class="step__card" href={lessonUrl(lesson)}>
+            <span class="step__node num">{String(index + 1).padStart(2, '0')}</span>
+            <span class="step__title">{lesson.data.title}</span>
+            <span class="step__meta">
+              <span class="num">{lesson.data.duration} min</span>
+              {lesson.data.safety.length > 0 && <span class="step__safety">Sécurité</span>}
+              <span class="step__done" data-done-mark hidden aria-label="Terminée">
+                ✓
+              </span>
+            </span>
+          </a>
+          {/* Horizontal connector toward the next card; CSS hides it at row ends. */}
+          <span class="step__flow" aria-hidden="true" />
+        </li>
+      ))
+    }
+  </ol>
+
+  {/* Lands once every lesson of this sequence is complete. */}
+  <p class="path__end" data-path-complete={ids.join(',')}>
+    <Stamp size="md" label={`${label} — terminé`} hidden />
+  </p>
+</div>
+
+<style>
+  .path-wrap {
+    --gap-x: 2.75rem;
+    --gap-y: 3.25rem;
+    --card-h: 8.75rem;
+    --line-col: var(--line-strong);
+  }
+
+  .path {
+    display: grid;
+    grid-template-columns: repeat(var(--cols), minmax(0, 1fr));
+    column-gap: var(--gap-x);
+    row-gap: var(--gap-y);
+    margin: var(--space-5) 0 0;
+    padding: 0;
+    list-style: none;
+  }
+
+  .step {
+    position: relative;
+  }
+
+  /* ---- Card: fixed height, which is what keeps the grid geometry knowable ---- */
+
+  .step__card {
+    display: flex;
+    flex-direction: column;
+    gap: var(--space-2);
+    height: var(--card-h);
+    padding: var(--space-3) var(--space-4) var(--space-3) var(--space-3);
+    background: var(--surface);
+    border: 1px solid var(--line);
+    border-radius: var(--radius-md);
+    text-decoration: none;
+    color: var(--ink);
+    transition:
+      border-color var(--transition),
+      background var(--transition);
+  }
+
+  .step__card:hover {
+    border-color: var(--indigo);
+  }
+
+  .step__node {
+    display: grid;
+    place-items: center;
+    width: 1.75rem;
+    height: 1.75rem;
+    flex-shrink: 0;
+    border: 1px solid var(--line-strong);
+    border-radius: var(--radius-sm);
+    font-size: var(--text-xs);
+    font-weight: 600;
+    color: var(--acier);
+    background: var(--paper);
+  }
+
+  .step__title {
+    flex: 1;
+    font-weight: 650;
+    font-size: var(--text-sm);
+    line-height: var(--leading-snug);
+    /* Safety net only: Niveau 1 titles are capped at 52 characters upstream. */
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 2;
+    overflow: hidden;
+  }
+
+  .step__card:hover .step__title {
+    color: var(--indigo);
+  }
+
+  .step__meta {
+    display: flex;
+    align-items: center;
+    gap: var(--space-2);
+    font-size: var(--text-xs);
+    color: var(--acier);
+  }
+
+  .step__safety {
+    color: var(--vermillon);
+    font-weight: 600;
+  }
+
+  .step__done {
+    margin-inline-start: auto;
+    color: var(--valide);
+    font-weight: 700;
+  }
+
+  .step[data-done='true'] .step__card {
+    background: var(--valide-soft);
+    border-color: transparent;
+  }
+
+  .step[data-done='true'] .step__node {
+    background: var(--valide);
+    border-color: var(--valide);
+    color: var(--surface);
+  }
+
+  /* ---- Connectors ---------------------------------------------------------- */
+
+  /* Horizontal run toward the next card, sitting in the column gap. */
+  .step__flow {
+    position: absolute;
+    left: 100%;
+    top: calc(var(--card-h) / 2);
+    width: var(--gap-x);
+    border-top: 1px solid var(--line-col);
+  }
+
+  .step__flow::after {
+    content: '';
+    position: absolute;
+    right: 0;
+    top: -4px;
+    border-top: 4px solid transparent;
+    border-bottom: 4px solid transparent;
+    border-left: 5px solid var(--line-col);
+  }
+
+  /*
+   * Return sweep, drawn by the card that OPENS a row: it runs from under the last card
+   * of the previous row back to this one, then drops in. Width is the exact
+   * centre-to-centre distance across the row.
+   */
+  .step::before {
+    content: '';
+    position: absolute;
+    bottom: 100%;
+    left: 50%;
+    width: calc((var(--cols) - 1) * (100% + var(--gap-x)));
+    height: var(--gap-y);
+    border-top: 1px solid var(--line-col);
+    border-left: 1px solid var(--line-col);
+    border-top-left-radius: 10px;
+  }
+
+  /* Arrowhead dropping into the card the sweep leads to. */
+  .step::after {
+    content: '';
+    position: absolute;
+    bottom: 100%;
+    left: calc(50% - 4px);
+    border-left: 4px solid transparent;
+    border-right: 4px solid transparent;
+    border-top: 5px solid var(--line-col);
+  }
+
+  /* ---- Column counts, and the connector rules that follow from them --------- */
+
+  /* Connectors are opt-in: each exclusive range below turns on only the ones it needs. */
+  .step::before,
+  .step::after {
+    display: none;
+  }
+
+  @media (max-width: 29.99rem) {
+    .path {
+      --cols: 1;
+    }
+
+    /* Single column: every card ends its row, so the sweep collapses to a plain drop
+       and no horizontal connector is ever drawn. */
+    .step__flow {
+      display: none;
+    }
+
+    .step:not(:first-child)::before,
+    .step:not(:first-child)::after {
+      display: block;
+    }
+  }
+
+  @media (min-width: 30rem) and (max-width: 43.99rem) {
+    .path {
+      --cols: 2;
+    }
+
+    .step:nth-child(2n) .step__flow,
+    .step:last-child .step__flow {
+      display: none;
+    }
+
+    .step:nth-child(2n + 1):not(:first-child)::before,
+    .step:nth-child(2n + 1):not(:first-child)::after {
+      display: block;
+    }
+  }
+
+  @media (min-width: 44rem) and (max-width: 63.99rem) {
+    .path {
+      --cols: 3;
+    }
+
+    .step:nth-child(3n) .step__flow,
+    .step:last-child .step__flow {
+      display: none;
+    }
+
+    .step:nth-child(3n + 1):not(:first-child)::before,
+    .step:nth-child(3n + 1):not(:first-child)::after {
+      display: block;
+    }
+  }
+
+  @media (min-width: 64rem) {
+    .path {
+      --cols: 4;
+    }
+
+    .step:nth-child(4n) .step__flow,
+    .step:last-child .step__flow {
+      display: none;
+    }
+
+    .step:nth-child(4n + 1):not(:first-child)::before,
+    .step:nth-child(4n + 1):not(:first-child)::after {
+      display: block;
+    }
+  }
+
+  /* ---- End of sequence ------------------------------------------------------ */
+
+  .path__end {
+    display: flex;
+    justify-content: flex-end;
+    margin-top: var(--space-4);
+    min-height: 3.75rem;
+  }
+</style>

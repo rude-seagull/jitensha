@@ -7,7 +7,7 @@
       "lessons": [
         {
           "slug": "familles-de-velos",
-          "titre": "Reconnaître toutes les familles de vélos",
+          "titre": "Reconnaître les familles de vélos",
           "level": 1,
           "order": 1,
           "duree_min": 30,
@@ -118,7 +118,7 @@
         },
         {
           "slug": "outillage-debutant",
-          "titre": "T'équiper niveau 1 : le kit débutant et ton coin atelier",
+          "titre": "S'équiper : kit de base et coin atelier",
           "level": 1,
           "order": 3,
           "duree_min": 30,
@@ -280,7 +280,7 @@
           "slug": "pied-a-coulisse-et-marquages",
           "titre": "Mesurer et décoder : pied à coulisse et marquages",
           "level": 1,
-          "order": 6,
+          "order": 8,
           "duree_min": 40,
           "objectifs": [
             "Utiliser un pied à coulisse numérique au 1/100 mm : mise à zéro, becs extérieurs/intérieurs, jauge de profondeur, erreurs classiques",
@@ -341,7 +341,7 @@
           "slug": "empreintes-et-filetages",
           "titre": "Visserie : empreintes, filetages et pas inversés",
           "level": 1,
-          "order": 7,
+          "order": 9,
           "duree_min": 40,
           "objectifs": [
             "Distinguer hex, Torx, Phillips, JIS et Pozidriv, et comprendre le cam-out (la Phillips est conçue pour sauter, la JIS non)",
@@ -409,9 +409,9 @@
         },
         {
           "slug": "lavage-et-lubrification",
-          "titre": "Laver ton vélo et lubrifier la chaîne",
+          "titre": "Laver le vélo et lubrifier la chaîne",
           "level": 1,
-          "order": 8,
+          "order": 7,
           "duree_min": 45,
           "objectifs": [
             "Laver un vélo sans l'abîmer : seau + brosses, débit faible, jamais de jet haute pression sur roulements et joints",
@@ -486,7 +486,7 @@
           "slug": "velos-cobayes",
           "titre": "Trouver des vélos cobayes pas chers",
           "level": 1,
-          "order": 9,
+          "order": 6,
           "duree_min": 30,
           "objectifs": [
             "Sourcer des cobayes : petites annonces locales, ateliers vélo participatifs, ressourceries/recycleries, dons de voisinage, encombrants",
@@ -553,7 +553,7 @@
         },
         {
           "slug": "apprendre-en-communaute",
-          "titre": "Ne pas apprendre seul : ateliers participatifs, communautés et art de poser une question technique",
+          "titre": "Ateliers participatifs et communautés techniques",
           "level": 1,
           "order": 10,
           "duree_min": 30,
@@ -642,7 +642,7 @@
         },
         {
           "slug": "pilotage-progression",
-          "titre": "Piloter ta progression : objectifs, auto-évaluation et seuils de reprise",
+          "titre": "Piloter sa progression et se réévaluer",
           "level": 1,
           "order": 11,
           "duree_min": 35,
@@ -3771,7 +3771,7 @@
         },
         {
           "slug": "valves-et-gonflage",
-          "titre": "Valves et gonflage : Presta, Schrader, Dunlop et la bonne pression",
+          "titre": "Valves et gonflage : Presta, Schrader, Dunlop",
           "level": 1,
           "order": 3,
           "duree_min": 30,
@@ -3830,7 +3830,7 @@
         },
         {
           "slug": "depose-repose-roue",
-          "titre": "Déposer et reposer une roue : serrage rapide, axe traversant, écrous",
+          "titre": "Déposer et reposer une roue",
           "level": 1,
           "order": 4,
           "duree_min": 35,
@@ -6020,7 +6020,7 @@
       "lessons": [
         {
           "slug": "panorama-systemes-freinage",
-          "titre": "Panorama des freins : identifie ce qui équipe ton vélo",
+          "titre": "Panorama des systèmes de freinage",
           "level": 1,
           "order": 1,
           "duree_min": 25,
@@ -6081,7 +6081,7 @@
         },
         {
           "slug": "inspection-freins-usure",
-          "titre": "Inspecter tes freins : contrôle fonctionnel et mesure d'usure",
+          "titre": "Inspecter les freins et mesurer l'usure",
           "level": 1,
           "order": 2,
           "duree_min": 35,
@@ -6155,7 +6155,7 @@
         },
         {
           "slug": "reglage-express-frein-jante",
-          "titre": "Réglage express d'un frein sur jante : barillet, garde et débrayage",
+          "titre": "Réglage express d'un frein sur jante",
           "level": 1,
           "order": 3,
           "duree_min": 30,
@@ -6219,7 +6219,7 @@
         },
         {
           "slug": "controle-express-frein-disque",
-          "titre": "Frein à disque : le contrôle express qui règle 80 % des soucis",
+          "titre": "Frein à disque : le contrôle express",
           "level": 1,
           "order": 4,
           "duree_min": 35,
@@ -8726,7 +8726,7 @@
         },
         {
           "slug": "utiliser-vitesses-cadence-croisement",
-          "titre": "Bien utiliser ses vitesses : cadence, anticipation, croisement de chaîne",
+          "titre": "Utiliser ses vitesses : cadence et croisement",
           "level": 1,
           "order": 3,
           "duree_min": 25,
@@ -8789,7 +8789,7 @@
         },
         {
           "slug": "usure-chaine-mesure-jauge",
-          "titre": "Mesurer l'usure d'une chaîne (et savoir quand il est déjà trop tard)",
+          "titre": "Mesurer l'usure d'une chaîne",
           "level": 1,
           "order": 4,
           "duree_min": 25,
@@ -11733,7 +11733,7 @@
       "lessons": [
         {
           "slug": "anatomie-poste-pilotage",
-          "titre": "Lire le poste de pilotage : direction, cockpit, selle et leurs standards",
+          "titre": "Anatomie du poste de pilotage",
           "level": 1,
           "order": 1,
           "duree_min": 30,
@@ -11795,7 +11795,7 @@
         },
         {
           "slug": "reglages-selle-essentiels",
-          "titre": "Régler sa selle : hauteur express, assiette et serrage sûr",
+          "titre": "Régler sa selle : hauteur, assiette, serrage",
           "level": 1,
           "order": 2,
           "duree_min": 25,
@@ -11854,7 +11854,7 @@
         },
         {
           "slug": "alignement-cockpit-serrage",
-          "titre": "Aligner et resserrer le cockpit après une chute ou un transport",
+          "titre": "Aligner et resserrer le cockpit",
           "level": 1,
           "order": 3,
           "duree_min": 20,
@@ -11912,7 +11912,7 @@
         },
         {
           "slug": "remplacer-poignees-grips",
-          "titre": "Remplacer poignées et grips : lock-on, silicone, colle et bouchons",
+          "titre": "Remplacer poignées et grips",
           "level": 1,
           "order": 4,
           "duree_min": 25,
@@ -14562,7 +14562,7 @@
       "lessons": [
         {
           "slug": "suspension-panorama-types",
-          "titre": "Panorama des suspensions : qui suspend quoi, et pourquoi",
+          "titre": "Panorama des types de suspension",
           "level": 1,
           "order": 1,
           "duree_min": 25,
@@ -14692,7 +14692,7 @@
         },
         {
           "slug": "suspension-anatomie-amortisseur",
-          "titre": "Anatomie d'un amortisseur arrière : entraxe, course et montages",
+          "titre": "Anatomie d'un amortisseur arrière",
           "level": 1,
           "order": 3,
           "duree_min": 30,
@@ -14760,7 +14760,7 @@
         },
         {
           "slug": "suspension-lavage-inspection",
-          "titre": "Laver, essuyer, inspecter : l'entretien courant qui sauve ta fourche",
+          "titre": "Entretien courant d'une fourche",
           "level": 1,
           "order": 4,
           "duree_min": 30,
@@ -14838,7 +14838,7 @@
         },
         {
           "slug": "suspension-molettes-et-blocage",
-          "titre": "Molettes, clics et blocage : piloter les réglages sans se tromper",
+          "titre": "Molettes, clics et blocage",
           "level": 1,
           "order": 5,
           "duree_min": 25,
@@ -17214,7 +17214,7 @@
         },
         {
           "slug": "vae-batterie-charge-stockage",
-          "titre": "Charger et stocker une batterie Li-ion sans la tuer",
+          "titre": "Charger et stocker une batterie Li-ion",
           "level": 1,
           "order": 2,
           "duree_min": 30,
@@ -17288,7 +17288,7 @@
         },
         {
           "slug": "vae-securite-li-ion-incident",
-          "titre": "Batterie Li-ion : reconnaître le danger et réagir à un incident",
+          "titre": "Batterie Li-ion : danger et conduite à tenir",
           "level": 1,
           "order": 3,
           "duree_min": 30,
@@ -17365,7 +17365,7 @@
         },
         {
           "slug": "vae-ecran-modes-assistance",
-          "titre": "Écran et commande : piloter l'assistance et lire ce que la machine dit",
+          "titre": "Écran et commande : piloter l'assistance",
           "level": 1,
           "order": 4,
           "duree_min": 25,
@@ -17436,7 +17436,7 @@
         },
         {
           "slug": "vae-cadre-legal-en15194",
-          "titre": "Ce qu'est légalement un VAE : EN 15194, 25 km/h et 250 W",
+          "titre": "Cadre légal du VAE : EN 15194, 25 km/h, 250 W",
           "level": 1,
           "order": 5,
           "duree_min": 30,
@@ -20521,7 +20521,7 @@
       "lessons": [
         {
           "slug": "panorama-velos-atypiques",
-          "titre": "Panorama des vélos atypiques : vintage, fixie, cargo, pliant, tandem",
+          "titre": "Panorama des vélos atypiques",
           "level": 1,
           "order": 1,
           "duree_min": 25,
@@ -20582,7 +20582,7 @@
         },
         {
           "slug": "anatomie-velo-vintage",
-          "titre": "Lire un vélo vintage : potence plongeur, roue libre, clavettes, friction",
+          "titre": "Anatomie d'un vélo vintage",
           "level": 1,
           "order": 2,
           "duree_min": 30,
@@ -20649,7 +20649,7 @@
         },
         {
           "slug": "controle-securite-velo-ancien",
-          "titre": "Contrôle de sécurité d'un vélo ancien avant de rouler",
+          "titre": "Contrôle de sécurité d'un vélo ancien",
           "level": 1,
           "order": 3,
           "duree_min": 30,

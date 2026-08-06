@@ -1,5 +1,5 @@
 ---
-title: "Panorama des vélos atypiques : vintage, fixie, cargo, pliant, tandem"
+title: "Panorama des vélos atypiques"
 level: 1
 system: "cas-exotiques"
 order: 1

@@ -1,5 +1,5 @@
 ---
-title: "Réglage express d'un frein sur jante : barillet, garde et débrayage"
+title: "Réglage express d'un frein sur jante"
 level: 1
 system: "freinage"
 order: 3

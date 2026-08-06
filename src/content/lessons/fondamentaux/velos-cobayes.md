@@ -2,7 +2,7 @@
 title: "Trouver des vélos cobayes pas chers"
 level: 1
 system: "fondamentaux"
-order: 9
+order: 6
 status: "draft"
 duration: 30
 objectives:

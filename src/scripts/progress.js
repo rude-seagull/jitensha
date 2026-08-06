@@ -59,6 +59,33 @@ function syncCards() {
   }
 }
 
+/* ---- End-of-sequence seal ----------------------------------------------- */
+
+/**
+ * A lesson path declares the ids it covers via `data-path-complete`. When every one is
+ * done the seal lands, matching the rule that it marks a validation and nothing else.
+ */
+function syncPathStamps() {
+  const done = new Set(completedLessons());
+  const reduced = matchMedia('(prefers-reduced-motion: reduce)').matches;
+
+  for (const end of document.querySelectorAll('[data-path-complete]')) {
+    const ids = end.dataset.pathComplete.split(',').filter(Boolean);
+    const stamp = end.querySelector('[data-stamp]');
+    if (!stamp || !ids.length) continue;
+
+    const complete = ids.every((id) => done.has(id));
+    const landing = complete && stamp.hidden && !reduced;
+    stamp.hidden = !complete;
+    if (landing) {
+      stamp.setAttribute('data-pressed', '');
+      stamp.addEventListener('animationend', () => stamp.removeAttribute('data-pressed'), {
+        once: true,
+      });
+    }
+  }
+}
+
 /* ---- Progress bars ------------------------------------------------------ */
 
 /**
@@ -85,6 +112,7 @@ function syncBars() {
 function syncAll() {
   syncCards();
   syncBars();
+  syncPathStamps();
 }
 
 syncAll();

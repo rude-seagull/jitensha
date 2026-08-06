@@ -2,7 +2,7 @@
 title: "Mesurer et décoder : pied à coulisse et marquages"
 level: 1
 system: "fondamentaux"
-order: 6
+order: 8
 status: "draft"
 duration: 40
 objectives:

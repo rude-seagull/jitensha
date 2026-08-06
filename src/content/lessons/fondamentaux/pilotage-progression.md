@@ -1,5 +1,5 @@
 ---
-title: "Piloter ta progression : objectifs, auto-évaluation et seuils de reprise"
+title: "Piloter sa progression et se réévaluer"
 level: 1
 system: "fondamentaux"
 order: 11

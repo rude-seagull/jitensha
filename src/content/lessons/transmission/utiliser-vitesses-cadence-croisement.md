@@ -1,5 +1,5 @@
 ---
-title: "Bien utiliser ses vitesses : cadence, anticipation, croisement de chaîne"
+title: "Utiliser ses vitesses : cadence et croisement"
 level: 1
 system: "transmission"
 order: 3

@@ -1,5 +1,5 @@
 ---
-title: "Écran et commande : piloter l'assistance et lire ce que la machine dit"
+title: "Écran et commande : piloter l'assistance"
 level: 1
 system: "vae"
 order: 4

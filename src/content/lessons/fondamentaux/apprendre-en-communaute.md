@@ -1,5 +1,5 @@
 ---
-title: "Ne pas apprendre seul : ateliers participatifs, communautés et art de poser une question technique"
+title: "Ateliers participatifs et communautés techniques"
 level: 1
 system: "fondamentaux"
 order: 10

@@ -1,5 +1,5 @@
 ---
-title: "Remplacer poignées et grips : lock-on, silicone, colle et bouchons"
+title: "Remplacer poignées et grips"
 level: 1
 system: "direction-et-peripheriques"
 order: 4

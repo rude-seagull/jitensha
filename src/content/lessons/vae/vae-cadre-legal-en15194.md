@@ -1,5 +1,5 @@
 ---
-title: "Ce qu'est légalement un VAE : EN 15194, 25 km/h et 250 W"
+title: "Cadre légal du VAE : EN 15194, 25 km/h, 250 W"
 level: 1
 system: "vae"
 order: 5

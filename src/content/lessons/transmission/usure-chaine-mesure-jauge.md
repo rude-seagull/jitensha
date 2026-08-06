@@ -1,5 +1,5 @@
 ---
-title: "Mesurer l'usure d'une chaîne (et savoir quand il est déjà trop tard)"
+title: "Mesurer l'usure d'une chaîne"
 level: 1
 system: "transmission"
 order: 4

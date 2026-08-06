@@ -8,7 +8,7 @@ Vélos anciens, pignon fixe, cargo et longtails, bikepacking, pliants, tandems e
 
 ## Niveau 1 — Débutant
 
-### 1. Panorama des vélos atypiques : vintage, fixie, cargo, pliant, tandem `panorama-velos-atypiques`
+### 1. Panorama des vélos atypiques `panorama-velos-atypiques`
 
 - **Durée :** 25 min
 - **Prérequis :**
@@ -36,12 +36,12 @@ Critères de validation :
 - article — Bikepacking.com : anatomie d'un vélo de bikepacking
 - video — GCN : tour d'horizon des types de vélos et de leurs usages
 
-### 2. Lire un vélo vintage : potence plongeur, roue libre, clavettes, friction `anatomie-velo-vintage`
+### 2. Anatomie d'un vélo vintage `anatomie-velo-vintage`
 
 - **Durée :** 30 min
 - **Prérequis :**
-  - [Panorama des vélos atypiques : vintage, fixie, cargo, pliant, tandem](#panorama-velos-atypiques) `panorama-velos-atypiques`
-  - [Reconnaître toutes les familles de vélos](fondamentaux.md) `familles-de-velos`
+  - [Panorama des vélos atypiques](#panorama-velos-atypiques) `panorama-velos-atypiques`
+  - [Reconnaître les familles de vélos](fondamentaux.md) `familles-de-velos`
 - **Outils :** Lampe de poche, Loupe ou appareil photo macro, Carnet d'atelier
 
 **Objectifs :**
@@ -65,12 +65,12 @@ Critères de validation :
 - video — RJ The Bike Guy : visite guidée des composants d'un vélo vintage
 - doc — Velo Orange : composants de style classique et leurs standards
 
-### 3. Contrôle de sécurité d'un vélo ancien avant de rouler `controle-securite-velo-ancien`
+### 3. Contrôle de sécurité d'un vélo ancien `controle-securite-velo-ancien`
 
 - **Durée :** 30 min
 - **Prérequis :**
   - [Le M-check : contrôle de sécurité en 8 minutes](fondamentaux.md) `m-check`
-  - [Lire un vélo vintage : potence plongeur, roue libre, clavettes, friction](#anatomie-velo-vintage) `anatomie-velo-vintage`
+  - [Anatomie d'un vélo vintage](#anatomie-velo-vintage) `anatomie-velo-vintage`
   - [Anatomie du vélo : nomme chaque pièce](fondamentaux.md) `anatomie-velo`
 - **Outils :** Lampe de poche, Pied à coulisse, Jauge d'usure de chaîne, Carnet d'atelier
 - **⚠️ Sécurité :**
@@ -107,7 +107,7 @@ Critères de validation :
 - **Durée :** 30 min
 - **Prérequis :**
   - [Couple, tension, frottement : pourquoi un boulon tient](fondamentaux.md) `couple-tension-frottement`
-  - [Contrôle de sécurité d'un vélo ancien avant de rouler](#controle-securite-velo-ancien) `controle-securite-velo-ancien`
+  - [Contrôle de sécurité d'un vélo ancien](#controle-securite-velo-ancien) `controle-securite-velo-ancien`
 - **Outils :** Clés Allen 6 mm, Clé dynamométrique 2-25 N·m, Maillet plastique, Graisse, Mètre ruban, Dégrippant
 - **⚠️ Sécurité :**
   - Le repère MIN INSERT doit rester invisible : une potence trop sortie peut rompre le plongeur ou fissurer le pivot de fourche.
@@ -168,9 +168,9 @@ Critères de validation :
 
 - **Durée :** 30 min
 - **Prérequis :**
-  - [Lire un vélo vintage : potence plongeur, roue libre, clavettes, friction](#anatomie-velo-vintage) `anatomie-velo-vintage`
+  - [Anatomie d'un vélo vintage](#anatomie-velo-vintage) `anatomie-velo-vintage`
   - [Anatomie du vélo : nomme chaque pièce](fondamentaux.md) `anatomie-velo`
-  - [Déposer et reposer une roue : serrage rapide, axe traversant, écrous](roues-et-pneus.md) `depose-repose-roue`
+  - [Déposer et reposer une roue](roues-et-pneus.md) `depose-repose-roue`
 - **Outils :** Jeu d'extracteurs de roue libre, Étau ou grande clé plate 24 mm/clé à molette robuste, Graisse, Pied à coulisse, Chiffons
 - **⚠️ Sécurité :**
   - Une roue libre est vissée par des années de pédalage : l'effort de dépose est violent. Maintiens l'extracteur plaqué (blocage rapide ou écrou) pour éviter le ripage qui détruit l'outil, la roue libre et tes phalanges.
@@ -232,7 +232,7 @@ Critères de validation :
 
 - **Durée :** 30 min
 - **Prérequis :**
-  - [Déposer et reposer une roue : serrage rapide, axe traversant, écrous](roues-et-pneus.md) `depose-repose-roue`
+  - [Déposer et reposer une roue](roues-et-pneus.md) `depose-repose-roue`
   - [La clé dynamométrique : choisir, utiliser, préserver](fondamentaux.md) `cle-dynamometrique`
 - **Outils :** Clé à douille 15 mm, Clé dynamométrique 10-60 N·m, Réglet, Tendeurs de chaîne (optionnel)
 - **⚠️ Sécurité :**
@@ -295,7 +295,7 @@ Critères de validation :
 
 - **Durée :** 35 min
 - **Prérequis :**
-  - [Déposer et reposer une roue : serrage rapide, axe traversant, écrous](roues-et-pneus.md) `depose-repose-roue`
+  - [Déposer et reposer une roue](roues-et-pneus.md) `depose-repose-roue`
 - **Outils :** Tournevis plat fin, Pince coupante/à dénuder, Connecteurs à languette 2,8 mm, Colliers rilsan, Chiffon
 
 **Objectifs :**
@@ -326,7 +326,7 @@ Critères de validation :
 - **Durée :** 35 min
 - **Prérequis :**
   - [Talonnage, préventif et inserts : finaliser un montage tubeless](roues-et-pneus.md) `talonnage-tubeless-et-inserts`
-  - [Mesurer l'usure d'une chaîne (et savoir quand il est déjà trop tard)](transmission.md) `usure-chaine-mesure-jauge`
+  - [Mesurer l'usure d'une chaîne](transmission.md) `usure-chaine-mesure-jauge`
 - **Outils :** Multi-outil avec dérive-chaîne, Kit mèches tubeless, Maillons rapides (au bon nombre de vitesses), Boot de pneu (ou billet plié), Mini-pompe ou cartouches CO2, Chambre de secours
 - **⚠️ Sécurité :**
   - Une cartouche de CO2 se vide d'un coup et gèle : tiens-la par la tête en plastique, jamais à main nue sur le métal.
@@ -358,9 +358,9 @@ Critères de validation :
 - **Durée :** 35 min
 - **Prérequis :**
   - [Le M-check : contrôle de sécurité en 8 minutes](fondamentaux.md) `m-check`
-  - [Panorama des vélos atypiques : vintage, fixie, cargo, pliant, tandem](#panorama-velos-atypiques) `panorama-velos-atypiques`
-  - [Régler sa selle : hauteur express, assiette et serrage sûr](direction-et-peripheriques.md) `reglages-selle-essentiels`
-  - [Inspecter tes freins : contrôle fonctionnel et mesure d'usure](freinage.md) `inspection-freins-usure`
+  - [Panorama des vélos atypiques](#panorama-velos-atypiques) `panorama-velos-atypiques`
+  - [Régler sa selle : hauteur, assiette, serrage](direction-et-peripheriques.md) `reglages-selle-essentiels`
+  - [Inspecter les freins et mesurer l'usure](freinage.md) `inspection-freins-usure`
   - [La clé dynamométrique : choisir, utiliser, préserver](fondamentaux.md) `cle-dynamometrique`
 - **Outils :** Mètre ruban et livre rigide pour mesurer l'entrejambe, Balance (vélo et enfant), Clés Allen, tournevis plat et cruciforme, Clé dynamométrique petits couples (1-10 N·m), Frein-filet faible et graisse, Marqueur indélébile pour les repères de contrôle, Bouchons de cintre de rechange, Pompe à manomètre, Craie ou ruban pour tracer la ligne d'arrêt, Plots ou cônes pour l'essai roulé, Chiffon et dégraissant
 - **⚠️ Sécurité :**
@@ -410,7 +410,7 @@ Critères de validation :
 
 - **Durée :** 40 min
 - **Prérequis :**
-  - [Lire un vélo vintage : potence plongeur, roue libre, clavettes, friction](#anatomie-velo-vintage) `anatomie-velo-vintage`
+  - [Anatomie d'un vélo vintage](#anatomie-velo-vintage) `anatomie-velo-vintage`
   - [Anatomie du vélo : nomme chaque pièce](fondamentaux.md) `anatomie-velo`
   - [Révision complète d'un moyeu à cônes : démontage, graissage, remontage](roues-et-pneus.md) `revision-moyeu-cones-billes`
 - **Outils :** Presse à clavettes (ou chasse-goupille + support massif), Maillet, Lime plate fine, Clé plate 9-10 mm, Graisse, Lunettes de protection, Clavettes neuves 9 ou 9,5 mm
@@ -572,7 +572,7 @@ Critères de validation :
 
 - **Durée :** 35 min
 - **Prérequis :**
-  - [Mesurer l'usure d'une chaîne (et savoir quand il est déjà trop tard)](transmission.md) `usure-chaine-mesure-jauge`
+  - [Mesurer l'usure d'une chaîne](transmission.md) `usure-chaine-mesure-jauge`
   - [La clé dynamométrique : choisir, utiliser, préserver](fondamentaux.md) `cle-dynamometrique`
 - **Outils :** Clé à ergots ou Allen selon type d'excentrique, Clé dynamométrique 2-25 N·m, Réglet, Dérive-chaîne, Graisse
 
@@ -735,7 +735,7 @@ Critères de validation :
 
 - **Durée :** 45 min
 - **Prérequis :**
-  - [Panorama des vélos atypiques : vintage, fixie, cargo, pliant, tandem](#panorama-velos-atypiques) `panorama-velos-atypiques`
+  - [Panorama des vélos atypiques](#panorama-velos-atypiques) `panorama-velos-atypiques`
   - [Câbles et durites très longs : freiner net sur cargo, longtail et tandem](#cargo-tandem-cables-longs) `cargo-tandem-cables-longs`
   - [Biporteur : contrôler et régler la direction à tringlerie ou à câbles](#cargo-direction-renvoi) `cargo-direction-renvoi`
   - [Calculer la longueur de chaîne](transmission.md) `chaine-longueur-calcul`
@@ -904,7 +904,7 @@ Critères de validation :
 - **Durée :** 40 min
 - **Prérequis :**
   - [Dimensions de pneus et jantes vintage : décoder le chaos](#pneus-jantes-vintage-dimensions) `pneus-jantes-vintage-dimensions`
-  - [Réglage express d'un frein sur jante : barillet, garde et débrayage](freinage.md) `reglage-express-frein-jante`
+  - [Réglage express d'un frein sur jante](freinage.md) `reglage-express-frein-jante`
 - **Outils :** Pied à coulisse, Réglet, Mètre ruban, Roues de prêt au nouveau diamètre (idéalement), Carnet d'atelier
 - **⚠️ Sécurité :**
   - Après conversion, vérifie que les patins portent entièrement sur la piste de freinage : un patin qui mord le pneu le découpe, un patin qui plonge sous la jante peut partir dans les rayons.
@@ -966,7 +966,7 @@ Critères de validation :
 
 - **Durée :** 40 min
 - **Prérequis :**
-  - [Inspecter tes freins : contrôle fonctionnel et mesure d'usure](freinage.md) `inspection-freins-usure`
+  - [Inspecter les freins et mesurer l'usure](freinage.md) `inspection-freins-usure`
   - [Câbles et durites très longs : freiner net sur cargo, longtail et tandem](#cargo-tandem-cables-longs) `cargo-tandem-cables-longs`
 - **Outils :** Clés Allen et plates, Clé dynamométrique, Thermomètre infrarouge, Manette à friction pour commande dédiée, Câblerie longue
 - **⚠️ Sécurité :**
@@ -1102,7 +1102,7 @@ Critères de validation :
 - **Prérequis :**
   - [Cintrage à froid d'un cadre acier : élargir l'arrière de 120 à 130 mm](#cintrage-froid-cadre-acier) `cintrage-froid-cadre-acier`
   - [Conversions de taille de roue : 27 pouces vers 700C, 700C vers 650B](#conversion-650b-700c) `conversion-650b-700c`
-  - [Bien utiliser ses vitesses : cadence, anticipation, croisement de chaîne](transmission.md) `utiliser-vitesses-cadence-croisement`
+  - [Utiliser ses vitesses : cadence et croisement](transmission.md) `utiliser-vitesses-cadence-croisement`
   - [Planifier un montage complet : la gamme d'assemblage](montage-et-peinture.md) `ordre-montage-cadre-nu`
 - **Outils :** Pied à coulisse, Tableur, Tables de compatibilité, Carnet d'atelier
 

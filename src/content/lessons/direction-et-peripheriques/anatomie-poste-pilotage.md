@@ -1,5 +1,5 @@
 ---
-title: "Lire le poste de pilotage : direction, cockpit, selle et leurs standards"
+title: "Anatomie du poste de pilotage"
 level: 1
 system: "direction-et-peripheriques"
 order: 1

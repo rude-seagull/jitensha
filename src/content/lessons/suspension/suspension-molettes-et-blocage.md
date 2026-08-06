@@ -1,5 +1,5 @@
 ---
-title: "Molettes, clics et blocage : piloter les réglages sans se tromper"
+title: "Molettes, clics et blocage"
 level: 1
 system: "suspension"
 order: 5

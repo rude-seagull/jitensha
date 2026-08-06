@@ -65,7 +65,7 @@ Critères de validation :
 - article — Bike Gremlin : standards de dimensions des pneus expliqués
 - article — Park Tool : correspondance pneu, chambre et jante
 
-### 3. Valves et gonflage : Presta, Schrader, Dunlop et la bonne pression `valves-et-gonflage`
+### 3. Valves et gonflage : Presta, Schrader, Dunlop `valves-et-gonflage`
 
 - **Durée :** 30 min
 - **Prérequis :**
@@ -95,7 +95,7 @@ Critères de validation :
 - video — Park Tool : gonfler un pneu de vélo, démonstration
 - doc — Schwalbe : pression des pneus, principes et recommandations
 
-### 4. Déposer et reposer une roue : serrage rapide, axe traversant, écrous `depose-repose-roue`
+### 4. Déposer et reposer une roue `depose-repose-roue`
 
 - **Durée :** 35 min
 - **Prérequis :**
@@ -133,8 +133,8 @@ Critères de validation :
 
 - **Durée :** 40 min
 - **Prérequis :**
-  - [Valves et gonflage : Presta, Schrader, Dunlop et la bonne pression](#valves-et-gonflage) `valves-et-gonflage`
-  - [Déposer et reposer une roue : serrage rapide, axe traversant, écrous](#depose-repose-roue) `depose-repose-roue`
+  - [Valves et gonflage : Presta, Schrader, Dunlop](#valves-et-gonflage) `valves-et-gonflage`
+  - [Déposer et reposer une roue](#depose-repose-roue) `depose-repose-roue`
 - **Outils :** Démonte-pneus (x3), Pompe à pied avec manomètre, Chambre à air de rechange, Talc (optionnel)
 
 **Objectifs :**
@@ -194,7 +194,7 @@ Critères de validation :
 
 - **Durée :** 35 min
 - **Prérequis :**
-  - [Déposer et reposer une roue : serrage rapide, axe traversant, écrous](#depose-repose-roue) `depose-repose-roue`
+  - [Déposer et reposer une roue](#depose-repose-roue) `depose-repose-roue`
   - [Mesurer et décoder : pied à coulisse et marquages](fondamentaux.md) `pied-a-coulisse-et-marquages`
 - **Outils :** Pied à coulisse numérique, Réglet, 3 vélos ou cadres de générations différentes, Carnet d'atelier
 
@@ -225,7 +225,7 @@ Critères de validation :
 - **Durée :** 45 min
 - **Prérequis :**
   - [Lire un pneu : ETRTO, pouces et repères d'usure](#dimensions-pneu-etrto) `dimensions-pneu-etrto`
-  - [Valves et gonflage : Presta, Schrader, Dunlop et la bonne pression](#valves-et-gonflage) `valves-et-gonflage`
+  - [Valves et gonflage : Presta, Schrader, Dunlop](#valves-et-gonflage) `valves-et-gonflage`
 - **Outils :** Pied à coulisse, Manomètre digital, Calculateur de pression (application ou tableau), Balance ou pèse-personne
 - **⚠️ Sécurité :**
   - Jante hookless : la pression ne doit JAMAIS dépasser 5 bar / 72,5 psi, sous peine de déjantage brutal. Vérifie toujours la compatibilité pneu/jante annoncée par les deux fabricants.
@@ -419,7 +419,7 @@ Critères de validation :
 
 - **Durée :** 40 min
 - **Prérequis :**
-  - [Déposer et reposer une roue : serrage rapide, axe traversant, écrous](#depose-repose-roue) `depose-repose-roue`
+  - [Déposer et reposer une roue](#depose-repose-roue) `depose-repose-roue`
   - [Démonter et remonter un pneu à chambre sans pincer](#demontage-pneu-chambre) `demontage-pneu-chambre`
   - [Réparer une crevaison et diagnostiquer sa cause](#reparation-crevaison-chambre) `reparation-crevaison-chambre`
   - [Retoucher un voile sur le vélo et contrôler l'usure de la jante](#retouche-voile-et-usure-jante) `retouche-voile-et-usure-jante`
@@ -830,7 +830,7 @@ Critères de validation :
 - **Durée :** 45 min
 - **Prérequis :**
   - [Reconnaître un VAE et identifier son architecture](vae.md) `vae-identifier-architecture`
-  - [Déposer et reposer une roue : serrage rapide, axe traversant, écrous](#depose-repose-roue) `depose-repose-roue`
+  - [Déposer et reposer une roue](#depose-repose-roue) `depose-repose-roue`
   - [Centrage (dish) et tension des rayons au tensiomètre](#centrage-dish-et-tension) `centrage-dish-et-tension`
 - **Outils :** Clé dynamométrique haute plage (jusqu'à 40 N·m), Clés plates 18/19 mm, Tensiomètre, Rilsans de guidage de câble, Support ou sangle pour soutenir la roue lourde
 - **⚠️ Sécurité :**

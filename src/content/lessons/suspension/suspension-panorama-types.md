@@ -1,5 +1,5 @@
 ---
-title: "Panorama des suspensions : qui suspend quoi, et pourquoi"
+title: "Panorama des types de suspension"
 level: 1
 system: "suspension"
 order: 1

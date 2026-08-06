@@ -1,5 +1,5 @@
 ---
-title: "Valves et gonflage : Presta, Schrader, Dunlop et la bonne pression"
+title: "Valves et gonflage : Presta, Schrader, Dunlop"
 level: 1
 system: "roues-et-pneus"
 order: 3

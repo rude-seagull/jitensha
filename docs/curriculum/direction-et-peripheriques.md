@@ -8,7 +8,7 @@ Tout ce qui relie le pilote à son vélo : jeux de direction (SHIS, ahead, filet
 
 ## Niveau 1 — Débutant
 
-### 1. Lire le poste de pilotage : direction, cockpit, selle et leurs standards `anatomie-poste-pilotage`
+### 1. Anatomie du poste de pilotage `anatomie-poste-pilotage`
 
 - **Durée :** 30 min
 - **Prérequis :**
@@ -37,11 +37,11 @@ Critères de validation :
 - video — GCN : anatomie d'un vélo expliquée aux débutants
 - article — Citycle : types de cintres et de potences selon la pratique
 
-### 2. Régler sa selle : hauteur express, assiette et serrage sûr `reglages-selle-essentiels`
+### 2. Régler sa selle : hauteur, assiette, serrage `reglages-selle-essentiels`
 
 - **Durée :** 25 min
 - **Prérequis :**
-  - [Lire le poste de pilotage : direction, cockpit, selle et leurs standards](#anatomie-poste-pilotage) `anatomie-poste-pilotage`
+  - [Anatomie du poste de pilotage](#anatomie-poste-pilotage) `anatomie-poste-pilotage`
 - **Outils :** clés Allen 4/5/6 mm, niveau à bulle ou application inclinomètre, mètre ruban, feutre
 - **⚠️ Sécurité :**
   - Ne dépasse jamais le repère d'insertion minimale de la tige de selle : tige ou cadre peuvent casser net sous ton poids.
@@ -67,11 +67,11 @@ Critères de validation :
 - video — GCN : régler sa hauteur de selle : méthodes simples
 - video — Alltricks : tutoriel réglage de selle pour débutant
 
-### 3. Aligner et resserrer le cockpit après une chute ou un transport `alignement-cockpit-serrage`
+### 3. Aligner et resserrer le cockpit `alignement-cockpit-serrage`
 
 - **Durée :** 20 min
 - **Prérequis :**
-  - [Lire le poste de pilotage : direction, cockpit, selle et leurs standards](#anatomie-poste-pilotage) `anatomie-poste-pilotage`
+  - [Anatomie du poste de pilotage](#anatomie-poste-pilotage) `anatomie-poste-pilotage`
 - **Outils :** clés Allen 4/5/6 mm, clé Torx T25, sangle ou élastique pour viser l'alignement
 - **⚠️ Sécurité :**
   - Un cintre, une potence ou un levier qui tourne sous effort = danger immédiat. Contrôle systématique après toute chute, tout transport ou tout achat d'occasion.
@@ -97,11 +97,11 @@ Critères de validation :
 - video — GMBN : régler la position de son cockpit VTT (leviers, manettes)
 - video — Park Tool : position et rotation du cintre et des leviers
 
-### 4. Remplacer poignées et grips : lock-on, silicone, colle et bouchons `remplacer-poignees-grips`
+### 4. Remplacer poignées et grips `remplacer-poignees-grips`
 
 - **Durée :** 25 min
 - **Prérequis :**
-  - [Lire le poste de pilotage : direction, cockpit, selle et leurs standards](#anatomie-poste-pilotage) `anatomie-poste-pilotage`
+  - [Anatomie du poste de pilotage](#anatomie-poste-pilotage) `anatomie-poste-pilotage`
 - **Outils :** clés Allen 2,5/3 mm, alcool isopropylique, tournevis fin, chiffon, maillet plastique
 - **⚠️ Sécurité :**
   - Roule toujours avec des bouchons de cintre : un tube ouvert agit comme un emporte-pièce en cas de chute et cause des blessures graves.
@@ -135,7 +135,7 @@ Critères de validation :
 - **Durée :** 30 min
 - **Prérequis :**
   - [La clé dynamométrique : choisir, utiliser, préserver](fondamentaux.md) `cle-dynamometrique`
-  - [Aligner et resserrer le cockpit après une chute ou un transport](#alignement-cockpit-serrage) `alignement-cockpit-serrage`
+  - [Aligner et resserrer le cockpit](#alignement-cockpit-serrage) `alignement-cockpit-serrage`
 - **Outils :** clés Allen 4/5 mm, clé dynamométrique 2-14 N·m, pied d'atelier
 - **⚠️ Sécurité :**
   - Le bouchon supérieur ne fait que précharger : seule la potence maintient la fourche. Ne roule jamais avec les vis de potence desserrées.
@@ -203,7 +203,7 @@ Critères de validation :
 
 - **Durée :** 35 min
 - **Prérequis :**
-  - [Remplacer poignées et grips : lock-on, silicone, colle et bouchons](#remplacer-poignees-grips) `remplacer-poignees-grips`
+  - [Remplacer poignées et grips](#remplacer-poignees-grips) `remplacer-poignees-grips`
 - **Outils :** guidoline avec ruban de finition, ciseaux, alcool isopropylique, ruban adhésif électricien, chiffon
 
 **Objectifs :**
@@ -267,7 +267,7 @@ Critères de validation :
 - **Prérequis :**
   - [Mesurer et décoder : pied à coulisse et marquages](fondamentaux.md) `pied-a-coulisse-et-marquages`
   - [La clé dynamométrique : choisir, utiliser, préserver](fondamentaux.md) `cle-dynamometrique`
-  - [Régler sa selle : hauteur express, assiette et serrage sûr](#reglages-selle-essentiels) `reglages-selle-essentiels`
+  - [Régler sa selle : hauteur, assiette, serrage](#reglages-selle-essentiels) `reglages-selle-essentiels`
 - **Outils :** pied à coulisse numérique, clé dynamométrique 2-14 N·m, graisse, pâte carbone, antiseize, chiffon, feutre
 - **⚠️ Sécurité :**
   - Respecte l'insertion minimale et ne graisse jamais une interface carbone : pâte carbone uniquement, sinon la tige glisse ou le cadre se fissure au serrage compensatoire.
@@ -299,7 +299,7 @@ Critères de validation :
 
 - **Durée :** 45 min
 - **Prérequis :**
-  - [Régler sa selle : hauteur express, assiette et serrage sûr](#reglages-selle-essentiels) `reglages-selle-essentiels`
+  - [Régler sa selle : hauteur, assiette, serrage](#reglages-selle-essentiels) `reglages-selle-essentiels`
   - [Tige de selle : mesurer, graisser ou pâter, prévenir le grippage](#entretien-tige-selle) `entretien-tige-selle`
 - **Outils :** mètre ruban, grand livre ou niveau pour l'entrejambe, fil à plomb, application goniomètre/inclinomètre ou goniomètre, pied d'atelier ou home-trainer
 
@@ -363,7 +363,7 @@ Critères de validation :
 - **Durée :** 40 min
 - **Prérequis :**
   - [La clé dynamométrique : choisir, utiliser, préserver](fondamentaux.md) `cle-dynamometrique`
-  - [Déposer et reposer une roue : serrage rapide, axe traversant, écrous](roues-et-pneus.md) `depose-repose-roue`
+  - [Déposer et reposer une roue](roues-et-pneus.md) `depose-repose-roue`
 - **Outils :** clés Allen 4/5 mm, clés plates 8/10 mm, coupe-tringle ou scie + lime, clé dynamométrique, mètre
 - **⚠️ Sécurité :**
   - Le garde-boue avant doit être équipé de pattes de sécurité fonctionnelles : un objet coincé entre pneu et garde-boue peut bloquer la roue avant et te faire passer par-dessus le cintre.
@@ -476,7 +476,7 @@ Critères de validation :
 
 - **Durée :** 40 min
 - **Prérequis :**
-  - [Régler sa selle : hauteur express, assiette et serrage sûr](#reglages-selle-essentiels) `reglages-selle-essentiels`
+  - [Régler sa selle : hauteur, assiette, serrage](#reglages-selle-essentiels) `reglages-selle-essentiels`
   - [Position de selle chiffrée : hauteur (LeMond, Holmes) et recul (KOPS)](#position-selle-methodes) `position-selle-methodes`
   - [Tige de selle : mesurer, graisser ou pâter, prévenir le grippage](#entretien-tige-selle) `entretien-tige-selle`
   - [La clé dynamométrique : choisir, utiliser, préserver](fondamentaux.md) `cle-dynamometrique`
@@ -519,10 +519,10 @@ Critères de validation :
 
 - **Durée :** 35 min
 - **Prérequis :**
-  - [Lire le poste de pilotage : direction, cockpit, selle et leurs standards](#anatomie-poste-pilotage) `anatomie-poste-pilotage`
+  - [Anatomie du poste de pilotage](#anatomie-poste-pilotage) `anatomie-poste-pilotage`
   - [Le M-check : contrôle de sécurité en 8 minutes](fondamentaux.md) `m-check`
   - [La clé dynamométrique : choisir, utiliser, préserver](fondamentaux.md) `cle-dynamometrique`
-  - [Charger et stocker une batterie Li-ion sans la tuer](vae.md) `vae-batterie-charge-stockage`
+  - [Charger et stocker une batterie Li-ion](vae.md) `vae-batterie-charge-stockage`
 - **Outils :** Feu avant et feu arrière à batterie, Supports d'origine + bagues de réduction (shims) pour le diamètre de cintre, Clés Allen et clé dynamométrique petits couples, Décamètre 10 m, Mur clair et ruban de masquage pour tracer les repères de hauteur, Niveau à bulle ou niveau numérique, Marqueur indélébile pour repérer les fixations, Chronomètre et thermomètre infrarouge, Chargeur et câble d'origine, Catadioptres avant, arrière, de pédales et de roues, adhésif rétroréfléchissant, Chiffon et dégraissant pour préparer les surfaces de collage
 - **⚠️ Sécurité :**
   - Un feu avant puissant mal orienté aveugle l'usager d'en face pendant plusieurs secondes : c'est un vrai facteur d'accident et un motif de verbalisation. Le faisceau se règle vers le bas, coupure nette sous la hauteur des yeux.
@@ -633,7 +633,7 @@ Critères de validation :
 - **Durée :** 40 min
 - **Prérequis :**
   - [Réviser un jeu de direction ahead : dépose de fourche, roulements, graissage](#revision-jeu-direction-ahead) `revision-jeu-direction-ahead`
-  - [Lire un vélo vintage : potence plongeur, roue libre, clavettes, friction](cas-exotiques.md) `anatomie-velo-vintage`
+  - [Anatomie d'un vélo vintage](cas-exotiques.md) `anatomie-velo-vintage`
 - **Outils :** clés plates fines à jeu de direction 32/36/40 mm, clés Allen 6 mm, maillet, graisse, pince à billes ou tournevis aimanté, chiffons
 - **⚠️ Sécurité :**
   - La potence plongeur a elle aussi un repère d'insertion minimale : un plongeur trop sorti peut casser au ras du tube et te laisser le cintre dans les mains.
@@ -831,10 +831,10 @@ Critères de validation :
 - **Durée :** 45 min
 - **Prérequis :**
   - [Le M-check : contrôle de sécurité en 8 minutes](fondamentaux.md) `m-check`
-  - [Déposer et reposer une roue : serrage rapide, axe traversant, écrous](roues-et-pneus.md) `depose-repose-roue`
+  - [Déposer et reposer une roue](roues-et-pneus.md) `depose-repose-roue`
   - [Visserie : empreintes, filetages et pas inversés](fondamentaux.md) `empreintes-et-filetages`
   - [La clé dynamométrique : choisir, utiliser, préserver](fondamentaux.md) `cle-dynamometrique`
-  - [Aligner et resserrer le cockpit après une chute ou un transport](#alignement-cockpit-serrage) `alignement-cockpit-serrage`
+  - [Aligner et resserrer le cockpit](#alignement-cockpit-serrage) `alignement-cockpit-serrage`
   - [Patte de dérailleur : contrôle visuel, standards et UDH](transmission.md) `patte-derailleur-controle-visuel`
 - **Outils :** Carton vélo ou valise/housse de transport, Mousse tubulaire, papier bulle, protège-fourche et protège-pattes, Cales de transport d'étriers hydrauliques (une par étrier), Entretoises d'axe (dummy axles) avant et arrière, Clé à pédale et clés Allen/Torx, Clé dynamométrique, Colliers plastiques et sangles à cliquet, Pompe à manomètre, Pèse-bagage, Sacs zip repérés pour la visserie et la patte de dérailleur, Marqueur indélébile et ruban adhésif renforcé, Porte-vélos d'attelage, de hayon ou de toit selon le cas étudié
 - **⚠️ Sécurité :**
@@ -1053,7 +1053,7 @@ Critères de validation :
 - **Durée :** 40 min
 - **Prérequis :**
   - [Réviser un jeu de direction ahead : dépose de fourche, roulements, graissage](#revision-jeu-direction-ahead) `revision-jeu-direction-ahead`
-  - [Panorama des vélos atypiques : vintage, fixie, cargo, pliant, tandem](cas-exotiques.md) `panorama-velos-atypiques`
+  - [Panorama des vélos atypiques](cas-exotiques.md) `panorama-velos-atypiques`
 - **Outils :** clés Allen et plates, clé dynamométrique, frein-filet moyen, réglet et fil tendu pour l'alignement, graisse, comparateur ou réglet précis
 - **⚠️ Sécurité :**
   - Sur un cargo qui transporte des enfants, toute intervention sur la direction se conclut par un essai routier complet SANS passager avant remise en service.
@@ -1214,7 +1214,7 @@ Critères de validation :
 - **Durée :** 45 min
 - **Prérequis :**
   - [Couper un pivot de fourche : mesure, coupe, étoile ou expandeur](montage-et-peinture.md) `coupe-pivot-fourche`
-  - [Frein à disque : le contrôle express qui règle 80 % des soucis](freinage.md) `controle-express-frein-disque`
+  - [Frein à disque : le contrôle express](freinage.md) `controle-express-frein-disque`
   - [Relevé géométrique complet d'un cadre](fondamentaux.md) `releve-geometrique-cadre`
 - **Outils :** guide de coupe + scie, chasse et pose crown race, clé dynamométrique, pied à coulisse, kit routage si durite interne, clés Allen/Torx, masque FFP3 si carbone
 - **⚠️ Sécurité :**

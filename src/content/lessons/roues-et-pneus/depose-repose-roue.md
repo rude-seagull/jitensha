@@ -1,5 +1,5 @@
 ---
-title: "Déposer et reposer une roue : serrage rapide, axe traversant, écrous"
+title: "Déposer et reposer une roue"
 level: 1
 system: "roues-et-pneus"
 order: 4
