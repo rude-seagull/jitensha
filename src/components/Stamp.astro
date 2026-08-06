@@ -1,0 +1,121 @@
+---
+/*
+ * The signature element: a hanko, the seal that marks an approved keirin frame.
+ *
+ * It carries 自 — "self" — the first character of 自転車, the vehicle that moves by
+ * itself. A course about becoming self-sufficient stamps its work with "self"; the
+ * full three characters were tried first and read as a smear at this size, while one
+ * character stays legible and says more.
+ *
+ * A carved seal is never perfectly round and never lands square, so the ring is
+ * off-circle with two ink gaps and the whole mark sits at a slight angle.
+ *
+ * It appears on a validation and nowhere else: a finished lesson, a fully ticked
+ * exercise, a completed level.
+ */
+
+interface Props {
+  size?: 'sm' | 'md' | 'lg';
+  label: string;
+  /** Rendered hidden, revealed by script when the validation actually happens. */
+  hidden?: boolean;
+  id?: string;
+}
+
+const { size = 'md', label, hidden = false, id } = Astro.props;
+---
+
+<span class="stamp" data-size={size} data-stamp id={id} hidden={hidden} role="img" aria-label={label}>
+  <svg viewBox="0 0 100 100" aria-hidden="true">
+    <!-- Carved ring: deliberately off-round, with two gaps where the ink skipped. -->
+    <path
+      class="stamp__ring"
+      d="M50 6.5
+         C 73 6, 93.5 25.5, 94 49.5
+         C 94.5 73, 74 93.5, 50.5 93.5
+         C 26.5 93.5, 6.5 74.5, 6 50
+         C 5.5 26, 27 7, 50 6.5 Z"
+    />
+    <!-- 自 — enclosure, inner rule, and the tick that opens the character. -->
+    <g class="stamp__glyph">
+      <path d="M34 33.5 h32 v33 h-32 z" />
+      <path d="M34 44.5 h32" />
+      <path d="M34 55.5 h32" />
+      <path d="M40.5 33.5 l-6.5 -8" />
+    </g>
+  </svg>
+</span>
+
+<style>
+  .stamp {
+    display: inline-grid;
+    place-items: center;
+    /* A pressed seal always sits a little off square. */
+    rotate: -6deg;
+    color: var(--vermillon);
+    /* Uneven inking — a hand press is never uniform. */
+    opacity: 0.9;
+    pointer-events: none;
+  }
+
+  .stamp[data-size='sm'] {
+    width: 2.5rem;
+  }
+
+  .stamp[data-size='md'] {
+    width: 3.75rem;
+  }
+
+  .stamp[data-size='lg'] {
+    width: 5.25rem;
+  }
+
+  .stamp svg {
+    width: 100%;
+    height: auto;
+    fill: none;
+    stroke: currentColor;
+    stroke-linecap: square;
+    stroke-linejoin: miter;
+  }
+
+  .stamp__ring {
+    stroke-width: 6;
+    /* Two skips, not a dashed circle: the ring reads solid but worn. */
+    stroke-dasharray: 118 3 132 3;
+    stroke-dashoffset: 20;
+  }
+
+  .stamp__glyph {
+    stroke-width: 5.5;
+  }
+
+  /* The press: it lands, overshoots a hair, settles. The one orchestrated moment. */
+  .stamp[data-pressed] {
+    animation: press var(--press) both;
+  }
+
+  @keyframes press {
+    from {
+      opacity: 0;
+      scale: 1.35;
+      rotate: -14deg;
+    }
+    60% {
+      opacity: 1;
+      scale: 0.97;
+      rotate: -4deg;
+    }
+    to {
+      opacity: 0.9;
+      scale: 1;
+      rotate: -6deg;
+    }
+  }
+
+  @media (prefers-reduced-motion: reduce) {
+    .stamp[data-pressed] {
+      animation: none;
+    }
+  }
+</style>

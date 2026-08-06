@@ -1,9 +1,10 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32" role="img" aria-label="Jitensha">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 40 52" role="img" aria-label="Jitensha">
   <title>Jitensha</title>
-  <g fill="none" stroke="#1d6a8c" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round">
-    <circle cx="8" cy="21" r="6" />
-    <circle cx="24" cy="21" r="6" />
-    <path d="M8 21l6-11h6l4 11" />
-    <path d="M12 10h5" />
+  <path fill="#1f3a5f" d="M4 3h32v34.5c0 1.2-.5 2.3-1.4 3L21 51.2a2.6 2.6 0 0 1-2 0L5.4 40.5A3.8 3.8 0 0 1 4 37.5V3z" />
+  <g fill="none" stroke="#eceff2" stroke-width="2.6" stroke-linecap="square">
+    <path d="M12 17h16v16H12z" />
+    <path d="M12 22.3h16" />
+    <path d="M12 27.6h16" />
+    <path d="M15.2 17 12 13" />
   </g>
 </svg>

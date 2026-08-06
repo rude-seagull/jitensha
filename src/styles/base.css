@@ -1,6 +1,6 @@
 /*
- * Base layer — a light reset plus sensible defaults for semantic elements.
- * Component-specific styling stays scoped inside its own .astro file.
+ * Base layer — light reset plus the typographic roles.
+ * Component styling stays scoped inside its own .astro file.
  */
 
 @import './tokens.css';
@@ -26,11 +26,10 @@ body {
   flex-direction: column;
   background: var(--paper);
   color: var(--ink);
-  font-family: var(--font-sans);
+  font-family: var(--body);
   font-size: var(--text-base);
   line-height: var(--leading-normal);
   -webkit-font-smoothing: antialiased;
-  text-rendering: optimizeLegibility;
 }
 
 img,
@@ -54,33 +53,37 @@ button {
   cursor: pointer;
 }
 
-/* ---- Typography -------------------------------------------------------- */
+/* ---- Typographic roles -------------------------------------------------- */
 
 h1,
 h2,
 h3,
-h4 {
+h4,
+.display {
+  font-family: var(--display);
+  font-weight: 700;
   line-height: var(--leading-tight);
-  font-weight: 650;
+  letter-spacing: var(--display-tracking);
+  font-variation-settings: 'wdth' var(--display-width);
   text-wrap: balance;
 }
 
 h1 {
   font-size: var(--text-3xl);
-  letter-spacing: -0.015em;
 }
 
 h2 {
   font-size: var(--text-2xl);
-  letter-spacing: -0.01em;
 }
 
 h3 {
   font-size: var(--text-xl);
+  line-height: var(--leading-snug);
 }
 
 h4 {
   font-size: var(--text-lg);
+  line-height: var(--leading-snug);
 }
 
 p,
@@ -88,18 +91,40 @@ li {
   text-wrap: pretty;
 }
 
+/*
+ * Numbers are content in this course — tolerances, torques, counts. Tabular
+ * figures keep them aligned and legible; `.num` opts a fragment into the mono face.
+ */
+.num,
+time,
+[data-progress-text] {
+  font-family: var(--mono);
+  font-variant-numeric: tabular-nums;
+  font-feature-settings: 'tnum';
+}
+
+/* An eyebrow: small, spaced, steel. Used for section labels, never decoratively. */
+.eyebrow {
+  font-family: var(--mono);
+  font-size: var(--text-xs);
+  font-weight: 500;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+  color: var(--acier);
+}
+
 a {
-  color: var(--accent);
+  color: var(--indigo);
   text-decoration-thickness: 1px;
   text-underline-offset: 0.15em;
 }
 
 a:hover {
-  color: var(--accent-hover);
+  color: var(--indigo-hover);
 }
 
 code {
-  font-family: var(--font-mono);
+  font-family: var(--mono);
   font-size: 0.9em;
   background: var(--surface-sunken);
   padding: 0.12em 0.35em;
@@ -111,7 +136,7 @@ hr {
   border-top: 1px solid var(--line);
 }
 
-/* ---- Accessibility ----------------------------------------------------- */
+/* ---- Accessibility ------------------------------------------------------ */
 
 :focus-visible {
   outline: 2px solid var(--focus-ring);
@@ -160,7 +185,7 @@ hr {
   }
 }
 
-/* ---- Layout helpers ---------------------------------------------------- */
+/* ---- Layout helpers ----------------------------------------------------- */
 
 .page {
   width: 100%;
@@ -174,9 +199,5 @@ hr {
 }
 
 .prose > * + * {
-  margin-top: var(--space-4);
-}
-
-.stack > * + * {
   margin-top: var(--space-4);
 }

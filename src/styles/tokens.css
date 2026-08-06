@@ -1,33 +1,46 @@
 /*
- * Design tokens — the single source of truth for colour, type and space.
+ * Design tokens — direction « Hanko ».
  *
- * This is the structural design system, deliberately restrained: it establishes
- * legibility, rhythm and both themes, but no brand identity. Palette, personality
- * and illustration come in the dedicated design iteration; when they do, only the
- * values here should need to change.
+ * Grounded in keirin frame culture: an approved NJS frame carries a stamp, and this
+ * course is built on 1787 measurable criteria, so the stamp is what a validation
+ * looks like here.
  *
- * Themes: `prefers-color-scheme` provides the default, `data-theme` on <html>
- * overrides it when the reader chooses explicitly.
+ * The one rule that carries the identity: --vermillon is stamp ink. It appears on a
+ * validation or a safety warning, and nowhere else. Spending it as a general brand
+ * accent would dissolve the whole idea.
+ *
+ * The ground is deliberately COOL — workshop light under fluorescent tubes, not aged
+ * paper. Warm cream with a terracotta accent is the reflex this project avoids.
  */
 
 :root {
   /* ---- Type ------------------------------------------------------------ */
-  --font-sans: ui-sans-serif, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif;
-  --font-mono: ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, monospace;
+  /* --font-display / --font-body / --font-mono come from Astro's Fonts API
+     (see astro.config.mjs); these add the fallback stacks. */
+  --font-sans-fallback: ui-sans-serif, system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif;
+  --font-mono-fallback: ui-monospace, SFMono-Regular, Menlo, Consolas, monospace;
 
-  /* Fluid modular scale, ratio ~1.2. Fluid only where it earns its keep. */
+  --display: var(--font-display), var(--font-sans-fallback);
+  --body: var(--font-body), var(--font-sans-fallback);
+  --mono: var(--font-mono), var(--font-mono-fallback);
+
   --text-xs: 0.78rem;
   --text-sm: 0.875rem;
   --text-base: 1rem;
   --text-lg: 1.125rem;
-  --text-xl: 1.32rem;
-  --text-2xl: clamp(1.5rem, 1.3rem + 0.9vw, 1.85rem);
-  --text-3xl: clamp(1.85rem, 1.5rem + 1.6vw, 2.5rem);
+  --text-xl: 1.3rem;
+  --text-2xl: clamp(1.5rem, 1.28rem + 0.95vw, 1.9rem);
+  --text-3xl: clamp(1.9rem, 1.45rem + 2vw, 2.9rem);
+  --text-4xl: clamp(2.3rem, 1.5rem + 3.4vw, 4rem);
 
-  --leading-tight: 1.2;
-  --leading-snug: 1.35;
+  --leading-tight: 1.08;
+  --leading-snug: 1.3;
   --leading-normal: 1.6;
-  --leading-relaxed: 1.75;
+  --leading-relaxed: 1.7;
+
+  /* Display is set tight and slightly narrow; body stays wide and open. */
+  --display-tracking: -0.02em;
+  --display-width: 92;
 
   /* ---- Space (4px base) ------------------------------------------------ */
   --space-1: 0.25rem;
@@ -38,87 +51,93 @@
   --space-6: 2rem;
   --space-7: 3rem;
   --space-8: 4rem;
+  --space-9: 6rem;
 
   /* ---- Layout ---------------------------------------------------------- */
-  --measure: 68ch;        /* comfortable reading column */
-  --width-page: 76rem;
-  --radius-sm: 4px;
-  --radius-md: 8px;
-  --radius-lg: 14px;
+  --measure: 66ch;
+  --width-page: 78rem;
+  --radius-sm: 3px;
+  --radius-md: 6px;
+  --radius-lg: 10px;
 
-  /* ---- Motion ---------------------------------------------------------- */
   --transition: 140ms ease;
+  --press: 180ms cubic-bezier(0.2, 1.6, 0.4, 1);
 
-  /* ---- Colour: light (default) ----------------------------------------- */
+  /* ---- Colour: light --------------------------------------------------- */
   color-scheme: light;
-  --paper: #fbfaf8;         /* page background, warm off-white */
-  --surface: #ffffff;       /* cards, raised areas */
-  --surface-sunken: #f2f0ec;
-  --ink: #1a1a19;           /* body text */
-  --ink-muted: #5c5a55;     /* secondary text */
-  --ink-faint: #8a8781;     /* metadata */
-  --line: #e2ded7;          /* borders, rules */
-  --line-strong: #c9c4bb;
+  --paper: #eceff2;         /* workshop light, cool grey-blue */
+  --surface: #ffffff;
+  --surface-sunken: #e3e7ec;
+  --ink: #14181d;
+  --ink-muted: #4d5561;
+  /* Metadata grey. Darkened from #6b7480 so it clears WCAG AA (4.5) on every ground
+     it actually sits on — paper, surface and sunken — not just the lightest one. */
+  --acier: #5e6671;
+  --line: #d5dae1;
+  --line-strong: #b6bec8;
 
-  --accent: #1d6a8c;        /* links and actions — functional, not brand */
-  --accent-hover: #17546f;
-  --accent-soft: #e4f0f5;
+  --indigo: #1f3a5f;        /* aizome — structure, links, levels */
+  --indigo-hover: #162943;
+  --indigo-soft: #dee6f0;
 
-  --success: #2f6b3f;
-  --success-soft: #e6f1e8;
-  --warning: #8a5a00;       /* safety callouts */
-  --warning-soft: #fdf3dd;
-  --warning-line: #e0be74;
+  --vermillon: #c93a22;     /* STAMP INK — validation and safety only */
+  --vermillon-soft: #fbe7e2;
+  --vermillon-line: #e8b5a8;
 
-  --focus-ring: #1d6a8c;
+  --valide: #1f5c3a;        /* completion, distinct from stamp ink */
+  --valide-soft: #dfeee5;
+
+  --focus-ring: #1f3a5f;
 }
 
 :root[data-theme='dark'] {
   color-scheme: dark;
-  --paper: #16181a;
-  --surface: #1e2124;
-  --surface-sunken: #121415;
-  --ink: #e8e6e3;
-  --ink-muted: #a8a49e;
-  --ink-faint: #7d7a75;
-  --line: #2e3236;
-  --line-strong: #434850;
+  --paper: #131619;
+  --surface: #1b1f24;
+  --surface-sunken: #0e1114;
+  --ink: #e9ecef;
+  --ink-muted: #aab2bc;
+  --acier: #98a1ab;
+  --line: #2b3138;
+  --line-strong: #3f474f;
 
-  --accent: #6fc0e0;
-  --accent-hover: #96d3ec;
-  --accent-soft: #17323d;
+  --indigo: #8fb4dc;
+  --indigo-hover: #b3cdea;
+  --indigo-soft: #1b2b3f;
 
-  --success: #86c896;
-  --success-soft: #17301d;
-  --warning: #e8b866;
-  --warning-soft: #33270f;
-  --warning-line: #6b5320;
+  --vermillon: #f0705a;
+  --vermillon-soft: #331914;
+  --vermillon-line: #6d3226;
 
-  --focus-ring: #6fc0e0;
+  --valide: #79c79a;
+  --valide-soft: #16281d;
+
+  --focus-ring: #8fb4dc;
 }
 
 @media (prefers-color-scheme: dark) {
   :root:not([data-theme='light']) {
     color-scheme: dark;
-    --paper: #16181a;
-    --surface: #1e2124;
-    --surface-sunken: #121415;
-    --ink: #e8e6e3;
-    --ink-muted: #a8a49e;
-    --ink-faint: #7d7a75;
-    --line: #2e3236;
-    --line-strong: #434850;
+    --paper: #131619;
+    --surface: #1b1f24;
+    --surface-sunken: #0e1114;
+    --ink: #e9ecef;
+    --ink-muted: #aab2bc;
+    --acier: #98a1ab;
+    --line: #2b3138;
+    --line-strong: #3f474f;
 
-    --accent: #6fc0e0;
-    --accent-hover: #96d3ec;
-    --accent-soft: #17323d;
+    --indigo: #8fb4dc;
+    --indigo-hover: #b3cdea;
+    --indigo-soft: #1b2b3f;
 
-    --success: #86c896;
-    --success-soft: #17301d;
-    --warning: #e8b866;
-    --warning-soft: #33270f;
-    --warning-line: #6b5320;
+    --vermillon: #f0705a;
+    --vermillon-soft: #331914;
+    --vermillon-line: #6d3226;
 
-    --focus-ring: #6fc0e0;
+    --valide: #79c79a;
+    --valide-soft: #16281d;
+
+    --focus-ring: #8fb4dc;
   }
 }

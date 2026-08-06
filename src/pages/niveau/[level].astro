@@ -36,10 +36,10 @@ const ids = lessons.map((lesson) => lesson.id);
     <Breadcrumb items={[{ label: 'Parcours', url: href() }, { label: `Niveau ${level.n}` }]} />
 
     <header class="level-page__header">
-      <p class="level-page__eyebrow">Niveau {level.n}</p>
+      <p class="eyebrow level-page__eyebrow">Niveau {level.n}</p>
       <h1>{level.label}</h1>
       <p class="level-page__tagline">{level.tagline}</p>
-      <p class="level-page__meta">
+      <p class="level-page__meta num">
         {lessons.length} leçons réparties sur {groups.length} systèmes · ≈ {totalHours(lessons)} h d'atelier
       </p>
       <div class="level-page__progress">
@@ -90,11 +90,7 @@ const ids = lessons.map((lesson) => lesson.id);
   }
 
   .level-page__eyebrow {
-    font-size: var(--text-sm);
-    font-weight: 650;
-    letter-spacing: 0.06em;
-    text-transform: uppercase;
-    color: var(--accent);
+    color: var(--indigo);
   }
 
   .level-page__tagline {
@@ -107,7 +103,7 @@ const ids = lessons.map((lesson) => lesson.id);
   .level-page__meta {
     margin-top: var(--space-3);
     font-size: var(--text-sm);
-    color: var(--ink-faint);
+    color: var(--acier);
   }
 
   .level-page__progress {
@@ -138,12 +134,12 @@ const ids = lessons.map((lesson) => lesson.id);
   }
 
   .system-group__head a:hover {
-    color: var(--accent);
+    color: var(--indigo);
   }
 
   .system-group__count {
     font-size: var(--text-sm);
-    color: var(--ink-faint);
+    color: var(--acier);
     white-space: nowrap;
   }
 
@@ -178,9 +174,9 @@ const ids = lessons.map((lesson) => lesson.id);
   }
 
   .level-nav a[aria-current='page'] {
-    background: var(--accent-soft);
+    background: var(--indigo-soft);
     border-color: transparent;
-    color: var(--accent);
+    color: var(--indigo);
     font-weight: 600;
   }
 </style>

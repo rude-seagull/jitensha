@@ -1,0 +1,98 @@
+---
+/*
+ * The logo: a head badge — the enamel plate riveted to a frame's head tube.
+ *
+ * Kept flat and geometric on purpose. The obvious version of this is a vintage
+ * heraldic crest, which is exactly the register this project rejected; the shape
+ * here is a plain shield outline with the same seal characters as the stamp, so the
+ * mark and the signature element read as one family.
+ */
+
+interface Props {
+  size?: number;
+  /** Adds the wordmark beside the badge. */
+  withWordmark?: boolean;
+}
+
+const { size = 34, withWordmark = false } = Astro.props;
+---
+
+<span class="badge-mark" style={`--mark-size:${size}px`}>
+  <svg viewBox="0 0 40 52" aria-hidden="true" class="badge-mark__plate">
+    <!-- Head-tube plate: straight shoulders, tapered foot, two rivets. -->
+    <path
+      class="badge-mark__body"
+      d="M4 3h32v34.5c0 1.2-.5 2.3-1.4 3L21 51.2a2.6 2.6 0 0 1-2 0L5.4 40.5A3.8 3.8 0 0 1 4 37.5V3z"
+    />
+    <circle class="badge-mark__rivet" cx="9.5" cy="8.5" r="1.5" />
+    <circle class="badge-mark__rivet" cx="30.5" cy="8.5" r="1.5" />
+    <!-- 自 — the same character the seal carries, so mark and signature are one family. -->
+    <g class="badge-mark__glyph">
+      <path d="M12 17h16v16H12z" />
+      <path d="M12 22.3h16" />
+      <path d="M12 27.6h16" />
+      <path d="M15.2 17 12 13" />
+    </g>
+  </svg>
+
+  {
+    withWordmark && (
+      <span class="badge-mark__words">
+        <span class="badge-mark__name">Jitensha</span>
+        <span class="badge-mark__tagline">mécanique vélo, de zéro à héros</span>
+      </span>
+    )
+  }
+</span>
+
+<style>
+  .badge-mark {
+    display: inline-flex;
+    align-items: center;
+    gap: var(--space-3);
+  }
+
+  .badge-mark__plate {
+    width: var(--mark-size);
+    height: auto;
+    flex-shrink: 0;
+  }
+
+  .badge-mark__body {
+    fill: var(--indigo);
+  }
+
+  .badge-mark__rivet {
+    fill: var(--paper);
+    opacity: 0.5;
+  }
+
+  .badge-mark__glyph {
+    fill: none;
+    stroke: var(--paper);
+    stroke-width: 2.6;
+    stroke-linecap: square;
+  }
+
+  .badge-mark__words {
+    display: flex;
+    flex-direction: column;
+    line-height: 1.15;
+  }
+
+  .badge-mark__name {
+    font-family: var(--display);
+    font-size: var(--text-lg);
+    font-weight: 800;
+    letter-spacing: -0.015em;
+    font-variation-settings: 'wdth' 88;
+    color: var(--ink);
+  }
+
+  .badge-mark__tagline {
+    font-family: var(--mono);
+    font-size: 0.66rem;
+    letter-spacing: 0.04em;
+    color: var(--acier);
+  }
+</style>

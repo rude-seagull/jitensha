@@ -3,6 +3,7 @@ import { getCollection } from 'astro:content';
 import BaseLayout from '../layouts/BaseLayout.astro';
 import Breadcrumb from '../components/Breadcrumb.astro';
 import ProgressBar from '../components/ProgressBar.astro';
+import SystemIcon from '../components/SystemIcon.astro';
 import { SYSTEM_ORDER, SYSTEM_META, systemUrl, totalHours } from '../lib/curriculum';
 import { href } from '../lib/paths';
 
@@ -43,10 +44,13 @@ const systems = SYSTEM_ORDER.map((system) => {
         systems.map((entry) => (
           <li class="system">
             <a class="system__link" href={systemUrl(entry.system)}>
+              <span class="system__icon">
+                <SystemIcon system={entry.system} size={26} />
+              </span>
               <h2 class="system__name">{entry.label}</h2>
             </a>
             <p class="system__tagline">{entry.tagline}</p>
-            <p class="system__meta">
+            <p class="system__meta num">
               {entry.lessons.length} leçons · {entry.range} · ≈ {entry.hours} h
             </p>
             <ProgressBar lessonIds={entry.ids} label={`Progression du système ${entry.label}`} />
@@ -97,8 +101,22 @@ const systems = SYSTEM_ORDER.map((system) => {
   }
 
   .system__link {
+    display: flex;
+    align-items: center;
+    gap: var(--space-3);
     text-decoration: none;
     color: inherit;
+  }
+
+  .system__icon {
+    display: grid;
+    place-items: center;
+    width: 2.75rem;
+    height: 2.75rem;
+    flex-shrink: 0;
+    border-radius: var(--radius-md);
+    background: var(--indigo-soft);
+    color: var(--indigo);
   }
 
   .system__link::after {
@@ -113,7 +131,7 @@ const systems = SYSTEM_ORDER.map((system) => {
   }
 
   .system__link:hover .system__name {
-    color: var(--accent);
+    color: var(--indigo);
   }
 
   .system__tagline {
@@ -123,6 +141,6 @@ const systems = SYSTEM_ORDER.map((system) => {
 
   .system__meta {
     font-size: var(--text-xs);
-    color: var(--ink-faint);
+    color: var(--acier);
   }
 </style>

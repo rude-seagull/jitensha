@@ -35,12 +35,12 @@ const verified = references.filter((r) => r.url).length;
       <ul class="refs__list">
         {references.map((reference) => (
           <li class="ref">
-            <span class="ref__type">{TYPE_LABEL[reference.type]}</span>
+            <span class="ref__type eyebrow">{TYPE_LABEL[reference.type]}</span>
             <span class="ref__body">
               <strong>{reference.source}</strong>
               {' — '}
               {reference.url ? <a href={reference.url}>{reference.subject}</a> : reference.subject}
-              {reference.language === 'en' && <span class="ref__lang">(en anglais)</span>}
+              {reference.language === 'en' && <span class="ref__lang"> (en anglais)</span>}
             </span>
           </li>
         ))}
@@ -51,9 +51,11 @@ const verified = references.filter((r) => r.url).length;
 
 <style>
   .refs__note {
-    margin-top: var(--space-2);
+    margin-top: var(--space-3);
+    padding-left: var(--space-4);
+    border-left: 2px solid var(--line-strong);
     font-size: var(--text-sm);
-    color: var(--ink-faint);
+    color: var(--acier);
     max-width: var(--measure);
   }
 
@@ -67,23 +69,21 @@ const verified = references.filter((r) => r.url).length;
   }
 
   .ref {
-    display: flex;
+    display: grid;
+    grid-template-columns: 7.5rem 1fr;
     gap: var(--space-3);
     align-items: baseline;
   }
 
-  .ref__type {
-    flex-shrink: 0;
-    min-width: 7.5rem;
-    font-size: var(--text-xs);
-    text-transform: uppercase;
-    letter-spacing: 0.05em;
-    color: var(--ink-faint);
+  @media (max-width: 34rem) {
+    .ref {
+      grid-template-columns: 1fr;
+      gap: var(--space-1);
+    }
   }
 
   .ref__lang {
-    margin-inline-start: var(--space-2);
-    font-size: var(--text-xs);
-    color: var(--ink-faint);
+    color: var(--acier);
+    font-size: var(--text-sm);
   }
 </style>

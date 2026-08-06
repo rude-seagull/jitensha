@@ -1,10 +1,10 @@
 ---
-import Badge from './Badge.astro';
-import { lessonUrl, levelMeta, SYSTEM_META, type Lesson } from '../lib/curriculum';
+import SystemIcon from './SystemIcon.astro';
+import { lessonUrl, SYSTEM_META, type Lesson } from '../lib/curriculum';
 
 interface Props {
   lesson: Lesson;
-  /** Shows the system name — useful on level pages, redundant on system pages. */
+  /** Shows the system — useful on level pages, redundant on system pages. */
   showSystem?: boolean;
 }
 
@@ -19,26 +19,20 @@ const { data } = lesson;
 
   <p class="card__meta">
     <span class="card__done" data-done-mark hidden aria-label="Leçon terminée">✓</span>
-    <span>{data.duration} min</span>
-    <span aria-hidden="true">·</span>
-    <span>Niveau {data.level} — {levelMeta(data.level).label}</span>
+    <span class="num">{data.duration} min</span>
     {
       showSystem && (
         <>
           <span aria-hidden="true">·</span>
-          <span>{SYSTEM_META[data.system].label}</span>
+          <span class="card__system">
+            <SystemIcon system={data.system} size={14} />
+            {SYSTEM_META[data.system].label}
+          </span>
         </>
       )
     }
+    {data.safety.length > 0 && <span class="card__safety">Sécurité</span>}
   </p>
-
-  {
-    data.safety.length > 0 && (
-      <p class="card__safety">
-        <Badge tone="warning">Sécurité</Badge>
-      </p>
-    )
-  }
 </article>
 
 <style>
@@ -48,7 +42,9 @@ const { data } = lesson;
     background: var(--surface);
     border: 1px solid var(--line);
     border-radius: var(--radius-md);
-    transition: border-color var(--transition);
+    transition:
+      border-color var(--transition),
+      background var(--transition);
   }
 
   .card:hover {
@@ -56,7 +52,7 @@ const { data } = lesson;
   }
 
   .card[data-done='true'] {
-    background: var(--success-soft);
+    background: var(--valide-soft);
     border-color: transparent;
   }
 
@@ -75,12 +71,13 @@ const { data } = lesson;
 
   .card__title {
     font-size: var(--text-base);
-    font-weight: 600;
+    font-weight: 700;
     line-height: var(--leading-snug);
+    font-variation-settings: 'wdth' 96;
   }
 
   .card__link:hover .card__title {
-    color: var(--accent);
+    color: var(--indigo);
   }
 
   .card__meta {
@@ -88,17 +85,24 @@ const { data } = lesson;
     flex-wrap: wrap;
     align-items: center;
     gap: var(--space-2);
-    margin-top: var(--space-2);
+    margin-top: var(--space-3);
     font-size: var(--text-xs);
-    color: var(--ink-faint);
+    color: var(--acier);
+  }
+
+  .card__system {
+    display: inline-flex;
+    align-items: center;
+    gap: var(--space-1);
   }
 
   .card__done {
-    color: var(--success);
+    color: var(--valide);
     font-weight: 700;
   }
 
   .card__safety {
-    margin-top: var(--space-3);
+    color: var(--vermillon);
+    font-weight: 600;
   }
 </style>

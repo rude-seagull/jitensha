@@ -2,7 +2,9 @@
 import { getCollection } from 'astro:content';
 import BaseLayout from '../layouts/BaseLayout.astro';
 import ProgressBar from '../components/ProgressBar.astro';
-import { LEVELS, levelUrl, totalHours } from '../lib/curriculum';
+import Stamp from '../components/Stamp.astro';
+import SystemIcon from '../components/SystemIcon.astro';
+import { LEVELS, levelUrl, SYSTEM_META, SYSTEM_ORDER, systemUrl, totalHours } from '../lib/curriculum';
 import { href } from '../lib/paths';
 
 const lessons = await getCollection('lessons');
@@ -12,7 +14,7 @@ const levels = LEVELS.map((level) => {
   const forLevel = lessons.filter((lesson) => lesson.data.level === level.n);
   return {
     ...level,
-    lessons: forLevel,
+    count: forLevel.length,
     ids: forLevel.map((lesson) => lesson.id),
     hours: totalHours(forLevel),
   };
@@ -23,109 +25,282 @@ const criteria = lessons.reduce(
   (sum, lesson) => sum + lesson.data.exercises.reduce((n, e) => n + e.criteria.length, 0),
   0,
 );
+
+/*
+ * The hero leads with the course's actual differentiator rather than a stat block:
+ * every exercise ends in criteria you can measure, so you never have to wonder
+ * whether you got it right. These three are real criteria lifted from the curriculum.
+ */
+const heroCriteria = [
+  'Levier ferme, point de contact stable sur 10 pressions consécutives',
+  'Aucune bulle au retour de purge, sur deux cycles',
+  "Étrier serré à 6 N·m, écart mesuré ≤ 10 %",
+];
 ---
 
 <BaseLayout
   title="Jitensha"
-  description="Cours de mécanique vélo gratuit et interactif : de zéro à héros, sur tous les types de vélos. 317 leçons, autant de travaux pratiques à critères mesurables."
+  description="Cours de mécanique vélo gratuit et interactif : de zéro à héros, sur tous les types de vélos. 317 leçons, 1787 critères de validation chiffrés."
 >
   <section class="hero">
-    <div class="page">
-      <h1>Apprends la mécanique vélo,<br />de zéro à héros.</h1>
-      <p class="hero__lede">
-        Un cours complet et gratuit, du premier serrage jusqu'au rayonnage et au montage
-        depuis un cadre nu. Ville, route, VTT, VAE, cargo, fixie, vintage : tout y passe.
-        Chaque leçon se termine par un travail pratique avec des critères de validation
-        chiffrés — parce qu'on n'apprend pas la mécanique en lisant.
-      </p>
-      {/* Astro 7 strips whitespace at line breaks (compressHTML: 'jsx'), so
-          separators that must survive a wrap carry an explicit {' '}. */}
-      <p class="hero__stats">
-        <strong>{lessons.length}</strong> leçons · <strong>{exercises}</strong> travaux pratiques ·{' '}
-        <strong>{criteria}</strong> critères de validation · ≈ <strong>{totalHours(lessons)} h</strong> d'atelier
-      </p>
-      <div class="hero__progress">
-        <ProgressBar lessonIds={allIds} label="Progression totale du cours" />
+    <div class="page hero__inner">
+      <div class="hero__pitch">
+        <p class="eyebrow">Cours de mécanique vélo · gratuit · sans compte</p>
+        <h1>Apprends à réparer.<br />Et sache quand c'est réussi.</h1>
+        <p class="hero__lede">
+          Du premier démonte-pneu jusqu'au rayonnage et au montage depuis un cadre nu.
+          Ville, route, VTT, VAE, cargo, fixie, vintage. Chaque leçon se termine par un
+          travail pratique dont les critères se mesurent — parce qu'on n'apprend pas la
+          mécanique en lisant.
+        </p>
+        <p class="hero__actions">
+          <a class="button" href={levelUrl(1)}>Commencer au niveau 1</a>
+          <a class="button button--quiet" href={href('atelier')}>Voir l'atelier</a>
+        </p>
       </div>
+
+      <!-- The product demonstrating itself: a real validation sheet, stamped. -->
+      <figure class="sheet">
+        <figcaption class="sheet__head">
+          <span class="eyebrow">Fiche de validation</span>
+          <span class="sheet__ref num">TP · purge de frein</span>
+        </figcaption>
+        <ol class="sheet__list">
+          {
+            heroCriteria.map((criterion) => (
+              <li>
+                <span class="sheet__tick" aria-hidden="true">
+                  ✓
+                </span>
+                {criterion}
+              </li>
+            ))
+          }
+        </ol>
+        {/* In flow, not absolutely positioned: the seal can never land on the text. */}
+        <div class="sheet__foot">
+          <span class="sheet__verdict">Tous les critères tenus</span>
+          <Stamp size="lg" label="Validé" id="hero-stamp" hidden />
+        </div>
+      </figure>
     </div>
   </section>
 
   <section class="page levels">
-    <h2>Le parcours</h2>
-    <p class="levels__intro">
-      Cinq niveaux qui reprennent chacun tous les systèmes du vélo, un cran plus loin.
-    </p>
+    <div class="levels__head">
+      <h2>Le parcours</h2>
+      <p>Cinq niveaux qui reprennent chacun tous les systèmes du vélo, un cran plus loin.</p>
+    </div>
 
     <ol class="levels__list">
       {
         levels.map((level) => (
-          <li>
-            <a class="level" href={levelUrl(level.n)}>
-              <span class="level__number">{level.n}</span>
-              <span class="level__body">
-                <span class="level__name">{level.label}</span>
-                <span class="level__tagline">{level.tagline}</span>
-                <span class="level__meta">
-                  {level.lessons.length} leçons · ≈ {level.hours} h
-                </span>
-              </span>
+          <li class="level">
+            <a class="level__link" href={levelUrl(level.n)}>
+              <span class="level__number num">{level.n}</span>
+              <span class="level__name">{level.label}</span>
             </a>
+            <p class="level__tagline">{level.tagline}</p>
+            <p class="level__meta num">
+              {level.count} leçons · ≈ {level.hours} h
+            </p>
             <ProgressBar lessonIds={level.ids} label={`Progression du niveau ${level.n}`} />
           </li>
         ))
       }
     </ol>
-
-    <p class="levels__alt">
-      Tu cherches une réparation précise plutôt qu'un parcours ?{' '}
-      <a href={href('atelier')}>Passe par l'atelier</a>, rangé par système du vélo.
-    </p>
   </section>
+
+  <section class="page systems">
+    <div class="levels__head">
+      <h2>Les neuf systèmes</h2>
+      <p>
+        Une panne précise plutôt qu'un parcours ? Le même cours, rangé par domaine.
+      </p>
+    </div>
+    <ul class="systems__list">
+      {
+        SYSTEM_ORDER.map((system) => (
+          <li>
+            <a class="chip" href={systemUrl(system)}>
+              <SystemIcon system={system} size={20} />
+              {SYSTEM_META[system].label}
+            </a>
+          </li>
+        ))
+      }
+    </ul>
+  </section>
+
+  <section class="page totals">
+    <dl class="totals__grid">
+      <div><dt>Leçons</dt><dd class="num">{lessons.length}</dd></div>
+      <div><dt>Travaux pratiques</dt><dd class="num">{exercises}</dd></div>
+      <div><dt>Critères mesurables</dt><dd class="num">{criteria}</dd></div>
+      <div><dt>Heures d'atelier</dt><dd class="num">≈ {totalHours(lessons)}</dd></div>
+    </dl>
+    <div class="totals__progress">
+      <p class="eyebrow">Ta progression</p>
+      <ProgressBar lessonIds={allIds} label="Progression totale du cours" />
+    </div>
+  </section>
+
+  <script>
+    // The one orchestrated moment on the site: the seal lands shortly after load.
+    const stamp = document.getElementById('hero-stamp');
+    if (stamp) {
+      const reduced = matchMedia('(prefers-reduced-motion: reduce)').matches;
+      stamp.hidden = false;
+      if (!reduced) setTimeout(() => stamp.setAttribute('data-pressed', ''), 550);
+    }
+  </script>
 </BaseLayout>
 
 <style>
+  /* ---- Hero ------------------------------------------------------------- */
+
   .hero {
-    padding-block: var(--space-8) var(--space-7);
     border-bottom: 1px solid var(--line);
     background: var(--surface);
   }
 
+  .hero__inner {
+    display: grid;
+    gap: var(--space-7);
+    align-items: center;
+    padding-block: var(--space-8) var(--space-9);
+  }
+
+  @media (min-width: 62rem) {
+    .hero__inner {
+      grid-template-columns: 1.05fr 0.95fr;
+      gap: var(--space-8);
+    }
+  }
+
   .hero h1 {
-    max-width: 18ch;
+    margin-top: var(--space-3);
+    font-size: var(--text-4xl);
+    font-variation-settings: 'wdth' 86;
+    letter-spacing: -0.03em;
   }
 
   .hero__lede {
-    margin-top: var(--space-4);
-    max-width: var(--measure);
+    margin-top: var(--space-5);
+    max-width: 46ch;
     font-size: var(--text-lg);
     color: var(--ink-muted);
     line-height: var(--leading-relaxed);
   }
 
-  .hero__stats {
-    margin-top: var(--space-5);
-    font-size: var(--text-sm);
-    color: var(--ink-faint);
+  .hero__actions {
+    display: flex;
+    flex-wrap: wrap;
+    gap: var(--space-3);
+    margin-top: var(--space-6);
   }
 
-  .hero__stats strong {
+  .button {
+    display: inline-block;
+    padding: var(--space-3) var(--space-5);
+    background: var(--indigo);
+    color: var(--surface);
+    border-radius: var(--radius-md);
+    font-weight: 700;
+    text-decoration: none;
+    transition: background var(--transition);
+  }
+
+  .button:hover {
+    background: var(--indigo-hover);
+    color: var(--surface);
+  }
+
+  .button--quiet {
+    background: transparent;
     color: var(--ink);
-    font-variant-numeric: tabular-nums;
+    box-shadow: inset 0 0 0 1px var(--line-strong);
   }
 
-  .hero__progress {
+  .button--quiet:hover {
+    background: var(--surface-sunken);
+    color: var(--ink);
+  }
+
+  /* ---- The validation sheet --------------------------------------------- */
+
+  .sheet {
+    position: relative;
+    padding: var(--space-5);
+    background: var(--paper);
+    border: 1px solid var(--line);
+    border-radius: var(--radius-lg);
+  }
+
+  .sheet__head {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: var(--space-2);
+    padding-bottom: var(--space-3);
+    border-bottom: 1px solid var(--line);
+  }
+
+  .sheet__ref {
+    font-size: var(--text-xs);
+    color: var(--acier);
+  }
+
+  .sheet__list {
+    margin: var(--space-4) 0 0;
+    padding: 0;
+    list-style: none;
+    display: grid;
+    gap: var(--space-3);
+  }
+
+  .sheet__list li {
+    display: flex;
+    gap: var(--space-3);
+    align-items: baseline;
+    font-size: var(--text-sm);
+    line-height: var(--leading-snug);
+  }
+
+  .sheet__tick {
+    color: var(--valide);
+    font-weight: 700;
+  }
+
+  .sheet__foot {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: var(--space-4);
     margin-top: var(--space-4);
-    max-width: 28rem;
+    padding-top: var(--space-4);
+    border-top: 1px solid var(--line);
+    min-height: 5.25rem;
   }
 
-  .levels {
-    padding-block: var(--space-7) var(--space-8);
-  }
-
-  .levels__intro {
-    margin-top: var(--space-2);
+  .sheet__verdict {
+    font-family: var(--display);
+    font-size: var(--text-lg);
+    font-weight: 700;
     color: var(--ink-muted);
+  }
+
+  /* ---- Levels ------------------------------------------------------------ */
+
+  .levels,
+  .systems {
+    padding-block: var(--space-8) 0;
+  }
+
+  .levels__head p {
+    margin-top: var(--space-2);
     max-width: var(--measure);
+    color: var(--ink-muted);
   }
 
   .levels__list {
@@ -133,66 +308,134 @@ const criteria = lessons.reduce(
     padding: 0;
     list-style: none;
     display: grid;
-    gap: var(--space-4);
+    gap: var(--space-3);
   }
 
-  .levels__list > li {
+  .level {
     display: grid;
-    gap: var(--space-3);
-    padding: var(--space-4);
+    gap: var(--space-2);
+    padding: var(--space-4) var(--space-5);
     background: var(--surface);
     border: 1px solid var(--line);
     border-radius: var(--radius-lg);
   }
 
-  .level {
+  @media (min-width: 48rem) {
+    .level {
+      grid-template-columns: 15rem 1fr 16rem;
+      align-items: center;
+      gap: var(--space-5);
+    }
+
+    .level__tagline {
+      grid-column: 2;
+    }
+  }
+
+  .level__link {
     display: flex;
-    gap: var(--space-4);
-    align-items: flex-start;
+    align-items: baseline;
+    gap: var(--space-3);
     text-decoration: none;
-    color: inherit;
+    color: var(--ink);
   }
 
   .level__number {
-    display: grid;
-    place-items: center;
-    flex-shrink: 0;
-    width: 2.5rem;
-    height: 2.5rem;
-    border-radius: 50%;
-    background: var(--accent-soft);
-    color: var(--accent);
+    font-size: var(--text-2xl);
+    font-weight: 600;
+    color: var(--indigo);
+  }
+
+  .level__name {
+    font-family: var(--display);
     font-size: var(--text-lg);
     font-weight: 700;
   }
 
-  .level__body {
-    display: grid;
-    gap: var(--space-1);
-  }
-
-  .level__name {
-    font-size: var(--text-lg);
-    font-weight: 650;
-  }
-
-  .level:hover .level__name {
-    color: var(--accent);
+  .level__link:hover .level__name {
+    color: var(--indigo);
   }
 
   .level__tagline {
     color: var(--ink-muted);
-    max-width: var(--measure);
+    font-size: var(--text-sm);
+    max-width: 52ch;
   }
 
   .level__meta {
     font-size: var(--text-xs);
-    color: var(--ink-faint);
+    color: var(--acier);
   }
 
-  .levels__alt {
-    margin-top: var(--space-6);
-    color: var(--ink-muted);
+  /* ---- Systems ----------------------------------------------------------- */
+
+  .systems__list {
+    margin-top: var(--space-5);
+    padding: 0;
+    list-style: none;
+    display: flex;
+    flex-wrap: wrap;
+    gap: var(--space-2);
+  }
+
+  .chip {
+    display: inline-flex;
+    align-items: center;
+    gap: var(--space-2);
+    padding: var(--space-2) var(--space-4);
+    background: var(--surface);
+    border: 1px solid var(--line);
+    border-radius: 999px;
+    color: var(--ink);
+    text-decoration: none;
     font-size: var(--text-sm);
+    font-weight: 600;
+    transition: border-color var(--transition);
+  }
+
+  .chip:hover {
+    border-color: var(--indigo);
+    color: var(--indigo);
+  }
+
+  /* ---- Totals ------------------------------------------------------------ */
+
+  .totals {
+    display: grid;
+    gap: var(--space-6);
+    padding-block: var(--space-8) var(--space-9);
+  }
+
+  @media (min-width: 48rem) {
+    .totals {
+      grid-template-columns: 1fr auto;
+      align-items: end;
+    }
+  }
+
+  .totals__grid {
+    display: flex;
+    flex-wrap: wrap;
+    gap: var(--space-6);
+    margin: 0;
+  }
+
+  .totals__grid dt {
+    font-size: var(--text-xs);
+    letter-spacing: 0.08em;
+    text-transform: uppercase;
+    color: var(--acier);
+  }
+
+  .totals__grid dd {
+    margin: var(--space-1) 0 0;
+    font-size: var(--text-2xl);
+    font-weight: 600;
+  }
+
+  .totals__progress {
+    min-width: min(100%, 22rem);
+    display: grid;
+    gap: var(--space-2);
   }
 </style>

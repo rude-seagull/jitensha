@@ -101,6 +101,20 @@ Systems (slugs used in frontmatter):
 
 The full lesson matrix lives in [`CURRICULUM.md`](CURRICULUM.md), with per-system detail files under `docs/curriculum/`.
 
+## Design direction — « Hanko »
+
+Grounded in keirin frame culture: an approved NJS frame carries a stamp, and this course rests on 1787 measurable criteria, so a *hanko* is what a validation looks like here.
+
+**The rule that carries the identity:** `--vermillon` is stamp ink. It appears on a validation or a safety warning, and nowhere else. Spending it as a general accent dissolves the whole idea — use `--indigo` for structure and links instead.
+
+- **Ground is cool** (`--paper` #eceff2): workshop light under fluorescent tubes. Warm cream with a terracotta accent is the reflex this project deliberately avoids.
+- **Typography by role:** Bricolage Grotesque for headings only (variable width axis, set tight), Atkinson Hyperlegible Next for body — drawn by the Braille Institute for low-vision readers, which is the honest choice for a phone in a badly lit garage — and JetBrains Mono for every number, because tolerances and torques are content here, not metadata. Use `.num` to opt a fragment into it.
+- **The seal** (`Stamp.astro`) carries 自, "self", from 自転車. It lands on a finished lesson, a fully ticked exercise, or a completed level — never as decoration, and always in flow rather than absolutely positioned, so it cannot land on text.
+- **Logo** (`HeadBadge.astro`) is a head badge, the plate riveted to a frame's head tube. Flat and geometric; a vintage heraldic crest is the failure mode.
+- **Motion** is one orchestrated moment (the press) plus state transitions. `prefers-reduced-motion` must remove the animation without removing the seal.
+
+Run the contrast audit before changing any colour: every pair the design actually uses must clear WCAG AA in both themes.
+
 ## Architecture snapshot (planned — see TECHSTACK.md)
 
 ```
@@ -157,5 +171,6 @@ Never invent a URL to satisfy a lead — golden rule 3 outranks completeness.
 1. ~~`git init`, GitHub repo, GitHub Pages setup~~ — done
 2. ~~`CURRICULUM.md` — the complete lesson matrix~~ — done
 3. ~~Astro scaffolding, content model, structural design system, the four interactive features~~ — done
-4. **Visual identity** — palette, typography, personality, logo, illustrations, and the interactive SVG anatomy diagrams (deferred here on purpose: this iteration shipped tokens, not identity)
-5. **Writing lessons**, starting with Niveau 1 — see "Writing a lesson" above
+4. ~~Visual identity — « Hanko »: palette, typography, seal, head badge, system icons, rebuilt home~~ — done
+5. **Interactive SVG anatomy diagrams** — a reusable core set (whole bike, drivetrain, caliper, hub, headset), not one per lesson
+6. **Writing lessons**, starting with Niveau 1 — see "Writing a lesson" above

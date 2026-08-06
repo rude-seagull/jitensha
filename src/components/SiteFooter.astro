@@ -1,18 +1,23 @@
 ---
+import HeadBadge from './HeadBadge.astro';
 import { href } from '../lib/paths';
 ---
 
 <footer class="footer">
   <div class="page footer__inner">
-    <p>
-      <strong>Jitensha</strong> — cours de mécanique vélo libre et gratuit.
-      Ta progression est enregistrée dans ton navigateur, rien n'est envoyé nulle part.
-    </p>
-    <p class="footer__links">
+    <div class="footer__brand">
+      <HeadBadge size={26} />
+      <p>
+        Cours de mécanique vélo libre et gratuit. Ta progression reste dans ton
+        navigateur : pas de compte, pas de mouchard, rien n'est envoyé nulle part.
+      </p>
+    </div>
+    <nav class="footer__links" aria-label="Liens de pied de page">
       <a href={href()}>Parcours</a>
       <a href={href('atelier')}>Atelier</a>
+      <a href={href('recherche')}>Recherche</a>
       <a href="https://github.com/rude-seagull/jitensha">Code source</a>
-    </p>
+    </nav>
   </div>
 </footer>
 
@@ -20,7 +25,7 @@ import { href } from '../lib/paths';
   .footer {
     margin-top: auto;
     border-top: 1px solid var(--line);
-    background: var(--surface-sunken);
+    background: var(--surface);
     color: var(--ink-muted);
     font-size: var(--text-sm);
   }
@@ -28,18 +33,22 @@ import { href } from '../lib/paths';
   .footer__inner {
     display: flex;
     flex-wrap: wrap;
-    gap: var(--space-4);
+    gap: var(--space-5);
     justify-content: space-between;
-    align-items: baseline;
-    padding-block: var(--space-5);
+    align-items: flex-start;
+    padding-block: var(--space-6);
   }
 
-  .footer__inner p {
-    max-width: 60ch;
+  .footer__brand {
+    display: flex;
+    gap: var(--space-3);
+    align-items: flex-start;
+    max-width: 46ch;
   }
 
   .footer__links {
     display: flex;
+    flex-wrap: wrap;
     gap: var(--space-4);
   }
 </style>

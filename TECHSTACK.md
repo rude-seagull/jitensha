@@ -17,6 +17,7 @@ The technical constitution of this project. Any technology decision not covered 
 | Content | **Markdown** in `src/content/lessons/` | Human-writable, diff-able, portable. Frontmatter contract defined in `CLAUDE.md`; the zod schema in `src/content.config.ts` must mirror it exactly. |
 | Markdown processor | **Sätteri** (Astro 7 default) | Replaces the remark/rehype pipeline. Applies GFM and generates heading IDs out of the box, so the course needs **no Markdown plugins at all**. Adding one would mean opting the whole project back into `@astrojs/markdown-remark` — don't, unless there is a real need. |
 | Styling | **Plain CSS** with custom properties | No CSS framework. Tokens in `src/styles/tokens.css`; light + dark via `prefers-color-scheme` with a manual toggle persisted in localStorage. Component styles stay scoped in their `.astro` file. |
+| Fonts | **Astro Fonts API**, Fontsource provider | Three variable families, `latin` subset, `normal` style only — **113 KB across three woff2 files**, subset, preloaded and fallback-matched by Astro. No npm font packages. |
 | Interactivity | **Vanilla JS ES modules** in `src/scripts/` | No client framework. Small, focused modules per feature; `store.js` is the only one allowed to touch localStorage. |
 | Search | **Pagefind 1.5 Component UI** | Indexes `dist/` after the build (so it only works from `npm run build`, never `astro dev`). `<pagefind-config bundle-path base-url>` handles the GitHub Pages sub-path. |
 | Sitemap | **@astrojs/sitemap** | Official integration, one line of config, real value for a public 300-page course. |
@@ -65,7 +66,7 @@ Rules:
 ## Constraints
 
 - No runtime requests to external hosts (embedded videos/reference links are user-initiated navigation, not page dependencies).
-- Page weight budget-conscious: SVG over raster where possible, compressed images, no font payloads beyond one self-hosted family maximum.
+- Page weight budget-conscious: SVG over raster where possible, compressed images. **Revised 2026-08-06:** the earlier "one self-hosted family maximum" rule gave way to three variable families (113 KB total, subset and preloaded) when the visual identity landed — typography carries the identity here, and the budget was measured rather than assumed. Italics were dropped to hold it; that is the ceiling, not a starting point.
 - `lang="fr"` on every page; semantic HTML; WCAG-minded markup (contrast, focus states, alt text, no color-only meaning).
 - Must work when opened from a slow mobile connection propped up next to a bike stand.
 

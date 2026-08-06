@@ -16,21 +16,34 @@ const toggle = document.querySelector('[data-complete-toggle]');
 
 if (toggle) {
   const lessonId = toggle.dataset.lesson;
+  const stamp = document.getElementById('lesson-stamp');
+  const reduced = matchMedia('(prefers-reduced-motion: reduce)').matches;
 
-  const sync = () => {
+  const sync = (animate) => {
     const done = isCompleted(lessonId);
     toggle.setAttribute('aria-pressed', String(done));
     toggle.dataset.state = done ? 'done' : 'todo';
     toggle.querySelector('[data-complete-label]').textContent = done
       ? 'Leçon terminée'
       : 'Marquer comme terminée';
+
+    if (!stamp) return;
+    const landing = animate && !reduced && done && stamp.hidden;
+    stamp.hidden = !done;
+    if (landing) {
+      stamp.setAttribute('data-pressed', '');
+      stamp.addEventListener('animationend', () => stamp.removeAttribute('data-pressed'), {
+        once: true,
+      });
+    }
   };
 
-  sync();
+  // Restore state without replaying the animation on every page load.
+  sync(false);
   toggle.hidden = false;
   toggle.addEventListener('click', () => {
     setCompleted(lessonId, !isCompleted(lessonId));
-    sync();
+    sync(true);
   });
 }
 

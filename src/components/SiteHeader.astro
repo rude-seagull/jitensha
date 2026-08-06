@@ -1,4 +1,5 @@
 ---
+import HeadBadge from './HeadBadge.astro';
 import ThemeToggle from './ThemeToggle.astro';
 import { href } from '../lib/paths';
 
@@ -14,9 +15,8 @@ const isCurrent = (url: string) => (url === href() ? current === url : current.s
 
 <header class="header">
   <div class="page header__inner">
-    <a class="brand" href={href()}>
-      <span class="brand__name">Jitensha</span>
-      <span class="brand__tagline">mécanique vélo, de zéro à héros</span>
+    <a class="brand" href={href()} aria-label="Jitensha, accueil">
+      <HeadBadge size={32} withWordmark />
     </a>
 
     <nav aria-label="Navigation principale">
@@ -52,22 +52,8 @@ const isCurrent = (url: string) => (url === href() ? current === url : current.s
   }
 
   .brand {
-    display: flex;
-    flex-direction: column;
-    color: var(--ink);
     text-decoration: none;
     margin-inline-end: auto;
-  }
-
-  .brand__name {
-    font-size: var(--text-lg);
-    font-weight: 700;
-    letter-spacing: -0.01em;
-  }
-
-  .brand__tagline {
-    font-size: var(--text-xs);
-    color: var(--ink-faint);
   }
 
   .nav {
@@ -78,10 +64,11 @@ const isCurrent = (url: string) => (url === href() ? current === url : current.s
   }
 
   .nav a {
+    display: block;
     color: var(--ink-muted);
     text-decoration: none;
     font-size: var(--text-sm);
-    font-weight: 550;
+    font-weight: 600;
     padding-block: var(--space-1);
     border-bottom: 2px solid transparent;
   }
@@ -92,6 +79,16 @@ const isCurrent = (url: string) => (url === href() ? current === url : current.s
 
   .nav a[aria-current='page'] {
     color: var(--ink);
-    border-bottom-color: var(--accent);
+    border-bottom-color: var(--indigo);
+  }
+
+  @media (max-width: 30rem) {
+    .header__inner {
+      gap: var(--space-3);
+    }
+
+    .nav {
+      gap: var(--space-3);
+    }
   }
 </style>
