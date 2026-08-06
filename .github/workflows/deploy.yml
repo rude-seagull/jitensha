@@ -35,13 +35,11 @@ jobs:
       name: github-pages
       url: ${{ steps.deployment.outputs.page_url }}
     steps:
+      # Note on timeouts: `deploy-pages` caps its `timeout` input at 600000 ms, so the
+      # 10-minute default is also the maximum and raising it does nothing but log a
+      # warning. When the step aborts on a slow queue it leaves the Pages deployment
+      # in progress, and that blocks every later deployment until it is cancelled:
+      #   gh api --method POST repos/<owner>/<repo>/pages/deployments/<sha>/cancel
       - name: Deploy
         id: deployment
         uses: actions/deploy-pages@v5
-        with:
-          # The action's default is 10 minutes, and it is a wait, not a build: it polls
-          # `deployment_queued` until the Pages backend picks the deployment up. That
-          # wait grew from 18 s to over 6 minutes across a single morning with no change
-          # on our side, then crossed the default and aborted. 30 minutes rides out a
-          # slow queue instead of giving up on a deployment that is merely waiting.
-          timeout: 1800000
