@@ -1,0 +1,48 @@
+---
+interface Props {
+  tone?: 'neutral' | 'level' | 'status' | 'warning';
+  /** Renders the muted, outline-only variant. */
+  subtle?: boolean;
+}
+
+const { tone = 'neutral', subtle = false } = Astro.props;
+---
+
+<span class="badge" data-tone={tone} data-subtle={subtle ? 'true' : undefined}>
+  <slot />
+</span>
+
+<style>
+  .badge {
+    display: inline-flex;
+    align-items: center;
+    gap: var(--space-1);
+    padding: 0.15em 0.6em;
+    border-radius: 999px;
+    font-size: var(--text-xs);
+    font-weight: 600;
+    line-height: 1.6;
+    white-space: nowrap;
+    background: var(--surface-sunken);
+    color: var(--ink-muted);
+    border: 1px solid transparent;
+  }
+
+  .badge[data-tone='level'] {
+    background: var(--accent-soft);
+    color: var(--accent);
+  }
+
+  .badge[data-tone='warning'] {
+    background: var(--warning-soft);
+    color: var(--warning);
+    border-color: var(--warning-line);
+  }
+
+  .badge[data-subtle] {
+    background: transparent;
+    border-color: var(--line-strong);
+    color: var(--ink-faint);
+    font-weight: 500;
+  }
+</style>

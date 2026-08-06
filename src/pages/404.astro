@@ -1,0 +1,35 @@
+---
+import BaseLayout from '../layouts/BaseLayout.astro';
+import { href } from '../lib/paths';
+---
+
+<BaseLayout title="Page introuvable" description="Cette page n'existe pas.">
+  <div class="page notfound">
+    <h1>Chaîne déraillée</h1>
+    <p>Cette page n'existe pas — ou plus. Remets-toi sur les rails :</p>
+    <ul>
+      <li><a href={href()}>Le parcours</a>, par niveau, du débutant au maître</li>
+      <li><a href={href('atelier')}>L'atelier</a>, rangé par système du vélo</li>
+      <li><a href={href('recherche')}>La recherche</a>, si tu sais ce que tu cherches</li>
+    </ul>
+  </div>
+</BaseLayout>
+
+<style>
+  .notfound {
+    padding-block: var(--space-8);
+    min-height: 50vh;
+  }
+
+  .notfound p {
+    margin-top: var(--space-4);
+    color: var(--ink-muted);
+  }
+
+  .notfound ul {
+    margin-top: var(--space-4);
+    padding-left: var(--space-5);
+    display: grid;
+    gap: var(--space-2);
+  }
+</style>

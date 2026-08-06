@@ -1,0 +1,75 @@
+---
+title: "Pédales automatiques : SPD, Look, Time, SPD-SL et plates à broches"
+level: 2
+system: "transmission"
+order: 12
+status: "draft"
+duration: 35
+objectives:
+  - "Reconnaître les grands systèmes de pédales automatiques et associer chacun à sa cale"
+  - "Expliquer ce qu'est la liberté angulaire (float) et pourquoi elle protège tes genoux"
+  - "Régler la tension de déchaussage de façon symétrique et adaptée à ton niveau"
+  - "Choisir entre plates à broches, hybride et automatique selon l'usage réel du vélo"
+  - "Repérer une cale usée avant qu'elle ne te lâche en danseuse"
+prerequisites:
+  - slug: "pedales-depose-repose-filetage"
+    description: "Savoir déposer et reposer des pédales, y compris le pas inversé côté gauche (leçon pedales-depose-repose-filetage)"
+    system: "transmission"
+  - slug: "cle-dynamometrique"
+    description: "Savoir serrer au couple avec une clé dynamométrique (leçon cle-dynamometrique)"
+    system: "fondamentaux"
+  - slug: "pied-a-coulisse-et-marquages"
+    description: "Savoir mesurer et lire des marquages au pied à coulisse (leçon pied-a-coulisse-et-marquages)"
+    system: "fondamentaux"
+tools:
+  - "Jeu de clés six pans 3, 4, 5 mm et torx T20/T25"
+  - "Tournevis plat et cruciforme"
+  - "Clé dynamométrique 2-20 N·m"
+  - "Cales neuves et cales usées de référence"
+  - "Réglet, rapporteur ou gabarit d'angle"
+  - "Marqueur fin ou ruban de masquage"
+  - "Chaussures compatibles"
+  - "Home-trainer ou mur d'appui"
+safety:
+  - "Apprends le déchaussage à l'arrêt, appuyé contre un mur ou sur home-trainer : la chute typique du débutant se produit à 0 km/h, pied resté bloqué."
+  - "Tension de déchaussage réglée trop fort = pied prisonnier en cas de chute. Commence à la tension mini et augmente d'un cran à la fois."
+  - "Une cale usée au-delà de son témoin déchausse toute seule en danseuse : c'est un déclencheur classique de chute, on remplace, on ne temporise pas."
+exercises:
+  - title: "Appariement à l'aveugle : 5 pédales, 5 cales"
+    summary: "Cinq paires pédale/cale mélangées sur l'établi (SPD, SPD-SL, Look Keo, Time ATAC, Crankbrothers), plus six cales dont deux usées. Tu apparies, tu nommes, tu tries."
+    criteria:
+      - "1. Appariement pédale/cale correct 5/5, en moins de 5 minutes chrono."
+      - "2. Nom du système énoncé pour chacun des 5, plus son domaine d'usage typique (VTT/gravel à cale encastrée vs route à cale saillante) : 5/5."
+      - "3. Liberté angulaire annoncée pour chaque cale à partir de son code ou de sa couleur (par exemple 0°, 4,5°, 6°, 9°) : 5/5, valeur vérifiée dans la doc constructeur."
+      - "4. Sur les 6 cales, les 2 usées sont identifiées 2/2, avec justification chiffrée ou visuelle (témoin d'usure atteint, arête arrondie, jeu latéral > 2 mm une fois chaussée)."
+      - "5. Verdict d'usage rendu pour 3 vélos réels : plates à broches, hybride ou automatique, avec un argument technique par vélo (marche à pied, ville, rendement, technicité)."
+  - title: "Symétrie de tension et mesure du float"
+    summary: "Sur une paire d'automatiques, tu remets les deux ressorts à zéro, tu règles une tension identique des deux côtés, puis tu mesures la liberté angulaire réelle et tu t'entraînes au déchaussage."
+    criteria:
+      - "1. Les deux vis de tension ramenées en butée mini puis remontées du même nombre de crans : écart final ≤ 1 cran entre gauche et droite, comptage annoncé à voix haute."
+      - "2. Symétrie contrôlée aussi côté opposé pour les pédales double face : les 4 faces réglées, écart ≤ 1 cran."
+      - "3. Liberté angulaire mesurée chaussure en place, talon déplacé jusqu'au point dur : valeur relevée à ±1° de la valeur annoncée par le constructeur."
+      - "4. Déchaussage réussi 10 fois d'affilée de chaque pied sur home-trainer ou contre un mur, en moins de 0,5 s à chaque fois, sans regarder la pédale."
+      - "5. Chaussage réussi 10 fois d'affilée par pied en moins de 2 s, sans reprise à la main."
+      - "6. Vis de cales serrées au couple constructeur (souvent 4 à 6 N·m) à la dynamométrique, et position d'origine repérée au marqueur avant tout démontage."
+references:
+  - source: "Shimano"
+    subject: "cales SPD SM-SH51/SH56 et SPD-SL SM-SH10/11/12, différences de dégagement"
+    type: "doc"
+  - source: "Look Cycle"
+    subject: "cales Keo, liberté angulaire par couleur et réglage de la tension"
+    type: "doc"
+  - source: "Time Sport"
+    subject: "système ATAC, float angulaire et latéral"
+    type: "doc"
+  - source: "Crankbrothers"
+    subject: "cales premium, angle de relâchement 15°/20° et usure"
+    type: "doc"
+  - source: "Park Tool"
+    subject: "installation et réglage de cales de pédales automatiques"
+    type: "video"
+  - source: "Matos Vélo"
+    subject: "comparatif des systèmes de pédales automatiques par usage"
+    type: "article"
+---
+

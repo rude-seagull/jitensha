@@ -1,0 +1,87 @@
+---
+import BaseLayout from '../layouts/BaseLayout.astro';
+import Breadcrumb from '../components/Breadcrumb.astro';
+import { asset, href } from '../lib/paths';
+
+// Pagefind indexes dist/ after the build, so results are only available from a
+// production build (`npm run build && npm run preview`), never from `astro dev`.
+const bundlePath = asset('pagefind/');
+const baseUrl = import.meta.env.BASE_URL;
+---
+
+<BaseLayout
+  title="Recherche"
+  description="Cherche parmi les 317 leçons du cours : une pièce, une panne, un standard, un outil."
+  search
+>
+  <div class="page search-page">
+    <Breadcrumb items={[{ label: 'Parcours', url: href() }, { label: 'Recherche' }]} />
+
+    <header class="search-page__header">
+      <h1>Recherche</h1>
+      <p class="search-page__lede">
+        Une pièce, une panne, un standard, un outil : la recherche porte sur le contenu
+        complet des leçons, objectifs et critères de validation compris.
+      </p>
+    </header>
+
+    <pagefind-config bundle-path={bundlePath} base-url={baseUrl} lang="fr" preload></pagefind-config>
+
+    <div class="search-page__box">
+      <pagefind-input placeholder="Purge, dérailleur, tubeless, batterie…" autofocus></pagefind-input>
+      <pagefind-summary></pagefind-summary>
+    </div>
+
+    <div class="search-page__filters">
+      <pagefind-filter-dropdown filter="niveau"></pagefind-filter-dropdown>
+      <pagefind-filter-dropdown filter="système"></pagefind-filter-dropdown>
+    </div>
+
+    <pagefind-results></pagefind-results>
+
+    <noscript>
+      <p class="search-page__noscript">
+        La recherche a besoin de JavaScript. Sans lui, parcours le cours par{' '}
+        <a href={href()}>niveau</a> ou par <a href={href('atelier')}>système</a> — tout le
+        contenu reste accessible.
+      </p>
+    </noscript>
+  </div>
+</BaseLayout>
+
+<style>
+  .search-page {
+    padding-block: var(--space-5) var(--space-8);
+    min-height: 60vh;
+  }
+
+  .search-page__header {
+    padding-block: var(--space-5) var(--space-5);
+  }
+
+  .search-page__lede {
+    margin-top: var(--space-3);
+    max-width: var(--measure);
+    color: var(--ink-muted);
+  }
+
+  .search-page__box {
+    display: grid;
+    gap: var(--space-3);
+    max-width: 40rem;
+  }
+
+  .search-page__filters {
+    display: flex;
+    flex-wrap: wrap;
+    gap: var(--space-3);
+    margin-top: var(--space-4);
+  }
+
+  .search-page__noscript {
+    padding: var(--space-4);
+    background: var(--surface-sunken);
+    border-radius: var(--radius-md);
+    color: var(--ink-muted);
+  }
+</style>

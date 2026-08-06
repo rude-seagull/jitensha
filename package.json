@@ -1,0 +1,26 @@
+{
+  "name": "jitensha",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "description": "Jitensha — cours de mécanique vélo interactif, de zéro à héros",
+  "scripts": {
+    "dev": "astro dev",
+    "build": "astro build && pagefind --site dist",
+    "preview": "astro preview",
+    "check": "astro check",
+    "generate:lessons": "node scripts/generate-lessons.mjs"
+  },
+  "dependencies": {
+    "astro": "^7.1.6"
+  },
+  "devDependencies": {
+    "@astrojs/check": "^0.9.10",
+    "@astrojs/sitemap": "^3.7.3",
+    "pagefind": "^1.5.2",
+    "typescript": "^5.9.3"
+  },
+  "volta": {
+    "node": "24.19.0"
+  }
+}

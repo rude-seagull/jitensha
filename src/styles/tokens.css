@@ -1,0 +1,124 @@
+/*
+ * Design tokens — the single source of truth for colour, type and space.
+ *
+ * This is the structural design system, deliberately restrained: it establishes
+ * legibility, rhythm and both themes, but no brand identity. Palette, personality
+ * and illustration come in the dedicated design iteration; when they do, only the
+ * values here should need to change.
+ *
+ * Themes: `prefers-color-scheme` provides the default, `data-theme` on <html>
+ * overrides it when the reader chooses explicitly.
+ */
+
+:root {
+  /* ---- Type ------------------------------------------------------------ */
+  --font-sans: ui-sans-serif, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif;
+  --font-mono: ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, monospace;
+
+  /* Fluid modular scale, ratio ~1.2. Fluid only where it earns its keep. */
+  --text-xs: 0.78rem;
+  --text-sm: 0.875rem;
+  --text-base: 1rem;
+  --text-lg: 1.125rem;
+  --text-xl: 1.32rem;
+  --text-2xl: clamp(1.5rem, 1.3rem + 0.9vw, 1.85rem);
+  --text-3xl: clamp(1.85rem, 1.5rem + 1.6vw, 2.5rem);
+
+  --leading-tight: 1.2;
+  --leading-snug: 1.35;
+  --leading-normal: 1.6;
+  --leading-relaxed: 1.75;
+
+  /* ---- Space (4px base) ------------------------------------------------ */
+  --space-1: 0.25rem;
+  --space-2: 0.5rem;
+  --space-3: 0.75rem;
+  --space-4: 1rem;
+  --space-5: 1.5rem;
+  --space-6: 2rem;
+  --space-7: 3rem;
+  --space-8: 4rem;
+
+  /* ---- Layout ---------------------------------------------------------- */
+  --measure: 68ch;        /* comfortable reading column */
+  --width-page: 76rem;
+  --radius-sm: 4px;
+  --radius-md: 8px;
+  --radius-lg: 14px;
+
+  /* ---- Motion ---------------------------------------------------------- */
+  --transition: 140ms ease;
+
+  /* ---- Colour: light (default) ----------------------------------------- */
+  color-scheme: light;
+  --paper: #fbfaf8;         /* page background, warm off-white */
+  --surface: #ffffff;       /* cards, raised areas */
+  --surface-sunken: #f2f0ec;
+  --ink: #1a1a19;           /* body text */
+  --ink-muted: #5c5a55;     /* secondary text */
+  --ink-faint: #8a8781;     /* metadata */
+  --line: #e2ded7;          /* borders, rules */
+  --line-strong: #c9c4bb;
+
+  --accent: #1d6a8c;        /* links and actions — functional, not brand */
+  --accent-hover: #17546f;
+  --accent-soft: #e4f0f5;
+
+  --success: #2f6b3f;
+  --success-soft: #e6f1e8;
+  --warning: #8a5a00;       /* safety callouts */
+  --warning-soft: #fdf3dd;
+  --warning-line: #e0be74;
+
+  --focus-ring: #1d6a8c;
+}
+
+:root[data-theme='dark'] {
+  color-scheme: dark;
+  --paper: #16181a;
+  --surface: #1e2124;
+  --surface-sunken: #121415;
+  --ink: #e8e6e3;
+  --ink-muted: #a8a49e;
+  --ink-faint: #7d7a75;
+  --line: #2e3236;
+  --line-strong: #434850;
+
+  --accent: #6fc0e0;
+  --accent-hover: #96d3ec;
+  --accent-soft: #17323d;
+
+  --success: #86c896;
+  --success-soft: #17301d;
+  --warning: #e8b866;
+  --warning-soft: #33270f;
+  --warning-line: #6b5320;
+
+  --focus-ring: #6fc0e0;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root:not([data-theme='light']) {
+    color-scheme: dark;
+    --paper: #16181a;
+    --surface: #1e2124;
+    --surface-sunken: #121415;
+    --ink: #e8e6e3;
+    --ink-muted: #a8a49e;
+    --ink-faint: #7d7a75;
+    --line: #2e3236;
+    --line-strong: #434850;
+
+    --accent: #6fc0e0;
+    --accent-hover: #96d3ec;
+    --accent-soft: #17323d;
+
+    --success: #86c896;
+    --success-soft: #17301d;
+    --warning: #e8b866;
+    --warning-soft: #33270f;
+    --warning-line: #6b5320;
+
+    --focus-ring: #6fc0e0;
+  }
+}

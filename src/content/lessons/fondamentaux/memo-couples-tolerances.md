@@ -1,0 +1,72 @@
+---
+title: "Ton mémo de couples et de tolérances : le construire et le tenir à jour"
+level: 2
+system: "fondamentaux"
+order: 16
+status: "draft"
+duration: 35
+objectives:
+  - "Hiérarchiser tes sources : marquage sur la pièce > manuel du composant > manuel du cadre > table générique, et jamais l'inverse."
+  - "Construire une fiche unique par vélo listant chaque interface, son couple cible, son produit d'interface et sa source."
+  - "Intégrer les tolérances de contrôle et pas seulement les couples : voile 0,25 mm, saut 0,5 mm, dish 0,5 mm, tension ±10-20 %, SAG 15-30 %, entrefer capteur 3-17 mm, hookless 72,5 psi."
+  - "Détecter une valeur non sourcée dans ta propre fiche et la remplacer par une valeur traçable."
+  - "Faire vivre la fiche : versionner, dater, corriger dans les 7 jours après tout changement de pièce."
+prerequisites:
+  - slug: "couple-tension-frottement"
+    description: "comprendre la relation couple / tension / frottement et pourquoi une valeur dépend du produit d'interface (leçon couple-tension-frottement)"
+    system: "fondamentaux"
+  - slug: "cle-dynamometrique"
+    description: "utiliser correctement une clé dynamométrique et connaître sa plage utile (leçon cle-dynamometrique)"
+    system: "fondamentaux"
+  - slug: "cartographie-visserie"
+    description: "avoir cartographié toute la visserie d'un vélo, interface par interface (leçon cartographie-visserie)"
+    system: "fondamentaux"
+  - slug: "pates-assemblage"
+    description: "savoir quel produit d'interface va où : graisse, pâte carbone, frein-filet, antiseize (leçon pates-assemblage)"
+    system: "fondamentaux"
+tools:
+  - "clé dynamométrique 2-14 N·m"
+  - "clé dynamométrique 10-60 N·m"
+  - "pied à coulisse numérique"
+  - "appareil photo pour les marquages"
+  - "tableur ou fiche plastifiée"
+  - "bibliothèque locale de manuels constructeurs en PDF (consultables hors ligne)"
+  - "carnet d'atelier"
+safety:
+  - "Une valeur inventée sur une potence, un cintre ou un collier de tige de selle carbone se paie en rupture nette. La plage typique est 5-6 N·m : elle ne s'arrondit pas vers le haut « pour être sûr que ça tienne »."
+  - "Pression maximale hookless : 72,5 psi / 5 bar. C'est une limite structurelle de la jante, pas une recommandation de confort. Au-dessus, le pneu peut déjanter sous pression."
+  - "Un couple lu sur un forum et non recoupé avec la doc constructeur n'est pas une source. Sur une pièce de sécurité, tu ne montes pas tant que tu n'as pas la valeur d'origine."
+exercises:
+  - title: "La fiche couples et tolérances de tes vélos, testée en conditions réelles"
+    summary: "Tu construis une fiche unique par vélo, interface par interface, avec la valeur cible, l'unité, le produit d'interface, la source citée et la date. Tu y intègres les tolérances de contrôle. Puis tu mènes un chantier réel en n'ouvrant que cette fiche, sans aucune recherche pendant l'intervention."
+    criteria:
+      - "1. Fiche unique par vélo, ≥ 30 lignes, chaque ligne comportant : interface, valeur cible, unité, produit d'interface (graisse / pâte carbone / frein-filet / antiseize / rien), source nommée, date de relevé."
+      - "2. 100 % des lignes sourcées : 0 valeur sans source. ≥ 20 des 30 lignes issues d'un manuel constructeur ou d'un marquage sur la pièce, avec photo du marquage ou référence de section du manuel ; le reste explicitement étiqueté « table générique »."
+      - "3. ≥ 8 lignes de tolérances de contrôle (et non de couple) présentes, dont au minimum : voile latéral ≤ 0,25 mm, saut radial ≤ 0,5 mm, dish ≤ 0,5 mm, dispersion de tension des rayons ±10-20 %, SAG 15-30 %, entrefer aimant/capteur 3-17 mm, pression maximale hookless 72,5 psi / 5 bar, pression maximale gravée sur le flanc du pneu monté."
+      - "4. Toute plage constructeur reportée telle quelle (ex. « 5-6 N·m ») : 0 arrondi personnel, 0 valeur unique substituée à une plage."
+      - "5. Contrôle croisé : 5 lignes tirées au hasard sont vérifiées par un tiers directement dans la source citée. 5/5 exactes, sinon la fiche entière est reprise."
+      - "6. Chantier réel mené en consultant uniquement ta fiche (par exemple dépose/repose de cassette, de pédales et de potence) : 0 recherche externe pendant l'intervention, temps de consultation < 30 s par interface."
+      - "7. Contrôle après chantier : 100 % des fixations dans la plage constructeur, écart mesuré ≤ 10 % au contrôle croisé avec une seconde clé."
+      - "8. Fiche versionnée : numéro de version + date de dernière modification visible en tête. Une mise à jour est effectuée dans les 7 jours suivant un changement de pièce réel ou simulé, avec la ligne modifiée horodatée."
+      - "9. Fiche utilisable par un tiers : une personne extérieure retrouve la valeur cible de 3 interfaces demandées en < 20 s chacune."
+references:
+  - source: "Park Tool"
+    subject: "Table des couples de serrage par composant et méthode d'application"
+    type: "doc"
+  - source: "Shimano"
+    subject: "Dealer's Manual : chapitres couples de serrage et limites d'usure"
+    type: "doc"
+  - source: "SRAM"
+    subject: "Torque specifications dans les manuels techniques et utilisateur"
+    type: "doc"
+  - source: "Bike Gremlin"
+    subject: "Bicycle bolt torque chart : usage, limites et hiérarchie des sources"
+    type: "article"
+  - source: "Roger Musson"
+    subject: "The Professional Guide to Wheel Building : tolérances de voile, saut, dish et tension"
+    type: "livre"
+  - source: "Wera / Unior"
+    subject: "Utilisation, rangement et vérification périodique d'une clé dynamométrique"
+    type: "doc"
+---
+

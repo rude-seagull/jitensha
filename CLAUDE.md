@@ -31,24 +31,40 @@ draft → review → validated
 
 ## Lesson frontmatter contract
 
-Every lesson Markdown file must carry this frontmatter (enforced by the Astro content collection schema — see `TECHSTACK.md`):
+Enforced by the zod schema in `src/content.config.ts` — a mismatch fails the build. Keys are English (code), values French (content).
+
+The **structured spec lives in frontmatter, the teaching prose in the body**. That split is deliberate: the exercise criteria drive an interactive checklist, so they must be data, not prose to be parsed back out of rendered HTML.
 
 ```yaml
-title: "Réparer une crevaison"       # French, sentence case
-level: 1                              # 1 Débutant | 2 Intermédiaire | 3 Avancé | 4 Expert | 5 Maître
-system: "roues-et-pneus"              # system slug, see Curriculum model
-order: 3                              # position within level × system
+title: "Purger un frein Shimano à l'huile minérale"
+level: 3                              # 1 Débutant | 2 Intermédiaire | 3 Avancé | 4 Expert | 5 Maître
+system: "freinage"                    # one of the 9 system slugs
+order: 4                              # position within (system, level)
 status: "draft"                       # draft | review | validated
-prerequisites: []                     # slugs of lessons to complete first
-tools: ["démonte-pneus", "pompe"]     # French tool names
-duration: 20                          # estimated minutes, hands-on
+duration: 40                          # estimated minutes, hands-on
+objectives:
+  - "Purger un frein Shimano sans introduire d'air"
+prerequisites:
+  - slug: "hydraulique-principe-fluides"   # omit while still free text
+    description: "comprendre la discipline des fluides"
+    system: "freinage"
+tools: ["kit de purge Shimano", "clé Allen 2,5"]
+safety:                               # real hazards only — rendered as callouts
+  - "L'huile minérale contamine une plaquette de façon irréversible."
+exercises:
+  - title: "Purge complète sur un vélo cobaye"
+    summary: "…"
+    criteria:                         # these become the persistent checklist
+      - "Levier ferme, point de contact stable sur 10 pressions consécutives"
 references:
-  - title: "Park Tool — How to Fix a Flat"
-    url: "https://..."
-    type: "video"                     # video | article | doc
-    language: "en"                    # en | fr
-    accessed: "2026-08-05"
+  - source: "Park Tool"
+    subject: "purge frein Shimano huile minérale"
+    type: "video"                     # video | article | doc | livre | outil
+    # url / language / accessed are added ONLY once the reference is verified —
+    # their absence is what marks a lead as still unresearched.
 ```
+
+Regenerate all 317 files from the curriculum with `npm run generate:lessons`. It rewrites frontmatter only and preserves any prose already written below the closing `---`, so it is safe to re-run after a curriculum change.
 
 ## Reference quality bar
 
@@ -88,24 +104,29 @@ The full lesson matrix lives in [`CURRICULUM.md`](CURRICULUM.md), with per-syste
 ## Architecture snapshot (planned — see TECHSTACK.md)
 
 ```
+scripts/generate-lessons.mjs   # curriculum.json -> the 317 lesson files
 src/
-  content/lessons/<system>/<slug>.md   # all course content, Markdown
-  components/                          # Astro components (checklist, diagram, progress…)
-  layouts/                             # page shells
-  scripts/                             # vanilla JS modules (localStorage state)
-  styles/                              # plain CSS, custom properties
-public/                                # static assets, SVG diagrams
+  content.config.ts            # collection + zod schema (the frontmatter contract)
+  content/lessons/<system>/<slug>.md
+  lib/paths.ts                 # href() — ALWAYS build internal links with it
+  lib/curriculum.ts            # level/system labels, grouping, URLs
+  layouts/  components/  scripts/  styles/
+  pages/                       # index, atelier, niveau/[level], systeme/[system],
+                               # lecon/[...id], recherche, 404
+public/                        # static assets, SVG diagrams
 ```
+
+Lesson routes come straight from the collection id, so `src/content/lessons/freinage/purge-frein-shimano.md` is served at `/lecon/freinage/purge-frein-shimano/` — the file location *is* the route.
 
 ## Commands
 
-Not active yet — the Astro project is not scaffolded. Once it is:
-
 | Command | Purpose |
 |---|---|
-| `npm run dev` | local dev server |
-| `npm run build` | static build (includes Pagefind indexing) |
-| `npm run preview` | serve the production build locally |
+| `npm run dev` | local dev server (no search — Pagefind indexes the build) |
+| `npm run build` | static build + Pagefind indexing |
+| `npm run preview` | serve the production build, search included |
+| `npm run check` | TypeScript and Astro diagnostics — keep it at zero |
+| `npm run generate:lessons` | regenerate lesson files from `docs/curriculum/curriculum.json` |
 
 ## Naming
 
@@ -135,6 +156,6 @@ Never invent a URL to satisfy a lead — golden rule 3 outranks completeness.
 
 1. ~~`git init`, GitHub repo, GitHub Pages setup~~ — done
 2. ~~`CURRICULUM.md` — the complete lesson matrix~~ — done
-3. Astro scaffolding per `TECHSTACK.md`
-4. Design system and first components (workshop-clean, light + dark)
-5. First content module: Niveau 1 lessons
+3. ~~Astro scaffolding, content model, structural design system, the four interactive features~~ — done
+4. **Visual identity** — palette, typography, personality, logo, illustrations, and the interactive SVG anatomy diagrams (deferred here on purpose: this iteration shipped tokens, not identity)
+5. **Writing lessons**, starting with Niveau 1 — see "Writing a lesson" above

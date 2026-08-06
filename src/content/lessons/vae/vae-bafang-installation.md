@@ -1,0 +1,71 @@
+---
+title: "Installer un kit Bafang BBS01 / BBS02 / BBSHD"
+level: 4
+system: "vae"
+order: 7
+status: "draft"
+duration: 45
+objectives:
+  - "Vérifier la compatibilité d'un cadre : largeur et type de boîtier, dégagement de base, matériau, place pour la batterie"
+  - "Déposer le pédalier d'origine et installer le moteur avec sa plaque anti-rotation et ses bagues de blocage"
+  - "Raccorder le faisceau complet : écran, accélérateur éventuel, capteurs de coupure au frein, capteur de vitesse"
+  - "Contrôler la ligne de chaîne et régler la transmission après motorisation"
+prerequisites:
+  - slug: "boitier-pedalier-filete"
+    description: "savoir déposer un pédalier et un boîtier de pédalier fileté, et identifier les standards de boîtier"
+    system: "transmission"
+  - slug: "ligne-de-chaine"
+    description: "savoir mesurer et corriger une ligne de chaîne"
+    system: "transmission"
+  - slug: "vae-sertissage-reparation-fil"
+    description: "savoir sertir, souder et gérer la connectique VAE"
+    system: "vae"
+  - slug: "cle-dynamometrique"
+    description: "savoir serrer au couple avec une clé dynamométrique haute plage"
+    system: "fondamentaux"
+tools:
+  - "outil de démontage de boîtier fileté adapté"
+  - "clé à ergots Bafang fournie"
+  - "clé dynamométrique 2-14 N·m et 10-60 N·m"
+  - "pied à coulisse"
+  - "réglet"
+  - "jauge de ligne de chaîne ou règle"
+  - "frein-filet moyenne résistance"
+  - "colliers rilsan et gaine spiralée"
+  - "dérive-chaîne"
+  - "pied d'atelier"
+safety:
+  - "Un kit BBS02 750 W ou un BBSHD dépasse largement les 250 W nominaux de la norme EN 15194 : le vélo obtenu n'est pas un pedelec homologué et ne peut légalement circuler sur la voie publique en UE. L'installation doit être annoncée comme telle et destinée à un usage privé ou à une machine relevant d'une autre catégorie."
+  - "Sans capteurs de coupure au frein, le moteur continue d'assister pendant le freinage : leur montage n'est pas optionnel."
+  - "Le couple d'un BBSHD peut détruire un dérailleur en changeant de vitesse sous charge : un capteur de coupure de vitesse (gear sensor) est fortement recommandé."
+  - "Ne jamais monter un moteur pédalier sur un cadre carbone sans validation explicite du fabricant du cadre : la plaque anti-rotation concentre les efforts sur le boîtier."
+exercises:
+  - title: "Installation complète d'un kit sur cadre cobaye et mise en service"
+    summary: "Tu contrôles la compatibilité d'un cadre, tu installes intégralement un kit moteur pédalier avec sa connectique, tu règles la transmission et tu valides le fonctionnement au banc puis en roulage."
+    criteria:
+      - "1. Fiche de compatibilité remplie avant démontage : largeur de boîtier mesurée au pied à coulisse (68, 73, 100 mm…), type de filetage identifié, dégagement de base mesuré, matériau du cadre relevé — 5 points renseignés."
+      - "2. Moteur monté avec la totalité de la visserie prévue, bagues de blocage serrées à la clé à ergots, plaque anti-rotation en appui plan sur le cadre sans jeu perceptible à la main."
+      - "3. Dégagement entre le carter moteur et la base arrière mesuré : au minimum 5 mm en tout point, valeur notée, sinon entretoises ajoutées et remesurées."
+      - "4. Ligne de chaîne mesurée après montage et écart avec la ligne d'origine inférieur ou égal à 3 mm, sinon corrigé par entretoise ou plateau adapté."
+      - "5. Faisceau complet raccordé et testé point par point : écran, capteurs de coupure au frein (les deux), capteur de vitesse, accélérateur si présent — 100 % des organes fonctionnels au premier essai après vérification du brochage."
+      - "6. Test de coupure au frein validé : l'assistance cesse en moins de 0,5 seconde sur chaque levier, 5 essais par levier."
+      - "7. Boulonnerie intégralement serrée au couple avec valeurs notées ; contrôle croisé, écart inférieur ou égal à 10 %."
+      - "8. Roulage de validation de 5 km avec 10 relances : aucun desserrage constaté au recontrôle, aucun frottement, aucun contact de faisceau, aucune erreur affichée."
+references:
+  - source: "Bafang"
+    subject: "manuel d'installation des kits BBS01, BBS02 et BBSHD, compatibilités de boîtier et couples de serrage"
+    type: "doc"
+  - source: "Luna Cycle"
+    subject: "guide d'installation et pièges courants des kits BBS02 et BBSHD"
+    type: "article"
+  - source: "Chaîne francophone spécialisée VAE (YouTube)"
+    subject: "kit pédalier Bafang BBS02B : installation pas à pas"
+    type: "video"
+  - source: "Grin Technologies"
+    subject: "intégration d'un kit de motorisation sur un vélo existant : contraintes mécaniques et électriques"
+    type: "article"
+  - source: "Norme EN 15194"
+    subject: "limites de puissance nominale et de vitesse applicables à un vélo motorisé après conversion"
+    type: "doc"
+---
+

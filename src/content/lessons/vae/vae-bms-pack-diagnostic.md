@@ -1,0 +1,70 @@
+---
+title: "BMS et pack ouvert : diagnostic d'un déséquilibre cellulaire"
+level: 4
+system: "vae"
+order: 5
+status: "draft"
+duration: 45
+objectives:
+  - "Décrire les fonctions d'un BMS : protection en surcharge, en sous-décharge, en surintensité, en température, et équilibrage"
+  - "Mesurer les tensions par groupe cellulaire au connecteur d'équilibrage et calculer la dispersion"
+  - "Interpréter une coupure BMS et distinguer défaut de cellule, défaut de BMS et défaut de connectique interne"
+  - "Décider en connaissance de cause entre réparation, reconstruction et mise en filière"
+prerequisites:
+  - slug: "vae-batterie-charge-stockage"
+    description: "savoir mesurer un pack et interpréter la tension par cellule"
+    system: "vae"
+  - slug: "vae-sertissage-reparation-fil"
+    description: "savoir sertir et souder proprement un conducteur"
+    system: "vae"
+  - slug: "vae-securite-li-ion-incident"
+    description: "maîtriser les règles de sécurité Li-ion et la reconnaissance d'un pack compromis"
+    system: "vae"
+  - slug: "vae-autonomie-soh-diagnostic"
+    description: "savoir mesurer la santé réelle d'un pack sans l'ouvrir (leçon vae-autonomie-soh-diagnostic)"
+    system: "vae"
+tools:
+  - "multimètre numérique"
+  - "pointes de test très fines"
+  - "support isolant incombustible"
+  - "tournevis de précision et outil de dépose de collage"
+  - "gants isolants"
+  - "sable sec ou bac de confinement à proximité"
+  - "extincteur adapté accessible"
+  - "thermomètre infrarouge"
+  - "carnet d'atelier"
+safety:
+  - "Ouvrir un pack Li-ion est l'opération la plus dangereuse de tout le cursus : un tournevis qui glisse entre deux bandes de nickel provoque un court-circuit franc, un arc et un emballement en quelques secondes. Aucune ouverture sans espace dégagé, sans support incombustible et sans moyen d'extinction à portée immédiate."
+  - "Isoler la panne du tournevis (gaine thermorétractable) et ne jamais utiliser d'outil métallique nu à l'intérieur d'un pack."
+  - "N'ouvrir un pack que déchargé au niveau de stockage, jamais un pack pleinement chargé."
+  - "N'ouvrir jamais un pack gonflé, percé, chaud, corrodé ou ayant subi un choc : il part directement en filière."
+  - "Travailler seul est proscrit : une seconde personne informée doit être présente ou joignable immédiatement."
+exercises:
+  - title: "Relevé d'équilibrage sur un pack de formation et décision argumentée"
+    summary: "Sur un pack de formation ou un pack en fin de vie destiné à la filière, tu mesures la tension de chaque groupe cellulaire au connecteur d'équilibrage, tu calcules la dispersion et tu rends une décision technique argumentée."
+    criteria:
+      - "1. Poste de travail préparé et validé avant ouverture : surface incombustible, dégagement minimum de 1 m, moyen d'extinction à moins de 2 m, seconde personne présente ou joignable — checklist signée."
+      - "2. Nombre de groupes série identifié (10S, 12S, 13S…) et confirmé par le nombre de conducteurs du connecteur d'équilibrage : cohérence vérifiée avant toute mesure."
+      - "3. Tension mesurée pour 100 % des groupes cellulaires, chaque valeur notée à 0,01 V près, avec la somme des groupes comparée à la tension totale mesurée en sortie : écart inférieur ou égal à 0,1 V."
+      - "4. Dispersion calculée : écart entre le groupe le plus haut et le plus bas, exprimé en volts et en pourcentage, avec verdict appliqué — moins de 0,05 V pack sain, 0,05 à 0,30 V déséquilibre à surveiller, plus de 0,30 V groupe défaillant."
+      - "5. Température de chaque zone du pack relevée au thermomètre infrarouge avant, pendant et 10 minutes après l'intervention : aucune élévation supérieure à 5 °C constatée."
+      - "6. Décision écrite rendue en 10 lignes maximum, argumentée par les mesures, entre : rééquilibrage/remise en service, reconstruction, remplacement complet, mise en filière — avec le coût et le risque de chaque option."
+      - "7. Pack refermé et sécurisé, ou étiqueté et placé en confinement, à la fin de la séance : aucun pack ouvert laissé sans surveillance."
+references:
+  - source: "Battery University"
+    subject: "rôle et fonctionnement d'un Battery Management System, équilibrage des groupes série"
+    type: "article"
+  - source: "LEVA (Light Electric Vehicle Association)"
+    subject: "diagnostic de pack et procédures de sécurité pour l'ouverture d'une batterie"
+    type: "doc"
+  - source: "INRS"
+    subject: "prévention du risque d'emballement thermique lors des interventions sur batteries lithium-ion"
+    type: "doc"
+  - source: "Grin Technologies"
+    subject: "architecture des packs de vélos électriques et diagnostic des BMS"
+    type: "article"
+  - source: "Bafang"
+    subject: "spécifications des BMS et seuils de protection des packs de kits"
+    type: "doc"
+---
+

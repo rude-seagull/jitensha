@@ -1,0 +1,270 @@
+---
+import BaseLayout from './BaseLayout.astro';
+import Badge from '../components/Badge.astro';
+import Breadcrumb from '../components/Breadcrumb.astro';
+import CompleteToggle from '../components/CompleteToggle.astro';
+import ReferenceList from '../components/ReferenceList.astro';
+import SafetyCallout from '../components/SafetyCallout.astro';
+import TpChecklist from '../components/TpChecklist.astro';
+import {
+  levelMeta,
+  lessonUrl,
+  levelUrl,
+  systemUrl,
+  STATUS_LABEL,
+  SYSTEM_META,
+  type Lesson,
+} from '../lib/curriculum';
+import { href } from '../lib/paths';
+
+interface Props {
+  lesson: Lesson;
+  /** Resolved prerequisite lessons, in frontmatter order. */
+  prerequisites: { label: string; url?: string }[];
+  previous?: Lesson;
+  next?: Lesson;
+  /** True when the lesson body carries prose beyond the generated spec. */
+  hasProse: boolean;
+}
+
+const { lesson, prerequisites, previous, next, hasProse } = Astro.props;
+const { data } = lesson;
+const level = levelMeta(data.level);
+const system = SYSTEM_META[data.system];
+
+const description = data.objectives[0] ?? `${data.title} — ${system.label}, niveau ${data.level}.`;
+---
+
+<BaseLayout title={data.title} description={description}>
+  <div class="page lesson">
+    <Breadcrumb
+      items={[
+        { label: 'Parcours', url: href() },
+        { label: system.label, url: systemUrl(data.system) },
+        { label: data.title },
+      ]}
+    />
+
+    {/*
+      data-pagefind-body scopes the search index to lesson content only: index and
+      navigation pages would otherwise flood the results with duplicates.
+    */}
+    {/*
+      Filter values are given inline in the attribute rather than read from element
+      text, so the badges below can be excluded from the index without losing them.
+      Everything that is interface rather than content carries data-pagefind-ignore,
+      otherwise it leaks into search excerpts.
+    */}
+    <article data-pagefind-body>
+      {/* Empty elements carrying inline filter values: nothing to leak into an excerpt. */}
+      <span data-pagefind-filter={`niveau:Niveau ${data.level}`}></span>
+      <span data-pagefind-filter={`système:${system.label}`}></span>
+
+      <header class="lesson__header">
+        <p class="lesson__badges" data-pagefind-ignore>
+          <Badge tone="level">Niveau {data.level} — {level.label}</Badge>
+          <Badge>{system.label}</Badge>
+          <Badge subtle>{data.duration} min</Badge>
+          {data.status !== 'validated' && <Badge subtle>{STATUS_LABEL[data.status]}</Badge>}
+        </p>
+
+        <h1 data-pagefind-meta="title">{data.title}</h1>
+
+        <div class="lesson__actions" data-pagefind-ignore>
+          <CompleteToggle lessonId={lesson.id} />
+        </div>
+      </header>
+
+      <section class="lesson__block" aria-labelledby="objectifs">
+        <h2 id="objectifs">Objectifs</h2>
+        <ul class="lesson__list">
+          {data.objectives.map((objective) => <li>{objective}</li>)}
+        </ul>
+      </section>
+
+      {
+        prerequisites.length > 0 && (
+          <section class="lesson__block" aria-labelledby="prerequis">
+            <h2 id="prerequis">Prérequis</h2>
+            <ul class="lesson__list">
+              {prerequisites.map((item) => (
+                <li>{item.url ? <a href={item.url}>{item.label}</a> : item.label}</li>
+              ))}
+            </ul>
+          </section>
+        )
+      }
+
+      {
+        data.tools.length > 0 && (
+          <section class="lesson__block" aria-labelledby="outils">
+            <h2 id="outils">Outils</h2>
+            <ul class="lesson__tools">
+              {data.tools.map((tool) => (
+                <li>{tool}</li>
+              ))}
+            </ul>
+          </section>
+        )
+      }
+
+      {
+        data.safety.length > 0 && (
+          <div class="lesson__block">
+            <SafetyCallout items={data.safety} />
+          </div>
+        )
+      }
+
+      {
+        hasProse ? (
+          <div class="lesson__block prose">
+            <slot />
+          </div>
+        ) : (
+          <p class="lesson__pending">
+            Le cours détaillé de cette leçon n'est pas encore rédigé. Le programme ci-dessous —
+            objectifs, outils, travaux pratiques et critères de validation — est déjà défini et
+            utilisable en atelier.
+          </p>
+        )
+      }
+
+      <div class="lesson__block">
+        <TpChecklist lessonId={lesson.id} exercises={data.exercises} />
+      </div>
+
+      <div class="lesson__block">
+        <ReferenceList references={data.references} />
+      </div>
+    </article>
+
+    <nav class="lesson__nav" aria-label="Leçon précédente et suivante">
+      {
+        previous ? (
+          <a class="lesson__nav-link" href={lessonUrl(previous)} rel="prev">
+            <span class="lesson__nav-label">← Précédente</span>
+            <span>{previous.data.title}</span>
+          </a>
+        ) : (
+          <span />
+        )
+      }
+      {
+        next ? (
+          <a class="lesson__nav-link lesson__nav-link--next" href={lessonUrl(next)} rel="next">
+            <span class="lesson__nav-label">Suivante →</span>
+            <span>{next.data.title}</span>
+          </a>
+        ) : (
+          <a class="lesson__nav-link lesson__nav-link--next" href={levelUrl(data.level)}>
+            <span class="lesson__nav-label">Fin du système</span>
+            <span>Retour au niveau {data.level}</span>
+          </a>
+        )
+      }
+    </nav>
+  </div>
+
+  <script>
+    import '../scripts/checklist.js';
+  </script>
+</BaseLayout>
+
+<style>
+  .lesson {
+    padding-block: var(--space-5) var(--space-8);
+  }
+
+  .lesson__header {
+    padding-block: var(--space-4) var(--space-5);
+    border-bottom: 1px solid var(--line);
+  }
+
+  .lesson__badges {
+    display: flex;
+    flex-wrap: wrap;
+    gap: var(--space-2);
+    margin-bottom: var(--space-3);
+  }
+
+  .lesson__header h1 {
+    max-width: 24ch;
+  }
+
+  .lesson__actions {
+    margin-top: var(--space-4);
+  }
+
+  .lesson__block {
+    margin-top: var(--space-6);
+  }
+
+  .lesson__list {
+    margin-top: var(--space-3);
+    padding-left: var(--space-5);
+    display: grid;
+    gap: var(--space-2);
+    max-width: var(--measure);
+  }
+
+  .lesson__tools {
+    margin-top: var(--space-3);
+    padding: 0;
+    list-style: none;
+    display: flex;
+    flex-wrap: wrap;
+    gap: var(--space-2);
+  }
+
+  .lesson__tools li {
+    padding: var(--space-1) var(--space-3);
+    background: var(--surface-sunken);
+    border-radius: var(--radius-sm);
+    font-size: var(--text-sm);
+    color: var(--ink-muted);
+  }
+
+  .lesson__pending {
+    margin-top: var(--space-6);
+    padding: var(--space-4);
+    border-left: 3px solid var(--line-strong);
+    color: var(--ink-muted);
+    font-size: var(--text-sm);
+    max-width: var(--measure);
+  }
+
+  .lesson__nav {
+    display: flex;
+    justify-content: space-between;
+    gap: var(--space-4);
+    margin-top: var(--space-8);
+    padding-top: var(--space-5);
+    border-top: 1px solid var(--line);
+  }
+
+  .lesson__nav-link {
+    display: flex;
+    flex-direction: column;
+    gap: var(--space-1);
+    max-width: 22rem;
+    color: var(--ink);
+    text-decoration: none;
+    font-weight: 550;
+  }
+
+  .lesson__nav-link:hover {
+    color: var(--accent);
+  }
+
+  .lesson__nav-link--next {
+    text-align: right;
+    margin-inline-start: auto;
+  }
+
+  .lesson__nav-label {
+    font-size: var(--text-xs);
+    font-weight: 500;
+    color: var(--ink-faint);
+  }
+</style>

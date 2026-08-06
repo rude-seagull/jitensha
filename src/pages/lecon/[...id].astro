@@ -1,0 +1,60 @@
+---
+import { getCollection, render } from 'astro:content';
+import LessonLayout from '../../layouts/LessonLayout.astro';
+import { lessonUrl, sortLessons, type Lesson } from '../../lib/curriculum';
+
+export async function getStaticPaths() {
+  const lessons = await getCollection('lessons');
+  const byId = new Map(lessons.map((lesson) => [lesson.id, lesson]));
+
+  // Neighbours follow the curriculum order *within a system*, which is how the
+  // course is meant to be worked through.
+  const bySystem = new Map<string, Lesson[]>();
+  for (const lesson of lessons) {
+    const list = bySystem.get(lesson.data.system) ?? [];
+    list.push(lesson);
+    bySystem.set(lesson.data.system, list);
+  }
+  for (const [system, list] of bySystem) bySystem.set(system, sortLessons(list));
+
+  return lessons.map((lesson) => {
+    const siblings = bySystem.get(lesson.data.system)!;
+    const index = siblings.findIndex((s) => s.id === lesson.id);
+
+    // A prerequisite resolves to a link when its slug matches a real lesson;
+    // otherwise it stays the free-text requirement written in the curriculum.
+    const prerequisites = lesson.data.prerequisites.map((prerequisite) => {
+      const target = prerequisite.slug
+        ? byId.get(`${prerequisite.system}/${prerequisite.slug}`)
+        : undefined;
+      return target
+        ? { label: target.data.title, url: lessonUrl(target) }
+        : { label: prerequisite.description };
+    });
+
+    return {
+      params: { id: lesson.id },
+      props: {
+        lesson,
+        prerequisites,
+        previous: siblings[index - 1],
+        next: siblings[index + 1],
+      },
+    };
+  });
+}
+
+const { lesson, prerequisites, previous, next } = Astro.props;
+const { Content } = await render(lesson);
+const hasProse = (lesson.body?.trim().length ?? 0) > 0;
+---
+
+<LessonLayout
+  lesson={lesson}
+  prerequisites={prerequisites}
+  previous={previous}
+  next={next}
+  hasProse={hasProse}
+>
+  <Content />
+</LessonLayout>

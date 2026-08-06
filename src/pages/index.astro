@@ -1,0 +1,198 @@
+---
+import { getCollection } from 'astro:content';
+import BaseLayout from '../layouts/BaseLayout.astro';
+import ProgressBar from '../components/ProgressBar.astro';
+import { LEVELS, levelUrl, totalHours } from '../lib/curriculum';
+import { href } from '../lib/paths';
+
+const lessons = await getCollection('lessons');
+const allIds = lessons.map((lesson) => lesson.id);
+
+const levels = LEVELS.map((level) => {
+  const forLevel = lessons.filter((lesson) => lesson.data.level === level.n);
+  return {
+    ...level,
+    lessons: forLevel,
+    ids: forLevel.map((lesson) => lesson.id),
+    hours: totalHours(forLevel),
+  };
+});
+
+const exercises = lessons.reduce((sum, lesson) => sum + lesson.data.exercises.length, 0);
+const criteria = lessons.reduce(
+  (sum, lesson) => sum + lesson.data.exercises.reduce((n, e) => n + e.criteria.length, 0),
+  0,
+);
+---
+
+<BaseLayout
+  title="Jitensha"
+  description="Cours de mécanique vélo gratuit et interactif : de zéro à héros, sur tous les types de vélos. 317 leçons, autant de travaux pratiques à critères mesurables."
+>
+  <section class="hero">
+    <div class="page">
+      <h1>Apprends la mécanique vélo,<br />de zéro à héros.</h1>
+      <p class="hero__lede">
+        Un cours complet et gratuit, du premier serrage jusqu'au rayonnage et au montage
+        depuis un cadre nu. Ville, route, VTT, VAE, cargo, fixie, vintage : tout y passe.
+        Chaque leçon se termine par un travail pratique avec des critères de validation
+        chiffrés — parce qu'on n'apprend pas la mécanique en lisant.
+      </p>
+      {/* Astro 7 strips whitespace at line breaks (compressHTML: 'jsx'), so
+          separators that must survive a wrap carry an explicit {' '}. */}
+      <p class="hero__stats">
+        <strong>{lessons.length}</strong> leçons · <strong>{exercises}</strong> travaux pratiques ·{' '}
+        <strong>{criteria}</strong> critères de validation · ≈ <strong>{totalHours(lessons)} h</strong> d'atelier
+      </p>
+      <div class="hero__progress">
+        <ProgressBar lessonIds={allIds} label="Progression totale du cours" />
+      </div>
+    </div>
+  </section>
+
+  <section class="page levels">
+    <h2>Le parcours</h2>
+    <p class="levels__intro">
+      Cinq niveaux qui reprennent chacun tous les systèmes du vélo, un cran plus loin.
+    </p>
+
+    <ol class="levels__list">
+      {
+        levels.map((level) => (
+          <li>
+            <a class="level" href={levelUrl(level.n)}>
+              <span class="level__number">{level.n}</span>
+              <span class="level__body">
+                <span class="level__name">{level.label}</span>
+                <span class="level__tagline">{level.tagline}</span>
+                <span class="level__meta">
+                  {level.lessons.length} leçons · ≈ {level.hours} h
+                </span>
+              </span>
+            </a>
+            <ProgressBar lessonIds={level.ids} label={`Progression du niveau ${level.n}`} />
+          </li>
+        ))
+      }
+    </ol>
+
+    <p class="levels__alt">
+      Tu cherches une réparation précise plutôt qu'un parcours ?{' '}
+      <a href={href('atelier')}>Passe par l'atelier</a>, rangé par système du vélo.
+    </p>
+  </section>
+</BaseLayout>
+
+<style>
+  .hero {
+    padding-block: var(--space-8) var(--space-7);
+    border-bottom: 1px solid var(--line);
+    background: var(--surface);
+  }
+
+  .hero h1 {
+    max-width: 18ch;
+  }
+
+  .hero__lede {
+    margin-top: var(--space-4);
+    max-width: var(--measure);
+    font-size: var(--text-lg);
+    color: var(--ink-muted);
+    line-height: var(--leading-relaxed);
+  }
+
+  .hero__stats {
+    margin-top: var(--space-5);
+    font-size: var(--text-sm);
+    color: var(--ink-faint);
+  }
+
+  .hero__stats strong {
+    color: var(--ink);
+    font-variant-numeric: tabular-nums;
+  }
+
+  .hero__progress {
+    margin-top: var(--space-4);
+    max-width: 28rem;
+  }
+
+  .levels {
+    padding-block: var(--space-7) var(--space-8);
+  }
+
+  .levels__intro {
+    margin-top: var(--space-2);
+    color: var(--ink-muted);
+    max-width: var(--measure);
+  }
+
+  .levels__list {
+    margin-top: var(--space-5);
+    padding: 0;
+    list-style: none;
+    display: grid;
+    gap: var(--space-4);
+  }
+
+  .levels__list > li {
+    display: grid;
+    gap: var(--space-3);
+    padding: var(--space-4);
+    background: var(--surface);
+    border: 1px solid var(--line);
+    border-radius: var(--radius-lg);
+  }
+
+  .level {
+    display: flex;
+    gap: var(--space-4);
+    align-items: flex-start;
+    text-decoration: none;
+    color: inherit;
+  }
+
+  .level__number {
+    display: grid;
+    place-items: center;
+    flex-shrink: 0;
+    width: 2.5rem;
+    height: 2.5rem;
+    border-radius: 50%;
+    background: var(--accent-soft);
+    color: var(--accent);
+    font-size: var(--text-lg);
+    font-weight: 700;
+  }
+
+  .level__body {
+    display: grid;
+    gap: var(--space-1);
+  }
+
+  .level__name {
+    font-size: var(--text-lg);
+    font-weight: 650;
+  }
+
+  .level:hover .level__name {
+    color: var(--accent);
+  }
+
+  .level__tagline {
+    color: var(--ink-muted);
+    max-width: var(--measure);
+  }
+
+  .level__meta {
+    font-size: var(--text-xs);
+    color: var(--ink-faint);
+  }
+
+  .levels__alt {
+    margin-top: var(--space-6);
+    color: var(--ink-muted);
+    font-size: var(--text-sm);
+  }
+</style>

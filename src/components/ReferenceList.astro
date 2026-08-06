@@ -1,0 +1,89 @@
+---
+interface Props {
+  references: {
+    source: string;
+    subject: string;
+    type: 'video' | 'article' | 'doc' | 'livre' | 'outil';
+    url?: string;
+    language?: 'fr' | 'en';
+  }[];
+}
+
+const { references } = Astro.props;
+
+const TYPE_LABEL: Record<Props['references'][number]['type'], string> = {
+  video: 'Vidéo',
+  article: 'Article',
+  doc: 'Doc technique',
+  livre: 'Livre',
+  outil: 'Outil',
+};
+
+const verified = references.filter((r) => r.url).length;
+---
+
+{
+  references.length > 0 && (
+    <section class="refs" aria-labelledby="references">
+      <h2 id="references">Références</h2>
+      {verified < references.length && (
+        <p class="refs__note">
+          Ces pistes attendent leur vérification : chaque lien sera contrôlé et daté à la
+          rédaction de la leçon. Aucune URL n'est inventée.
+        </p>
+      )}
+      <ul class="refs__list">
+        {references.map((reference) => (
+          <li class="ref">
+            <span class="ref__type">{TYPE_LABEL[reference.type]}</span>
+            <span class="ref__body">
+              <strong>{reference.source}</strong>
+              {' — '}
+              {reference.url ? <a href={reference.url}>{reference.subject}</a> : reference.subject}
+              {reference.language === 'en' && <span class="ref__lang">(en anglais)</span>}
+            </span>
+          </li>
+        ))}
+      </ul>
+    </section>
+  )
+}
+
+<style>
+  .refs__note {
+    margin-top: var(--space-2);
+    font-size: var(--text-sm);
+    color: var(--ink-faint);
+    max-width: var(--measure);
+  }
+
+  .refs__list {
+    margin-top: var(--space-4);
+    padding: 0;
+    list-style: none;
+    display: grid;
+    gap: var(--space-3);
+    max-width: var(--measure);
+  }
+
+  .ref {
+    display: flex;
+    gap: var(--space-3);
+    align-items: baseline;
+  }
+
+  .ref__type {
+    flex-shrink: 0;
+    min-width: 7.5rem;
+    font-size: var(--text-xs);
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
+    color: var(--ink-faint);
+  }
+
+  .ref__lang {
+    margin-inline-start: var(--space-2);
+    font-size: var(--text-xs);
+    color: var(--ink-faint);
+  }
+</style>

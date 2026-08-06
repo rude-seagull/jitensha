@@ -1,0 +1,97 @@
+---
+import ThemeToggle from './ThemeToggle.astro';
+import { href } from '../lib/paths';
+
+const links = [
+  { url: href(), label: 'Parcours' },
+  { url: href('atelier'), label: 'Atelier' },
+  { url: href('recherche'), label: 'Recherche' },
+];
+
+const current = Astro.url.pathname;
+const isCurrent = (url: string) => (url === href() ? current === url : current.startsWith(url));
+---
+
+<header class="header">
+  <div class="page header__inner">
+    <a class="brand" href={href()}>
+      <span class="brand__name">Jitensha</span>
+      <span class="brand__tagline">mécanique vélo, de zéro à héros</span>
+    </a>
+
+    <nav aria-label="Navigation principale">
+      <ul class="nav">
+        {
+          links.map((link) => (
+            <li>
+              <a href={link.url} aria-current={isCurrent(link.url) ? 'page' : undefined}>
+                {link.label}
+              </a>
+            </li>
+          ))
+        }
+      </ul>
+    </nav>
+
+    <ThemeToggle />
+  </div>
+</header>
+
+<style>
+  .header {
+    border-bottom: 1px solid var(--line);
+    background: var(--surface);
+  }
+
+  .header__inner {
+    display: flex;
+    align-items: center;
+    gap: var(--space-5);
+    flex-wrap: wrap;
+    padding-block: var(--space-3);
+  }
+
+  .brand {
+    display: flex;
+    flex-direction: column;
+    color: var(--ink);
+    text-decoration: none;
+    margin-inline-end: auto;
+  }
+
+  .brand__name {
+    font-size: var(--text-lg);
+    font-weight: 700;
+    letter-spacing: -0.01em;
+  }
+
+  .brand__tagline {
+    font-size: var(--text-xs);
+    color: var(--ink-faint);
+  }
+
+  .nav {
+    display: flex;
+    gap: var(--space-4);
+    list-style: none;
+    padding: 0;
+  }
+
+  .nav a {
+    color: var(--ink-muted);
+    text-decoration: none;
+    font-size: var(--text-sm);
+    font-weight: 550;
+    padding-block: var(--space-1);
+    border-bottom: 2px solid transparent;
+  }
+
+  .nav a:hover {
+    color: var(--ink);
+  }
+
+  .nav a[aria-current='page'] {
+    color: var(--ink);
+    border-bottom-color: var(--accent);
+  }
+</style>

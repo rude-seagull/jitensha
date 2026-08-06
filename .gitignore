@@ -17,3 +17,6 @@ Thumbs.db
 
 # Private research material (personal details — not for the public repo)
 artifacts/
+
+# Browser-automation output from verification runs
+.playwright-mcp/

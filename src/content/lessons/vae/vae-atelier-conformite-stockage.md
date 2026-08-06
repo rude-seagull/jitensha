@@ -1,0 +1,71 @@
+---
+title: "Atelier VAE : stockage, transport, déchets et traçabilité"
+level: 5
+system: "vae"
+order: 2
+status: "draft"
+duration: 45
+objectives:
+  - "Aménager une zone de stockage et de charge de batteries conforme au risque incendie"
+  - "Appliquer les règles de transport des batteries : UN 38.3, dispositions ADR, cas particulier des batteries endommagées"
+  - "Orienter une batterie en fin de vie ou accidentée vers la bonne filière de collecte"
+  - "Mettre en place la traçabilité d'atelier : fiche de réception, relevé d'état, décharge client, archivage des interventions"
+prerequisites:
+  - slug: "vae-securite-li-ion-incident"
+    description: "maîtriser les règles de sécurité Li-ion et la reconnaissance d'un pack compromis"
+    system: "vae"
+  - slug: "vae-autonomie-soh-diagnostic"
+    description: "savoir diagnostiquer un pack et rendre un verdict de santé chiffré"
+    system: "vae"
+  - slug: "carnet-atelier"
+    description: "connaître l'organisation d'un atelier, le carnet d'atelier et les méthodes de traçabilité"
+    system: "fondamentaux"
+  - slug: "passer-pro"
+    description: "connaître les parcours de professionnalisation et de certification du métier"
+    system: "fondamentaux"
+tools:
+  - "armoire ou bac de stockage résistant au feu"
+  - "sacs de confinement pour batteries"
+  - "détecteur de fumée et extincteur adapté"
+  - "thermomètre d'ambiance"
+  - "étiquettes de traçabilité"
+  - "modèles de fiches de réception et de décharge"
+  - "tableur ou logiciel d'atelier"
+safety:
+  - "La zone de charge doit être séparée du stock de matières combustibles, dotée d'un détecteur de fumée, et jamais placée dans un cheminement d'évacuation."
+  - "Une batterie endommagée ou suspecte est isolée immédiatement dans un contenant dédié, à l'écart des packs sains, et n'est jamais chargée ni expédiée par voie normale."
+  - "Les batteries endommagées relèvent de dispositions de transport spécifiques et ne peuvent pas être remises à un transporteur ordinaire : leur enlèvement passe par une filière habilitée."
+  - "Une batterie ne se jette jamais avec les déchets courants : filière de collecte des accumulateurs uniquement."
+exercises:
+  - title: "Audit et mise en conformité d'un espace de travail VAE"
+    summary: "Tu audites ton espace de travail actuel selon une grille de conformité, tu le réaménages, puis tu mets en place le jeu de documents de traçabilité que tu utiliseras sur toute intervention VAE."
+    criteria:
+      - "1. Grille d'audit de 15 points minimum construite et appliquée : distance aux combustibles, nature du support de charge, détection incendie, moyen d'extinction, ventilation, contenant de confinement, séparation packs sains/suspects, éclairage, accès dégagé, affichage des consignes, présence d'un tiers joignable, stockage à l'état de charge de conservation, température du local, contrôle des chargeurs, procédure d'urgence affichée."
+      - "2. Écarts constatés corrigés : au moins 80 % des points non conformes de l'audit initial sont conformes après réaménagement, avec photos avant/après."
+      - "3. Distance minimale de 1 m mesurée entre tout pack en charge et toute matière combustible, et support de charge incombustible vérifié."
+      - "4. Zone de confinement des packs suspects opérationnelle : contenant identifié, étiquetage en place, capacité d'accueillir au moins 2 packs isolés l'un de l'autre."
+      - "5. Jeu de documents produit et utilisable : fiche de réception VAE (au moins 12 champs), fiche d'état de batterie à la réception, décharge client pour intervention à risque, fiche de refus d'intervention, fiche de mise en filière — 5 documents finalisés."
+      - "6. Registre de traçabilité créé et testé sur 3 interventions fictives ou réelles : chaque entrée contient date, vélo, numéro de série du pack, état à la réception, opérations, valeurs de couple, état à la restitution."
+      - "7. Procédure de transport rédigée en une page : conditions d'expédition d'un pack sain, conditions d'un pack endommagé, coordonnées de la filière de collecte identifiée localement."
+      - "8. Restitution orale de 5 minutes maximum devant un tiers, expliquant l'aménagement retenu et justifiant 3 arbitrages faits sous contrainte d'espace ou de budget."
+references:
+  - source: "INRS"
+    subject: "stockage et charge des batteries lithium-ion en milieu professionnel : prévention du risque incendie"
+    type: "doc"
+  - source: "Accord ADR"
+    subject: "transport des batteries au lithium, dispositions applicables et cas des batteries endommagées"
+    type: "doc"
+  - source: "Règlement ONU / manuel d'épreuves et de critères"
+    subject: "exigences UN 38.3 pour l'expédition des batteries lithium"
+    type: "doc"
+  - source: "Corepile / filière de collecte des piles et accumulateurs"
+    subject: "conditions de collecte et de reprise des batteries de vélos électriques"
+    type: "doc"
+  - source: "LEVA (Light Electric Vehicle Association)"
+    subject: "organisation et conformité d'un atelier de maintenance de véhicules électriques légers"
+    type: "doc"
+  - source: "Cytech"
+    subject: "exigences documentaires et traçabilité des interventions en atelier professionnel"
+    type: "doc"
+---
+

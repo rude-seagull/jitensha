@@ -1,0 +1,45 @@
+---
+import { href } from '../lib/paths';
+---
+
+<footer class="footer">
+  <div class="page footer__inner">
+    <p>
+      <strong>Jitensha</strong> — cours de mécanique vélo libre et gratuit.
+      Ta progression est enregistrée dans ton navigateur, rien n'est envoyé nulle part.
+    </p>
+    <p class="footer__links">
+      <a href={href()}>Parcours</a>
+      <a href={href('atelier')}>Atelier</a>
+      <a href="https://github.com/rude-seagull/jitensha">Code source</a>
+    </p>
+  </div>
+</footer>
+
+<style>
+  .footer {
+    margin-top: auto;
+    border-top: 1px solid var(--line);
+    background: var(--surface-sunken);
+    color: var(--ink-muted);
+    font-size: var(--text-sm);
+  }
+
+  .footer__inner {
+    display: flex;
+    flex-wrap: wrap;
+    gap: var(--space-4);
+    justify-content: space-between;
+    align-items: baseline;
+    padding-block: var(--space-5);
+  }
+
+  .footer__inner p {
+    max-width: 60ch;
+  }
+
+  .footer__links {
+    display: flex;
+    gap: var(--space-4);
+  }
+</style>

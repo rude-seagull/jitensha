@@ -1,0 +1,114 @@
+---
+interface Props {
+  lessonId: string;
+  exercises: { title: string; summary: string; criteria: string[] }[];
+}
+
+const { lessonId, exercises } = Astro.props;
+---
+
+<section class="tp" aria-labelledby="travaux-pratiques">
+  <h2 id="travaux-pratiques">
+    {exercises.length > 1 ? 'Travaux pratiques' : 'Travail pratique'}
+  </h2>
+
+  {
+    exercises.map((exercise, index) => (
+      <article class="tp__item">
+        <h3 class="tp__title">{exercise.title}</h3>
+        <p class="tp__summary">{exercise.summary}</p>
+
+        <h4 class="tp__criteria-title">Critères de validation</h4>
+        {/*
+          A plain numbered list server-side; src/scripts/checklist.js upgrades each
+          item into a persistent checkbox. Without JavaScript it stays readable and
+          printable — which is the point at the workbench.
+        */}
+        <ol class="tp__criteria" data-checklist data-lesson={lessonId} data-exercise={index}>
+          {exercise.criteria.map((criterion) => (
+            <li class="criterion" data-criterion>
+              <span data-criterion-text>{criterion}</span>
+            </li>
+          ))}
+        </ol>
+      </article>
+    ))
+  }
+</section>
+
+<style>
+  .tp__item + .tp__item {
+    margin-top: var(--space-6);
+  }
+
+  .tp__item {
+    margin-top: var(--space-4);
+    padding: var(--space-5);
+    background: var(--surface);
+    border: 1px solid var(--line);
+    border-radius: var(--radius-md);
+  }
+
+  .tp__title {
+    font-size: var(--text-lg);
+  }
+
+  .tp__summary {
+    margin-top: var(--space-2);
+    color: var(--ink-muted);
+    max-width: var(--measure);
+  }
+
+  .tp__criteria-title {
+    margin-top: var(--space-5);
+    font-size: var(--text-sm);
+    text-transform: uppercase;
+    letter-spacing: 0.06em;
+    color: var(--ink-faint);
+  }
+
+  .tp__criteria {
+    margin-top: var(--space-3);
+    padding-left: var(--space-5);
+    display: grid;
+    gap: var(--space-2);
+    max-width: var(--measure);
+  }
+
+  /* Once enhanced the native markers are replaced by checkboxes. */
+  .tp__criteria[data-enhanced] {
+    list-style: none;
+    padding-left: 0;
+    gap: var(--space-1);
+  }
+
+  .criterion :global(.criterion__box) {
+    margin-inline-end: var(--space-3);
+    width: 1.05rem;
+    height: 1.05rem;
+    accent-color: var(--success);
+    flex-shrink: 0;
+    margin-top: 0.3em;
+  }
+
+  .tp__criteria[data-enhanced] .criterion :global([data-criterion-text]) {
+    display: flex;
+    align-items: flex-start;
+    padding: var(--space-1) var(--space-2);
+    border-radius: var(--radius-sm);
+  }
+
+  .tp__criteria[data-enhanced] .criterion :global([data-criterion-text]):hover {
+    background: var(--surface-sunken);
+  }
+
+  .criterion :global(.criterion__label) {
+    cursor: pointer;
+  }
+
+  .criterion[data-checked='true'] :global(.criterion__label) {
+    color: var(--ink-faint);
+    text-decoration: line-through;
+    text-decoration-color: var(--line-strong);
+  }
+</style>

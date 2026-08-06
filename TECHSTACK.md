@@ -13,14 +13,20 @@ The technical constitution of this project. Any technology decision not covered 
 
 | Layer | Choice | Why |
 |---|---|---|
-| Site generator | **Astro 5**, `output: 'static'` | Content Collections validate every lesson's frontmatter against a zod schema at build time — with hundreds of lessons, broken metadata fails the build instead of shipping. Ships zero JS by default. |
-| Content | **Markdown** in `src/content/lessons/` | Human-writable, diff-able, portable. Frontmatter contract defined in `CLAUDE.md`; the zod schema must mirror it exactly (`level` is an integer 1-5, `system` an enum of the 9 system slugs). |
-| Styling | **Plain CSS** with custom properties | No CSS framework. Design tokens as `--custom-properties`; light + dark via `prefers-color-scheme` with a manual toggle persisted in localStorage. |
-| Interactivity | **Vanilla JS ES modules** in `src/scripts/` | No client framework. Small, focused modules per feature. |
-| Search | **Pagefind** | Indexes at build time, tiny runtime, fully static, works on GitHub Pages. Runs as a post-build step. |
-| Runtime deps | **None** | No CDN scripts, no external fonts at runtime (self-host or system font stack), no analytics beacons. |
+| Site generator | **Astro 7** (static by default) | Content Collections validate every lesson's frontmatter against a zod schema at build time — with hundreds of lessons, broken metadata fails the build instead of shipping. Ships zero JS by default. |
+| Content | **Markdown** in `src/content/lessons/` | Human-writable, diff-able, portable. Frontmatter contract defined in `CLAUDE.md`; the zod schema in `src/content.config.ts` must mirror it exactly. |
+| Markdown processor | **Sätteri** (Astro 7 default) | Replaces the remark/rehype pipeline. Applies GFM and generates heading IDs out of the box, so the course needs **no Markdown plugins at all**. Adding one would mean opting the whole project back into `@astrojs/markdown-remark` — don't, unless there is a real need. |
+| Styling | **Plain CSS** with custom properties | No CSS framework. Tokens in `src/styles/tokens.css`; light + dark via `prefers-color-scheme` with a manual toggle persisted in localStorage. Component styles stay scoped in their `.astro` file. |
+| Interactivity | **Vanilla JS ES modules** in `src/scripts/` | No client framework. Small, focused modules per feature; `store.js` is the only one allowed to touch localStorage. |
+| Search | **Pagefind 1.5 Component UI** | Indexes `dist/` after the build (so it only works from `npm run build`, never `astro dev`). `<pagefind-config bundle-path base-url>` handles the GitHub Pages sub-path. |
+| Sitemap | **@astrojs/sitemap** | Official integration, one line of config, real value for a public 300-page course. |
+| Runtime deps | **None** | No CDN scripts, no external fonts at runtime (system font stack for now), no analytics beacons. |
 
-Node.js is required **at build time only**.
+**Node ≥ 22.12 is required** by Astro 7. The version is pinned per project in `package.json` via Volta (`node: 24.19.0`), which is also the default of the official deploy action. Node is needed **at build time only**.
+
+### The base path is a permanent hazard
+
+The site is a GitHub *project* page served from `/jitensha/`. Astro does not rewrite `href` attributes, so a hard-coded `/lecon/...` link builds fine and 404s in production. **Every internal URL goes through `href()` in `src/lib/paths.ts`.** The check in the verification script sweeps all built pages for root-relative URLs missing the base — keep it passing.
 
 ## State: localStorage
 
@@ -28,31 +34,33 @@ All user state lives in localStorage under a single versioned namespace. No acco
 
 | Key | Content |
 |---|---|
-| `velo.v1.progress` | array of completed lesson slugs |
-| `velo.v1.checklists` | per-procedure checked-step state, keyed by lesson slug |
-| `velo.v1.prefs` | theme and UI preferences |
+| `jitensha.v1.progress` | array of completed lesson ids (`<system>/<slug>`) |
+| `jitensha.v1.checklists` | `{ "<lessonId>": { "<exercise>.<criterion>": true } }` |
+| `jitensha.v1.prefs` | theme and UI preferences |
 
 Rules:
 
-- **Graceful degradation.** localStorage unavailable (private mode, JS off) → the site works fully as a readable course; only progress persistence is lost. Never gate content behind state.
+- **One owner.** Only `src/scripts/store.js` reads or writes localStorage. It wraps every access in try/catch, validates shape on read, and emits a `jitensha:store` event so views refresh without polling.
+- **Graceful degradation.** localStorage unavailable (private mode, JS off) → the site works fully as a readable course; only persistence is lost. Never gate content behind state.
 - **Versioned namespace.** Schema changes bump `v1 → v2` with a one-shot migration on load; never mutate the meaning of an existing key.
-- **Small and flat.** Store slugs and booleans, not rendered content or derived data.
+- **Small and flat.** Store ids and booleans, not rendered content or derived data. Progress percentages are computed from `data-progress` attributes rendered by the server, so no lesson list is ever duplicated into JavaScript.
 
 ## Interactive components (and how they stay KISS)
 
 | Feature | Implementation |
 |---|---|
-| Progress tracking | One "mark complete" toggle per lesson writing to `velo.v1.progress`; progress bars computed client-side from the static lesson list embedded in the page. |
-| Interactive checklists | Authored as plain Markdown lists inside lessons; a script enhances them into checkable steps persisted per lesson. Without JS they render as a normal readable list. |
-| Interactive diagrams | Inline SVG with semantic `<title>`/`<desc>` and `data-*` attributes; click/tap reveals part name and role. Labels present in the DOM for no-JS and screen-reader access. |
-| Theme toggle | Toggles a `data-theme` attribute on `<html>`, persisted in `velo.v1.prefs`, defaulting to `prefers-color-scheme`. |
-| Search | Pagefind default UI, styled with our tokens. |
+| Progress tracking | `CompleteToggle.astro` per lesson; `ProgressBar.astro` declares the lesson ids it covers in `data-progress` and `progress.js` computes the rest. Both render `hidden` and are revealed by script. |
+| Interactive checklists | The `exercises[].criteria` from frontmatter render as a numbered list; `checklist.js` upgrades each item into a persistent checkbox. Without JS it stays a readable, printable checklist — which is the point at the workbench. |
+| Interactive diagrams | *Not built yet* — planned with the design iteration. Inline SVG with semantic `<title>`/`<desc>`; labels present in the DOM for no-JS and screen-reader access. |
+| Theme toggle | A small inline script in `BaseLayout` sets `data-theme` on `<html>` before first paint (the only render-blocking script, and the only place the storage key is duplicated); `theme.js` handles the button. |
+| Search | Pagefind Component UI. Only lesson `<article>` elements carry `data-pagefind-body`, so index pages never pollute results; interface chrome inside them carries `data-pagefind-ignore`. Filters use inline values (`data-pagefind-filter="niveau:Niveau 3"`) on empty elements so they contribute no excerpt text. |
 
 ## Hosting & deploy
 
-- **GitHub Pages**, deployed by GitHub Actions using the official `withastro/action`.
-- **Base path caveat:** as a project page the site is served under `https://<user>.github.io/<repo>/` — Astro's `site` and `base` config must be set accordingly, and all internal links/assets must respect `base`. If a custom domain is added later, `base` reverts to `/`.
-- Build = `astro build` + Pagefind indexing; the output in `dist/` is the entire deployable artifact.
+- **GitHub Pages**, deployed by `.github/workflows/deploy.yml` using the official `withastro/action@v6`.
+- The action runs `npm run build`, which is `astro build && pagefind --site dist` — so the search index is produced in the same step and needs no extra workflow wiring.
+- Live at `https://rude-seagull.github.io/jitensha/`. If a custom domain is added later, drop `base` from `astro.config.mjs`; `href()` then resolves to `/` with no other change.
+- The output in `dist/` is the entire deployable artifact.
 
 ## Constraints
 

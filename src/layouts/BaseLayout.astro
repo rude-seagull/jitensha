@@ -1,0 +1,71 @@
+---
+import '../styles/base.css';
+import SiteHeader from '../components/SiteHeader.astro';
+import SiteFooter from '../components/SiteFooter.astro';
+import { asset } from '../lib/paths';
+
+interface Props {
+  title: string;
+  description: string;
+  /** Loads the Pagefind search assets — only the search page needs them. */
+  search?: boolean;
+}
+
+const { title, description, search = false } = Astro.props;
+
+const fullTitle = title === 'Jitensha' ? title : `${title} — Jitensha`;
+const canonical = new URL(Astro.url.pathname, Astro.site);
+---
+
+<!doctype html>
+<html lang="fr">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>{fullTitle}</title>
+    <meta name="description" content={description} />
+    <link rel="canonical" href={canonical} />
+    <link rel="icon" href={asset('favicon.svg')} type="image/svg+xml" />
+    <meta property="og:title" content={fullTitle} />
+    <meta property="og:description" content={description} />
+    <meta property="og:type" content="website" />
+    <meta property="og:locale" content="fr_FR" />
+
+    {
+      search && (
+        <Fragment>
+          <link href={asset('pagefind/pagefind-component-ui.css')} rel="stylesheet" />
+          <script src={asset('pagefind/pagefind-component-ui.js')} type="module" is:inline />
+        </Fragment>
+      )
+    }
+
+    {/*
+      Applies the stored theme before first paint to avoid a flash of the wrong
+      colours. It cannot import src/scripts/store.js (that would be a deferred
+      module), so the storage key is repeated here — the only such duplication.
+    */}
+    <script is:inline>
+      try {
+        const theme = JSON.parse(localStorage.getItem('jitensha.v1.prefs') || '{}').theme;
+        if (theme === 'light' || theme === 'dark') {
+          document.documentElement.dataset.theme = theme;
+        }
+      } catch {}
+    </script>
+  </head>
+
+  <body>
+    <a class="skip-link" href="#contenu">Aller au contenu</a>
+    <SiteHeader />
+    <main id="contenu">
+      <slot />
+    </main>
+    <SiteFooter />
+
+    <script>
+      import '../scripts/theme.js';
+      import '../scripts/progress.js';
+    </script>
+  </body>
+</html>

@@ -1,0 +1,73 @@
+---
+title: "Science du pneu : carcasse, gomme, largeur réelle et choix par usage"
+level: 3
+system: "roues-et-pneus"
+order: 8
+status: "draft"
+duration: 40
+objectives:
+  - "Décoder une carcasse : TPI, tringle, ceinture anti-crevaison et rôle des flancs"
+  - "Expliquer le compromis gomme : grip, résistance au roulement et longévité"
+  - "Mesurer la largeur réelle d'un pneu selon la largeur interne de jante et anticiper la garde au cadre"
+  - "Choisir un pneu hiver, clouté ou renforcé VAE en lisant les marquages de vitesse et de charge"
+  - "Associer un dessin de bande de roulement à un terrain et défendre le choix techniquement"
+prerequisites:
+  - slug: "dimensions-pneu-etrto"
+    description: "Savoir lire un pneu, ses dimensions ETRTO et ses repères d'usure (leçon dimensions-pneu-etrto)"
+    system: "roues-et-pneus"
+  - slug: "choix-pneus-et-pression"
+    description: "Savoir choisir un pneu et calculer sa pression d'usage (leçon choix-pneus-et-pression)"
+    system: "roues-et-pneus"
+  - slug: "pied-a-coulisse-et-marquages"
+    description: "Savoir mesurer au pied à coulisse et décoder des marquages (leçon pied-a-coulisse-et-marquages)"
+    system: "fondamentaux"
+  - slug: "fond-de-jante-et-ruban-tubeless"
+    description: "Savoir préparer une jante et son ruban tubeless (leçon fond-de-jante-et-ruban-tubeless)"
+    system: "roues-et-pneus"
+tools:
+  - "Pied à coulisse à grande capacité (ou pied à coulisse et réglet)"
+  - "Jeu de cales d'épaisseur"
+  - "Deux jantes de largeur interne différente (par exemple 19 et 25 mm)"
+  - "Trois pneus de largeurs nominales différentes"
+  - "Pompe à manomètre fiable"
+  - "Démonte-pneus"
+  - "Tableau ETRTO de correspondance jante/pneu"
+  - "Appareil photo"
+  - "Carnet d'atelier"
+safety:
+  - "Garde au cadre et à la fourche : vise au minimum 4 mm de chaque côté et 6 mm en couronne, pneu gonflé. Un pneu qui touche sous charge ou par temps de boue peut bloquer la roue."
+  - "Pneus VAE : respecte le marquage e-bike et la vitesse homologuée (25 km/h, ou 45 km/h pour un speed pedelec). Un pneu sous-classé chauffe et peut lâcher."
+  - "Jante hookless : seuls des pneus explicitement homologués tubeless hookless sont admis, et la pression maximale de la jante prime (souvent 5 bar / 72,5 psi). Un pneu non homologué peut déjanter d'un coup."
+exercises:
+  - title: "Largeur annoncée contre largeur réelle"
+    summary: "Trois pneus, deux jantes de largeur interne différente, six montages. Tu mesures, tu confrontes à la valeur nominale, tu contrôles la garde au cadre et tu rends une recommandation par usage."
+    criteria:
+      - "1. Six montages réalisés (3 pneus × 2 jantes), chaque pneu gonflé à sa pression d'usage et laissé au moins 24 h avant mesure."
+      - "2. Largeur réelle relevée au pied à coulisse au point le plus large, à 0,5 mm près, et consignée face à la largeur nominale : écart calculé pour les 6 montages."
+      - "3. Hauteur du pneu relevée également pour les 6 montages, à 0,5 mm près, avec au moins une conséquence chiffrée par pneu (variation de hauteur de boîtier ou de garde au sol)."
+      - "4. Tendance dégagée et écrite : variation de largeur réelle par millimètre de largeur interne de jante, cohérente avec les 6 mesures."
+      - "5. Garde mesurée aux 4 points critiques (bases, haubans, pont de fourche, base côté transmission) pour chaque montage : valeur en mm et verdict passe / ne passe pas, seuils ≥ 4 mm latéral et ≥ 6 mm en couronne."
+      - "6. Décodage complet de chaque pneu : TPI, type de tringle (souple ou rigide), technologie de protection anti-crevaison, présence d'un marquage e-bike ou d'une vitesse homologuée, indication de charge — aucune information disponible sur le flanc n'est omise."
+      - "7. Classement des 3 pneus par usage (route rapide, ville hiver, gravel mixte, VTT boue, VAE chargé) : 3/3 classements justifiés par au moins deux caractéristiques techniques chacun."
+      - "8. Recommandation écrite pour 3 profils imposés (VAE urbain toute l'année, gravel mixte, VTT hivernal clouté) : pour chacun, largeur compatible avec la jante et le cadre, pression de départ chiffrée, et compromis grip/roulement/longévité explicité."
+references:
+  - source: "Schwalbe Technical Info"
+    subject: "carcasses, TPI, gommes, pneus cloutés et marquages e-bike"
+    type: "doc"
+  - source: "Continental"
+    subject: "pneus e-bike, marquage de vitesse et homologation ECE-R75"
+    type: "doc"
+  - source: "ETRTO"
+    subject: "correspondances largeur de jante interne / largeur de pneu admissible"
+    type: "doc"
+  - source: "Rene Herse Cycles (Jan Heine)"
+    subject: "souplesse de carcasse, largeur et résistance au roulement réelle"
+    type: "article"
+  - source: "Bicycle Rolling Resistance"
+    subject: "protocoles de mesure et compromis gomme grip / roulement / usure"
+    type: "article"
+  - source: "Matos Vélo"
+    subject: "largeur annoncée contre largeur mesurée selon la jante"
+    type: "article"
+---
+

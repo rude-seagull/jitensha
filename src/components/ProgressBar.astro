@@ -1,0 +1,55 @@
+---
+interface Props {
+  /** Lesson ids covered by this bar; progress is computed client-side from them. */
+  lessonIds: string[];
+  label: string;
+}
+
+const { lessonIds, label } = Astro.props;
+---
+
+{/* Hidden until src/scripts/progress.js fills it — an empty bar would be misleading. */}
+<div
+  class="progress"
+  role="progressbar"
+  aria-label={label}
+  aria-valuemin="0"
+  aria-valuemax="100"
+  data-progress={lessonIds.join(',')}
+  hidden
+>
+  <span class="progress__track"><span class="progress__fill"></span></span>
+  <span class="progress__text" data-progress-text></span>
+</div>
+
+<style>
+  .progress {
+    display: flex;
+    align-items: center;
+    gap: var(--space-3);
+  }
+
+  .progress__track {
+    flex: 1;
+    height: 6px;
+    background: var(--surface-sunken);
+    border-radius: 999px;
+    overflow: hidden;
+  }
+
+  .progress__fill {
+    display: block;
+    height: 100%;
+    width: var(--progress, 0%);
+    background: var(--success);
+    border-radius: inherit;
+    transition: width var(--transition);
+  }
+
+  .progress__text {
+    font-size: var(--text-xs);
+    font-variant-numeric: tabular-nums;
+    color: var(--ink-faint);
+    white-space: nowrap;
+  }
+</style>

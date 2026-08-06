@@ -1,0 +1,78 @@
+---
+title: "Réviser des pédales : roulements, axes, broches et mécanismes"
+level: 3
+system: "transmission"
+order: 10
+status: "draft"
+duration: 45
+objectives:
+  - "Démonter une pédale à cônes et billes sans perdre une bille ni inverser un côté"
+  - "Regraisser et régler le jeu d'une pédale au même niveau d'exigence qu'un moyeu"
+  - "Détecter un axe tordu ou un corps fissuré et décider du remplacement"
+  - "Remplacer les broches d'une pédale plate, y compris une broche cassée dans le corps"
+  - "Entretenir le mécanisme de déchaussage d'une automatique pour retrouver une tension franche"
+prerequisites:
+  - slug: "pedales-depose-repose-filetage"
+    description: "Savoir déposer et reposer des pédales au couple, pas inversé compris (leçon pedales-depose-repose-filetage)"
+    system: "transmission"
+  - slug: "pedales-automatiques-typologie"
+    description: "Savoir identifier le système d'une pédale automatique et sa cale (leçon pedales-automatiques-typologie)"
+    system: "transmission"
+  - slug: "reglage-cones-moyeu"
+    description: "Maîtriser le réglage d'un roulement à cônes et billes et la notion de jeu résiduel (leçon reglage-cones-moyeu)"
+    system: "roues-et-pneus"
+  - slug: "pates-assemblage"
+    description: "Savoir choisir entre graisse, antiseize et frein-filet selon l'interface (leçon pates-assemblage)"
+    system: "fondamentaux"
+tools:
+  - "Douille de démontage de pédale (type Shimano TL-PD40 / TL-PD63) ou clé à cône fine 13/15 mm"
+  - "Clés à cône fines et clé plate 7/8 mm"
+  - "Pince à circlips intérieur/extérieur"
+  - "Jeu de six pans 2, 2,5, 3 mm et torx T10/T20"
+  - "Étau avec mors doux"
+  - "Graisse roulement, dégraissant, chiffons non pelucheux"
+  - "Frein-filet moyen (bleu)"
+  - "Comparateur ou V de contrôle pour axe"
+  - "Bac de récupération et aimant à billes"
+  - "Kit de joints/roulements constructeur"
+safety:
+  - "Un axe de pédale tordu ou un corps fissuré se remplace, jamais ne se redresse : la rupture arrive en danseuse, à pleine charge, et la chute est violente."
+  - "Les broches de pédales plates entaillent profondément le tibia : manipule le vélo pédale en position basse et protège tes jambes pendant les essais."
+exercises:
+  - title: "Révision complète d'une paire à cônes et billes"
+    summary: "Tu démontes intégralement une paire de pédales à cônes et billes, tu comptes et regraisses, tu remontes et tu règles le jeu à la limite du perceptible."
+    criteria:
+      - "1. Comptage des billes annoncé au démontage et identique au remontage sur les deux pédales (par exemple 2 × 12 par côté), zéro bille perdue."
+      - "2. Chemins de roulement et cônes nettoyés puis inspectés : verdict « lisse » ou « piqué » rendu pour chaque piste, avec décision de remplacement si piqué."
+      - "3. Remplissage de graisse aux 2/3 environ du chemin de roulement, sans débordement dans le mécanisme ou sur le filetage d'axe."
+      - "4. Après réglage : la pédale lancée à la main effectue au moins 3 tours libres et ne présente aucun point dur perceptible sur un tour complet."
+      - "5. Jeu latéral mesuré au bord de la pédale (à environ 50 mm de l'axe) ≤ 0,3 mm au comparateur, et nul au ressenti pouce/index."
+      - "6. Réglage conservé après serrage du contre-écrou : contrôlé deux fois, avant et après serrage final, sans dérive perceptible."
+      - "7. Rectitude de l'axe contrôlée en rotation : faux-rond ≤ 0,5 mm, sinon axe déclaré bon pour le remplacement et l'argument est écrit au carnet."
+  - title: "Automatiques, broches et mécanismes"
+    summary: "Sur une paire d'automatiques et une paire de plates à broches, tu sers les roulements, tu rends au mécanisme de déchaussage une tension franche, et tu remets des broches neuves dont une cassée dans le corps."
+    criteria:
+      - "1. Paire d'automatiques démontée et regraissée : rotation libre ≥ 3 tours après impulsion, jeu latéral nul au ressenti, joints remontés dans le bon sens sur les 2 pédales."
+      - "2. Mécanisme de déchaussage dégraissé, relubrifié et réglé : tension identique gauche/droite à ±1 cran, déchaussage franc 10 fois de suite par pédale."
+      - "3. Ressorts, plaquettes de contact et vis de tension inspectés : tout élément déformé ou fissuré est identifié et remplacé, aucun élément douteux remonté."
+      - "4. Pédales plates : 100 % des broches présentes, montées avec frein-filet moyen et serrées à la même hauteur, dépassement homogène à ±0,5 mm sur l'ensemble d'une face."
+      - "5. Broche cassée dans le corps extraite sans agrandir le logement, filetage vérifié en revissant une broche neuve à la main sur toute sa longueur."
+      - "6. Essai routier de 2 km : aucun bruit de roulement, aucun jeu apparu, tension de déchaussage inchangée."
+references:
+  - source: "Park Tool"
+    subject: "révision d'une pédale à cônes et billes, dépose de l'écrou d'axe"
+    type: "video"
+  - source: "Shimano"
+    subject: "service instructions pédales PD-M520/M540 et outil TL-PD40"
+    type: "doc"
+  - source: "Crankbrothers"
+    subject: "kit de rebuild, joints et intervalles de service"
+    type: "doc"
+  - source: "Sheldon Brown"
+    subject: "roulements et axes de pédales, tolérances de jeu"
+    type: "article"
+  - source: "OneUp Components"
+    subject: "remplacement des broches de pédales plates et extraction d'une broche cassée"
+    type: "doc"
+---
+

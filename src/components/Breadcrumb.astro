@@ -1,0 +1,47 @@
+---
+interface Props {
+  items: { label: string; url?: string }[];
+}
+
+const { items } = Astro.props;
+---
+
+<nav class="crumbs" aria-label="Fil d'Ariane">
+  <ol>
+    {
+      items.map((item) => (
+        <li>
+          {item.url ? <a href={item.url}>{item.label}</a> : <span aria-current="page">{item.label}</span>}
+        </li>
+      ))
+    }
+  </ol>
+</nav>
+
+<style>
+  .crumbs ol {
+    display: flex;
+    flex-wrap: wrap;
+    gap: var(--space-2);
+    padding: 0;
+    list-style: none;
+    font-size: var(--text-sm);
+    color: var(--ink-faint);
+  }
+
+  .crumbs li + li::before {
+    content: '/';
+    margin-inline-end: var(--space-2);
+    color: var(--line-strong);
+  }
+
+  .crumbs a {
+    color: var(--ink-muted);
+    text-decoration: none;
+  }
+
+  .crumbs a:hover {
+    color: var(--accent);
+    text-decoration: underline;
+  }
+</style>
