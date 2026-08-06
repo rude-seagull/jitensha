@@ -1,5 +1,5 @@
 ---
-title: "Freins en rade en pleine sortie : diagnostic express et retour sécurisé"
+title: "Freins en rade en pleine sortie"
 level: 2
 system: "freinage"
 order: 11

@@ -1,5 +1,5 @@
 ---
-title: "Régler ses cales : position, angle et tension de déchaussage"
+title: "Régler ses cales : position, angle, tension"
 level: 2
 system: "direction-et-peripheriques"
 order: 7

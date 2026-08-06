@@ -1,5 +1,5 @@
 ---
-title: "Applications constructeur : appairage, mise à jour firmware et journal"
+title: "Applications constructeur"
 level: 2
 system: "vae"
 order: 4

@@ -1,5 +1,5 @@
 ---
-title: "Retoucher la peinture d'un cadre : éclats, rayures, points de rouille"
+title: "Retoucher la peinture d'un cadre"
 level: 2
 system: "montage-et-peinture"
 order: 1

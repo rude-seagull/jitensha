@@ -1,8 +1,8 @@
 ---
-title: "Reconstruire un pack 1/3 : choisir et apparier les cellules"
+title: "Reconstruire un pack 1/3"
 level: 5
 system: "vae"
-order: 6
+order: 4
 status: "draft"
 duration: 45
 objectives:

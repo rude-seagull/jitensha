@@ -1,5 +1,5 @@
 ---
-title: "Freiner un tandem : frein de ralentissement et gestion de la chaleur"
+title: "Freiner un tandem : ralentisseur et chaleur"
 level: 4
 system: "cas-exotiques"
 order: 5

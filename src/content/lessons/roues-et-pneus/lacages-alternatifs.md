@@ -1,5 +1,5 @@
 ---
-title: "Laçages alternatifs : radial, croisé par 2, straight-pull, roues fortes"
+title: "Laçages alternatifs"
 level: 5
 system: "roues-et-pneus"
 order: 7

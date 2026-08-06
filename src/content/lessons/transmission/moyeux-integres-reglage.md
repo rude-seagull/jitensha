@@ -1,5 +1,5 @@
 ---
-title: "Moyeux à vitesses intégrées : réglage du câble (Nexus, Alfine, Enviolo)"
+title: "Moyeux à vitesses intégrées : réglage"
 level: 3
 system: "transmission"
 order: 8

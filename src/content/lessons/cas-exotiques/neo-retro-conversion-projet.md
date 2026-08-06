@@ -1,5 +1,5 @@
 ---
-title: "Projet néo-rétro : moderniser un cadre ancien sans faute de compatibilité"
+title: "Projet néo-rétro : moderniser un cadre ancien"
 level: 5
 system: "cas-exotiques"
 order: 3

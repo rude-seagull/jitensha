@@ -1,5 +1,5 @@
 ---
-title: "Déposer et reposer une batterie : verrous, rails et packs intégrés"
+title: "Déposer et reposer une batterie"
 level: 2
 system: "vae"
 order: 1

@@ -1,5 +1,5 @@
 ---
-title: "Révision complète d'un moyeu à cônes : démontage, graissage, remontage"
+title: "Révision complète d'un moyeu à cônes"
 level: 3
 system: "roues-et-pneus"
 order: 5

@@ -2,7 +2,7 @@
 title: "Appliquer l'apprêt époxy 2K"
 level: 4
 system: "montage-et-peinture"
-order: 9
+order: 6
 status: "draft"
 duration: 40
 objectives:

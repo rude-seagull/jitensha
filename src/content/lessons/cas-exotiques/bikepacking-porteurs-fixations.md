@@ -1,5 +1,5 @@
 ---
-title: "Bikepacking : monter porteurs, cages et sacoches sans ruiner le cadre"
+title: "Bikepacking : porteurs, cages et sacoches"
 level: 3
 system: "cas-exotiques"
 order: 10

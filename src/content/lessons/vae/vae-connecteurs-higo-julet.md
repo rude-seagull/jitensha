@@ -1,5 +1,5 @@
 ---
-title: "Connectique Higo et Julet : identifier, ouvrir, entretenir, remplacer"
+title: "Connectique Higo et Julet"
 level: 3
 system: "vae"
 order: 5

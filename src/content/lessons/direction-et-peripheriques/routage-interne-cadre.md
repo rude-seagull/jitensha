@@ -1,5 +1,5 @@
 ---
-title: "Routage interne : passer câbles, gaines et durites dans le cadre sans y laisser tes nerfs"
+title: "Routage interne : câbles, gaines et durites"
 level: 3
 system: "direction-et-peripheriques"
 order: 4

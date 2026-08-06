@@ -2,7 +2,6 @@
 import { getCollection } from 'astro:content';
 import BaseLayout from '../../layouts/BaseLayout.astro';
 import Breadcrumb from '../../components/Breadcrumb.astro';
-import LessonCard from '../../components/LessonCard.astro';
 import LessonPath from '../../components/LessonPath.astro';
 import ProgressBar from '../../components/ProgressBar.astro';
 import {
@@ -57,23 +56,10 @@ const ids = lessons.map((lesson) => lesson.id);
             </h2>
             <span class="system-group__count">{group.lessons.length} leçons</span>
           </div>
-          {/*
-            The serpentine path is piloted on Niveau 1 while its ordering and layout are
-            being validated. Rolling it out to the other levels is deleting this
-            condition — nothing else depends on the branch.
-          */}
-          {level.n === 1 ? (
-            <LessonPath
-              lessons={group.lessons}
-              label={`${SYSTEM_META[group.system].label} — niveau ${level.n}`}
-            />
-          ) : (
-            <div class="grid">
-              {group.lessons.map((lesson) => (
-                <LessonCard lesson={lesson} />
-              ))}
-            </div>
-          )}
+          <LessonPath
+            lessons={group.lessons}
+            label={`${SYSTEM_META[group.system].label} — niveau ${level.n}`}
+          />
         </section>
       ))
     }
@@ -156,12 +142,6 @@ const ids = lessons.map((lesson) => lesson.id);
     white-space: nowrap;
   }
 
-  .grid {
-    margin-top: var(--space-4);
-    display: grid;
-    gap: var(--space-3);
-    grid-template-columns: repeat(auto-fill, minmax(min(100%, 20rem), 1fr));
-  }
 
   .level-nav {
     display: flex;

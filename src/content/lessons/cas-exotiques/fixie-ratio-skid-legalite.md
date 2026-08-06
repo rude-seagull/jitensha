@@ -1,5 +1,5 @@
 ---
-title: "Pignon fixe : ratio, développement, skid patches et cadre légal"
+title: "Pignon fixe : ratio, skid patches, cadre légal"
 level: 2
 system: "cas-exotiques"
 order: 4

@@ -1,5 +1,5 @@
 ---
-title: "Réviser une dropper : service du fût et remplacement de cartouche"
+title: "Réviser une dropper"
 level: 4
 system: "direction-et-peripheriques"
 order: 5

@@ -1,5 +1,5 @@
 ---
-title: "Router gaines et durites dans un cadre nu, interne compris"
+title: "Router gaines et durites dans un cadre nu"
 level: 5
 system: "montage-et-peinture"
 order: 7

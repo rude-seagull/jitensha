@@ -1,5 +1,5 @@
 ---
-title: "Suspensions à ressort : tarage et précharge, du VTT au vélo de ville"
+title: "Suspensions à ressort"
 level: 2
 system: "suspension"
 order: 6

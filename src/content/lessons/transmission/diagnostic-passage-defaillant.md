@@ -1,5 +1,5 @@
 ---
-title: "Diagnostiquer une transmission qui saute (méthode d'élimination)"
+title: "Diagnostiquer une transmission qui saute"
 level: 3
 system: "transmission"
 order: 4

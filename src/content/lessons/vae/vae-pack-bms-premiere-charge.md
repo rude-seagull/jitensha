@@ -1,8 +1,8 @@
 ---
-title: "Reconstruire un pack 3/3 : BMS, câblage et première charge surveillée"
+title: "Reconstruire un pack 3/3"
 level: 5
 system: "vae"
-order: 5
+order: 6
 status: "draft"
 duration: 45
 objectives:

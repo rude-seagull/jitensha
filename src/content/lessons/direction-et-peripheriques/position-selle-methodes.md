@@ -1,5 +1,5 @@
 ---
-title: "Position de selle chiffrée : hauteur (LeMond, Holmes) et recul (KOPS)"
+title: "Position de selle chiffrée"
 level: 2
 system: "direction-et-peripheriques"
 order: 6

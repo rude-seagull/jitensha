@@ -1,5 +1,5 @@
 ---
-title: "Câbles et gaines : matériaux, coupe parfaite et routage externe"
+title: "Câbles et gaines : coupe et routage externe"
 level: 2
 system: "direction-et-peripheriques"
 order: 4

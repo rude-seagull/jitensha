@@ -1,5 +1,5 @@
 ---
-title: "Choisir tes développements : plage, sauts et capacité de chape"
+title: "Choisir tes développements"
 level: 3
 system: "transmission"
 order: 9

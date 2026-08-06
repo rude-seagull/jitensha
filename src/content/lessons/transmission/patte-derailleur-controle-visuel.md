@@ -1,5 +1,5 @@
 ---
-title: "Patte de dérailleur : contrôle visuel, standards et UDH"
+title: "Patte de dérailleur"
 level: 2
 system: "transmission"
 order: 3

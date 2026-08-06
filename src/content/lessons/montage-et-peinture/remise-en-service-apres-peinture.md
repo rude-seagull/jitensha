@@ -1,5 +1,5 @@
 ---
-title: "Après la peinture : démasquer, retarauder, remettre en service"
+title: "Après la peinture : démasquer et retarauder"
 level: 5
 system: "montage-et-peinture"
 order: 13

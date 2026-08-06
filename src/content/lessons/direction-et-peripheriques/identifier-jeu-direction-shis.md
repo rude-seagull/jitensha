@@ -1,5 +1,5 @@
 ---
-title: "Identifier un jeu de direction : le code SHIS au pied à coulisse"
+title: "Identifier un jeu de direction"
 level: 3
 system: "direction-et-peripheriques"
 order: 1

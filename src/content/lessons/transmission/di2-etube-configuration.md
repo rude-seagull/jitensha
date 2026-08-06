@@ -1,5 +1,5 @@
 ---
-title: "Di2 : configuration E-Tube, firmware et diagnostic de pannes"
+title: "Di2 : configuration E-Tube et diagnostic"
 level: 4
 system: "transmission"
 order: 4

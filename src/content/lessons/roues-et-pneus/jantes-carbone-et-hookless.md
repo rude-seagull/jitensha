@@ -1,5 +1,5 @@
 ---
-title: "Jantes carbone et hookless : inspection et compatibilités strictes"
+title: "Jantes carbone et hookless"
 level: 4
 system: "roues-et-pneus"
 order: 3

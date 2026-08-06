@@ -1,5 +1,5 @@
 ---
-title: "Hydraulique : principe de Pascal et discipline des fluides"
+title: "Hydraulique : principe et discipline des fluides"
 level: 3
 system: "freinage"
 order: 1

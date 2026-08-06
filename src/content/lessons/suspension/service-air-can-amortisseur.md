@@ -1,5 +1,5 @@
 ---
-title: "Service air can : joints, graisse et progressivité de l'amortisseur"
+title: "Service air can : joints et progressivité"
 level: 3
 system: "suspension"
 order: 6

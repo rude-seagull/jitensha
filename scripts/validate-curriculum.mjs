@@ -45,6 +45,17 @@ for (const l of all.values()) {
     const target = all.get(p.slug);
     if (!target) { errors.push(`${l.slug}: prerequisite slug not found: ${p.slug}`); continue; }
     if (target.level > l.level) errors.push(`${l.slug} (N${l.level}): prerequisite ${p.slug} is at HIGHER level N${target.level}`);
+    /*
+     * A lesson must never sit before a prerequisite from its own (system, level): the
+     * lesson path renders that group in `order`, so an inversion is a sequence the
+     * learner cannot follow. This caught three-part chains that a renumbering pass had
+     * alphabetised, putting part 3 ahead of part 2.
+     */
+    if (target.system === l.system && target.level === l.level && target.order > l.order) {
+      errors.push(
+        `${l.system} N${l.level}: #${l.order} ${l.slug} requires #${target.order} ${p.slug}, which comes AFTER it`,
+      );
+    }
   }
 }
 

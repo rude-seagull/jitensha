@@ -1,5 +1,5 @@
 ---
-title: "Conversions de taille de roue : 27 pouces vers 700C, 700C vers 650B"
+title: "Conversions de taille de roue"
 level: 4
 system: "cas-exotiques"
 order: 3

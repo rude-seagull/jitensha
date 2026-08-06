@@ -1,8 +1,8 @@
 ---
-title: "Ton stock d'atelier : pièces d'usure, consommables et rotation"
+title: "Ton stock d'atelier"
 level: 3
 system: "fondamentaux"
-order: 8
+order: 9
 status: "draft"
 duration: 35
 objectives:

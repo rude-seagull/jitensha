@@ -1,5 +1,5 @@
 ---
-title: "Corriger les défauts : coulures, peau d'orange, polissage"
+title: "Corriger les défauts"
 level: 5
 system: "montage-et-peinture"
 order: 12

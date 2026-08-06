@@ -1,5 +1,5 @@
 ---
-title: "Après une chute : le contrôle qui autorise à repartir"
+title: "Après une chute : le contrôle avant de repartir"
 level: 2
 system: "fondamentaux"
 order: 12

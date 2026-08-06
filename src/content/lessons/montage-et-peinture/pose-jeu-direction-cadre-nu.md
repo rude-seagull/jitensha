@@ -1,5 +1,5 @@
 ---
-title: "Presser un jeu de direction neuf : cuvettes et cône de fourche"
+title: "Presser un jeu de direction neuf"
 level: 5
 system: "montage-et-peinture"
 order: 4

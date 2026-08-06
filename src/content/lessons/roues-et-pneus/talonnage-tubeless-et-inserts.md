@@ -1,5 +1,5 @@
 ---
-title: "Talonnage, préventif et inserts : finaliser un montage tubeless"
+title: "Talonnage, préventif et inserts"
 level: 2
 system: "roues-et-pneus"
 order: 4

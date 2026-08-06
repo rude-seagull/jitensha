@@ -1,5 +1,5 @@
 ---
-title: "Purger une commande hydraulique de dropper (RockShox Reverb)"
+title: "Purger une dropper hydraulique (Reverb)"
 level: 3
 system: "direction-et-peripheriques"
 order: 7

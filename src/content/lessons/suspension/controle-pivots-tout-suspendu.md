@@ -1,5 +1,5 @@
 ---
-title: "Pivots de cadre : contrôle, jeu et couples de la cinématique"
+title: "Pivots de cadre : contrôle, jeu et couples"
 level: 3
 system: "suspension"
 order: 8

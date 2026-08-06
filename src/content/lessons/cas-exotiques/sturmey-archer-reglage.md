@@ -1,5 +1,5 @@
 ---
-title: "Moyeu Sturmey-Archer 3 vitesses : réglage de la chaînette indicatrice"
+title: "Moyeu Sturmey-Archer 3 vitesses"
 level: 3
 system: "cas-exotiques"
 order: 4

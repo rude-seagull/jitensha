@@ -1,8 +1,8 @@
 ---
-title: "Perte d'autonomie : mesurer la santé réelle d'un pack"
+title: "Perte d'autonomie : mesurer la santé du pack"
 level: 4
 system: "vae"
-order: 6
+order: 5
 status: "draft"
 duration: 45
 objectives:

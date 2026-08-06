@@ -780,7 +780,7 @@
         },
         {
           "slug": "couple-tension-frottement",
-          "titre": "Couple, tension, frottement : pourquoi un boulon tient",
+          "titre": "Couple, tension, frottement",
           "level": 2,
           "order": 2,
           "duree_min": 35,
@@ -963,7 +963,7 @@
         },
         {
           "slug": "pates-assemblage",
-          "titre": "Graisse, pâte carbone, frein-filet, antiseize : quoi, où, pourquoi",
+          "titre": "Graisse, pâte carbone, frein-filet, antiseize",
           "level": 2,
           "order": 5,
           "duree_min": 35,
@@ -1288,7 +1288,7 @@
         },
         {
           "slug": "materiaux-cadres",
-          "titre": "Acier, alu, carbone, titane : reconnaître et respecter chaque matériau",
+          "titre": "Acier, alu, carbone, titane",
           "level": 2,
           "order": 10,
           "duree_min": 40,
@@ -1356,7 +1356,7 @@
         },
         {
           "slug": "acheter-occasion-inspection",
-          "titre": "Acheter d'occasion : inspection en 20 minutes et devis de remise en état",
+          "titre": "Acheter d'occasion",
           "level": 2,
           "order": 11,
           "duree_min": 45,
@@ -1477,7 +1477,7 @@
         },
         {
           "slug": "controle-apres-chute",
-          "titre": "Après une chute : le contrôle qui autorise à repartir",
+          "titre": "Après une chute : le contrôle avant de repartir",
           "level": 2,
           "order": 12,
           "duree_min": 35,
@@ -1598,9 +1598,9 @@
         },
         {
           "slug": "essai-de-controle",
-          "titre": "L'essai de contrôle : valider une intervention en roulant",
+          "titre": "L'essai de contrôle",
           "level": 2,
-          "order": 13,
+          "order": 16,
           "duree_min": 30,
           "objectifs": [
             "Définir une boucle d'essai standard, courte et reproductible, qui sollicite tout ce que tu viens de toucher.",
@@ -1710,9 +1710,9 @@
         },
         {
           "slug": "hiver-pluie-sel",
-          "titre": "Hiver, pluie et sel : le protocole qui sauve ton vélo",
+          "titre": "Hiver, pluie et sel",
           "level": 2,
-          "order": 14,
+          "order": 13,
           "duree_min": 40,
           "objectifs": [
             "Expliquer comment le sel de déneigement accélère la corrosion et déclenche la corrosion galvanique aux couples de matériaux (alu/acier, alu/titane, acier/inox).",
@@ -1832,9 +1832,9 @@
         },
         {
           "slug": "hivernage-stockage-longue-duree",
-          "titre": "Hiverner et réveiller un vélo : stockage longue durée",
+          "titre": "Hiverner et réveiller un vélo",
           "level": 2,
-          "order": 15,
+          "order": 14,
           "duree_min": 35,
           "objectifs": [
             "Préparer un vélo à 1-6 mois d'immobilisation sans créer de nouveaux défauts pendant l'arrêt.",
@@ -1954,9 +1954,9 @@
         },
         {
           "slug": "memo-couples-tolerances",
-          "titre": "Ton mémo de couples et de tolérances : le construire et le tenir à jour",
+          "titre": "Ton mémo de couples et de tolérances",
           "level": 2,
-          "order": 16,
+          "order": 15,
           "duree_min": 35,
           "objectifs": [
             "Hiérarchiser tes sources : marquage sur la pièce > manuel du composant > manuel du cadre > table générique, et jamais l'inverse.",
@@ -2057,7 +2057,7 @@
         },
         {
           "slug": "securite-dechets-atelier",
-          "titre": "Sécurité et déchets à l'atelier : EPI, poussières de carbone, solvants, huiles et ergonomie",
+          "titre": "Sécurité et déchets à l'atelier",
           "level": 2,
           "order": 17,
           "duree_min": 40,
@@ -2172,7 +2172,7 @@
         },
         {
           "slug": "outillage-avance",
-          "titre": "T'équiper niveau 3 : roulements, purge, câblerie interne",
+          "titre": "T'équiper niveau 3",
           "level": 3,
           "order": 1,
           "duree_min": 30,
@@ -2227,7 +2227,7 @@
         },
         {
           "slug": "geometrie-direction-chasse",
-          "titre": "Chasse, offset, empattement : la géométrie qui pilote",
+          "titre": "Chasse, offset, empattement",
           "level": 3,
           "order": 2,
           "duree_min": 40,
@@ -2429,7 +2429,7 @@
         },
         {
           "slug": "carte-identite-cadre",
-          "titre": "La carte d'identité d'un cadre : décoder tous ses standards",
+          "titre": "La carte d'identité d'un cadre",
           "level": 3,
           "order": 5,
           "duree_min": 45,
@@ -2498,7 +2498,7 @@
         },
         {
           "slug": "extraction-visserie-grippee",
-          "titre": "Vis grippées, arrondies, cassées : les libérer sans casse",
+          "titre": "Vis grippées, arrondies, cassées",
           "level": 3,
           "order": 6,
           "duree_min": 45,
@@ -2573,9 +2573,9 @@
         },
         {
           "slug": "reparer-remplacer-renoncer",
-          "titre": "Réparer, remplacer ou renoncer : arbres de décision d'usure et de coût",
+          "titre": "Réparer, remplacer ou renoncer",
           "level": 3,
-          "order": 7,
+          "order": 8,
           "duree_min": 45,
           "objectifs": [
             "Construire un arbre de décision qui part d'une mesure chiffrée et aboutit à une recommandation chiffrée.",
@@ -2693,9 +2693,9 @@
         },
         {
           "slug": "stock-atelier",
-          "titre": "Ton stock d'atelier : pièces d'usure, consommables et rotation",
+          "titre": "Ton stock d'atelier",
           "level": 3,
-          "order": 8,
+          "order": 9,
           "duree_min": 35,
           "objectifs": [
             "Déterminer le stock minimum utile à partir des vélos que tu entretiens réellement, pas d'une liste de catalogue.",
@@ -2804,9 +2804,9 @@
         },
         {
           "slug": "trouver-doc-et-pieces",
-          "titre": "Trouver la doc et la bonne pièce : manuels constructeurs, références et équivalences",
+          "titre": "Trouver la doc et la bonne pièce",
           "level": 3,
-          "order": 9,
+          "order": 7,
           "duree_min": 45,
           "objectifs": [
             "Naviguer un dealer's manual, une fiche technique et une vue éclatée jusqu'à la référence exacte d'une pièce.",
@@ -3034,7 +3034,7 @@
         },
         {
           "slug": "filetages-reparation-taraud-helicoil",
-          "titre": "Réparer un filetage : taraud et filet rapporté (Helicoil)",
+          "titre": "Réparer un filetage",
           "level": 4,
           "order": 3,
           "duree_min": 45,
@@ -3101,7 +3101,7 @@
         },
         {
           "slug": "diagnostic-craquements",
-          "titre": "Diagnostiquer un craquement : la méthode d'élimination",
+          "titre": "Diagnostiquer un craquement",
           "level": 4,
           "order": 4,
           "duree_min": 45,
@@ -3174,7 +3174,7 @@
           "slug": "passer-pro",
           "titre": "Passer pro : certifications, formations, statut",
           "level": 4,
-          "order": 5,
+          "order": 6,
           "duree_min": 40,
           "objectifs": [
             "Cartographier les parcours de certification : Cytech (théorie en ligne puis pratique en centre), LEVA pour le VAE, formations constructeurs (Shimano, SRAM, Bosch — souvent réservées aux revendeurs), écoles et cursus d'apprentissage locaux",
@@ -3239,9 +3239,9 @@
         },
         {
           "slug": "grande-revision",
-          "titre": "La grande révision : remettre à neuf un vélo complet de A à Z",
+          "titre": "La grande révision",
           "level": 4,
-          "order": 6,
+          "order": 5,
           "duree_min": 45,
           "objectifs": [
             "Établir une gamme d'intervention ordonnée qui t'évite de refaire deux fois le même geste.",
@@ -3382,7 +3382,7 @@
         },
         {
           "slug": "velo-d-un-autre",
-          "titre": "Réparer le vélo d'un autre : responsabilité, refus et restitution",
+          "titre": "Réparer le vélo d'un autre",
           "level": 4,
           "order": 7,
           "duree_min": 40,
@@ -3509,7 +3509,7 @@
         },
         {
           "slug": "outillage-maitre",
-          "titre": "T'équiper niveau 5 : concevoir l'atelier complet, du passionné au pro",
+          "titre": "T'équiper niveau 5",
           "level": 5,
           "order": 1,
           "duree_min": 45,
@@ -4029,7 +4029,7 @@
         },
         {
           "slug": "standards-axes-roues",
-          "titre": "Standards d'axes et d'entraxes : identifier ce que ton cadre accepte",
+          "titre": "Standards d'axes et d'entraxes",
           "level": 2,
           "order": 1,
           "duree_min": 35,
@@ -4173,7 +4173,7 @@
         },
         {
           "slug": "fond-de-jante-et-ruban-tubeless",
-          "titre": "Fond de jante classique et ruban tubeless : la base de l'étanchéité",
+          "titre": "Fond de jante classique et ruban tubeless",
           "level": 2,
           "order": 3,
           "duree_min": 40,
@@ -4232,7 +4232,7 @@
         },
         {
           "slug": "talonnage-tubeless-et-inserts",
-          "titre": "Talonnage, préventif et inserts : finaliser un montage tubeless",
+          "titre": "Talonnage, préventif et inserts",
           "level": 2,
           "order": 4,
           "duree_min": 45,
@@ -4313,7 +4313,7 @@
         },
         {
           "slug": "reparation-entretien-tubeless",
-          "titre": "Réparer et entretenir un tubeless : mèches, patchs internes, préventif",
+          "titre": "Réparer et entretenir un tubeless",
           "level": 2,
           "order": 5,
           "duree_min": 40,
@@ -4379,7 +4379,7 @@
         },
         {
           "slug": "retouche-voile-et-usure-jante",
-          "titre": "Retoucher un voile sur le vélo et contrôler l'usure de la jante",
+          "titre": "Retoucher un voile et contrôler l'usure de jante",
           "level": 2,
           "order": 6,
           "duree_min": 40,
@@ -4513,7 +4513,7 @@
         },
         {
           "slug": "depannage-roue-terrain",
-          "titre": "Roue en rade au bord de la route : dépannages d'urgence",
+          "titre": "Roue en rade au bord de la route",
           "level": 2,
           "order": 8,
           "duree_min": 40,
@@ -4897,7 +4897,7 @@
         },
         {
           "slug": "revision-moyeu-cones-billes",
-          "titre": "Révision complète d'un moyeu à cônes : démontage, graissage, remontage",
+          "titre": "Révision complète d'un moyeu à cônes",
           "level": 3,
           "order": 5,
           "duree_min": 45,
@@ -4968,7 +4968,7 @@
         },
         {
           "slug": "service-roulements-scelles-moyeu",
-          "titre": "Moyeux à roulements scellés : extraction et pose de cartouches",
+          "titre": "Moyeux à roulements scellés",
           "level": 3,
           "order": 6,
           "duree_min": 45,
@@ -5036,7 +5036,7 @@
         },
         {
           "slug": "corps-roue-libre-standards-service",
-          "titre": "Corps de roue libre : HG, XD/XDR, Microspline — identifier et entretenir",
+          "titre": "Corps de roue libre",
           "level": 3,
           "order": 7,
           "duree_min": 45,
@@ -5119,7 +5119,7 @@
         },
         {
           "slug": "science-du-pneu",
-          "titre": "Science du pneu : carcasse, gomme, largeur réelle et choix par usage",
+          "titre": "Science du pneu : carcasse, gomme, largeur",
           "level": 3,
           "order": 8,
           "duree_min": 40,
@@ -5292,7 +5292,7 @@
         },
         {
           "slug": "conversions-axes-et-compatibilites",
-          "titre": "Conversions d'axes, capuchons et compatibilités croisées",
+          "titre": "Conversions d'axes et capuchons",
           "level": 4,
           "order": 2,
           "duree_min": 40,
@@ -5368,7 +5368,7 @@
         },
         {
           "slug": "jantes-carbone-et-hookless",
-          "titre": "Jantes carbone et hookless : inspection et compatibilités strictes",
+          "titre": "Jantes carbone et hookless",
           "level": 4,
           "order": 3,
           "duree_min": 40,
@@ -5448,7 +5448,7 @@
         },
         {
           "slug": "roues-vae-et-cargo",
-          "titre": "Roues VAE et cargo : renforts, moteurs moyeu et contrôles spécifiques",
+          "titre": "Roues VAE et cargo",
           "level": 4,
           "order": 4,
           "duree_min": 45,
@@ -5528,7 +5528,7 @@
         },
         {
           "slug": "conception-roue-composants",
-          "titre": "Concevoir une roue : théorie de la précontrainte et choix des composants",
+          "titre": "Concevoir une roue",
           "level": 5,
           "order": 1,
           "duree_min": 45,
@@ -5878,7 +5878,7 @@
         },
         {
           "slug": "finition-roue-stress-relieving",
-          "titre": "Finition d'une roue neuve : stress relieving et tolérances pro",
+          "titre": "Finition d'une roue neuve",
           "level": 5,
           "order": 6,
           "duree_min": 45,
@@ -5943,7 +5943,7 @@
         },
         {
           "slug": "lacages-alternatifs",
-          "titre": "Laçages alternatifs : radial, croisé par 2, straight-pull, roues fortes",
+          "titre": "Laçages alternatifs",
           "level": 5,
           "order": 7,
           "duree_min": 45,
@@ -7033,7 +7033,7 @@
         },
         {
           "slug": "depannage-freins-terrain",
-          "titre": "Freins en rade en pleine sortie : diagnostic express et retour sécurisé",
+          "titre": "Freins en rade en pleine sortie",
           "level": 2,
           "order": 11,
           "duree_min": 40,
@@ -7145,7 +7145,7 @@
         },
         {
           "slug": "pose-reglage-levier-frein",
-          "titre": "Poser et régler un levier de frein : position, angle, garde",
+          "titre": "Poser et régler un levier de frein",
           "level": 2,
           "order": 12,
           "duree_min": 35,
@@ -7243,7 +7243,7 @@
         },
         {
           "slug": "hydraulique-principe-fluides",
-          "titre": "Hydraulique : principe de Pascal et discipline des fluides",
+          "titre": "Hydraulique : principe et discipline des fluides",
           "level": 3,
           "order": 1,
           "duree_min": 40,
@@ -7844,7 +7844,7 @@
         },
         {
           "slug": "diagnostic-hydraulique-avance",
-          "titre": "Diagnostic hydraulique avancé : levier spongieux, point errant, fuites",
+          "titre": "Diagnostic hydraulique avancé",
           "level": 4,
           "order": 1,
           "duree_min": 40,
@@ -8086,7 +8086,7 @@
         },
         {
           "slug": "purges-magura-trp-campagnolo",
-          "titre": "Purger hors Shimano/SRAM : Magura, TRP, Campagnolo, freins jante hydrauliques",
+          "titre": "Purger hors Shimano/SRAM",
           "level": 4,
           "order": 4,
           "duree_min": 40,
@@ -8167,7 +8167,7 @@
         },
         {
           "slug": "compatibilite-freinage",
-          "titre": "Compatibilités de freinage : tirages, fixations, mélanges de marques",
+          "titre": "Compatibilités de freinage",
           "level": 4,
           "order": 5,
           "duree_min": 35,
@@ -8246,7 +8246,7 @@
         },
         {
           "slug": "freins-tambour-rollerbrake",
-          "titre": "Freins de moyeu : roller brake, tambour et rétropédalage",
+          "titre": "Freins de moyeu : roller brake et tambour",
           "level": 4,
           "order": 6,
           "duree_min": 40,
@@ -8322,7 +8322,7 @@
         },
         {
           "slug": "freins-vintage-jante-service",
-          "titre": "Freins vintage sur jante : centerpull, single pivot, tringles",
+          "titre": "Freins vintage sur jante",
           "level": 4,
           "order": 7,
           "duree_min": 40,
@@ -8398,7 +8398,7 @@
         },
         {
           "slug": "montage-freinage-hydraulique-neuf",
-          "titre": "Monter un freinage hydraulique complet depuis la boîte",
+          "titre": "Monter un freinage hydraulique complet",
           "level": 5,
           "order": 1,
           "duree_min": 45,
@@ -8488,7 +8488,7 @@
         },
         {
           "slug": "conception-freinage-charges-extremes",
-          "titre": "Concevoir un freinage pour charges extrêmes : cargo, tandem, descente",
+          "titre": "Concevoir un freinage pour charges extrêmes",
           "level": 5,
           "order": 2,
           "duree_min": 40,
@@ -9036,7 +9036,7 @@
         },
         {
           "slug": "chaine-remplacement",
-          "titre": "Remplacer une chaîne : dérive-chaîne, attache rapide, rivet",
+          "titre": "Remplacer une chaîne",
           "level": 2,
           "order": 2,
           "duree_min": 40,
@@ -9117,7 +9117,7 @@
         },
         {
           "slug": "patte-derailleur-controle-visuel",
-          "titre": "Patte de dérailleur : contrôle visuel, standards et UDH",
+          "titre": "Patte de dérailleur",
           "level": 2,
           "order": 3,
           "duree_min": 35,
@@ -9793,7 +9793,7 @@
         },
         {
           "slug": "pedales-automatiques-typologie",
-          "titre": "Pédales automatiques : SPD, Look, Time, SPD-SL et plates à broches",
+          "titre": "Pédales automatiques",
           "level": 2,
           "order": 12,
           "duree_min": 35,
@@ -9983,7 +9983,7 @@
         },
         {
           "slug": "boitier-pedalier-filete",
-          "titre": "Boîtiers filetés : identifier et remplacer (BSA, italien, T47)",
+          "titre": "Boîtiers filetés : identifier et remplacer",
           "level": 3,
           "order": 2,
           "duree_min": 45,
@@ -10143,7 +10143,7 @@
         },
         {
           "slug": "diagnostic-passage-defaillant",
-          "titre": "Diagnostiquer une transmission qui saute (méthode d'élimination)",
+          "titre": "Diagnostiquer une transmission qui saute",
           "level": 3,
           "order": 4,
           "duree_min": 40,
@@ -10484,7 +10484,7 @@
         },
         {
           "slug": "moyeux-integres-reglage",
-          "titre": "Moyeux à vitesses intégrées : réglage du câble (Nexus, Alfine, Enviolo)",
+          "titre": "Moyeux à vitesses intégrées : réglage",
           "level": 3,
           "order": 8,
           "duree_min": 35,
@@ -10563,7 +10563,7 @@
         },
         {
           "slug": "choisir-developpements",
-          "titre": "Choisir tes développements : plage, sauts et capacité de chape",
+          "titre": "Choisir tes développements",
           "level": 3,
           "order": 9,
           "duree_min": 45,
@@ -10672,7 +10672,7 @@
         },
         {
           "slug": "pedales-entretien-roulements",
-          "titre": "Réviser des pédales : roulements, axes, broches et mécanismes",
+          "titre": "Réviser des pédales",
           "level": 3,
           "order": 10,
           "duree_min": 45,
@@ -11038,7 +11038,7 @@
         },
         {
           "slug": "di2-etube-configuration",
-          "titre": "Di2 : configuration E-Tube, firmware et diagnostic de pannes",
+          "titre": "Di2 : configuration E-Tube et diagnostic",
           "level": 4,
           "order": 4,
           "duree_min": 40,
@@ -11198,7 +11198,7 @@
         },
         {
           "slug": "t-type-udh",
-          "titre": "SRAM Eagle Transmission T-Type sur UDH : montage et calibration",
+          "titre": "SRAM Eagle Transmission T-Type sur UDH",
           "level": 4,
           "order": 6,
           "duree_min": 45,
@@ -11277,7 +11277,7 @@
         },
         {
           "slug": "igh-vidange-service",
-          "titre": "Moyeux à vitesses intégrées : vidange et service (Alfine, Rohloff, Enviolo)",
+          "titre": "Moyeux intégrés : vidange et service",
           "level": 4,
           "order": 7,
           "duree_min": 40,
@@ -11358,7 +11358,7 @@
         },
         {
           "slug": "transmission-vae-usure-composants",
-          "titre": "Transmission de VAE : usure accélérée et choix de composants",
+          "titre": "Transmission de VAE",
           "level": 4,
           "order": 8,
           "duree_min": 35,
@@ -11445,7 +11445,7 @@
         },
         {
           "slug": "montage-groupe-complet",
-          "titre": "Installer un groupe complet : séquence, contrôles et points de non-retour",
+          "titre": "Installer un groupe complet",
           "level": 5,
           "order": 1,
           "duree_min": 35,
@@ -11540,7 +11540,7 @@
         },
         {
           "slug": "transmission-cire-rendement",
-          "titre": "Transmission haut rendement : cirage en immersion et protocole d'atelier",
+          "titre": "Transmission haut rendement",
           "level": 5,
           "order": 2,
           "duree_min": 45,
@@ -11630,7 +11630,7 @@
         },
         {
           "slug": "reparation-filetages-secours",
-          "titre": "Sauvetage transmission : manivelle grippée, vis cassée, interface abîmée",
+          "titre": "Sauvetage transmission",
           "level": 5,
           "order": 3,
           "duree_min": 45,
@@ -11977,7 +11977,7 @@
         },
         {
           "slug": "precharge-jeu-direction-ahead",
-          "titre": "Jeu de direction ahead : détecter le jeu et régler la précharge",
+          "titre": "Jeu de direction ahead",
           "level": 2,
           "order": 1,
           "duree_min": 30,
@@ -12049,7 +12049,7 @@
         },
         {
           "slug": "remplacer-potence-cintre",
-          "titre": "Remplacer potence et cintre : diamètres, couples et croisement de serrage",
+          "titre": "Remplacer potence et cintre",
           "level": 2,
           "order": 2,
           "duree_min": 45,
@@ -12195,7 +12195,7 @@
         },
         {
           "slug": "cables-gaines-routage-externe",
-          "titre": "Câbles et gaines : matériaux, coupe parfaite et routage externe",
+          "titre": "Câbles et gaines : coupe et routage externe",
           "level": 2,
           "order": 4,
           "duree_min": 45,
@@ -12263,7 +12263,7 @@
         },
         {
           "slug": "entretien-tige-selle",
-          "titre": "Tige de selle : mesurer, graisser ou pâter, prévenir le grippage",
+          "titre": "Tige de selle : graisser et prévenir le grippage",
           "level": 2,
           "order": 5,
           "duree_min": 30,
@@ -12345,7 +12345,7 @@
         },
         {
           "slug": "position-selle-methodes",
-          "titre": "Position de selle chiffrée : hauteur (LeMond, Holmes) et recul (KOPS)",
+          "titre": "Position de selle chiffrée",
           "level": 2,
           "order": 6,
           "duree_min": 45,
@@ -12415,7 +12415,7 @@
         },
         {
           "slug": "regler-cales-chaussures",
-          "titre": "Régler ses cales : position, angle et tension de déchaussage",
+          "titre": "Régler ses cales : position, angle, tension",
           "level": 2,
           "order": 7,
           "duree_min": 30,
@@ -12482,7 +12482,7 @@
         },
         {
           "slug": "garde-boue-bequille",
-          "titre": "Garde-boue fixes, clipsables et béquilles : monter sans frottement ni danger",
+          "titre": "Garde-boue fixes, clipsables et béquilles",
           "level": 2,
           "order": 8,
           "duree_min": 40,
@@ -12557,7 +12557,7 @@
         },
         {
           "slug": "porte-bagages-charge",
-          "titre": "Porte-bagages : fixations, limites de charge et alternatives bikepacking",
+          "titre": "Porte-bagages : fixations et limites de charge",
           "level": 2,
           "order": 9,
           "duree_min": 35,
@@ -12739,7 +12739,7 @@
         },
         {
           "slug": "choisir-une-selle",
-          "titre": "Choisir une selle : largeur d'ischions, forme et protocole d'essai",
+          "titre": "Choisir une selle : ischions, forme, essai",
           "level": 2,
           "order": 11,
           "duree_min": 40,
@@ -12844,7 +12844,7 @@
         },
         {
           "slug": "eclairage-visibilite",
-          "titre": "Éclairage et visibilité : choisir, poser, régler le faisceau",
+          "titre": "Éclairage et visibilité",
           "level": 2,
           "order": 12,
           "duree_min": 35,
@@ -12952,7 +12952,7 @@
         },
         {
           "slug": "identifier-jeu-direction-shis",
-          "titre": "Identifier un jeu de direction : le code SHIS au pied à coulisse",
+          "titre": "Identifier un jeu de direction",
           "level": 3,
           "order": 1,
           "duree_min": 35,
@@ -13029,7 +13029,7 @@
         },
         {
           "slug": "revision-jeu-direction-ahead",
-          "titre": "Réviser un jeu de direction ahead : dépose de fourche, roulements, graissage",
+          "titre": "Réviser un jeu de direction ahead",
           "level": 3,
           "order": 2,
           "duree_min": 40,
@@ -13108,7 +13108,7 @@
         },
         {
           "slug": "jeu-direction-filete",
-          "titre": "Jeu de direction fileté : réglage aux contre-écrous et entretien (ville et vintage)",
+          "titre": "Jeu de direction fileté",
           "level": 3,
           "order": 3,
           "duree_min": 40,
@@ -13182,7 +13182,7 @@
         },
         {
           "slug": "routage-interne-cadre",
-          "titre": "Routage interne : passer câbles, gaines et durites dans le cadre sans y laisser tes nerfs",
+          "titre": "Routage interne : câbles, gaines et durites",
           "level": 3,
           "order": 4,
           "duree_min": 45,
@@ -13253,7 +13253,7 @@
         },
         {
           "slug": "extraction-tige-selle-grippee",
-          "titre": "Extraire une tige de selle grippée sans sacrifier le cadre",
+          "titre": "Extraire une tige de selle grippée",
           "level": 3,
           "order": 5,
           "duree_min": 45,
@@ -13329,7 +13329,7 @@
         },
         {
           "slug": "poser-tige-telescopique",
-          "titre": "Installer une tige télescopique (dropper) : câble interne ou sans fil",
+          "titre": "Installer une tige télescopique (dropper)",
           "level": 3,
           "order": 6,
           "duree_min": 45,
@@ -13414,7 +13414,7 @@
         },
         {
           "slug": "purge-dropper-reverb",
-          "titre": "Purger une commande hydraulique de dropper (RockShox Reverb)",
+          "titre": "Purger une dropper hydraulique (Reverb)",
           "level": 3,
           "order": 7,
           "duree_min": 40,
@@ -13489,7 +13489,7 @@
         },
         {
           "slug": "fitting-cockpit",
-          "titre": "Ajuster le cockpit à ton corps : reach, drop et largeur de cintre",
+          "titre": "Ajuster le cockpit à ton corps",
           "level": 3,
           "order": 8,
           "duree_min": 40,
@@ -13683,7 +13683,7 @@
         },
         {
           "slug": "craquements-direction-selle",
-          "titre": "Diagnostiquer les craquements du poste de pilotage et de la selle",
+          "titre": "Craquements du poste de pilotage et de la selle",
           "level": 4,
           "order": 1,
           "duree_min": 45,
@@ -13766,7 +13766,7 @@
         },
         {
           "slug": "remplacer-cuvettes-direction",
-          "titre": "Extraire et presser cuvettes et crown race de jeu de direction",
+          "titre": "Extraire et presser cuvettes et crown race",
           "level": 4,
           "order": 2,
           "duree_min": 45,
@@ -13847,7 +13847,7 @@
         },
         {
           "slug": "standards-direction-compatibilite",
-          "titre": "Standards de direction exotiques et décisions de compatibilité",
+          "titre": "Standards de direction exotiques",
           "level": 4,
           "order": 3,
           "duree_min": 40,
@@ -13928,7 +13928,7 @@
         },
         {
           "slug": "routage-via-jeu-direction",
-          "titre": "Routage intégré via le jeu de direction : entretien sans tout casser",
+          "titre": "Routage intégré via le jeu de direction",
           "level": 4,
           "order": 4,
           "duree_min": 45,
@@ -14009,7 +14009,7 @@
         },
         {
           "slug": "revision-dropper-cartouche",
-          "titre": "Réviser une dropper : service du fût et remplacement de cartouche",
+          "titre": "Réviser une dropper",
           "level": 4,
           "order": 5,
           "duree_min": 45,
@@ -14085,7 +14085,7 @@
         },
         {
           "slug": "direction-velo-cargo",
-          "titre": "Direction de vélo cargo : tringlerie, rotules et alignement",
+          "titre": "Direction de vélo cargo",
           "level": 4,
           "order": 6,
           "duree_min": 40,
@@ -14160,7 +14160,7 @@
         },
         {
           "slug": "etude-posturale-complete",
-          "titre": "Étude posturale complète : conduire un fit statique de A à Z",
+          "titre": "Étude posturale complète",
           "level": 4,
           "order": 7,
           "duree_min": 45,
@@ -14472,7 +14472,7 @@
         },
         {
           "slug": "remplacer-fourche-complete",
-          "titre": "Remplacer une fourche complète : compatibilité, transfert et géométrie",
+          "titre": "Remplacer une fourche complète",
           "level": 5,
           "order": 1,
           "duree_min": 45,
@@ -14899,7 +14899,7 @@
         },
         {
           "slug": "suspension-pompe-haute-pression",
-          "titre": "La pompe haute pression : gonfler juste, relire juste",
+          "titre": "La pompe haute pression",
           "level": 2,
           "order": 1,
           "duree_min": 25,
@@ -15220,7 +15220,7 @@
         },
         {
           "slug": "ressort-helicoidal-precharge",
-          "titre": "Suspensions à ressort : tarage et précharge, du VTT au vélo de ville",
+          "titre": "Suspensions à ressort",
           "level": 2,
           "order": 6,
           "duree_min": 30,
@@ -15364,7 +15364,7 @@
         },
         {
           "slug": "controle-25h-suspension",
-          "titre": "Le contrôle 25 h : intervalles, couples et joint témoin",
+          "titre": "Le contrôle 25 h : intervalles et couples",
           "level": 2,
           "order": 8,
           "duree_min": 30,
@@ -15433,7 +15433,7 @@
         },
         {
           "slug": "tige-selle-potence-suspendues",
-          "titre": "Tiges de selle et potences suspendues : choisir, régler, entretenir",
+          "titre": "Tiges de selle et potences suspendues",
           "level": 2,
           "order": 9,
           "duree_min": 40,
@@ -15539,7 +15539,7 @@
         },
         {
           "slug": "identifier-modele-kit-huiles",
-          "titre": "Identifier sa suspension : numéro de série, kit joints et tableau d'huiles",
+          "titre": "Identifier sa suspension",
           "level": 3,
           "order": 1,
           "duree_min": 30,
@@ -15775,7 +15775,7 @@
         },
         {
           "slug": "service-bas-fourche-fox",
-          "titre": "Service bas de fourche Fox (50 h) : les différences qui comptent",
+          "titre": "Service bas de fourche Fox (50 h)",
           "level": 3,
           "order": 4,
           "duree_min": 45,
@@ -15854,7 +15854,7 @@
         },
         {
           "slug": "service-fourche-ville-ressort",
-          "titre": "Service d'une fourche urbaine à ressort (SR Suntour et compagnie)",
+          "titre": "Service d'une fourche urbaine à ressort",
           "level": 3,
           "order": 5,
           "duree_min": 40,
@@ -15926,7 +15926,7 @@
         },
         {
           "slug": "service-air-can-amortisseur",
-          "titre": "Service air can : joints, graisse et progressivité de l'amortisseur",
+          "titre": "Service air can : joints et progressivité",
           "level": 3,
           "order": 6,
           "duree_min": 40,
@@ -16009,7 +16009,7 @@
         },
         {
           "slug": "douilles-amortisseur",
-          "titre": "Douilles et visserie d'amortisseur : le jeu qui se prend pour un roulement mort",
+          "titre": "Douilles et visserie d'amortisseur",
           "level": 3,
           "order": 7,
           "duree_min": 30,
@@ -16079,7 +16079,7 @@
         },
         {
           "slug": "controle-pivots-tout-suspendu",
-          "titre": "Pivots de cadre : contrôle, jeu et couples de la cinématique",
+          "titre": "Pivots de cadre : contrôle, jeu et couples",
           "level": 3,
           "order": 8,
           "duree_min": 30,
@@ -16155,7 +16155,7 @@
         },
         {
           "slug": "bracketing-fox-dialed",
-          "titre": "Le bracketing : affiner ses réglages comme un pilote d'usine",
+          "titre": "Le bracketing : affiner ses réglages",
           "level": 4,
           "order": 1,
           "duree_min": 40,
@@ -16397,7 +16397,7 @@
         },
         {
           "slug": "cinematique-tout-suspendu",
-          "titre": "Cinématique : ratio, progressivité et anti-squat sans les maths qui piquent",
+          "titre": "Cinématique : ratio, progressivité, anti-squat",
           "level": 4,
           "order": 4,
           "duree_min": 40,
@@ -16465,7 +16465,7 @@
         },
         {
           "slug": "choix-ressort-coil",
-          "titre": "Choisir un tarage coil et convertir de l'air au ressort",
+          "titre": "Choisir un tarage coil et passer au ressort",
           "level": 4,
           "order": 5,
           "duree_min": 35,
@@ -16536,7 +16536,7 @@
         },
         {
           "slug": "remplacement-roulements-pivots",
-          "titre": "Remplacer les roulements de pivots d'un cadre tout-suspendu",
+          "titre": "Remplacer les roulements de pivots de cadre",
           "level": 4,
           "order": 6,
           "duree_min": 45,
@@ -16780,9 +16780,9 @@
         },
         {
           "slug": "damper-azote-et-validation",
-          "titre": "Service d'amortisseur 3/3 : recharge gaz, remontage et validation",
+          "titre": "Service d'amortisseur 3/3",
           "level": 5,
-          "order": 3,
+          "order": 5,
           "duree_min": 40,
           "objectifs": [
             "Recharger une chambre à gaz d'amortisseur à la pression constructeur, en sécurité.",
@@ -16893,9 +16893,9 @@
         },
         {
           "slug": "damper-demontage-diagnostic",
-          "titre": "Service d'amortisseur 1/3 : ouverture, diagnostic et état des joints",
+          "titre": "Service d'amortisseur 1/3",
           "level": 5,
-          "order": 4,
+          "order": 3,
           "duree_min": 45,
           "objectifs": [
             "Dépressuriser et ouvrir un amortisseur en sécurité, dans le bon ordre.",
@@ -17025,9 +17025,9 @@
         },
         {
           "slug": "damper-ifp-et-huile",
-          "titre": "Service d'amortisseur 2/3 : IFP, remplissage et purge",
+          "titre": "Service d'amortisseur 2/3",
           "level": 5,
-          "order": 5,
+          "order": 4,
           "duree_min": 45,
           "objectifs": [
             "Choisir le grade et le volume d'huile exacts imposés par le manuel du modèle.",
@@ -17595,7 +17595,7 @@
         },
         {
           "slug": "vae-depose-repose-batterie",
-          "titre": "Déposer et reposer une batterie : verrous, rails et packs intégrés",
+          "titre": "Déposer et reposer une batterie",
           "level": 2,
           "order": 1,
           "duree_min": 30,
@@ -17673,7 +17673,7 @@
         },
         {
           "slug": "vae-capteur-vitesse-aimant-entrefer",
-          "titre": "Capteur de vitesse : aimant, entrefer et remplacement",
+          "titre": "Capteur de vitesse",
           "level": 2,
           "order": 2,
           "duree_min": 35,
@@ -17754,7 +17754,7 @@
         },
         {
           "slug": "vae-peripheriques-electriques",
-          "titre": "Périphériques électriques : coupure au frein, éclairage et port USB",
+          "titre": "Périphériques électriques",
           "level": 2,
           "order": 3,
           "duree_min": 30,
@@ -17835,7 +17835,7 @@
         },
         {
           "slug": "vae-apps-appairage-firmware",
-          "titre": "Applications constructeur : appairage, mise à jour firmware et journal",
+          "titre": "Applications constructeur",
           "level": 2,
           "order": 4,
           "duree_min": 35,
@@ -17915,7 +17915,7 @@
         },
         {
           "slug": "vae-panne-assistance-arbre-decision",
-          "titre": "« Ça n'assiste plus » : arbre de décision sans instrument",
+          "titre": "« Ça n'assiste plus »",
           "level": 2,
           "order": 5,
           "duree_min": 40,
@@ -18086,7 +18086,7 @@
         },
         {
           "slug": "vae-mesure-batterie-tension-soc",
-          "titre": "Mesurer un pack : tension, état de charge et premières conclusions",
+          "titre": "Mesurer un pack : tension et état de charge",
           "level": 3,
           "order": 2,
           "duree_min": 40,
@@ -18169,7 +18169,7 @@
         },
         {
           "slug": "vae-chargeur-controle-mesure",
-          "titre": "Chargeur : contrôler la sortie et identifier un chargeur inadapté",
+          "titre": "Chargeur : contrôler la sortie",
           "level": 3,
           "order": 3,
           "duree_min": 30,
@@ -18251,7 +18251,7 @@
         },
         {
           "slug": "vae-continuite-faisceau",
-          "titre": "Tester la continuité d'un faisceau et localiser une coupure",
+          "titre": "Tester la continuité d'un faisceau",
           "level": 3,
           "order": 4,
           "duree_min": 40,
@@ -18332,7 +18332,7 @@
         },
         {
           "slug": "vae-connecteurs-higo-julet",
-          "titre": "Connectique Higo et Julet : identifier, ouvrir, entretenir, remplacer",
+          "titre": "Connectique Higo et Julet",
           "level": 3,
           "order": 5,
           "duree_min": 40,
@@ -18679,7 +18679,7 @@
         },
         {
           "slug": "vae-roue-moteur-torque-arm",
-          "titre": "Roue à moteur moyeu : dépose, repose et bras de couple",
+          "titre": "Roue à moteur moyeu",
           "level": 3,
           "order": 9,
           "duree_min": 40,
@@ -18771,7 +18771,7 @@
         },
         {
           "slug": "vae-cartographie-faisceau-brochage",
-          "titre": "Cartographier un faisceau : topologie, brochage et schéma d'un système non documenté",
+          "titre": "Cartographier un faisceau",
           "level": 3,
           "order": 10,
           "duree_min": 45,
@@ -18883,7 +18883,7 @@
         },
         {
           "slug": "vae-codes-erreur-autres-marques",
-          "titre": "Codes d'erreur des autres systèmes : Yamaha, Brose, Fazua, Mahle, Bafang, Giant",
+          "titre": "Codes d'erreur des autres systèmes",
           "level": 4,
           "order": 1,
           "duree_min": 40,
@@ -18973,7 +18973,7 @@
         },
         {
           "slug": "vae-diagnostic-capteur-couple",
-          "titre": "Diagnostiquer un capteur de couple et distinguer couple, cadence et vitesse",
+          "titre": "Diagnostiquer un capteur de couple",
           "level": 4,
           "order": 2,
           "duree_min": 45,
@@ -19157,7 +19157,7 @@
         },
         {
           "slug": "vae-diagnostic-moteur-moyeu",
-          "titre": "Diagnostiquer un moteur moyeu : phases, capteurs Hall et contrôleur",
+          "titre": "Diagnostiquer un moteur moyeu",
           "level": 4,
           "order": 4,
           "duree_min": 45,
@@ -19247,9 +19247,9 @@
         },
         {
           "slug": "vae-bms-pack-diagnostic",
-          "titre": "BMS et pack ouvert : diagnostic d'un déséquilibre cellulaire",
+          "titre": "BMS et pack ouvert",
           "level": 4,
-          "order": 5,
+          "order": 6,
           "duree_min": 45,
           "objectifs": [
             "Décrire les fonctions d'un BMS : protection en surcharge, en sous-décharge, en surintensité, en température, et équilibrage",
@@ -19349,9 +19349,9 @@
         },
         {
           "slug": "vae-autonomie-soh-diagnostic",
-          "titre": "Perte d'autonomie : mesurer la santé réelle d'un pack",
+          "titre": "Perte d'autonomie : mesurer la santé du pack",
           "level": 4,
-          "order": 6,
+          "order": 5,
           "duree_min": 45,
           "objectifs": [
             "Distinguer une perte d'autonomie due au pack d'une perte due à l'usage, au terrain, au poids ou aux pneus",
@@ -19724,7 +19724,7 @@
         },
         {
           "slug": "vae-remplacer-batterie-marche",
-          "titre": "Remplacer une batterie : compatibilité, marché, arnaques et fin de vie",
+          "titre": "Remplacer une batterie",
           "level": 4,
           "order": 10,
           "duree_min": 45,
@@ -19841,7 +19841,7 @@
         },
         {
           "slug": "vae-retrofit-conception",
-          "titre": "Concevoir un retrofit complet : ville, vintage, pliant, cargo",
+          "titre": "Concevoir un retrofit complet",
           "level": 5,
           "order": 1,
           "duree_min": 45,
@@ -19957,7 +19957,7 @@
         },
         {
           "slug": "vae-atelier-conformite-stockage",
-          "titre": "Atelier VAE : stockage, transport, déchets et traçabilité",
+          "titre": "Atelier VAE : stockage, transport, déchets",
           "level": 5,
           "order": 2,
           "duree_min": 45,
@@ -20162,9 +20162,9 @@
         },
         {
           "slug": "vae-pack-assemblage-soudure",
-          "titre": "Reconstruire un pack 2/3 : soudure par points et assemblage mécanique",
+          "titre": "Reconstruire un pack 2/3",
           "level": 5,
-          "order": 4,
+          "order": 5,
           "duree_min": 45,
           "objectifs": [
             "Régler une soudeuse par points et produire un point reproductible sur cellule cylindrique.",
@@ -20267,9 +20267,9 @@
         },
         {
           "slug": "vae-pack-bms-premiere-charge",
-          "titre": "Reconstruire un pack 3/3 : BMS, câblage et première charge surveillée",
+          "titre": "Reconstruire un pack 3/3",
           "level": 5,
-          "order": 5,
+          "order": 6,
           "duree_min": 45,
           "objectifs": [
             "Choisir un BMS cohérent avec la configuration S/P, le courant de décharge et le mode de charge.",
@@ -20382,9 +20382,9 @@
         },
         {
           "slug": "vae-pack-choix-cellules",
-          "titre": "Reconstruire un pack 1/3 : choisir et apparier les cellules",
+          "titre": "Reconstruire un pack 1/3",
           "level": 5,
-          "order": 6,
+          "order": 4,
           "duree_min": 45,
           "objectifs": [
             "Choisir une chimie et un format de cellule adaptés à l'usage, au courant demandé et au volume disponible.",
@@ -20803,7 +20803,7 @@
         },
         {
           "slug": "pneus-jantes-vintage-dimensions",
-          "titre": "Dimensions de pneus et jantes vintage : décoder le chaos",
+          "titre": "Dimensions de pneus et jantes vintage",
           "level": 2,
           "order": 2,
           "duree_min": 30,
@@ -20865,7 +20865,7 @@
         },
         {
           "slug": "roue-libre-identification-depose",
-          "titre": "Roue libre vissée : identifier l'extracteur et déposer sans casse",
+          "titre": "Roue libre vissée : extracteur et dépose",
           "level": 2,
           "order": 3,
           "duree_min": 30,
@@ -20943,7 +20943,7 @@
         },
         {
           "slug": "fixie-ratio-skid-legalite",
-          "titre": "Pignon fixe : ratio, développement, skid patches et cadre légal",
+          "titre": "Pignon fixe : ratio, skid patches, cadre légal",
           "level": 2,
           "order": 4,
           "duree_min": 25,
@@ -21008,7 +21008,7 @@
         },
         {
           "slug": "fixie-tension-chaine",
-          "titre": "Tension de chaîne sur pattes horizontales : la méthode propre",
+          "titre": "Tension de chaîne sur pattes horizontales",
           "level": 2,
           "order": 5,
           "duree_min": 30,
@@ -21080,7 +21080,7 @@
         },
         {
           "slug": "pliant-plier-controler",
-          "titre": "Vélo pliant : plier, déplier et contrôler sans rien casser",
+          "titre": "Vélo pliant : plier, déplier, contrôler",
           "level": 2,
           "order": 6,
           "duree_min": 25,
@@ -21207,7 +21207,7 @@
         },
         {
           "slug": "bikepacking-trousse-terrain",
-          "titre": "Réparer en pleine cambrousse : la trousse et les gestes bikepacking",
+          "titre": "Réparer en pleine cambrousse",
           "level": 2,
           "order": 8,
           "duree_min": 35,
@@ -21400,7 +21400,7 @@
         },
         {
           "slug": "manivelles-clavettes-service",
-          "titre": "Manivelles à clavettes : dépose et repose dans les règles",
+          "titre": "Manivelles à clavettes",
           "level": 3,
           "order": 1,
           "duree_min": 40,
@@ -21481,7 +21481,7 @@
         },
         {
           "slug": "boitier-filetages-francais-italien",
-          "titre": "Boîtiers à filetage français, italien et suisse : identifier et réviser",
+          "titre": "Boîtiers à filetage français, italien et suisse",
           "level": 3,
           "order": 2,
           "duree_min": 40,
@@ -21631,7 +21631,7 @@
         },
         {
           "slug": "sturmey-archer-reglage",
-          "titre": "Moyeu Sturmey-Archer 3 vitesses : réglage de la chaînette indicatrice",
+          "titre": "Moyeu Sturmey-Archer 3 vitesses",
           "level": 3,
           "order": 4,
           "duree_min": 35,
@@ -21702,7 +21702,7 @@
         },
         {
           "slug": "fixie-moyeu-piste",
-          "titre": "Moyeu piste : monter pignon et contre-écrou sans risquer ta peau",
+          "titre": "Moyeu piste : pignon et contre-écrou",
           "level": 3,
           "order": 5,
           "duree_min": 30,
@@ -21781,7 +21781,7 @@
         },
         {
           "slug": "tandem-timing-excentrique",
-          "titre": "Tandem : chaîne de synchronisation et boîtier excentrique",
+          "titre": "Tandem : chaîne de synchronisation",
           "level": 3,
           "order": 6,
           "duree_min": 35,
@@ -21853,7 +21853,7 @@
         },
         {
           "slug": "cargo-direction-renvoi",
-          "titre": "Biporteur : contrôler et régler la direction à tringlerie ou à câbles",
+          "titre": "Biporteur : direction à tringlerie ou câbles",
           "level": 3,
           "order": 7,
           "duree_min": 35,
@@ -21927,7 +21927,7 @@
         },
         {
           "slug": "cargo-tandem-cables-longs",
-          "titre": "Câbles et durites très longs : freiner net sur cargo, longtail et tandem",
+          "titre": "Câbles et durites très longs",
           "level": 3,
           "order": 8,
           "duree_min": 35,
@@ -22002,7 +22002,7 @@
         },
         {
           "slug": "pliant-service-charnieres",
-          "titre": "Vélo pliant : service des charnières et rattrapage de jeu",
+          "titre": "Vélo pliant : service des charnières",
           "level": 3,
           "order": 9,
           "duree_min": 40,
@@ -22076,7 +22076,7 @@
         },
         {
           "slug": "bikepacking-porteurs-fixations",
-          "titre": "Bikepacking : monter porteurs, cages et sacoches sans ruiner le cadre",
+          "titre": "Bikepacking : porteurs, cages et sacoches",
           "level": 3,
           "order": 10,
           "duree_min": 30,
@@ -22151,7 +22151,7 @@
         },
         {
           "slug": "cycles-adaptes",
-          "titre": "Vélos couchés, tricycles et cycles adaptés : ce qui change mécaniquement",
+          "titre": "Vélos couchés, tricycles et cycles adaptés",
           "level": 3,
           "order": 11,
           "duree_min": 45,
@@ -22271,7 +22271,7 @@
         },
         {
           "slug": "transport-enfants-charges",
-          "titre": "Transporter des enfants et des charges : sièges, remorques, attelages",
+          "titre": "Transporter des enfants et des charges",
           "level": 3,
           "order": 12,
           "duree_min": 45,
@@ -22392,7 +22392,7 @@
         },
         {
           "slug": "methode-identification-standards",
-          "titre": "La méthode des pièces mystères : identifier n'importe quel standard",
+          "titre": "La méthode des pièces mystères",
           "level": 4,
           "order": 1,
           "duree_min": 45,
@@ -22473,7 +22473,7 @@
         },
         {
           "slug": "direction-potence-standards-anciens",
-          "titre": "Directions et potences anciennes : français, Raleigh 26 TPI, 1 pouce",
+          "titre": "Directions et potences anciennes",
           "level": 4,
           "order": 2,
           "duree_min": 35,
@@ -22548,7 +22548,7 @@
         },
         {
           "slug": "conversion-650b-700c",
-          "titre": "Conversions de taille de roue : 27 pouces vers 700C, 700C vers 650B",
+          "titre": "Conversions de taille de roue",
           "level": 4,
           "order": 3,
           "duree_min": 40,
@@ -22620,7 +22620,7 @@
         },
         {
           "slug": "roue-libre-entretien-interne",
-          "titre": "Entretien interne d'une roue libre : cliquets, billes et relubrification",
+          "titre": "Entretien interne d'une roue libre",
           "level": 4,
           "order": 4,
           "duree_min": 40,
@@ -22692,7 +22692,7 @@
         },
         {
           "slug": "tandem-freinage-specifique",
-          "titre": "Freiner un tandem : frein de ralentissement et gestion de la chaleur",
+          "titre": "Freiner un tandem : ralentisseur et chaleur",
           "level": 4,
           "order": 5,
           "duree_min": 40,
@@ -22837,7 +22837,7 @@
         },
         {
           "slug": "cintrage-froid-cadre-acier",
-          "titre": "Cintrage à froid d'un cadre acier : élargir l'arrière de 120 à 130 mm",
+          "titre": "Cintrage à froid d'un cadre acier",
           "level": 5,
           "order": 1,
           "duree_min": 45,
@@ -23002,7 +23002,7 @@
         },
         {
           "slug": "neo-retro-conversion-projet",
-          "titre": "Projet néo-rétro : moderniser un cadre ancien sans faute de compatibilité",
+          "titre": "Projet néo-rétro : moderniser un cadre ancien",
           "level": 5,
           "order": 3,
           "duree_min": 45,
@@ -23097,7 +23097,7 @@
       "lessons": [
         {
           "slug": "retouche-peinture-cadre",
-          "titre": "Retoucher la peinture d'un cadre : éclats, rayures, points de rouille",
+          "titre": "Retoucher la peinture d'un cadre",
           "level": 2,
           "order": 1,
           "duree_min": 30,
@@ -23170,7 +23170,7 @@
         },
         {
           "slug": "protection-cadre-film",
-          "titre": "Protéger un cadre : film polyuréthane, protège-base et zones d'usure",
+          "titre": "Protéger un cadre : film et protège-base",
           "level": 2,
           "order": 2,
           "duree_min": 30,
@@ -23232,7 +23232,7 @@
         },
         {
           "slug": "alignement-patte-dag",
-          "titre": "Contrôler et redresser une patte de dérailleur au comparateur (DAG)",
+          "titre": "Redresser une patte de dérailleur au DAG",
           "level": 3,
           "order": 1,
           "duree_min": 30,
@@ -23308,7 +23308,7 @@
         },
         {
           "slug": "controle-alignement-cadre",
-          "titre": "Contrôler l'alignement d'un cadre et de ses pattes arrière",
+          "titre": "Contrôler l'alignement d'un cadre",
           "level": 4,
           "order": 1,
           "duree_min": 40,
@@ -23379,7 +23379,7 @@
         },
         {
           "slug": "fiche-montage-cadre-nu",
-          "titre": "Établir la fiche de montage d'un cadre nu : standards et compatibilités",
+          "titre": "Établir la fiche de montage d'un cadre nu",
           "level": 4,
           "order": 2,
           "duree_min": 45,
@@ -23482,7 +23482,7 @@
         },
         {
           "slug": "process-peinture-securite-epi",
-          "titre": "La chaîne peinture : étapes, produits 1K/2K et sécurité isocyanates",
+          "titre": "La chaîne peinture",
           "level": 4,
           "order": 3,
           "duree_min": 35,
@@ -23553,7 +23553,7 @@
           "slug": "technique-spray-bike",
           "titre": "Peindre au Spray.Bike : la technique poudre-aérosol",
           "level": 4,
-          "order": 4,
+          "order": 8,
           "duree_min": 35,
           "objectifs": [
             "Comprendre ce qui distingue Spray.Bike d'une peinture solvant classique (poudre acrylique, application très proche, toucher sec rapide)",
@@ -23624,7 +23624,7 @@
           "slug": "pose-decals",
           "titre": "Poser des décalcomanies : sous vernis ou sur vernis",
           "level": 4,
-          "order": 5,
+          "order": 9,
           "duree_min": 30,
           "objectifs": [
             "Distinguer waterslide, vinyle à transfert et vinyle épais — et où chacun se pose dans la chaîne",
@@ -23681,9 +23681,9 @@
         },
         {
           "slug": "thermolaquage-decouverte",
-          "titre": "Le thermolaquage (powder coating) : quand, comment, chez qui",
+          "titre": "Le thermolaquage (powder coating)",
           "level": 4,
-          "order": 6,
+          "order": 12,
           "duree_min": 30,
           "objectifs": [
             "Comprendre le principe : poudre électrostatique + cuisson 160-200 °C, et ses conséquences",
@@ -23751,9 +23751,9 @@
         },
         {
           "slug": "decapage-cadre-acier",
-          "titre": "Décaper un cadre acier : chimique, mécanique et traitement de la rouille",
+          "titre": "Décaper un cadre acier",
           "level": 4,
-          "order": 7,
+          "order": 4,
           "duree_min": 45,
           "objectifs": [
             "Choisir la méthode de décapage : décapant chimique, ponçage mécanique, sablage sous-traité",
@@ -23830,7 +23830,7 @@
           "slug": "preparation-peinture-alu-carbone",
           "titre": "Préparer un cadre alu ou carbone pour la peinture",
           "level": 4,
-          "order": 8,
+          "order": 5,
           "duree_min": 40,
           "objectifs": [
             "Comprendre pourquoi décapant fort et sablage agressif sont interdits sur le carbone",
@@ -23899,7 +23899,7 @@
           "slug": "appret-epoxy-2k",
           "titre": "Appliquer l'apprêt époxy 2K",
           "level": 4,
-          "order": 9,
+          "order": 6,
           "duree_min": 40,
           "objectifs": [
             "Expliquer le triple rôle de l'apprêt : accrochage, anticorrosion, fond uniforme",
@@ -23977,9 +23977,9 @@
         },
         {
           "slug": "base-couleur-aerosol",
-          "titre": "Poser la base couleur : couches croisées, tendu et opacité",
+          "titre": "Poser la base couleur",
           "level": 4,
-          "order": 10,
+          "order": 7,
           "duree_min": 40,
           "objectifs": [
             "Maîtriser le geste aérosol : distance, vitesse, déclenchement hors pièce, recouvrement 50 %",
@@ -24047,7 +24047,7 @@
           "slug": "masquage-fine-line",
           "titre": "Masquer des motifs : fine line, bi-ton et dégradés",
           "level": 4,
-          "order": 11,
+          "order": 10,
           "duree_min": 45,
           "objectifs": [
             "Concevoir un motif simple et le reporter symétriquement sur le cadre",
@@ -24108,7 +24108,7 @@
           "slug": "vernis-2k-aerosol",
           "titre": "Vernir au 2K : activation, application, durcissement",
           "level": 4,
-          "order": 12,
+          "order": 11,
           "duree_min": 40,
           "objectifs": [
             "Activer un aérosol 2K (percussion du durcisseur) et planifier autour du pot life de 24-48 h",
@@ -24182,7 +24182,7 @@
         },
         {
           "slug": "taraudage-surfacage-boitier",
-          "titre": "Tarauder et surfacer un boîtier de pédalier fileté (BSA, ITA, T47)",
+          "titre": "Tarauder et surfacer un boîtier fileté",
           "level": 5,
           "order": 1,
           "duree_min": 45,
@@ -24333,7 +24333,7 @@
         },
         {
           "slug": "preparation-interfaces-secondaires",
-          "titre": "Préparer les interfaces secondaires : tube de selle, tasseaux de frein, petits filetages",
+          "titre": "Préparer les interfaces secondaires",
           "level": 5,
           "order": 3,
           "duree_min": 35,
@@ -24405,7 +24405,7 @@
         },
         {
           "slug": "pose-jeu-direction-cadre-nu",
-          "titre": "Presser un jeu de direction neuf : cuvettes et cône de fourche",
+          "titre": "Presser un jeu de direction neuf",
           "level": 5,
           "order": 4,
           "duree_min": 30,
@@ -24488,7 +24488,7 @@
         },
         {
           "slug": "coupe-pivot-fourche",
-          "titre": "Couper un pivot de fourche : mesure, coupe, étoile ou expandeur",
+          "titre": "Couper un pivot de fourche",
           "level": 5,
           "order": 5,
           "duree_min": 45,
@@ -24643,7 +24643,7 @@
         },
         {
           "slug": "routage-cadre-nu",
-          "titre": "Router gaines et durites dans un cadre nu, interne compris",
+          "titre": "Router gaines et durites dans un cadre nu",
           "level": 5,
           "order": 7,
           "duree_min": 45,
@@ -24800,7 +24800,7 @@
         },
         {
           "slug": "assemblage-final-couples",
-          "titre": "L'assemblage final : serrer au couple, ligne par ligne, avec traçabilité",
+          "titre": "L'assemblage final",
           "level": 5,
           "order": 9,
           "duree_min": 45,
@@ -24887,7 +24887,7 @@
         },
         {
           "slug": "m-check-livraison",
-          "titre": "Contrôle final et première sortie : le M-check de livraison",
+          "titre": "Contrôle final et première sortie",
           "level": 5,
           "order": 10,
           "duree_min": 30,
@@ -24963,7 +24963,7 @@
         },
         {
           "slug": "montage-vae-cargo-specifiques",
-          "titre": "Adapter le montage : VAE, cargo, bikepacking et cas particuliers",
+          "titre": "Adapter le montage",
           "level": 5,
           "order": 11,
           "duree_min": 40,
@@ -25049,7 +25049,7 @@
         },
         {
           "slug": "defauts-peinture-polissage",
-          "titre": "Corriger les défauts : coulures, peau d'orange, polissage",
+          "titre": "Corriger les défauts",
           "level": 5,
           "order": 12,
           "duree_min": 40,
@@ -25108,7 +25108,7 @@
         },
         {
           "slug": "remise-en-service-apres-peinture",
-          "titre": "Après la peinture : démasquer, retarauder, remettre en service",
+          "titre": "Après la peinture : démasquer et retarauder",
           "level": 5,
           "order": 13,
           "duree_min": 30,
@@ -25180,7 +25180,7 @@
         },
         {
           "slug": "peripheriques-et-interieur-tubes",
-          "titre": "Périphériques et intérieur des tubes : peindre le reste et protéger de l'intérieur",
+          "titre": "Périphériques et intérieur des tubes",
           "level": 5,
           "order": 14,
           "duree_min": 45,

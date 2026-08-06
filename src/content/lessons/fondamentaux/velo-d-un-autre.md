@@ -1,5 +1,5 @@
 ---
-title: "Réparer le vélo d'un autre : responsabilité, refus et restitution"
+title: "Réparer le vélo d'un autre"
 level: 4
 system: "fondamentaux"
 order: 7

@@ -1,5 +1,5 @@
 ---
-title: "Tension de chaîne sur pattes horizontales : la méthode propre"
+title: "Tension de chaîne sur pattes horizontales"
 level: 2
 system: "cas-exotiques"
 order: 5

@@ -1,5 +1,5 @@
 ---
-title: "Remplacer les roulements de pivots d'un cadre tout-suspendu"
+title: "Remplacer les roulements de pivots de cadre"
 level: 4
 system: "suspension"
 order: 6

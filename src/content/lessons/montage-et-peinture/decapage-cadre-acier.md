@@ -1,8 +1,8 @@
 ---
-title: "Décaper un cadre acier : chimique, mécanique et traitement de la rouille"
+title: "Décaper un cadre acier"
 level: 4
 system: "montage-et-peinture"
-order: 7
+order: 4
 status: "draft"
 duration: 45
 objectives:

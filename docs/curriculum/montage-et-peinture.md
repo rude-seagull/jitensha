@@ -8,11 +8,11 @@ Du cadre nu au vélo fini, signé de tes mains : préparation mécanique du cadr
 
 ## Niveau 2 — Intermédiaire
 
-### 1. Retoucher la peinture d'un cadre : éclats, rayures, points de rouille `retouche-peinture-cadre`
+### 1. Retoucher la peinture d'un cadre `retouche-peinture-cadre`
 
 - **Durée :** 30 min
 - **Prérequis :**
-  - [Graisse, pâte carbone, frein-filet, antiseize : quoi, où, pourquoi](fondamentaux.md) `pates-assemblage`
+  - [Graisse, pâte carbone, frein-filet, antiseize](fondamentaux.md) `pates-assemblage`
   - Savoir nettoyer et dégraisser correctement un cadre *(fondamentaux)*
 - **Outils :** Papier abrasif grains 400/600/1000, Convertisseur de rouille, Stylo ou pot de peinture de retouche, Vernis transparent 1K (ou vernis à ongles incolore), Alcool isopropylique, Chiffons microfibre, Cotons-tiges, Loupe ou lampe frontale
 
@@ -38,7 +38,7 @@ Critères de validation :
 - article — Bike Gremlin : traitement de la rouille sur cadre acier
 - doc — Spray.Bike : produits de retouche et pocket cans
 
-### 2. Protéger un cadre : film polyuréthane, protège-base et zones d'usure `protection-cadre-film`
+### 2. Protéger un cadre : film et protège-base `protection-cadre-film`
 
 - **Durée :** 30 min
 - **Prérequis :**
@@ -68,13 +68,13 @@ Critères de validation :
 
 ## Niveau 3 — Avancé
 
-### 1. Contrôler et redresser une patte de dérailleur au comparateur (DAG) `alignement-patte-dag`
+### 1. Redresser une patte de dérailleur au DAG `alignement-patte-dag`
 
 - **Durée :** 30 min
 - **Prérequis :**
-  - [Patte de dérailleur : contrôle visuel, standards et UDH](transmission.md) `patte-derailleur-controle-visuel`
+  - [Patte de dérailleur](transmission.md) `patte-derailleur-controle-visuel`
   - Roue arrière montée, centrée et serrée correctement (la jante sert de référence de mesure) *(roues-et-pneus)*
-  - [T'équiper niveau 3 : roulements, purge, câblerie interne](fondamentaux.md) `outillage-avance`
+  - [T'équiper niveau 3](fondamentaux.md) `outillage-avance`
 - **Outils :** Comparateur de patte (Park Tool DAG-2.2 ou équivalent), Pied d'atelier, Clés Allen, Loupe, Patte de rechange (démonstration)
 
 **Objectifs :**
@@ -101,11 +101,11 @@ Critères de validation :
 
 ## Niveau 4 — Expert
 
-### 1. Contrôler l'alignement d'un cadre et de ses pattes arrière `controle-alignement-cadre`
+### 1. Contrôler l'alignement d'un cadre `controle-alignement-cadre`
 
 - **Durée :** 40 min
 - **Prérequis :**
-  - [La carte d'identité d'un cadre : décoder tous ses standards](fondamentaux.md) `carte-identite-cadre`
+  - [La carte d'identité d'un cadre](fondamentaux.md) `carte-identite-cadre`
   - [Inspecter un cadre : fissures, fatigue, impacts](fondamentaux.md) `inspection-cadre`
 - **Outils :** Ficelle fine non élastique, Pied à coulisse, Réglet métallique, Jauges d'alignement de pattes (Park Tool FAG-2 ou équivalent), Pied d'atelier, Carnet d'atelier
 
@@ -131,16 +131,16 @@ Critères de validation :
 - article — Bike Gremlin : écartements de pattes arrière et compatibilités (OLD)
 - livre — Roger Musson : notion de centrage et références de mesure
 
-### 2. Établir la fiche de montage d'un cadre nu : standards et compatibilités `fiche-montage-cadre-nu`
+### 2. Établir la fiche de montage d'un cadre nu `fiche-montage-cadre-nu`
 
 - **Durée :** 45 min
 - **Prérequis :**
   - [Anatomie du poste de pilotage](direction-et-peripheriques.md) `anatomie-poste-pilotage`
-  - [Boîtiers filetés : identifier et remplacer (BSA, italien, T47)](transmission.md) `boitier-pedalier-filete`
+  - [Boîtiers filetés : identifier et remplacer](transmission.md) `boitier-pedalier-filete`
   - [Freinage des vélos lourds : VAE et cargo](freinage.md) `freinage-vae-cargo`
   - Connaître les formats d'axes et d'écartements de roues *(roues-et-pneus)*
   - [Mesurer et décoder : pied à coulisse et marquages](fondamentaux.md) `pied-a-coulisse-et-marquages`
-  - [La carte d'identité d'un cadre : décoder tous ses standards](fondamentaux.md) `carte-identite-cadre`
+  - [La carte d'identité d'un cadre](fondamentaux.md) `carte-identite-cadre`
 - **Outils :** Pied à coulisse numérique, Réglet, Lampe, Fiche de montage vierge (modèle fourni), Fiches techniques des composants pressentis, Carnet d'atelier
 
 **Objectifs :**
@@ -166,7 +166,7 @@ Critères de validation :
 - doc — SRAM : spécifications UDH et documentation de montage
 - livre — Lennard Zinn : préparer un montage complet : choix et compatibilité des composants
 
-### 3. La chaîne peinture : étapes, produits 1K/2K et sécurité isocyanates `process-peinture-securite-epi`
+### 3. La chaîne peinture `process-peinture-securite-epi`
 
 - **Durée :** 35 min
 - **Prérequis :**
@@ -198,99 +198,11 @@ Critères de validation :
 - doc — 3M : choix et test d'étanchéité des masques à cartouches
 - video — Spray.Bike : vue d'ensemble du processus de peinture d'un cadre
 
-### 4. Peindre au Spray.Bike : la technique poudre-aérosol `technique-spray-bike`
-
-- **Durée :** 35 min
-- **Prérequis :**
-  - [Préparer un cadre alu ou carbone pour la peinture](#preparation-peinture-alu-carbone) `preparation-peinture-alu-carbone`
-  - [Décaper un cadre acier : chimique, mécanique et traitement de la rouille](#decapage-cadre-acier) `decapage-cadre-acier`
-  - [Poser la base couleur : couches croisées, tendu et opacité](#base-couleur-aerosol) `base-couleur-aerosol`
-- **Outils :** Bombes Spray.Bike (couleur + fixateur éventuel), Masque à cartouches A2, Gants nitrile, Chiffon collant, Tube témoin, Lampe de contrôle
-
-**Objectifs :**
-- Comprendre ce qui distingue Spray.Bike d'une peinture solvant classique (poudre acrylique, application très proche, toucher sec rapide)
-- Appliquer à 5-10 cm avec la gestuelle spécifique, sans les réflexes carrosserie
-- Choisir la préparation adaptée et décider vernis ou pas selon l'usage
-- Explorer la gamme : Pocket, effets (Keirin flake), transparents
-
-**TP — Mise en couleur Spray.Bike et comparatif raisonné**
-
-Tu peins un cadre (ou un triangle avant sacrificiel) au Spray.Bike en appliquant la gestuelle spécifique, puis tu rédiges un comparatif avec la base solvant classique.
-
-Critères de validation :
-1. 1. Application à 5-10 cm régulière : couverture uniforme dès la première couche sur au moins 90 % de la surface.
-2. 2. Zéro coulure (avec cette formule, toute coulure = distance ou dosage fautifs : cause analysée et consignée le cas échéant).
-3. 3. Toucher sec en 20 min maximum : aucun marquage au doigt ganté après ce délai.
-4. 4. Comparatif écrit Spray.Bike vs base solvant : au moins 5 différences observées et documentées (préparation, gestuelle, rendu, résistance, vernis).
-
-**Pistes de références** *(URLs vérifiées à la rédaction de la leçon)* :
-- video — Spray.Bike : Part One : Prep and Prime
-- video — Spray.Bike : Part Two : Base Coat et effets
-- doc — Spray.Bike : guide officiel d'application et gamme de produits
-
-### 5. Poser des décalcomanies : sous vernis ou sur vernis `pose-decals`
-
-- **Durée :** 30 min
-- **Prérequis :**
-  - [Poser la base couleur : couches croisées, tendu et opacité](#base-couleur-aerosol) `base-couleur-aerosol`
-- **Outils :** Decals (waterslide et vinyle), Bac d'eau tiède + goutte de savon, Raclette souple feutrée, Réglet et ruban repère, Aiguille fine, Chiffon microfibre
-
-**Objectifs :**
-- Distinguer waterslide, vinyle à transfert et vinyle épais — et où chacun se pose dans la chaîne
-- Positionner des decals avec repères mesurés, symétriques des deux côtés
-- Marouffler sans bulles ni plis sur des tubes cylindriques
-- Décider sous-vernis (protégé, définitif) vs sur-vernis (remplaçable)
-
-**TP — Pose d'un jeu complet de decals**
-
-Tu poses un jeu de decals (tube diagonal des deux côtés + tube de selle) avec repérage mesuré, puis tu valides l'adhérence avant vernissage.
-
-Critères de validation :
-1. 1. Alignement : axe de chaque décal parallèle à l'axe du tube à ±1 mm sur sa longueur, hauteurs gauche/droite identiques à ±1 mm.
-2. 2. Zéro bulle > 1 mm après maroufflage ; micro-bulles percées à l'aiguille invisibles à 50 cm.
-3. 3. Waterslide : temps de trempage conforme à la notice, aucun déchirement ni pli à la pose.
-4. 4. Bords totalement adhérents avant vernissage : test à l'ongle léger sans soulèvement sur 100 % du périmètre.
-
-**Pistes de références** *(URLs vérifiées à la rédaction de la leçon)* :
-- doc — SprayMax : vernir par-dessus des decals : compatibilités
-- video — Fat Creations : pose de decals sous vernis sur cadre custom
-- doc — Spray.Bike : finitions et personnalisation d'un cadre peint
-
-### 6. Le thermolaquage (powder coating) : quand, comment, chez qui `thermolaquage-decouverte`
-
-- **Durée :** 30 min
-- **Prérequis :**
-  - [Décaper un cadre acier : chimique, mécanique et traitement de la rouille](#decapage-cadre-acier) `decapage-cadre-acier`
-  - [Vernir au 2K : activation, application, durcissement](#vernis-2k-aerosol) `vernis-2k-aerosol`
-  - [La carte d'identité d'un cadre : décoder tous ses standards](fondamentaux.md) `carte-identite-cadre`
-- **Outils :** Bouchons filetés et masquages silicone haute température, Fiche de travail pour le prestataire, Pied à coulisse, Étiquettes
-
-**Objectifs :**
-- Comprendre le principe : poudre électrostatique + cuisson 160-200 °C, et ses conséquences
-- Identifier ce qui passe au four (acier, alu nu) et ce qui est exclu (carbone, inserts collés, pièces plastiques)
-- Préparer un cadre pour le thermolaqueur : bouchons haute température, consignes de masquage, fiche de travail
-- Comparer thermolaquage et peinture liquide : coût, durabilité, épaisseur, finesse de finition
-
-**TP — Préparer et spécifier un cadre pour thermolaquage**
-
-Tu prépares un cadre acier pour l'envoi chez un thermolaqueur : éligibilité vérifiée, masquages haute température posés, fiche de consignes rédigée, et comparatif chiffré avec ta peinture liquide.
-
-Critères de validation :
-1. 1. Fiche d'éligibilité remplie sans erreur : matériau, inserts collés ou soudés, pièces à déposer, décision go/no-go argumentée.
-2. 2. 100 % des filetages et portées protégés par bouchons/masquages haute température (compte des points protégés = compte des interfaces de la fiche de montage).
-3. 3. Fiche de consignes au prestataire rédigée : zones à masquer, épaisseur maxi aux portées, teinte RAL, finition.
-4. 4. Comparatif écrit thermolaquage vs peinture liquide sur 5 critères minimum (coût, durabilité, épaisseur, finesse, réparabilité), chiffré à partir d'un devis réel ou d'une grille tarifaire.
-
-**Pistes de références** *(URLs vérifiées à la rédaction de la leçon)* :
-- doc — Qualisteelcoat : principes et exigences du thermolaquage
-- article — Spray.Bike : comparaison des finitions de cadre
-- article — Sheldon Brown : options de refinition d'un cadre acier
-
-### 7. Décaper un cadre acier : chimique, mécanique et traitement de la rouille `decapage-cadre-acier`
+### 4. Décaper un cadre acier `decapage-cadre-acier`
 
 - **Durée :** 45 min
 - **Prérequis :**
-  - [La chaîne peinture : étapes, produits 1K/2K et sécurité isocyanates](#process-peinture-securite-epi) `process-peinture-securite-epi`
+  - [La chaîne peinture](#process-peinture-securite-epi) `process-peinture-securite-epi`
   - [Anatomie du vélo : nomme chaque pièce](fondamentaux.md) `anatomie-velo`
 - **Outils :** Décapant chimique gel, Spatule plastique, Papier abrasif grains 80 à 240, Brosse laiton et laine d'acier, Convertisseur de rouille, Bouchons et ruban aluminium (filetages/portées), Gants butyle ou nitrile épais, Lunettes, Dégraissant silicone-free
 - **⚠️ Sécurité :**
@@ -319,7 +231,7 @@ Critères de validation :
 - article — INRS : risques chimiques des décapants et EPI adaptés
 - doc — SprayMax : préparation du support avant système 2K
 
-### 8. Préparer un cadre alu ou carbone pour la peinture `preparation-peinture-alu-carbone`
+### 5. Préparer un cadre alu ou carbone pour la peinture `preparation-peinture-alu-carbone`
 
 - **Durée :** 40 min
 - **Prérequis :**
@@ -351,13 +263,13 @@ Critères de validation :
 - doc — 3M : abrasifs et méthode de ponçage humide
 - doc — SprayMax : primaires d'accrochage par type de substrat
 
-### 9. Appliquer l'apprêt époxy 2K `appret-epoxy-2k`
+### 6. Appliquer l'apprêt époxy 2K `appret-epoxy-2k`
 
 - **Durée :** 40 min
 - **Prérequis :**
   - [Préparer un cadre alu ou carbone pour la peinture](#preparation-peinture-alu-carbone) `preparation-peinture-alu-carbone`
-  - [Décaper un cadre acier : chimique, mécanique et traitement de la rouille](#decapage-cadre-acier) `decapage-cadre-acier`
-  - [La chaîne peinture : étapes, produits 1K/2K et sécurité isocyanates](#process-peinture-securite-epi) `process-peinture-securite-epi`
+  - [Décaper un cadre acier](#decapage-cadre-acier) `decapage-cadre-acier`
+  - [La chaîne peinture](#process-peinture-securite-epi) `process-peinture-securite-epi`
 - **Outils :** Apprêt époxy 2K (aérosol activable ou pistolet), Balance ou doseur (si pistolet), Masque A2P3, combinaison, gants nitrile, Papier à l'eau grain 400 + guide de ponçage (poudre contrastée), Chiffon collant (tack cloth), Potence de suspension du cadre, Thermomètre/hygromètre
 - **⚠️ Sécurité :**
   - Apprêt 2K = durcisseur isocyanate : masque A2P3, gants nitrile, combinaison et ventilation forcée pour toute la durée de l'application et du désolvatage.
@@ -385,12 +297,12 @@ Critères de validation :
 - article — INRS : protection respiratoire lors de l'application de produits 2K
 - doc — 3M : ponçage au guide et préparation entre couches
 
-### 10. Poser la base couleur : couches croisées, tendu et opacité `base-couleur-aerosol`
+### 7. Poser la base couleur `base-couleur-aerosol`
 
 - **Durée :** 40 min
 - **Prérequis :**
   - [Appliquer l'apprêt époxy 2K](#appret-epoxy-2k) `appret-epoxy-2k`
-  - [La chaîne peinture : étapes, produits 1K/2K et sécurité isocyanates](#process-peinture-securite-epi) `process-peinture-securite-epi`
+  - [La chaîne peinture](#process-peinture-securite-epi) `process-peinture-securite-epi`
 - **Outils :** Aérosols de base couleur (qualité carrosserie), Tube d'entraînement (chute acier ou vieux cadre), Masque à cartouches A2 minimum, Chiffon collant, Lampe de contrôle, Chronomètre et carnet (journal des passes)
 - **⚠️ Sécurité :**
   - Même en base 1K, les solvants projetés imposent masque à cartouches A2 et ventilation : un local fermé sans extraction est exclu.
@@ -417,11 +329,69 @@ Critères de validation :
 - doc — SprayMax : bases couleur et fenêtres de recouvrement
 - video — Fat Creations : gestuelle de pulvérisation sur cadre de vélo
 
-### 11. Masquer des motifs : fine line, bi-ton et dégradés `masquage-fine-line`
+### 8. Peindre au Spray.Bike : la technique poudre-aérosol `technique-spray-bike`
+
+- **Durée :** 35 min
+- **Prérequis :**
+  - [Préparer un cadre alu ou carbone pour la peinture](#preparation-peinture-alu-carbone) `preparation-peinture-alu-carbone`
+  - [Décaper un cadre acier](#decapage-cadre-acier) `decapage-cadre-acier`
+  - [Poser la base couleur](#base-couleur-aerosol) `base-couleur-aerosol`
+- **Outils :** Bombes Spray.Bike (couleur + fixateur éventuel), Masque à cartouches A2, Gants nitrile, Chiffon collant, Tube témoin, Lampe de contrôle
+
+**Objectifs :**
+- Comprendre ce qui distingue Spray.Bike d'une peinture solvant classique (poudre acrylique, application très proche, toucher sec rapide)
+- Appliquer à 5-10 cm avec la gestuelle spécifique, sans les réflexes carrosserie
+- Choisir la préparation adaptée et décider vernis ou pas selon l'usage
+- Explorer la gamme : Pocket, effets (Keirin flake), transparents
+
+**TP — Mise en couleur Spray.Bike et comparatif raisonné**
+
+Tu peins un cadre (ou un triangle avant sacrificiel) au Spray.Bike en appliquant la gestuelle spécifique, puis tu rédiges un comparatif avec la base solvant classique.
+
+Critères de validation :
+1. 1. Application à 5-10 cm régulière : couverture uniforme dès la première couche sur au moins 90 % de la surface.
+2. 2. Zéro coulure (avec cette formule, toute coulure = distance ou dosage fautifs : cause analysée et consignée le cas échéant).
+3. 3. Toucher sec en 20 min maximum : aucun marquage au doigt ganté après ce délai.
+4. 4. Comparatif écrit Spray.Bike vs base solvant : au moins 5 différences observées et documentées (préparation, gestuelle, rendu, résistance, vernis).
+
+**Pistes de références** *(URLs vérifiées à la rédaction de la leçon)* :
+- video — Spray.Bike : Part One : Prep and Prime
+- video — Spray.Bike : Part Two : Base Coat et effets
+- doc — Spray.Bike : guide officiel d'application et gamme de produits
+
+### 9. Poser des décalcomanies : sous vernis ou sur vernis `pose-decals`
+
+- **Durée :** 30 min
+- **Prérequis :**
+  - [Poser la base couleur](#base-couleur-aerosol) `base-couleur-aerosol`
+- **Outils :** Decals (waterslide et vinyle), Bac d'eau tiède + goutte de savon, Raclette souple feutrée, Réglet et ruban repère, Aiguille fine, Chiffon microfibre
+
+**Objectifs :**
+- Distinguer waterslide, vinyle à transfert et vinyle épais — et où chacun se pose dans la chaîne
+- Positionner des decals avec repères mesurés, symétriques des deux côtés
+- Marouffler sans bulles ni plis sur des tubes cylindriques
+- Décider sous-vernis (protégé, définitif) vs sur-vernis (remplaçable)
+
+**TP — Pose d'un jeu complet de decals**
+
+Tu poses un jeu de decals (tube diagonal des deux côtés + tube de selle) avec repérage mesuré, puis tu valides l'adhérence avant vernissage.
+
+Critères de validation :
+1. 1. Alignement : axe de chaque décal parallèle à l'axe du tube à ±1 mm sur sa longueur, hauteurs gauche/droite identiques à ±1 mm.
+2. 2. Zéro bulle > 1 mm après maroufflage ; micro-bulles percées à l'aiguille invisibles à 50 cm.
+3. 3. Waterslide : temps de trempage conforme à la notice, aucun déchirement ni pli à la pose.
+4. 4. Bords totalement adhérents avant vernissage : test à l'ongle léger sans soulèvement sur 100 % du périmètre.
+
+**Pistes de références** *(URLs vérifiées à la rédaction de la leçon)* :
+- doc — SprayMax : vernir par-dessus des decals : compatibilités
+- video — Fat Creations : pose de decals sous vernis sur cadre custom
+- doc — Spray.Bike : finitions et personnalisation d'un cadre peint
+
+### 10. Masquer des motifs : fine line, bi-ton et dégradés `masquage-fine-line`
 
 - **Durée :** 45 min
 - **Prérequis :**
-  - [Poser la base couleur : couches croisées, tendu et opacité](#base-couleur-aerosol) `base-couleur-aerosol`
+  - [Poser la base couleur](#base-couleur-aerosol) `base-couleur-aerosol`
 - **Outils :** Ruban fine line 3 et 6 mm, Ruban de masquage carrosserie, Papier de masquage et film, Cutter de précision, Réglet souple, Crayon gras, Aérosols de couleur secondaire, Masque à cartouches A2
 
 **Objectifs :**
@@ -445,13 +415,13 @@ Critères de validation :
 - video — Fat Creations : masquage de motifs custom sur cadres
 - video — Spray.Bike : masquages et effets décoratifs
 
-### 12. Vernir au 2K : activation, application, durcissement `vernis-2k-aerosol`
+### 11. Vernir au 2K : activation, application, durcissement `vernis-2k-aerosol`
 
 - **Durée :** 40 min
 - **Prérequis :**
   - [Masquer des motifs : fine line, bi-ton et dégradés](#masquage-fine-line) `masquage-fine-line`
   - [Poser des décalcomanies : sous vernis ou sur vernis](#pose-decals) `pose-decals`
-  - [La chaîne peinture : étapes, produits 1K/2K et sécurité isocyanates](#process-peinture-securite-epi) `process-peinture-securite-epi`
+  - [La chaîne peinture](#process-peinture-securite-epi) `process-peinture-securite-epi`
 - **Outils :** Aérosol vernis 2K (type SprayMax 2K), Masque A2P3 + cartouches neuves, Combinaison et gants nitrile, Chiffon collant, Thermomètre/hygromètre, Néon ou lampe tubulaire (contrôle du tendu), Chronomètre
 - **⚠️ Sécurité :**
   - Vernis 2K = isocyanates : masque A2P3 à cartouches neuves, combinaison, gants nitrile, ventilation forcée du début de l'application à la fin du désolvatage. Un masque anti-poussière ne protège PAS.
@@ -479,15 +449,45 @@ Critères de validation :
 - video — Spray.Bike : vernir un cadre : Clear Coat
 - article — INRS : isocyanates : prévention lors de la mise en œuvre de vernis 2K
 
+### 12. Le thermolaquage (powder coating) `thermolaquage-decouverte`
+
+- **Durée :** 30 min
+- **Prérequis :**
+  - [Décaper un cadre acier](#decapage-cadre-acier) `decapage-cadre-acier`
+  - [Vernir au 2K : activation, application, durcissement](#vernis-2k-aerosol) `vernis-2k-aerosol`
+  - [La carte d'identité d'un cadre](fondamentaux.md) `carte-identite-cadre`
+- **Outils :** Bouchons filetés et masquages silicone haute température, Fiche de travail pour le prestataire, Pied à coulisse, Étiquettes
+
+**Objectifs :**
+- Comprendre le principe : poudre électrostatique + cuisson 160-200 °C, et ses conséquences
+- Identifier ce qui passe au four (acier, alu nu) et ce qui est exclu (carbone, inserts collés, pièces plastiques)
+- Préparer un cadre pour le thermolaqueur : bouchons haute température, consignes de masquage, fiche de travail
+- Comparer thermolaquage et peinture liquide : coût, durabilité, épaisseur, finesse de finition
+
+**TP — Préparer et spécifier un cadre pour thermolaquage**
+
+Tu prépares un cadre acier pour l'envoi chez un thermolaqueur : éligibilité vérifiée, masquages haute température posés, fiche de consignes rédigée, et comparatif chiffré avec ta peinture liquide.
+
+Critères de validation :
+1. 1. Fiche d'éligibilité remplie sans erreur : matériau, inserts collés ou soudés, pièces à déposer, décision go/no-go argumentée.
+2. 2. 100 % des filetages et portées protégés par bouchons/masquages haute température (compte des points protégés = compte des interfaces de la fiche de montage).
+3. 3. Fiche de consignes au prestataire rédigée : zones à masquer, épaisseur maxi aux portées, teinte RAL, finition.
+4. 4. Comparatif écrit thermolaquage vs peinture liquide sur 5 critères minimum (coût, durabilité, épaisseur, finesse, réparabilité), chiffré à partir d'un devis réel ou d'une grille tarifaire.
+
+**Pistes de références** *(URLs vérifiées à la rédaction de la leçon)* :
+- doc — Qualisteelcoat : principes et exigences du thermolaquage
+- article — Spray.Bike : comparaison des finitions de cadre
+- article — Sheldon Brown : options de refinition d'un cadre acier
+
 ## Niveau 5 — Maître
 
-### 1. Tarauder et surfacer un boîtier de pédalier fileté (BSA, ITA, T47) `taraudage-surfacage-boitier`
+### 1. Tarauder et surfacer un boîtier fileté `taraudage-surfacage-boitier`
 
 - **Durée :** 45 min
 - **Prérequis :**
-  - [Installer un groupe complet : séquence, contrôles et points de non-retour](transmission.md) `montage-groupe-complet`
+  - [Installer un groupe complet](transmission.md) `montage-groupe-complet`
   - [Étalonne ta main : pratique délibérée du couple](fondamentaux.md) `etalonnage-sensoriel-couple`
-  - [Établir la fiche de montage d'un cadre nu : standards et compatibilités](#fiche-montage-cadre-nu) `fiche-montage-cadre-nu`
+  - [Établir la fiche de montage d'un cadre nu](#fiche-montage-cadre-nu) `fiche-montage-cadre-nu`
 - **Outils :** Jeu taraud/surfaceur guidé (Park Tool BTS-1 ou équivalent, ou service atelier), Huile de coupe, Pinceau et dégraissant, Graisse de montage, Chiffons, Cuvette ou boîtier neuf pour test
 
 **Objectifs :**
@@ -518,7 +518,7 @@ Critères de validation :
 - **Durée :** 40 min
 - **Prérequis :**
   - [Anatomie du poste de pilotage](direction-et-peripheriques.md) `anatomie-poste-pilotage`
-  - [Réviser un jeu de direction ahead : dépose de fourche, roulements, graissage](direction-et-peripheriques.md) `revision-jeu-direction-ahead`
+  - [Réviser un jeu de direction ahead](direction-et-peripheriques.md) `revision-jeu-direction-ahead`
 - **Outils :** Fraise à surfacer/aléser guidée pour tube de direction (ou service atelier), Pied à coulisse numérique, Huile de coupe, Dégraissant, chiffons, Lampe, Cuvettes de jeu de direction pour contrôle à blanc
 
 **Objectifs :**
@@ -543,11 +543,11 @@ Critères de validation :
 - doc — Chris King : exigences de préparation du tube de direction avant pose
 - outil — Unior : fraises de surfaçage de tube de direction
 
-### 3. Préparer les interfaces secondaires : tube de selle, tasseaux de frein, petits filetages `preparation-interfaces-secondaires`
+### 3. Préparer les interfaces secondaires `preparation-interfaces-secondaires`
 
 - **Durée :** 35 min
 - **Prérequis :**
-  - [Réparer un filetage : taraud et filet rapporté (Helicoil)](fondamentaux.md) `filetages-reparation-taraud-helicoil`
+  - [Réparer un filetage](fondamentaux.md) `filetages-reparation-taraud-helicoil`
   - [Panorama des systèmes de freinage](freinage.md) `panorama-systemes-freinage`
 - **Outils :** Alésoir ou brosse cylindrique de tube de selle, Fraise à surfacer post-mount (ou service atelier), Tarauds M5/M6/M10×1, Huile de coupe, Pied à coulisse, Tige de selle au diamètre nominal, Graisse ou pâte carbone selon matériau
 
@@ -573,14 +573,14 @@ Critères de validation :
 - article — Bike Gremlin : diamètres de tige de selle et ajustement
 - doc — Unior : outillage de préparation post-mount et tube de selle
 
-### 4. Presser un jeu de direction neuf : cuvettes et cône de fourche `pose-jeu-direction-cadre-nu`
+### 4. Presser un jeu de direction neuf `pose-jeu-direction-cadre-nu`
 
 - **Durée :** 30 min
 - **Prérequis :**
-  - [Jeu de direction ahead : détecter le jeu et régler la précharge](direction-et-peripheriques.md) `precharge-jeu-direction-ahead`
+  - [Jeu de direction ahead](direction-et-peripheriques.md) `precharge-jeu-direction-ahead`
   - [Surfacer et aléser le tube de direction d'un cadre](#surfacage-tube-direction) `surfacage-tube-direction`
   - Lire la nomenclature SHIS *(direction-et-peripheriques)*
-  - [Extraire et presser cuvettes et crown race de jeu de direction](direction-et-peripheriques.md) `remplacer-cuvettes-direction`
+  - [Extraire et presser cuvettes et crown race](direction-et-peripheriques.md) `remplacer-cuvettes-direction`
 - **Outils :** Presse à jeu de direction (Park Tool HHP-2 ou presse à tige filetée M12 maison), Adaptateurs/coupelles adaptés au diamètre, Chasse-cône de fourche (ou tube PVC ajusté pour cône fendu), Graisse de montage, Jeu de cales de 0,05 mm, Lampe
 
 **Objectifs :**
@@ -605,12 +605,12 @@ Critères de validation :
 - doc — Cane Creek : notice de pose des jeux de direction et couples associés
 - livre — Roger Musson : fabrication d'une presse à cuvettes à tige filetée
 
-### 5. Couper un pivot de fourche : mesure, coupe, étoile ou expandeur `coupe-pivot-fourche`
+### 5. Couper un pivot de fourche `coupe-pivot-fourche`
 
 - **Durée :** 45 min
 - **Prérequis :**
-  - [Presser un jeu de direction neuf : cuvettes et cône de fourche](#pose-jeu-direction-cadre-nu) `pose-jeu-direction-cadre-nu`
-  - [Jeu de direction ahead : détecter le jeu et régler la précharge](direction-et-peripheriques.md) `precharge-jeu-direction-ahead`
+  - [Presser un jeu de direction neuf](#pose-jeu-direction-cadre-nu) `pose-jeu-direction-cadre-nu`
+  - [Jeu de direction ahead](direction-et-peripheriques.md) `precharge-jeu-direction-ahead`
   - [Étalonne ta main : pratique délibérée du couple](fondamentaux.md) `etalonnage-sensoriel-couple`
 - **Outils :** Guide de coupe (Park Tool SG-6/SG-8 ou équivalent), Scie à métaux lame fine (32 TPI) ou lame carbone, Lime fine et papier 400, Chasse-étoile, Expandeur carbone + clé dynamométrique, Réglet et pied à coulisse, Ruban de masquage, Masque FFP3 et aspiration (carbone)
 - **⚠️ Sécurité :**
@@ -645,8 +645,8 @@ Critères de validation :
 
 - **Durée :** 35 min
 - **Prérequis :**
-  - [Établir la fiche de montage d'un cadre nu : standards et compatibilités](#fiche-montage-cadre-nu) `fiche-montage-cadre-nu`
-  - [Couple, tension, frottement : pourquoi un boulon tient](fondamentaux.md) `couple-tension-frottement`
+  - [Établir la fiche de montage d'un cadre nu](#fiche-montage-cadre-nu) `fiche-montage-cadre-nu`
+  - [Couple, tension, frottement](fondamentaux.md) `couple-tension-frottement`
 - **Outils :** Fiche de montage, Carnet d'atelier ou tableur, Bacs de tri pour visserie, Étiquettes, Fiches techniques des composants
 
 **Objectifs :**
@@ -671,11 +671,11 @@ Critères de validation :
 - video — Berm Peak : montage complet d'un VTT à partir du cadre nu
 - livre — Lennard Zinn : ordre des opérations et produits d'assemblage
 
-### 7. Router gaines et durites dans un cadre nu, interne compris `routage-cadre-nu`
+### 7. Router gaines et durites dans un cadre nu `routage-cadre-nu`
 
 - **Durée :** 45 min
 - **Prérequis :**
-  - [Câbles et gaines : matériaux, coupe parfaite et routage externe](direction-et-peripheriques.md) `cables-gaines-routage-externe`
+  - [Câbles et gaines : coupe et routage externe](direction-et-peripheriques.md) `cables-gaines-routage-externe`
   - [Raccourcir une durite Shimano (olive et insert)](freinage.md) `raccourcir-durite-shimano`
   - [Planifier un montage complet : la gamme d'assemblage](#ordre-montage-cadre-nu) `ordre-montage-cadre-nu`
 - **Outils :** Kit de routage interne magnétique (Park Tool IR-1.2 ou équivalent), Gaines, durites, câbles neufs, Coupe-gaine et coupe-durite, Mousses anti-bruit, Ruban de masquage, Lampe et endoscope (optionnel)
@@ -707,7 +707,7 @@ Critères de validation :
 
 - **Durée :** 35 min
 - **Prérequis :**
-  - [Router gaines et durites dans un cadre nu, interne compris](#routage-cadre-nu) `routage-cadre-nu`
+  - [Router gaines et durites dans un cadre nu](#routage-cadre-nu) `routage-cadre-nu`
   - [Mesurer et corriger la ligne de chaîne](transmission.md) `ligne-de-chaine`
   - [Choisir ses pneus et calculer la bonne pression](roues-et-pneus.md) `choix-pneus-et-pression`
 - **Outils :** Ensemble des composants du montage, Pied à coulisse et réglet, Clés Allen/Torx, Fiche d'anomalies, Chronomètre
@@ -735,7 +735,7 @@ Critères de validation :
 - livre — Lennard Zinn : vérifications de compatibilité au montage
 - article — Bike Gremlin : ligne de chaîne : mesure et valeurs cibles
 
-### 9. L'assemblage final : serrer au couple, ligne par ligne, avec traçabilité `assemblage-final-couples`
+### 9. L'assemblage final `assemblage-final-couples`
 
 - **Durée :** 45 min
 - **Prérequis :**
@@ -770,12 +770,12 @@ Critères de validation :
 - video — GCN Tech : montage complet pro : méthode et ordre de serrage
 - livre — Park Tool : Big Blue Book : checklist d'assemblage final
 
-### 10. Contrôle final et première sortie : le M-check de livraison `m-check-livraison`
+### 10. Contrôle final et première sortie `m-check-livraison`
 
 - **Durée :** 30 min
 - **Prérequis :**
   - [Le M-check : contrôle de sécurité en 8 minutes](fondamentaux.md) `m-check`
-  - [L'assemblage final : serrer au couple, ligne par ligne, avec traçabilité](#assemblage-final-couples) `assemblage-final-couples`
+  - [L'assemblage final](#assemblage-final-couples) `assemblage-final-couples`
   - [Composés de plaquettes et rodage (bed-in)](freinage.md) `plaquettes-composes-rodage`
 - **Outils :** Checklist M-check de livraison, Clés dynamométriques, Manomètre, Casque et équipement pour la sortie d'essai, Appareil photo, Carnet d'atelier
 - **⚠️ Sécurité :**
@@ -803,13 +803,13 @@ Critères de validation :
 - doc — Cytech : standards de contrôle avant livraison (PDI)
 - video — GCN : vérifications avant la première sortie
 
-### 11. Adapter le montage : VAE, cargo, bikepacking et cas particuliers `montage-vae-cargo-specifiques`
+### 11. Adapter le montage `montage-vae-cargo-specifiques`
 
 - **Durée :** 40 min
 - **Prérequis :**
   - [Reconnaître un VAE et identifier son architecture](vae.md) `vae-identifier-architecture`
   - [Panorama des vélos atypiques](cas-exotiques.md) `panorama-velos-atypiques`
-  - [Contrôle final et première sortie : le M-check de livraison](#m-check-livraison) `m-check-livraison`
+  - [Contrôle final et première sortie](#m-check-livraison) `m-check-livraison`
   - [Le M-check : contrôle de sécurité en 8 minutes](fondamentaux.md) `m-check`
 - **Outils :** Clés dynamométriques, Documentation constructeur du système moteur, Réglet (entrefer capteur), Gaines/durites grande longueur, Colliers et guides de faisceau
 - **⚠️ Sécurité :**
@@ -838,7 +838,7 @@ Critères de validation :
 - doc — Tern : spécificités d'assemblage et de contrôle des vélos cargo
 - article — Park Tool : particularités d'atelier sur vélos électriques
 
-### 12. Corriger les défauts : coulures, peau d'orange, polissage `defauts-peinture-polissage`
+### 12. Corriger les défauts `defauts-peinture-polissage`
 
 - **Durée :** 40 min
 - **Prérequis :**
@@ -866,12 +866,12 @@ Critères de validation :
 - doc — SprayMax : défauts d'application des 2K et remèdes
 - video — Fat Creations : correction et finition d'une peinture de cadre
 
-### 13. Après la peinture : démasquer, retarauder, remettre en service `remise-en-service-apres-peinture`
+### 13. Après la peinture : démasquer et retarauder `remise-en-service-apres-peinture`
 
 - **Durée :** 30 min
 - **Prérequis :**
   - [Vernir au 2K : activation, application, durcissement](#vernis-2k-aerosol) `vernis-2k-aerosol`
-  - [Tarauder et surfacer un boîtier de pédalier fileté (BSA, ITA, T47)](#taraudage-surfacage-boitier) `taraudage-surfacage-boitier`
+  - [Tarauder et surfacer un boîtier fileté](#taraudage-surfacage-boitier) `taraudage-surfacage-boitier`
   - [Surfacer et aléser le tube de direction d'un cadre](#surfacage-tube-direction) `surfacage-tube-direction`
 - **Outils :** Tarauds (M5, M10×1, boîtier si nécessaire), Alésoir ou papier fin pour tube de selle, Pied à coulisse, Cutter de précision, Graisse de montage, Chiffons
 
@@ -897,16 +897,16 @@ Critères de validation :
 - article — Sheldon Brown : remontage d'un cadre repeint
 - doc — Spray.Bike : durcissement et manipulation d'un cadre fraîchement peint
 
-### 14. Périphériques et intérieur des tubes : peindre le reste et protéger de l'intérieur `peripheriques-et-interieur-tubes`
+### 14. Périphériques et intérieur des tubes `peripheriques-et-interieur-tubes`
 
 - **Durée :** 45 min
 - **Prérequis :**
-  - [La chaîne peinture : étapes, produits 1K/2K et sécurité isocyanates](#process-peinture-securite-epi) `process-peinture-securite-epi`
-  - [Décaper un cadre acier : chimique, mécanique et traitement de la rouille](#decapage-cadre-acier) `decapage-cadre-acier`
-  - [Poser la base couleur : couches croisées, tendu et opacité](#base-couleur-aerosol) `base-couleur-aerosol`
+  - [La chaîne peinture](#process-peinture-securite-epi) `process-peinture-securite-epi`
+  - [Décaper un cadre acier](#decapage-cadre-acier) `decapage-cadre-acier`
+  - [Poser la base couleur](#base-couleur-aerosol) `base-couleur-aerosol`
   - [Appliquer l'apprêt époxy 2K](#appret-epoxy-2k) `appret-epoxy-2k`
-  - [Après la peinture : démasquer, retarauder, remettre en service](#remise-en-service-apres-peinture) `remise-en-service-apres-peinture`
-  - [Acier, alu, carbone, titane : reconnaître et respecter chaque matériau](fondamentaux.md) `materiaux-cadres`
+  - [Après la peinture : démasquer et retarauder](#remise-en-service-apres-peinture) `remise-en-service-apres-peinture`
+  - [Acier, alu, carbone, titane](fondamentaux.md) `materiaux-cadres`
 - **Outils :** cire de cavité ou huile protectrice de corps creux avec sonde d'injection 360°, endoscope / caméra d'inspection 5-8 mm, bouchons, adhésif de masquage, graisse ou vernis pelable pour protéger filetages et portées, apprêt réactif (wash primer) pour supports zingués et galvanisés, abrasifs 180 à 800, laine d'acier 0000, tampon abrasif fin, produit de conversion de rouille et polish à chrome, aérosols ou pistolet selon le process retenu, lampe rasante et lampe d'inspection, support tournant et crochets pour égouttage tête en bas, masque à cartouches A2P3, gants nitrile, lunettes, ventilation forcée, taraud de nettoyage et vis d'essai pour contrôle des filetages
 - **⚠️ Sécurité :**
   - Injecter un produit solvanté en aérosol dans un volume clos crée une atmosphère de vapeurs inflammables à l'intérieur du cadre : aucune flamme, aucune source d'étincelle, aucun décapeur thermique dans la pièce, ventilation forcée pendant et après.

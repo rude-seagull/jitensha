@@ -1,5 +1,5 @@
 ---
-title: "Dimensions de pneus et jantes vintage : décoder le chaos"
+title: "Dimensions de pneus et jantes vintage"
 level: 2
 system: "cas-exotiques"
 order: 2

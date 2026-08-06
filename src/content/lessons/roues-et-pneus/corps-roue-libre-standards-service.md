@@ -1,5 +1,5 @@
 ---
-title: "Corps de roue libre : HG, XD/XDR, Microspline — identifier et entretenir"
+title: "Corps de roue libre"
 level: 3
 system: "roues-et-pneus"
 order: 7

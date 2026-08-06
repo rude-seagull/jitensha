@@ -186,7 +186,7 @@ Critères de validation :
 
 - **Durée :** 40 min
 - **Prérequis :**
-  - [Câbles et gaines : matériaux, coupe parfaite et routage externe](direction-et-peripheriques.md) `cables-gaines-routage-externe`
+  - [Câbles et gaines : coupe et routage externe](direction-et-peripheriques.md) `cables-gaines-routage-externe`
   - [Remplacer et aligner des patins de frein sur jante](#remplacement-patins-jante) `remplacement-patins-jante`
 - **Outils :** Coupe-câble/coupe-gaine de qualité, Poinçon ou pointe pour rouvrir la lumière, Pince à sertir ou pince plate, Embouts de gaine et de câble, Lubrifiant léger (téflon), Quatrième main (optionnel)
 - **⚠️ Sécurité :**
@@ -486,7 +486,7 @@ Critères de validation :
 - video — GCN Tech : Éliminer les sifflements de freins à disque
 - article — BikeRadar : Contamination des plaquettes : causes et solutions
 
-### 11. Freins en rade en pleine sortie : diagnostic express et retour sécurisé `depannage-freins-terrain`
+### 11. Freins en rade en pleine sortie `depannage-freins-terrain`
 
 - **Durée :** 40 min
 - **Prérequis :**
@@ -494,7 +494,7 @@ Critères de validation :
   - [Inspecter les freins et mesurer l'usure](#inspection-freins-usure) `inspection-freins-usure`
   - [Remplacer des plaquettes de frein à disque](#remplacement-plaquettes-disque) `remplacement-plaquettes-disque`
   - [Remplacer câble et gaine de frein](#cable-gaine-frein-remplacement) `cable-gaine-frein-remplacement`
-  - [Réparer en pleine cambrousse : la trousse et les gestes bikepacking](cas-exotiques.md) `bikepacking-trousse-terrain`
+  - [Réparer en pleine cambrousse](cas-exotiques.md) `bikepacking-trousse-terrain`
 - **Outils :** Multitool avec six pans 2 à 6 mm et torx T25, Plaquettes de secours dans leur emballage, Câble de frein de secours et serre-câble, Petite pince, Colliers Rilsan et sangle velcro, Chiffon propre et lingettes d'alcool isopropylique, Gants nitrile, Chronomètre
 - **⚠️ Sécurité :**
   - Plaquette usée jusqu'au support métallique : on ne redescend pas, on pousse le vélo. Le support détruit le disque et le freinage disparaît d'un coup.
@@ -533,7 +533,7 @@ Critères de validation :
 - article — Bikepacking.com : réparations de freins sur le terrain en voyage chargé
 - article — Vélotaf : freinage des vélos lourds et chargés en usage quotidien
 
-### 12. Poser et régler un levier de frein : position, angle, garde `pose-reglage-levier-frein`
+### 12. Poser et régler un levier de frein `pose-reglage-levier-frein`
 
 - **Durée :** 35 min
 - **Prérequis :**
@@ -578,7 +578,7 @@ Critères de validation :
 
 ## Niveau 3 — Avancé
 
-### 1. Hydraulique : principe de Pascal et discipline des fluides `hydraulique-principe-fluides`
+### 1. Hydraulique : principe et discipline des fluides `hydraulique-principe-fluides`
 
 - **Durée :** 40 min
 - **Prérequis :**
@@ -619,7 +619,7 @@ Critères de validation :
 
 - **Durée :** 45 min
 - **Prérequis :**
-  - [Hydraulique : principe de Pascal et discipline des fluides](#hydraulique-principe-fluides) `hydraulique-principe-fluides`
+  - [Hydraulique : principe et discipline des fluides](#hydraulique-principe-fluides) `hydraulique-principe-fluides`
   - [Remplacer des plaquettes de frein à disque](#remplacement-plaquettes-disque) `remplacement-plaquettes-disque`
 - **Outils :** Kit de purge Shimano (entonnoir + bouchon, seringue ou poire, tuyau), Huile minérale Shimano, Cale de purge jaune, Clés Allen 3-4 mm, clé plate 7 mm, Clé dynamométrique 2-14 N·m, Alcool isopropylique et chiffons, Gants nitrile, lunettes
 - **⚠️ Sécurité :**
@@ -761,7 +761,7 @@ Critères de validation :
 - **Durée :** 30 min
 - **Prérequis :**
   - [Remplacer des plaquettes de frein à disque](#remplacement-plaquettes-disque) `remplacement-plaquettes-disque`
-  - [Hydraulique : principe de Pascal et discipline des fluides](#hydraulique-principe-fluides) `hydraulique-principe-fluides`
+  - [Hydraulique : principe et discipline des fluides](#hydraulique-principe-fluides) `hydraulique-principe-fluides`
 - **Outils :** Repousse-piston plastique, Cale d'épaisseur pour bloquer un piston (bloc ou vieux jeu de plaquettes), Coton-tige et chiffon non pelucheux, Fluide du circuit (huile minérale OU DOT selon frein), Lampe, loupe, Gants nitrile
 - **⚠️ Sécurité :**
   - Ne lubrifie JAMAIS un piston avec autre chose que le fluide de son propre circuit : graisse, silicone ou WD-40 détruisent les joints.
@@ -797,7 +797,7 @@ Critères de validation :
 - **Durée :** 25 min
 - **Prérequis :**
   - [Monter un disque et centrer l'étrier](#montage-rotor-centrage-etrier) `montage-rotor-centrage-etrier`
-  - [T'équiper niveau 3 : roulements, purge, câblerie interne](fondamentaux.md) `outillage-avance`
+  - [T'équiper niveau 3](fondamentaux.md) `outillage-avance`
 - **Outils :** Pied à dévoiler les disques (rotor truing fork), Comparateur à cadran sur support (ou repère fixe + jeu de cales), Marqueur effaçable, Gants propres ou chiffon, Pied d'atelier
 - **⚠️ Sécurité :**
   - Disque froid uniquement : après un freinage, un disque peut rester brûlant plusieurs minutes.
@@ -866,14 +866,14 @@ Critères de validation :
 
 ## Niveau 4 — Expert
 
-### 1. Diagnostic hydraulique avancé : levier spongieux, point errant, fuites `diagnostic-hydraulique-avance`
+### 1. Diagnostic hydraulique avancé `diagnostic-hydraulique-avance`
 
 - **Durée :** 40 min
 - **Prérequis :**
   - [Purger un frein SRAM (DOT, Bleeding Edge)](#purge-sram-bleeding-edge) `purge-sram-bleeding-edge`
   - [Entretenir la mobilité des pistons d'étrier](#entretien-pistons-etrier) `entretien-pistons-etrier`
   - [Purger un frein Shimano (huile minérale, entonnoir)](#purge-shimano-entonnoir) `purge-shimano-entonnoir`
-  - [Diagnostiquer un craquement : la méthode d'élimination](fondamentaux.md) `diagnostic-craquements`
+  - [Diagnostiquer un craquement](fondamentaux.md) `diagnostic-craquements`
 - **Outils :** Kits de purge Shimano et SRAM complets, Papier blanc, lingettes, Sangle (maintien du levier serré une nuit), Comparateur ou réglet (mesure de course au levier), Gants nitrile, lunettes
 - **⚠️ Sécurité :**
   - Un frein au diagnostic incertain ne reprend pas la route : la validation finale se fait toujours par test statique complet avant tout essai roulant.
@@ -906,7 +906,7 @@ Critères de validation :
 
 - **Durée :** 45 min
 - **Prérequis :**
-  - [Diagnostic hydraulique avancé : levier spongieux, point errant, fuites](#diagnostic-hydraulique-avance) `diagnostic-hydraulique-avance`
+  - [Diagnostic hydraulique avancé](#diagnostic-hydraulique-avance) `diagnostic-hydraulique-avance`
   - [Entretenir la mobilité des pistons d'étrier](#entretien-pistons-etrier) `entretien-pistons-etrier`
   - [Raccourcir une durite Shimano (olive et insert)](#raccourcir-durite-shimano) `raccourcir-durite-shimano`
 - **Outils :** Kit joints/pistons du modèle exact, Compresseur ou pompe avec embout (basse pression) OU seringue de poussée hydraulique, Pique plastique (dépose joints), coton-tiges, Fluide du circuit, Clé dynamométrique 2-14 N·m, Loupe, lampe, Gants nitrile, lunettes, bac de récupération
@@ -975,13 +975,13 @@ Critères de validation :
 - article — Epic Bleed Solutions : Timing port et levier qui ne revient pas
 - doc — Magura : Révision des leviers MT
 
-### 4. Purger hors Shimano/SRAM : Magura, TRP, Campagnolo, freins jante hydrauliques `purges-magura-trp-campagnolo`
+### 4. Purger hors Shimano/SRAM `purges-magura-trp-campagnolo`
 
 - **Durée :** 40 min
 - **Prérequis :**
   - [Purger un frein SRAM (DOT, Bleeding Edge)](#purge-sram-bleeding-edge) `purge-sram-bleeding-edge`
   - [Purger un frein Shimano (huile minérale, entonnoir)](#purge-shimano-entonnoir) `purge-shimano-entonnoir`
-  - [Hydraulique : principe de Pascal et discipline des fluides](#hydraulique-principe-fluides) `hydraulique-principe-fluides`
+  - [Hydraulique : principe et discipline des fluides](#hydraulique-principe-fluides) `hydraulique-principe-fluides`
 - **Outils :** Kit de purge Magura (seringues, Royal Blood), Adaptateurs/raccords selon marque, Documentation officielle du modèle traité, Clé dynamométrique 2-14 N·m, Gants nitrile, lunettes, chiffons
 - **⚠️ Sécurité :**
   - Chaque marque a SON fluide minéral homologué : Royal Blood dans un Shimano (ou l'inverse) peut dégrader les joints — respecte la préconisation constructeur.
@@ -1012,13 +1012,13 @@ Critères de validation :
 - doc — Campagnolo : Manuel technique freins à disque hydrauliques
 - video — Park Tool : Purge des freins Magura
 
-### 5. Compatibilités de freinage : tirages, fixations, mélanges de marques `compatibilite-freinage`
+### 5. Compatibilités de freinage `compatibilite-freinage`
 
 - **Durée :** 35 min
 - **Prérequis :**
   - [Régler un frein à disque mécanique](#frein-disque-mecanique-reglage) `frein-disque-mecanique-reglage`
   - [Régler un V-brake de A à Z](#reglage-v-brake) `reglage-v-brake`
-  - [La carte d'identité d'un cadre : décoder tous ses standards](fondamentaux.md) `carte-identite-cadre`
+  - [La carte d'identité d'un cadre](fondamentaux.md) `carte-identite-cadre`
 - **Outils :** Pied à coulisse, Documentation constructeurs (tableaux de compatibilité), Adaptateurs de disque assortis, Carnet d'atelier
 - **⚠️ Sécurité :**
   - Un mélange levier/étrier non validé se teste TOUJOURS à l'arrêt puis à basse vitesse avant tout usage réel : un ratio inadapté donne un frein trop faible ou un blocage brutal.
@@ -1047,7 +1047,7 @@ Critères de validation :
 - article — Sheldon Brown : Tirage des leviers et familles de freins sur jante
 - doc — Shimano : Tableaux de compatibilité freinage
 
-### 6. Freins de moyeu : roller brake, tambour et rétropédalage `freins-tambour-rollerbrake`
+### 6. Freins de moyeu : roller brake et tambour `freins-tambour-rollerbrake`
 
 - **Durée :** 40 min
 - **Prérequis :**
@@ -1082,7 +1082,7 @@ Critères de validation :
 - doc — Sturmey-Archer : Freins à tambour : montage et réglage
 - article — Park Tool : Entretien des moyeux à rétropédalage
 
-### 7. Freins vintage sur jante : centerpull, single pivot, tringles `freins-vintage-jante-service`
+### 7. Freins vintage sur jante `freins-vintage-jante-service`
 
 - **Durée :** 40 min
 - **Prérequis :**
@@ -1120,13 +1120,13 @@ Critères de validation :
 
 ## Niveau 5 — Maître
 
-### 1. Monter un freinage hydraulique complet depuis la boîte `montage-freinage-hydraulique-neuf`
+### 1. Monter un freinage hydraulique complet `montage-freinage-hydraulique-neuf`
 
 - **Durée :** 45 min
 - **Prérequis :**
   - [Raccourcir une durite Shimano (olive et insert)](#raccourcir-durite-shimano) `raccourcir-durite-shimano`
   - [Raccourcir une durite SRAM (barb et olive DOT)](#raccourcir-durite-sram) `raccourcir-durite-sram`
-  - [Routage interne : passer câbles, gaines et durites dans le cadre sans y laisser tes nerfs](direction-et-peripheriques.md) `routage-interne-cadre`
+  - [Routage interne : câbles, gaines et durites](direction-et-peripheriques.md) `routage-interne-cadre`
   - [Planifier un montage complet : la gamme d'assemblage](montage-et-peinture.md) `ordre-montage-cadre-nu`
 - **Outils :** Freins neufs en boîte (ou levier + étrier + durite au mètre), Coupe-durite, presse à insert, connectique neuve (olives, inserts/barbs), Kit de purge de la marque + fluide neuf, Outil de routage interne, Clé dynamométrique 2-14 N·m, Gants nitrile, lunettes
 - **⚠️ Sécurité :**
@@ -1158,12 +1158,12 @@ Critères de validation :
 - video — Park Tool : Montage de freins hydrauliques sur vélo complet
 - video — GCN Tech : Monter un vélo de A à Z : le poste freinage
 
-### 2. Concevoir un freinage pour charges extrêmes : cargo, tandem, descente `conception-freinage-charges-extremes`
+### 2. Concevoir un freinage pour charges extrêmes `conception-freinage-charges-extremes`
 
 - **Durée :** 40 min
 - **Prérequis :**
-  - [Monter un freinage hydraulique complet depuis la boîte](#montage-freinage-hydraulique-neuf) `montage-freinage-hydraulique-neuf`
-  - [Compatibilités de freinage : tirages, fixations, mélanges de marques](#compatibilite-freinage) `compatibilite-freinage`
+  - [Monter un freinage hydraulique complet](#montage-freinage-hydraulique-neuf) `montage-freinage-hydraulique-neuf`
+  - [Compatibilités de freinage](#compatibilite-freinage) `compatibilite-freinage`
   - [Freinage des vélos lourds : VAE et cargo](#freinage-vae-cargo) `freinage-vae-cargo`
   - [Relevé géométrique complet d'un cadre](fondamentaux.md) `releve-geometrique-cadre`
 - **Outils :** Calculatrice et carnet (note de calcul), Documentation constructeurs (limites de poids, tailles maxi), Composants d'upgrade selon spec (disques, adaptateurs, plaquettes), Clé dynamométrique, Décamètre, chronomètre, thermomètre infrarouge (optionnel)

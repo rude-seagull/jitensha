@@ -1,5 +1,5 @@
 ---
-title: "Codes d'erreur des autres systèmes : Yamaha, Brose, Fazua, Mahle, Bafang, Giant"
+title: "Codes d'erreur des autres systèmes"
 level: 4
 system: "vae"
 order: 1

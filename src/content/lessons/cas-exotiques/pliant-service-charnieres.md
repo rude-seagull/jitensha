@@ -1,5 +1,5 @@
 ---
-title: "Vélo pliant : service des charnières et rattrapage de jeu"
+title: "Vélo pliant : service des charnières"
 level: 3
 system: "cas-exotiques"
 order: 9

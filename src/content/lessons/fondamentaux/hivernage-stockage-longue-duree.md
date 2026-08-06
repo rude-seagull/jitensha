@@ -1,8 +1,8 @@
 ---
-title: "Hiverner et réveiller un vélo : stockage longue durée"
+title: "Hiverner et réveiller un vélo"
 level: 2
 system: "fondamentaux"
-order: 15
+order: 14
 status: "draft"
 duration: 35
 objectives:

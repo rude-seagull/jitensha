@@ -1,5 +1,5 @@
 ---
-title: "Diagnostic hydraulique avancé : levier spongieux, point errant, fuites"
+title: "Diagnostic hydraulique avancé"
 level: 4
 system: "freinage"
 order: 1

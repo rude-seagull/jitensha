@@ -1,5 +1,5 @@
 ---
-title: "Choisir un tarage coil et convertir de l'air au ressort"
+title: "Choisir un tarage coil et passer au ressort"
 level: 4
 system: "suspension"
 order: 5

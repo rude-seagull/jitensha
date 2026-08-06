@@ -1,5 +1,5 @@
 ---
-title: "T'équiper niveau 3 : roulements, purge, câblerie interne"
+title: "T'équiper niveau 3"
 level: 3
 system: "fondamentaux"
 order: 1

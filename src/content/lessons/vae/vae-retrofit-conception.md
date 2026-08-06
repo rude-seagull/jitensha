@@ -1,5 +1,5 @@
 ---
-title: "Concevoir un retrofit complet : ville, vintage, pliant, cargo"
+title: "Concevoir un retrofit complet"
 level: 5
 system: "vae"
 order: 1

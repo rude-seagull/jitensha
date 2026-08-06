@@ -1,5 +1,5 @@
 ---
-title: "Direction de vélo cargo : tringlerie, rotules et alignement"
+title: "Direction de vélo cargo"
 level: 4
 system: "direction-et-peripheriques"
 order: 6

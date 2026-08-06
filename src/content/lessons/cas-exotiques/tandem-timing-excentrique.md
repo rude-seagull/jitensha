@@ -1,5 +1,5 @@
 ---
-title: "Tandem : chaîne de synchronisation et boîtier excentrique"
+title: "Tandem : chaîne de synchronisation"
 level: 3
 system: "cas-exotiques"
 order: 6

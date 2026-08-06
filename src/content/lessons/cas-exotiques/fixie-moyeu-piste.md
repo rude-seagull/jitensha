@@ -1,5 +1,5 @@
 ---
-title: "Moyeu piste : monter pignon et contre-écrou sans risquer ta peau"
+title: "Moyeu piste : pignon et contre-écrou"
 level: 3
 system: "cas-exotiques"
 order: 5

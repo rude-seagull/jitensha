@@ -1,5 +1,5 @@
 ---
-title: "Cinématique : ratio, progressivité et anti-squat sans les maths qui piquent"
+title: "Cinématique : ratio, progressivité, anti-squat"
 level: 4
 system: "suspension"
 order: 4

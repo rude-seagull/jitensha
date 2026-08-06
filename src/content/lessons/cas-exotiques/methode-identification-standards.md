@@ -1,5 +1,5 @@
 ---
-title: "La méthode des pièces mystères : identifier n'importe quel standard"
+title: "La méthode des pièces mystères"
 level: 4
 system: "cas-exotiques"
 order: 1

@@ -1,5 +1,5 @@
 ---
-title: "Tester la continuité d'un faisceau et localiser une coupure"
+title: "Tester la continuité d'un faisceau"
 level: 3
 system: "vae"
 order: 4

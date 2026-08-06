@@ -386,7 +386,7 @@ Critères de validation :
 - article — Bike Gremlin : quels outils vélo acheter et dans quel ordre
 - doc — Unior : catalogue outillage cycle (repères qualité pro)
 
-### 2. Couple, tension, frottement : pourquoi un boulon tient `couple-tension-frottement`
+### 2. Couple, tension, frottement `couple-tension-frottement`
 
 - **Durée :** 35 min
 - **Prérequis :**
@@ -417,7 +417,7 @@ Critères de validation :
 
 - **Durée :** 35 min
 - **Prérequis :**
-  - [Couple, tension, frottement : pourquoi un boulon tient](#couple-tension-frottement) `couple-tension-frottement`
+  - [Couple, tension, frottement](#couple-tension-frottement) `couple-tension-frottement`
 - **Outils :** Clé dynamométrique 2-14 N·m, Clé dynamométrique 10-60 N·m (ou accès), Jeu d'embouts, Vélo cobaye, clé dynamométrique 2-14 N·m
 - **⚠️ Sécurité :**
   - Sur composant carbone, dépasser le couple gravé peut créer une fissure invisible qui cassera plus tard : le couple prescrit est un maximum, pas une suggestion.
@@ -471,11 +471,11 @@ Critères de validation :
 - livre — Anders Ericsson — « Peak » : répétition ciblée avec feedback immédiat
 - article — Bike Gremlin : couples de serrage : ordres de grandeur à mémoriser
 
-### 5. Graisse, pâte carbone, frein-filet, antiseize : quoi, où, pourquoi `pates-assemblage`
+### 5. Graisse, pâte carbone, frein-filet, antiseize `pates-assemblage`
 
 - **Durée :** 35 min
 - **Prérequis :**
-  - [Couple, tension, frottement : pourquoi un boulon tient](#couple-tension-frottement) `couple-tension-frottement`
+  - [Couple, tension, frottement](#couple-tension-frottement) `couple-tension-frottement`
 - **Outils :** Graisse universelle, Pâte carbone, Frein-filet amovible (type bleu), Antiseize, Pinceau/spatule, Chiffons
 - **⚠️ Sécurité :**
   - Aucun produit gras à moins de 20 cm d'un disque ou d'une jante à freinage sur jante : la moindre contamination ruine le freinage.
@@ -508,7 +508,7 @@ Critères de validation :
 - **Prérequis :**
   - [Visserie : empreintes, filetages et pas inversés](#empreintes-et-filetages) `empreintes-et-filetages`
   - [La clé dynamométrique : choisir, utiliser, préserver](#cle-dynamometrique) `cle-dynamometrique`
-  - [Graisse, pâte carbone, frein-filet, antiseize : quoi, où, pourquoi](#pates-assemblage) `pates-assemblage`
+  - [Graisse, pâte carbone, frein-filet, antiseize](#pates-assemblage) `pates-assemblage`
 - **Outils :** Vélo cobaye complet, Pied à coulisse, Clés dynamométriques (2 plages), Jeu Allen/Torx/JIS, Table de couples de référence, Pâtes d'assemblage
 
 **Objectifs :**
@@ -618,11 +618,11 @@ Critères de validation :
 - article — road.cc : géométrie 101 : pourquoi stack et reach comptent
 - outil — Bike Insights : comparateur de géométries de vélos
 
-### 10. Acier, alu, carbone, titane : reconnaître et respecter chaque matériau `materiaux-cadres`
+### 10. Acier, alu, carbone, titane `materiaux-cadres`
 
 - **Durée :** 40 min
 - **Prérequis :**
-  - [Couple, tension, frottement : pourquoi un boulon tient](#couple-tension-frottement) `couple-tension-frottement`
+  - [Couple, tension, frottement](#couple-tension-frottement) `couple-tension-frottement`
   - [La clé dynamométrique : choisir, utiliser, préserver](#cle-dynamometrique) `cle-dynamometrique`
 - **Outils :** 4 cadres ou vélos de matériaux différents (atelier participatif si besoin), Aimant, Lampe, Carnet
 - **⚠️ Sécurité :**
@@ -648,16 +648,16 @@ Critères de validation :
 - video — GCN Tech : acier vs alu vs carbone vs titane
 - doc — Cytech Theory One : matériaux et construction des cadres
 
-### 11. Acheter d'occasion : inspection en 20 minutes et devis de remise en état `acheter-occasion-inspection`
+### 11. Acheter d'occasion `acheter-occasion-inspection`
 
 - **Durée :** 45 min
 - **Prérequis :**
   - [Le M-check : contrôle de sécurité en 8 minutes](#m-check) `m-check`
   - [Mesurer l'usure d'une chaîne](transmission.md) `usure-chaine-mesure-jauge`
   - [Inspecter les freins et mesurer l'usure](freinage.md) `inspection-freins-usure`
-  - [Retoucher un voile sur le vélo et contrôler l'usure de la jante](roues-et-pneus.md) `retouche-voile-et-usure-jante`
-  - [Jeu de direction ahead : détecter le jeu et régler la précharge](direction-et-peripheriques.md) `precharge-jeu-direction-ahead`
-  - [Acier, alu, carbone, titane : reconnaître et respecter chaque matériau](#materiaux-cadres) `materiaux-cadres`
+  - [Retoucher un voile et contrôler l'usure de jante](roues-et-pneus.md) `retouche-voile-et-usure-jante`
+  - [Jeu de direction ahead](direction-et-peripheriques.md) `precharge-jeu-direction-ahead`
+  - [Acier, alu, carbone, titane](#materiaux-cadres) `materiaux-cadres`
 - **Outils :** jauge d'usure de chaîne, jeu de clés Allen compact, réglet 150 mm, pied à coulisse (facultatif mais utile), lampe frontale ou lampe puissante, chiffon, loupe ×10, aimant (distinguer acier et alu), jauge d'épaisseur de disque ou réglet fin, smartphone (photos, registres, calcul du devis), carnet et fiche de verdict imprimée
 - **⚠️ Sécurité :**
   - Cadre ou fourche présentant une fissure, une soudure craquée, un pivot fendu ou un impact carbone suspect : achat refusé, quel que soit le prix. Ces pièces ne se réparent pas à l'improvisation et leur rupture est brutale.
@@ -696,15 +696,15 @@ Critères de validation :
 - doc — Shimano : Limites d'usure gravées : épaisseur minimale des disques et des plaquettes
 - doc — Cytech : Bike condition report : structure d'une fiche d'état d'entrée
 
-### 12. Après une chute : le contrôle qui autorise à repartir `controle-apres-chute`
+### 12. Après une chute : le contrôle avant de repartir `controle-apres-chute`
 
 - **Durée :** 35 min
 - **Prérequis :**
   - [Le M-check : contrôle de sécurité en 8 minutes](#m-check) `m-check`
   - [Aligner et resserrer le cockpit](direction-et-peripheriques.md) `alignement-cockpit-serrage`
-  - [Patte de dérailleur : contrôle visuel, standards et UDH](transmission.md) `patte-derailleur-controle-visuel`
-  - [Retoucher un voile sur le vélo et contrôler l'usure de la jante](roues-et-pneus.md) `retouche-voile-et-usure-jante`
-  - [Acier, alu, carbone, titane : reconnaître et respecter chaque matériau](#materiaux-cadres) `materiaux-cadres`
+  - [Patte de dérailleur](transmission.md) `patte-derailleur-controle-visuel`
+  - [Retoucher un voile et contrôler l'usure de jante](roues-et-pneus.md) `retouche-voile-et-usure-jante`
+  - [Acier, alu, carbone, titane](#materiaux-cadres) `materiaux-cadres`
   - [La clé dynamométrique : choisir, utiliser, préserver](#cle-dynamometrique) `cle-dynamometrique`
 - **Outils :** pied d'atelier, jeu de clés Allen et Torx, clé dynamométrique 2-14 N·m, réglet 150 mm et double décimètre, comparateur ou outil d'alignement de patte (si disponible), lampe puissante et loupe, alcool isopropylique et chiffon non pelucheux, pièce de monnaie pour le tap test, ruban de masquage pour poser des repères, carnet et appareil photo
 - **⚠️ Sécurité :**
@@ -745,61 +745,15 @@ Critères de validation :
 - doc — ENVE / Zipp : Politique d'inspection et de remplacement des composants carbone après impact
 - article — EFBe Prüftechnik : Essais de fatigue des cintres et potences : pourquoi une pièce choquée ne se rattrape pas
 
-### 13. L'essai de contrôle : valider une intervention en roulant `essai-de-controle`
-
-- **Durée :** 30 min
-- **Prérequis :**
-  - [Le M-check : contrôle de sécurité en 8 minutes](#m-check) `m-check`
-  - [La clé dynamométrique : choisir, utiliser, préserver](#cle-dynamometrique) `cle-dynamometrique`
-  - [Ton mémo de couples et de tolérances : le construire et le tenir à jour](#memo-couples-tolerances) `memo-couples-tolerances`
-  - [Indexer un dérailleur arrière (tension de câble)](transmission.md) `derailleur-arriere-indexation`
-  - [Composés de plaquettes et rodage (bed-in)](freinage.md) `plaquettes-composes-rodage`
-  - [Le carnet d'atelier et la pratique délibérée](#carnet-atelier) `carnet-atelier`
-- **Outils :** casque et gants, clé dynamométrique 2-14 N·m et 10-60 N·m, jeu de clés Allen et Torx, marqueur de contrôle (peinture témoin ou vernis), ruban de masquage pour repères, compteur GPS ou smartphone (distance et temps), chronomètre, fiche d'essai imprimée et carnet d'atelier
-- **⚠️ Sécurité :**
-  - Après toute intervention sur les freins, le premier test se fait à l'arrêt (levier au serrage), puis au pas, puis à 10 km/h. Un levier qui touche le cintre se découvre au pas, pas dans une descente.
-  - Plaquettes neuves non rodées : distance de freinage très allongée sur les premiers kilomètres. Le rodage fait partie de l'essai, pas de la sortie suivante.
-  - Aucun essai à haute vitesse ni en descente avant le contrôle des couples à froid sur les roues, la visserie et le cockpit.
-  - Essai sur voie ouverte : casque, gants et une boucle sans circulation dense pour les 500 premiers mètres.
-
-**Objectifs :**
-- Définir une boucle d'essai standard, courte et reproductible, qui sollicite tout ce que tu viens de toucher.
-- Exécuter un protocole d'essai gradué : contrôle statique, allure de pas, puis charge réelle.
-- Balayer toute la cassette et tous les plateaux dans un ordre imposé pour faire sortir les défauts d'indexation sous charge.
-- Recontrôler les couples à froid après l'essai, détecter ce qui a bougé et corriger avant de ranger le vélo.
-
-**TP — Ta boucle d'essai standard, jouée après trois interventions différentes**
-
-Tu définis et cartographies une boucle d'essai reproductible qui contient montée, descente freinée, revêtement dégradé et zone d'arrêt sûre. Tu écris un protocole gradué, puis tu joues cette boucle après trois interventions de nature différente, en consignant chaque écart pendant l'essai et en recontrôlant les couples à froid après.
-
-Critères de validation :
-1. 1. Boucle définie et cartographiée : 3 à 6 km, contenant ≥ 1 montée soutenue de ≥ 200 m, ≥ 1 descente permettant 3 freinages appuyés, ≥ 1 portion de revêtement dégradé ou pavé, ≥ 1 zone d'arrêt sûre pour les notes.
-2. 2. Protocole écrit en ≤ 12 points, ordre imposé et respecté : contrôle statique → 300 m à ≤ 10 km/h → balayage transmission → freinages → arrêt et recontrôle.
-3. 3. Balayage complet à chaque essai : montée et descente de tous les pignons et de tous les plateaux, 2 allers-retours, dont au moins un sous charge en montée. Critère « passage net, sans hésitation ni bruit » atteint sur 100 % des rapports utilisables.
-4. 4. Freinage : 3 freinages progressifs jusqu'au blocage contrôlé de la roue arrière ; course de levier mesurée au repère, écart ≤ 3 mm entre le 1er et le 3e freinage ; 0 bruit nouveau, 0 fuite au levier, au raccord ou à l'étrier.
-5. 5. Boucle jouée après 3 interventions de natures différentes, dont au moins une transmission, une freinage et une roue ou cockpit.
-6. 6. Chaque écart consigné pendant l'essai, à l'arrêt, sur la fiche (jamais de mémoire) ; puis corrigé et re-testé. La boucle est rejouée jusqu'à 0 écart ouvert.
-7. 7. Recontrôle des couples à froid ≥ 20 min après l'essai sur 100 % des fixations touchées : aucune hors tolérance. Toute vis ayant tourné est notée avec l'angle lu au repère et la cause analysée.
-8. 8. Marquage témoin appliqué sur ≥ 8 vis critiques avant l'essai puis relu après : rotation détectée = 0 sur les vis déclarées conformes.
-9. 9. Durée de la boucle chronométrée à chaque passage : écart entre essais < 20 %, sinon l'essai n'est pas comparable et ne compte pas.
-10. 10. Fiche d'essai archivée pour les 3 interventions : date, intervention concernée, écarts, corrections, couples recontrôlés, verdict final.
-
-**Pistes de références** *(URLs vérifiées à la rédaction de la leçon)* :
-- article — Park Tool : Contrôle final et essai routier après intervention
-- doc — Cytech : Post-service road test et fiche de sortie d'atelier
-- doc — Shimano : Dealer's Manual : contrôles à effectuer après réglage de transmission et de freinage
-- doc — SRAM : Procédure de rodage des plaquettes et vérifications après intervention sur freins à disque
-- article — Bike Gremlin : Vérifications après réparation : ce qu'on oublie systématiquement
-
-### 14. Hiver, pluie et sel : le protocole qui sauve ton vélo `hiver-pluie-sel`
+### 13. Hiver, pluie et sel `hiver-pluie-sel`
 
 - **Durée :** 40 min
 - **Prérequis :**
   - [Laver le vélo et lubrifier la chaîne](#lavage-et-lubrification) `lavage-et-lubrification`
-  - [Graisse, pâte carbone, frein-filet, antiseize : quoi, où, pourquoi](#pates-assemblage) `pates-assemblage`
+  - [Graisse, pâte carbone, frein-filet, antiseize](#pates-assemblage) `pates-assemblage`
   - [Ton calendrier d'entretien : 25 h, 50 h, 100 h](#calendrier-entretien) `calendrier-entretien`
-  - [Tige de selle : mesurer, graisser ou pâter, prévenir le grippage](direction-et-peripheriques.md) `entretien-tige-selle`
-  - [Câbles et gaines : matériaux, coupe parfaite et routage externe](direction-et-peripheriques.md) `cables-gaines-routage-externe`
+  - [Tige de selle : graisser et prévenir le grippage](direction-et-peripheriques.md) `entretien-tige-selle`
+  - [Câbles et gaines : coupe et routage externe](direction-et-peripheriques.md) `cables-gaines-routage-externe`
   - [Choisir ses pneus et calculer la bonne pression](roues-et-pneus.md) `choix-pneus-et-pression`
 - **Outils :** seau, brosses souples et brosse à transmission, nettoyant vélo pH neutre et dégraissant transmission, tuyau basse pression ou pulvérisateur, chiffons microfibre, lubrifiant chaîne « wet » et cire (ou lubrifiant céramique) pour la comparaison, spray protecteur anti-corrosion (film léger, hors zones de freinage), graisse et pâte antiseize, garde-boue adaptés au cadre, pneus hiver ou cloutés, pompe à pied avec manomètre, jauge d'usure de chaîne, carnet d'atelier et thermomètre
 - **⚠️ Sécurité :**
@@ -839,7 +793,7 @@ Critères de validation :
 - doc — Muc-Off / Squirt : Lubrifiants humides et cires : intervalles de relubrification et conditions d'usage
 - article — Velotaf : Retours d'expérience sur l'entretien du vélo quotidien en hiver salé
 
-### 15. Hiverner et réveiller un vélo : stockage longue durée `hivernage-stockage-longue-duree`
+### 14. Hiverner et réveiller un vélo `hivernage-stockage-longue-duree`
 
 - **Durée :** 35 min
 - **Prérequis :**
@@ -847,8 +801,8 @@ Critères de validation :
   - [Le M-check : contrôle de sécurité en 8 minutes](#m-check) `m-check`
   - [Ton calendrier d'entretien : 25 h, 50 h, 100 h](#calendrier-entretien) `calendrier-entretien`
   - [Charger et stocker une batterie Li-ion](vae.md) `vae-batterie-charge-stockage`
-  - [Le contrôle 25 h : intervalles, couples et joint témoin](suspension.md) `controle-25h-suspension`
-  - [Réparer et entretenir un tubeless : mèches, patchs internes, préventif](roues-et-pneus.md) `reparation-entretien-tubeless`
+  - [Le contrôle 25 h : intervalles et couples](suspension.md) `controle-25h-suspension`
+  - [Réparer et entretenir un tubeless](roues-et-pneus.md) `reparation-entretien-tubeless`
 - **Outils :** pompe à pied avec manomètre fiable, pompe haute pression pour suspensions, chargeur d'origine du VAE, hygromètre, absorbeur d'humidité ou déshumidificateur, crochets de rangement dimensionnés ou pied d'atelier, housse respirante (jamais une bâche plastique étanche), alcool isopropylique et chiffons non pelucheux, cale de transport pour étriers hydrauliques, carnet d'atelier et calendrier de rappels
 - **⚠️ Sécurité :**
   - Batterie Li-ion : stockage à 40-60 % de charge, entre 10 et 20 °C, jamais dans un local qui gèle, jamais laissée branchée en permanence sur le chargeur. Un pack gonflé, percé ou tombé ne rentre pas dans un local d'habitation.
@@ -889,14 +843,14 @@ Critères de validation :
 - doc — Stan's NoTubes / Orange Seal : Durée de vie du préventif tubeless et contrôle du niveau dans le pneu
 - video — GCN : Winter storage : préparer un vélo pour plusieurs mois d'arrêt
 
-### 16. Ton mémo de couples et de tolérances : le construire et le tenir à jour `memo-couples-tolerances`
+### 15. Ton mémo de couples et de tolérances `memo-couples-tolerances`
 
 - **Durée :** 35 min
 - **Prérequis :**
-  - [Couple, tension, frottement : pourquoi un boulon tient](#couple-tension-frottement) `couple-tension-frottement`
+  - [Couple, tension, frottement](#couple-tension-frottement) `couple-tension-frottement`
   - [La clé dynamométrique : choisir, utiliser, préserver](#cle-dynamometrique) `cle-dynamometrique`
   - [Cartographie complète de la visserie d'un vélo](#cartographie-visserie) `cartographie-visserie`
-  - [Graisse, pâte carbone, frein-filet, antiseize : quoi, où, pourquoi](#pates-assemblage) `pates-assemblage`
+  - [Graisse, pâte carbone, frein-filet, antiseize](#pates-assemblage) `pates-assemblage`
 - **Outils :** clé dynamométrique 2-14 N·m, clé dynamométrique 10-60 N·m, pied à coulisse numérique, appareil photo pour les marquages, tableur ou fiche plastifiée, bibliothèque locale de manuels constructeurs en PDF (consultables hors ligne), carnet d'atelier
 - **⚠️ Sécurité :**
   - Une valeur inventée sur une potence, un cintre ou un collier de tige de selle carbone se paie en rupture nette. La plage typique est 5-6 N·m : elle ne s'arrondit pas vers le haut « pour être sûr que ça tienne ».
@@ -933,12 +887,58 @@ Critères de validation :
 - livre — Roger Musson : The Professional Guide to Wheel Building : tolérances de voile, saut, dish et tension
 - doc — Wera / Unior : Utilisation, rangement et vérification périodique d'une clé dynamométrique
 
-### 17. Sécurité et déchets à l'atelier : EPI, poussières de carbone, solvants, huiles et ergonomie `securite-dechets-atelier`
+### 16. L'essai de contrôle `essai-de-controle`
+
+- **Durée :** 30 min
+- **Prérequis :**
+  - [Le M-check : contrôle de sécurité en 8 minutes](#m-check) `m-check`
+  - [La clé dynamométrique : choisir, utiliser, préserver](#cle-dynamometrique) `cle-dynamometrique`
+  - [Ton mémo de couples et de tolérances](#memo-couples-tolerances) `memo-couples-tolerances`
+  - [Indexer un dérailleur arrière (tension de câble)](transmission.md) `derailleur-arriere-indexation`
+  - [Composés de plaquettes et rodage (bed-in)](freinage.md) `plaquettes-composes-rodage`
+  - [Le carnet d'atelier et la pratique délibérée](#carnet-atelier) `carnet-atelier`
+- **Outils :** casque et gants, clé dynamométrique 2-14 N·m et 10-60 N·m, jeu de clés Allen et Torx, marqueur de contrôle (peinture témoin ou vernis), ruban de masquage pour repères, compteur GPS ou smartphone (distance et temps), chronomètre, fiche d'essai imprimée et carnet d'atelier
+- **⚠️ Sécurité :**
+  - Après toute intervention sur les freins, le premier test se fait à l'arrêt (levier au serrage), puis au pas, puis à 10 km/h. Un levier qui touche le cintre se découvre au pas, pas dans une descente.
+  - Plaquettes neuves non rodées : distance de freinage très allongée sur les premiers kilomètres. Le rodage fait partie de l'essai, pas de la sortie suivante.
+  - Aucun essai à haute vitesse ni en descente avant le contrôle des couples à froid sur les roues, la visserie et le cockpit.
+  - Essai sur voie ouverte : casque, gants et une boucle sans circulation dense pour les 500 premiers mètres.
+
+**Objectifs :**
+- Définir une boucle d'essai standard, courte et reproductible, qui sollicite tout ce que tu viens de toucher.
+- Exécuter un protocole d'essai gradué : contrôle statique, allure de pas, puis charge réelle.
+- Balayer toute la cassette et tous les plateaux dans un ordre imposé pour faire sortir les défauts d'indexation sous charge.
+- Recontrôler les couples à froid après l'essai, détecter ce qui a bougé et corriger avant de ranger le vélo.
+
+**TP — Ta boucle d'essai standard, jouée après trois interventions différentes**
+
+Tu définis et cartographies une boucle d'essai reproductible qui contient montée, descente freinée, revêtement dégradé et zone d'arrêt sûre. Tu écris un protocole gradué, puis tu joues cette boucle après trois interventions de nature différente, en consignant chaque écart pendant l'essai et en recontrôlant les couples à froid après.
+
+Critères de validation :
+1. 1. Boucle définie et cartographiée : 3 à 6 km, contenant ≥ 1 montée soutenue de ≥ 200 m, ≥ 1 descente permettant 3 freinages appuyés, ≥ 1 portion de revêtement dégradé ou pavé, ≥ 1 zone d'arrêt sûre pour les notes.
+2. 2. Protocole écrit en ≤ 12 points, ordre imposé et respecté : contrôle statique → 300 m à ≤ 10 km/h → balayage transmission → freinages → arrêt et recontrôle.
+3. 3. Balayage complet à chaque essai : montée et descente de tous les pignons et de tous les plateaux, 2 allers-retours, dont au moins un sous charge en montée. Critère « passage net, sans hésitation ni bruit » atteint sur 100 % des rapports utilisables.
+4. 4. Freinage : 3 freinages progressifs jusqu'au blocage contrôlé de la roue arrière ; course de levier mesurée au repère, écart ≤ 3 mm entre le 1er et le 3e freinage ; 0 bruit nouveau, 0 fuite au levier, au raccord ou à l'étrier.
+5. 5. Boucle jouée après 3 interventions de natures différentes, dont au moins une transmission, une freinage et une roue ou cockpit.
+6. 6. Chaque écart consigné pendant l'essai, à l'arrêt, sur la fiche (jamais de mémoire) ; puis corrigé et re-testé. La boucle est rejouée jusqu'à 0 écart ouvert.
+7. 7. Recontrôle des couples à froid ≥ 20 min après l'essai sur 100 % des fixations touchées : aucune hors tolérance. Toute vis ayant tourné est notée avec l'angle lu au repère et la cause analysée.
+8. 8. Marquage témoin appliqué sur ≥ 8 vis critiques avant l'essai puis relu après : rotation détectée = 0 sur les vis déclarées conformes.
+9. 9. Durée de la boucle chronométrée à chaque passage : écart entre essais < 20 %, sinon l'essai n'est pas comparable et ne compte pas.
+10. 10. Fiche d'essai archivée pour les 3 interventions : date, intervention concernée, écarts, corrections, couples recontrôlés, verdict final.
+
+**Pistes de références** *(URLs vérifiées à la rédaction de la leçon)* :
+- article — Park Tool : Contrôle final et essai routier après intervention
+- doc — Cytech : Post-service road test et fiche de sortie d'atelier
+- doc — Shimano : Dealer's Manual : contrôles à effectuer après réglage de transmission et de freinage
+- doc — SRAM : Procédure de rodage des plaquettes et vérifications après intervention sur freins à disque
+- article — Bike Gremlin : Vérifications après réparation : ce qu'on oublie systématiquement
+
+### 17. Sécurité et déchets à l'atelier `securite-dechets-atelier`
 
 - **Durée :** 40 min
 - **Prérequis :**
   - [T'équiper niveau 2 : couple, transmission, câblerie](#outillage-intermediaire) `outillage-intermediaire`
-  - [Graisse, pâte carbone, frein-filet, antiseize : quoi, où, pourquoi](#pates-assemblage) `pates-assemblage`
+  - [Graisse, pâte carbone, frein-filet, antiseize](#pates-assemblage) `pates-assemblage`
   - [Laver le vélo et lubrifier la chaîne](#lavage-et-lubrification) `lavage-et-lubrification`
   - [Batterie Li-ion : danger et conduite à tenir](vae.md) `vae-securite-li-ion-incident`
 - **Outils :** masque FFP3 (jetable ou demi-masque à filtres P3), lunettes de protection enveloppantes, gants nitrile jetables et gants mécaniques, aspirateur à filtration HEPA ou captation à la source, ventilation croisée ou extracteur, bac de rétention et bidons étiquetés, étiqueteuse et marqueur indélébile, extincteur contrôlé (date < 12 mois), trousse de premiers secours et point d'eau claire ou rince-œil, tapis anti-fatigue, pied d'atelier réglable en hauteur, éclairage d'appoint et application luxmètre
@@ -986,7 +986,7 @@ Critères de validation :
 
 ## Niveau 3 — Avancé
 
-### 1. T'équiper niveau 3 : roulements, purge, câblerie interne `outillage-avance`
+### 1. T'équiper niveau 3 `outillage-avance`
 
 - **Durée :** 30 min
 - **Prérequis :**
@@ -1014,7 +1014,7 @@ Critères de validation :
 - doc — Unior : outils roulements, cônes et rayonnage
 - article — Bike Gremlin : monter un atelier vélo sérieux à la maison
 
-### 2. Chasse, offset, empattement : la géométrie qui pilote `geometrie-direction-chasse`
+### 2. Chasse, offset, empattement `geometrie-direction-chasse`
 
 - **Durée :** 40 min
 - **Prérequis :**
@@ -1047,7 +1047,7 @@ Critères de validation :
 
 - **Durée :** 45 min
 - **Prérequis :**
-  - [Chasse, offset, empattement : la géométrie qui pilote](#geometrie-direction-chasse) `geometrie-direction-chasse`
+  - [Chasse, offset, empattement](#geometrie-direction-chasse) `geometrie-direction-chasse`
   - [Stack, reach et ratio STR : lire une géométrie](#geometrie-stack-reach) `geometrie-stack-reach`
   - [S'équiper : kit de base et coin atelier](#outillage-debutant) `outillage-debutant`
 - **Outils :** Pied d'atelier, Niveau à bulle, Fil à plomb, Mètre ruban et réglet, Inclinomètre (application), Calculatrice
@@ -1077,7 +1077,7 @@ Critères de validation :
 
 - **Durée :** 45 min
 - **Prérequis :**
-  - [Acier, alu, carbone, titane : reconnaître et respecter chaque matériau](#materiaux-cadres) `materiaux-cadres`
+  - [Acier, alu, carbone, titane](#materiaux-cadres) `materiaux-cadres`
 - **Outils :** Lampe puissante rasante, Loupe, Pièce de monnaie (tap test), Chiffon + alcool isopropylique, Ruban de marquage, Appareil photo
 - **⚠️ Sécurité :**
   - Un cadre ou une fourche fissuré se réforme ou s'expertise — jamais de « ça va tenir ». Une rupture de pivot, de douille ou de bases provoque une chute grave.
@@ -1105,7 +1105,7 @@ Critères de validation :
 - article — Calfee Design : évaluation et réparabilité des cadres carbone
 - article — Sheldon Brown : durée de vie et fatigue des cadres
 
-### 5. La carte d'identité d'un cadre : décoder tous ses standards `carte-identite-cadre`
+### 5. La carte d'identité d'un cadre `carte-identite-cadre`
 
 - **Durée :** 45 min
 - **Prérequis :**
@@ -1135,12 +1135,12 @@ Critères de validation :
 - article — Park Tool : standards et terminologie des boîtiers de pédalier
 - article — Bike Gremlin : standards d'axes et de pattes de dérailleur
 
-### 6. Vis grippées, arrondies, cassées : les libérer sans casse `extraction-visserie-grippee`
+### 6. Vis grippées, arrondies, cassées `extraction-visserie-grippee`
 
 - **Durée :** 45 min
 - **Prérequis :**
   - [Visserie : empreintes, filetages et pas inversés](#empreintes-et-filetages) `empreintes-et-filetages`
-  - [Acier, alu, carbone, titane : reconnaître et respecter chaque matériau](#materiaux-cadres) `materiaux-cadres`
+  - [Acier, alu, carbone, titane](#materiaux-cadres) `materiaux-cadres`
 - **Outils :** Dégrippant, Maillet + chasse, Jeu de Torx, Extracteurs de vis, Perceuse + forets métal, Décapeur thermique, Étau, Lunettes de protection
 - **⚠️ Sécurité :**
   - Chaleur (décapeur) interdite près du carbone, des peintures à conserver, des durites et des joints ; dégrippant inflammable + source de chaleur = risque d'inflammation.
@@ -1168,16 +1168,63 @@ Critères de validation :
 - video — RJ The Bike Guy : astuces d'extraction de visserie grippée sur vélos anciens
 - article — Bike Gremlin : prévention du grippage : produits et préparation
 
-### 7. Réparer, remplacer ou renoncer : arbres de décision d'usure et de coût `reparer-remplacer-renoncer`
+### 7. Trouver la doc et la bonne pièce `trouver-doc-et-pieces`
+
+- **Durée :** 45 min
+- **Prérequis :**
+  - [Mesurer et décoder : pied à coulisse et marquages](#pied-a-coulisse-et-marquages) `pied-a-coulisse-et-marquages`
+  - [Visserie : empreintes, filetages et pas inversés](#empreintes-et-filetages) `empreintes-et-filetages`
+  - [La carte d'identité d'un cadre](#carte-identite-cadre) `carte-identite-cadre`
+  - [Ton mémo de couples et de tolérances](#memo-couples-tolerances) `memo-couples-tolerances`
+  - [Acier, alu, carbone, titane](#materiaux-cadres) `materiaux-cadres`
+- **Outils :** pied à coulisse numérique 0,01 mm, réglet et jauge de filetage, balance de précision 0,1 g, loupe ×10 ou microscope USB, aimant, appareil photo macro, bibliothèque locale de manuels PDF nommés et versionnés, tableur de suivi de références et de sourcing
+- **⚠️ Sécurité :**
+  - Plaquettes et disques contrefaits : composé de friction inconnu, effondrement de l'efficacité à chaud, délamination possible. Aucune pièce de friction sans traçabilité ne monte sur un vélo.
+  - Batteries et chargeurs VAE contrefaits ou non appairés : risque réel d'emballement thermique et d'incendie. Chargeur constructeur ou équivalent certifié, jamais un générique bon marché.
+  - Pièces carbone copiées (cintres, potences, tiges de selle, roues) : aucun contrôle qualité, rupture nette sous effort. À proscrire sur toute pièce structurelle, quel que soit l'aspect extérieur.
+  - Une équivalence trouvée sur un forum n'engage personne. Sur une pièce de sécurité, seule la doc constructeur ou une fiche technique traçable fait foi.
+
+**Objectifs :**
+- Naviguer un dealer's manual, une fiche technique et une vue éclatée jusqu'à la référence exacte d'une pièce.
+- Remonter d'une pièce nue à sa référence : marquages, gravures, codes de date, cotes mesurées.
+- Trouver une équivalence fonctionnelle et distinguer une pièce d'usure générique acceptable d'un compromis dangereux.
+- Arbitrer neuf / occasion / NOS selon criticité, disponibilité, délai et prix.
+- Repérer une contrefaçon (cassette, plaquettes, batterie, pièce carbone) avant de la monter, sur des critères objectifs.
+
+**TP — Cinq pièces mystères : référence exacte, doc, couple et sourcing chiffré**
+
+On te remet cinq pièces non identifiées, dont une hors production et une contrefaçon plausible. Pour chacune, tu remontes à la référence exacte à partir des marquages et des cotes, tu retrouves et archives le manuel constructeur, tu relèves le couple d'interface, et tu chiffres deux options d'approvisionnement. La contrefaçon doit être démasquée sur des critères objectifs.
+
+Critères de validation :
+1. 1. 5 pièces traitées, dont 1 obsolète (hors production) et 1 contrefaçon plausible.
+2. 2. Pour chacune : référence constructeur exacte (ou référence de série + variante) justifiée par ≥ 2 indices concordants — marquage relevé, cote mesurée, correspondance sur vue éclatée.
+3. 3. Manuel constructeur correspondant retrouvé et archivé en local, fichier nommé « référence + version + date », consultable hors connexion.
+4. 4. Couple de serrage de l'interface relevé dans le manuel avec la section ou la page citée : 5/5 renseignés, 0 valeur issue d'une table générique quand le manuel existe.
+5. 5. Pour chacune : 2 options d'approvisionnement chiffrées (prix TTC, délai annoncé, état neuf/occasion/NOS, vendeur) plus, quand elle existe, une équivalence fonctionnelle documentée avec la liste des points de compatibilité effectivement vérifiés.
+6. 6. 5/5 identifications correctes, validées soit par un tiers compétent, soit par la commande effective d'une pièce qui monte du premier coup sans retouche.
+7. 7. Pièce obsolète : chaîne de raisonnement écrite (référence d'origine → génération de remplacement → contrôle de compatibilité) appuyée sur ≥ 3 cotes mesurées et comparées, avec les écarts en mm.
+8. 8. Contrefaçon : détectée et argumentée sur ≥ 4 critères objectifs, dont au moins une masse mesurée comparée à la masse constructeur avec l'écart en %, plus qualité de gravure, finition d'usinage, conditionnement, absence de numéro de lot ou prix anormalement bas.
+9. 9. 0 pièce de sécurité (friction, carbone structurel, batterie, chargeur) validée sans traçabilité, même si elle « a l'air bien ».
+10. 10. Temps d'identification décroissant : ≤ 25 min pour la 5e pièce, avec les temps des 5 relevés.
+
+**Pistes de références** *(URLs vérifiées à la rédaction de la leçon)* :
+- doc — Shimano : Dealer's Manual, service instructions et exploded views : structure et recherche par référence
+- doc — SRAM : Service manuals, spare parts catalog et matrices de compatibilité
+- doc — Park Tool : Repair Help et tableaux de standards pour identifier une pièce inconnue
+- article — Bike Gremlin : Compatibilité des pièces de vélo : méthode de vérification pas à pas
+- doc — Shimano et SRAM : Programmes anti-contrefaçon : repères d'authenticité, numéros de lot et emballages
+- outil — Velobase et catalogues constructeurs archivés : Retrouver une référence obsolète, une génération de remplacement ou du NOS
+
+### 8. Réparer, remplacer ou renoncer `reparer-remplacer-renoncer`
 
 - **Durée :** 45 min
 - **Prérequis :**
   - [Mesurer l'usure d'une chaîne](transmission.md) `usure-chaine-mesure-jauge`
   - [Inspecter un cadre : fissures, fatigue, impacts](#inspection-cadre) `inspection-cadre`
-  - [Ton mémo de couples et de tolérances : le construire et le tenir à jour](#memo-couples-tolerances) `memo-couples-tolerances`
-  - [Acheter d'occasion : inspection en 20 minutes et devis de remise en état](#acheter-occasion-inspection) `acheter-occasion-inspection`
-  - [Trouver la doc et la bonne pièce : manuels constructeurs, références et équivalences](#trouver-doc-et-pieces) `trouver-doc-et-pieces`
-  - [Mesurer un pack : tension, état de charge et premières conclusions](vae.md) `vae-mesure-batterie-tension-soc`
+  - [Ton mémo de couples et de tolérances](#memo-couples-tolerances) `memo-couples-tolerances`
+  - [Acheter d'occasion](#acheter-occasion-inspection) `acheter-occasion-inspection`
+  - [Trouver la doc et la bonne pièce](#trouver-doc-et-pieces) `trouver-doc-et-pieces`
+  - [Mesurer un pack : tension et état de charge](vae.md) `vae-mesure-batterie-tension-soc`
 - **Outils :** jauge d'usure de chaîne, pied à coulisse numérique, jauge d'épaisseur de disque, calibre ou méthode de contrôle d'usure de jante, réglet et comparateur (facultatif), multimètre (partie VAE), tableur de chiffrage, appareil photo, carnet d'atelier
 - **⚠️ Sécurité :**
   - Cadre, fourche, cintre, potence, tige de selle, disques et pièces de friction : aucun arbitrage économique. Une pièce structurelle douteuse se remplace, ou le vélo est immobilisé. Il n'y a pas de troisième option.
@@ -1217,15 +1264,15 @@ Critères de validation :
 - doc — ADEME et filières de réemploi cycle : Réemploi, réparabilité et fin de vie des vélos et des batteries
 - article — BikeRadar : Is it worth fixing ? Coût de remise en état face à la valeur du vélo
 
-### 8. Ton stock d'atelier : pièces d'usure, consommables et rotation `stock-atelier`
+### 9. Ton stock d'atelier `stock-atelier`
 
 - **Durée :** 35 min
 - **Prérequis :**
-  - [Ton mémo de couples et de tolérances : le construire et le tenir à jour](#memo-couples-tolerances) `memo-couples-tolerances`
+  - [Ton mémo de couples et de tolérances](#memo-couples-tolerances) `memo-couples-tolerances`
   - [Ton calendrier d'entretien : 25 h, 50 h, 100 h](#calendrier-entretien) `calendrier-entretien`
-  - [Trouver la doc et la bonne pièce : manuels constructeurs, références et équivalences](#trouver-doc-et-pieces) `trouver-doc-et-pieces`
-  - [Graisse, pâte carbone, frein-filet, antiseize : quoi, où, pourquoi](#pates-assemblage) `pates-assemblage`
-  - [Sécurité et déchets à l'atelier : EPI, poussières de carbone, solvants, huiles et ergonomie](#securite-dechets-atelier) `securite-dechets-atelier`
+  - [Trouver la doc et la bonne pièce](#trouver-doc-et-pieces) `trouver-doc-et-pieces`
+  - [Graisse, pâte carbone, frein-filet, antiseize](#pates-assemblage) `pates-assemblage`
+  - [Sécurité et déchets à l'atelier](#securite-dechets-atelier) `securite-dechets-atelier`
 - **Outils :** bacs, casiers et boîtes hermétiques, étiqueteuse et marqueur indélébile, tableur ou logiciel d'inventaire, balance, bac de rétention, armoire ou zone ventilée pour les produits chimiques, calendrier avec rappels trimestriels
 - **⚠️ Sécurité :**
   - DOT hygroscopique : un flacon ouvert absorbe l'humidité de l'air et perd son point d'ébullition. Date d'ouverture inscrite au marqueur, flacon refermé immédiatement, éliminé selon la durée indiquée par le fabricant — jamais reversé dans un contenant d'origine.
@@ -1264,60 +1311,13 @@ Critères de validation :
 - doc — Cytech : Gestion de stock, seuils et approvisionnement en atelier cycle
 - article — Bike Gremlin : Quelles pièces de rechange garder chez soi et en quelle quantité
 
-### 9. Trouver la doc et la bonne pièce : manuels constructeurs, références et équivalences `trouver-doc-et-pieces`
-
-- **Durée :** 45 min
-- **Prérequis :**
-  - [Mesurer et décoder : pied à coulisse et marquages](#pied-a-coulisse-et-marquages) `pied-a-coulisse-et-marquages`
-  - [Visserie : empreintes, filetages et pas inversés](#empreintes-et-filetages) `empreintes-et-filetages`
-  - [La carte d'identité d'un cadre : décoder tous ses standards](#carte-identite-cadre) `carte-identite-cadre`
-  - [Ton mémo de couples et de tolérances : le construire et le tenir à jour](#memo-couples-tolerances) `memo-couples-tolerances`
-  - [Acier, alu, carbone, titane : reconnaître et respecter chaque matériau](#materiaux-cadres) `materiaux-cadres`
-- **Outils :** pied à coulisse numérique 0,01 mm, réglet et jauge de filetage, balance de précision 0,1 g, loupe ×10 ou microscope USB, aimant, appareil photo macro, bibliothèque locale de manuels PDF nommés et versionnés, tableur de suivi de références et de sourcing
-- **⚠️ Sécurité :**
-  - Plaquettes et disques contrefaits : composé de friction inconnu, effondrement de l'efficacité à chaud, délamination possible. Aucune pièce de friction sans traçabilité ne monte sur un vélo.
-  - Batteries et chargeurs VAE contrefaits ou non appairés : risque réel d'emballement thermique et d'incendie. Chargeur constructeur ou équivalent certifié, jamais un générique bon marché.
-  - Pièces carbone copiées (cintres, potences, tiges de selle, roues) : aucun contrôle qualité, rupture nette sous effort. À proscrire sur toute pièce structurelle, quel que soit l'aspect extérieur.
-  - Une équivalence trouvée sur un forum n'engage personne. Sur une pièce de sécurité, seule la doc constructeur ou une fiche technique traçable fait foi.
-
-**Objectifs :**
-- Naviguer un dealer's manual, une fiche technique et une vue éclatée jusqu'à la référence exacte d'une pièce.
-- Remonter d'une pièce nue à sa référence : marquages, gravures, codes de date, cotes mesurées.
-- Trouver une équivalence fonctionnelle et distinguer une pièce d'usure générique acceptable d'un compromis dangereux.
-- Arbitrer neuf / occasion / NOS selon criticité, disponibilité, délai et prix.
-- Repérer une contrefaçon (cassette, plaquettes, batterie, pièce carbone) avant de la monter, sur des critères objectifs.
-
-**TP — Cinq pièces mystères : référence exacte, doc, couple et sourcing chiffré**
-
-On te remet cinq pièces non identifiées, dont une hors production et une contrefaçon plausible. Pour chacune, tu remontes à la référence exacte à partir des marquages et des cotes, tu retrouves et archives le manuel constructeur, tu relèves le couple d'interface, et tu chiffres deux options d'approvisionnement. La contrefaçon doit être démasquée sur des critères objectifs.
-
-Critères de validation :
-1. 1. 5 pièces traitées, dont 1 obsolète (hors production) et 1 contrefaçon plausible.
-2. 2. Pour chacune : référence constructeur exacte (ou référence de série + variante) justifiée par ≥ 2 indices concordants — marquage relevé, cote mesurée, correspondance sur vue éclatée.
-3. 3. Manuel constructeur correspondant retrouvé et archivé en local, fichier nommé « référence + version + date », consultable hors connexion.
-4. 4. Couple de serrage de l'interface relevé dans le manuel avec la section ou la page citée : 5/5 renseignés, 0 valeur issue d'une table générique quand le manuel existe.
-5. 5. Pour chacune : 2 options d'approvisionnement chiffrées (prix TTC, délai annoncé, état neuf/occasion/NOS, vendeur) plus, quand elle existe, une équivalence fonctionnelle documentée avec la liste des points de compatibilité effectivement vérifiés.
-6. 6. 5/5 identifications correctes, validées soit par un tiers compétent, soit par la commande effective d'une pièce qui monte du premier coup sans retouche.
-7. 7. Pièce obsolète : chaîne de raisonnement écrite (référence d'origine → génération de remplacement → contrôle de compatibilité) appuyée sur ≥ 3 cotes mesurées et comparées, avec les écarts en mm.
-8. 8. Contrefaçon : détectée et argumentée sur ≥ 4 critères objectifs, dont au moins une masse mesurée comparée à la masse constructeur avec l'écart en %, plus qualité de gravure, finition d'usinage, conditionnement, absence de numéro de lot ou prix anormalement bas.
-9. 9. 0 pièce de sécurité (friction, carbone structurel, batterie, chargeur) validée sans traçabilité, même si elle « a l'air bien ».
-10. 10. Temps d'identification décroissant : ≤ 25 min pour la 5e pièce, avec les temps des 5 relevés.
-
-**Pistes de références** *(URLs vérifiées à la rédaction de la leçon)* :
-- doc — Shimano : Dealer's Manual, service instructions et exploded views : structure et recherche par référence
-- doc — SRAM : Service manuals, spare parts catalog et matrices de compatibilité
-- doc — Park Tool : Repair Help et tableaux de standards pour identifier une pièce inconnue
-- article — Bike Gremlin : Compatibilité des pièces de vélo : méthode de vérification pas à pas
-- doc — Shimano et SRAM : Programmes anti-contrefaçon : repères d'authenticité, numéros de lot et emballages
-- outil — Velobase et catalogues constructeurs archivés : Retrouver une référence obsolète, une génération de remplacement ou du NOS
-
 ## Niveau 4 — Expert
 
 ### 1. T'équiper niveau 4 : diagnostic et électronique `outillage-expert`
 
 - **Durée :** 30 min
 - **Prérequis :**
-  - [T'équiper niveau 3 : roulements, purge, câblerie interne](#outillage-avance) `outillage-avance`
+  - [T'équiper niveau 3](#outillage-avance) `outillage-avance`
 - **Outils :** Liste de référence du kit niveau 4, Carnet (budget)
 
 **Objectifs :**
@@ -1368,11 +1368,11 @@ Critères de validation :
 - doc — Norbar : principes de vérification et calibration des clés dynamométriques
 - doc — Mitutoyo : vérification périodique des pieds à coulisse
 
-### 3. Réparer un filetage : taraud et filet rapporté (Helicoil) `filetages-reparation-taraud-helicoil`
+### 3. Réparer un filetage `filetages-reparation-taraud-helicoil`
 
 - **Durée :** 45 min
 - **Prérequis :**
-  - [Vis grippées, arrondies, cassées : les libérer sans casse](#extraction-visserie-grippee) `extraction-visserie-grippee`
+  - [Vis grippées, arrondies, cassées](#extraction-visserie-grippee) `extraction-visserie-grippee`
   - mesures précises au pied à coulisse et jauges de filetage *(fondamentaux)*
 - **Outils :** Jeu de tarauds métriques + tourne-à-gauche, Kit filet rapporté M5 (foret, taraud, inserts, outil de pose), Huile de coupe, Perceuse, Pied à coulisse, Cadre ou pièces de récup
 - **⚠️ Sécurité :**
@@ -1399,11 +1399,11 @@ Critères de validation :
 - doc — Böllhoff (Helicoil) : procédure officielle de pose de filets rapportés
 - video — RJ The Bike Guy : réparer un filetage de porte-bidon arraché
 
-### 4. Diagnostiquer un craquement : la méthode d'élimination `diagnostic-craquements`
+### 4. Diagnostiquer un craquement `diagnostic-craquements`
 
 - **Durée :** 45 min
 - **Prérequis :**
-  - [Réviser des pédales : roulements, axes, broches et mécanismes](transmission.md) `pedales-entretien-roulements`
+  - [Réviser des pédales](transmission.md) `pedales-entretien-roulements`
   - [Anatomie du poste de pilotage](direction-et-peripheriques.md) `anatomie-poste-pilotage`
   - [Cartographie complète de la visserie d'un vélo](#cartographie-visserie) `cartographie-visserie`
 - **Outils :** Pied d'atelier, Clés dynamométriques, Graisse et pâtes d'assemblage, Carnet (journal de diagnostic)
@@ -1429,47 +1429,17 @@ Critères de validation :
 - video — GCN Tech : chasse méthodique aux bruits parasites
 - article — Bike Gremlin : causes classiques de craquements par zone du vélo
 
-### 5. Passer pro : certifications, formations, statut `passer-pro`
-
-- **Durée :** 40 min
-- **Prérequis :**
-  - carnet d'atelier riche de plusieurs dizaines d'interventions documentées *(fondamentaux)*
-  - [La grande révision : remettre à neuf un vélo complet de A à Z](#grande-revision) `grande-revision`
-- **Outils :** Carnet/portfolio, Tableur comparatif, Documentation officielle des organismes de certification
-
-**Objectifs :**
-- Cartographier les parcours de certification : Cytech (théorie en ligne puis pratique en centre), LEVA pour le VAE, formations constructeurs (Shimano, SRAM, Bosch — souvent réservées aux revendeurs), écoles et cursus d'apprentissage locaux
-- Vérifier les exigences légales de TA région avant toute démarche (accès à la profession, statut, assurance responsabilité civile pro) — elles varient et évoluent
-- Transformer ton carnet d'atelier en portfolio de preuves de compétence
-- Bâtir un plan de professionnalisation à 12 mois réaliste (formation, matériel, statut, premiers clients)
-
-**TP — Ton dossier pro complet**
-
-Compare au moins 4 parcours de certification/formation, vérifie les exigences réglementaires locales, assemble un portfolio de 5 interventions et écris ton plan à 12 mois.
-
-Critères de validation :
-1. 1. Tableau comparatif de ≥ 4 parcours : coût, durée, prérequis, reconnaissance, langue, modalités (en ligne/présentiel)
-2. 2. Exigences réglementaires de ta région vérifiées à la source officielle et résumées en < 300 mots datés
-3. 3. Portfolio de 5 interventions assemblé : photos avant/après, couples appliqués, problèmes résolus, durée
-4. 4. Plan à 12 mois écrit avec 3 jalons datés et budgétés (formation, outillage, statut)
-
-**Pistes de références** *(URLs vérifiées à la rédaction de la leçon)* :
-- doc — Cytech : parcours Theory One et Technical One : contenu et modalités
-- doc — LEVA (Light Electric Vehicle Association) : certification technicien VAE niveaux 1 à 4
-- doc — Park Tool School : cursus pédagogique de mécanique cycle
-- doc — Bosch eBike Systems : formations et habilitations réseau pour ateliers
-
-### 6. La grande révision : remettre à neuf un vélo complet de A à Z `grande-revision`
+### 5. La grande révision `grande-revision`
 
 - **Durée :** 45 min
 - **Prérequis :**
   - [Le M-check : contrôle de sécurité en 8 minutes](#m-check) `m-check`
-  - [L'essai de contrôle : valider une intervention en roulant](#essai-de-controle) `essai-de-controle`
-  - [Ton mémo de couples et de tolérances : le construire et le tenir à jour](#memo-couples-tolerances) `memo-couples-tolerances`
-  - [Réparer, remplacer ou renoncer : arbres de décision d'usure et de coût](#reparer-remplacer-renoncer) `reparer-remplacer-renoncer`
-  - [Réviser un jeu de direction ahead : dépose de fourche, roulements, graissage](direction-et-peripheriques.md) `revision-jeu-direction-ahead`
-  - [Révision complète d'un moyeu à cônes : démontage, graissage, remontage](roues-et-pneus.md) `revision-moyeu-cones-billes`
-  - [Boîtiers filetés : identifier et remplacer (BSA, italien, T47)](transmission.md) `boitier-pedalier-filete`
+  - [L'essai de contrôle](#essai-de-controle) `essai-de-controle`
+  - [Ton mémo de couples et de tolérances](#memo-couples-tolerances) `memo-couples-tolerances`
+  - [Réparer, remplacer ou renoncer](#reparer-remplacer-renoncer) `reparer-remplacer-renoncer`
+  - [Réviser un jeu de direction ahead](direction-et-peripheriques.md) `revision-jeu-direction-ahead`
+  - [Révision complète d'un moyeu à cônes](roues-et-pneus.md) `revision-moyeu-cones-billes`
+  - [Boîtiers filetés : identifier et remplacer](transmission.md) `boitier-pedalier-filete`
   - [Purger un frein Shimano (huile minérale, entonnoir)](freinage.md) `purge-shimano-entonnoir`
   - [Dévoiler au banc : voile latéral et saut radial](roues-et-pneus.md) `devoilage-banc-lateral-radial`
 - **Outils :** pied d'atelier, jeu complet de clés Allen, Torx et à cônes, clés dynamométriques 2-14 N·m et 10-60 N·m, extracteurs cassette, boîtier, manivelles, dérive-chaîne et jauge d'usure, kit de purge adapté au système de freinage, banc de dévoilage, jauge de dish, tensiomètre, bac de dégraissage et brosses, graisses, pâte carbone, frein-filet, antiseize, alcool isopropylique et chiffons non pelucheux, chronomètre, fiches d'entrée et de sortie imprimées
@@ -1513,14 +1483,44 @@ Critères de validation :
 - livre — Barnett Bicycle Institute : Structure d'un service complet et temps standard par opération
 - article — Bike Gremlin : Révision complète d'un vélo : ordre des opérations et pièges de séquencement
 
-### 7. Réparer le vélo d'un autre : responsabilité, refus et restitution `velo-d-un-autre`
+### 6. Passer pro : certifications, formations, statut `passer-pro`
 
 - **Durée :** 40 min
 - **Prérequis :**
-  - [La grande révision : remettre à neuf un vélo complet de A à Z](#grande-revision) `grande-revision`
-  - [L'essai de contrôle : valider une intervention en roulant](#essai-de-controle) `essai-de-controle`
+  - carnet d'atelier riche de plusieurs dizaines d'interventions documentées *(fondamentaux)*
+  - [La grande révision](#grande-revision) `grande-revision`
+- **Outils :** Carnet/portfolio, Tableur comparatif, Documentation officielle des organismes de certification
+
+**Objectifs :**
+- Cartographier les parcours de certification : Cytech (théorie en ligne puis pratique en centre), LEVA pour le VAE, formations constructeurs (Shimano, SRAM, Bosch — souvent réservées aux revendeurs), écoles et cursus d'apprentissage locaux
+- Vérifier les exigences légales de TA région avant toute démarche (accès à la profession, statut, assurance responsabilité civile pro) — elles varient et évoluent
+- Transformer ton carnet d'atelier en portfolio de preuves de compétence
+- Bâtir un plan de professionnalisation à 12 mois réaliste (formation, matériel, statut, premiers clients)
+
+**TP — Ton dossier pro complet**
+
+Compare au moins 4 parcours de certification/formation, vérifie les exigences réglementaires locales, assemble un portfolio de 5 interventions et écris ton plan à 12 mois.
+
+Critères de validation :
+1. 1. Tableau comparatif de ≥ 4 parcours : coût, durée, prérequis, reconnaissance, langue, modalités (en ligne/présentiel)
+2. 2. Exigences réglementaires de ta région vérifiées à la source officielle et résumées en < 300 mots datés
+3. 3. Portfolio de 5 interventions assemblé : photos avant/après, couples appliqués, problèmes résolus, durée
+4. 4. Plan à 12 mois écrit avec 3 jalons datés et budgétés (formation, outillage, statut)
+
+**Pistes de références** *(URLs vérifiées à la rédaction de la leçon)* :
+- doc — Cytech : parcours Theory One et Technical One : contenu et modalités
+- doc — LEVA (Light Electric Vehicle Association) : certification technicien VAE niveaux 1 à 4
+- doc — Park Tool School : cursus pédagogique de mécanique cycle
+- doc — Bosch eBike Systems : formations et habilitations réseau pour ateliers
+
+### 7. Réparer le vélo d'un autre `velo-d-un-autre`
+
+- **Durée :** 40 min
+- **Prérequis :**
+  - [La grande révision](#grande-revision) `grande-revision`
+  - [L'essai de contrôle](#essai-de-controle) `essai-de-controle`
   - [Inspecter un cadre : fissures, fatigue, impacts](#inspection-cadre) `inspection-cadre`
-  - [Réparer, remplacer ou renoncer : arbres de décision d'usure et de coût](#reparer-remplacer-renoncer) `reparer-remplacer-renoncer`
+  - [Réparer, remplacer ou renoncer](#reparer-remplacer-renoncer) `reparer-remplacer-renoncer`
   - [Cadre légal du VAE : EN 15194, 25 km/h, 250 W](vae.md) `vae-cadre-legal-en15194`
   - [Débridage : mécanismes, détection et conséquences](vae.md) `vae-debridage-detection`
   - [Bruits de freinage : diagnostic et décontamination](freinage.md) `bruits-freins-diagnostic-decontamination`
@@ -1567,7 +1567,7 @@ Critères de validation :
 
 ## Niveau 5 — Maître
 
-### 1. T'équiper niveau 5 : concevoir l'atelier complet, du passionné au pro `outillage-maitre`
+### 1. T'équiper niveau 5 `outillage-maitre`
 
 - **Durée :** 45 min
 - **Prérequis :**
@@ -1602,8 +1602,8 @@ Critères de validation :
 
 - **Durée :** 45 min
 - **Prérequis :**
-  - [T'équiper niveau 5 : concevoir l'atelier complet, du passionné au pro](#outillage-maitre) `outillage-maitre`
-  - [Vis grippées, arrondies, cassées : les libérer sans casse](#extraction-visserie-grippee) `extraction-visserie-grippee`
+  - [T'équiper niveau 5](#outillage-maitre) `outillage-maitre`
+  - [Vis grippées, arrondies, cassées](#extraction-visserie-grippee) `extraction-visserie-grippee`
 - **Outils :** Tige filetée M12 + écrous + rondelles larges, Scie à métaux, Perceuse + forets, Étau, Lime, Chutes de bois dur/alu, Lunettes de protection
 - **⚠️ Sécurité :**
   - Perçage et meulage : lunettes obligatoires, pièce bridée dans l'étau, jamais tenue à la main ; manches longues serrées près des machines tournantes.

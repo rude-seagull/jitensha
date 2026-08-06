@@ -1,5 +1,5 @@
 ---
-title: "L'assemblage final : serrer au couple, ligne par ligne, avec traçabilité"
+title: "L'assemblage final"
 level: 5
 system: "montage-et-peinture"
 order: 9

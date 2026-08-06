@@ -1,5 +1,5 @@
 ---
-title: "Préparer les interfaces secondaires : tube de selle, tasseaux de frein, petits filetages"
+title: "Préparer les interfaces secondaires"
 level: 5
 system: "montage-et-peinture"
 order: 3

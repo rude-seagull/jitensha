@@ -164,7 +164,7 @@ Critères de validation :
 
 ## Niveau 2 — Intermédiaire
 
-### 1. La pompe haute pression : gonfler juste, relire juste `suspension-pompe-haute-pression`
+### 1. La pompe haute pression `suspension-pompe-haute-pression`
 
 - **Durée :** 25 min
 - **Prérequis :**
@@ -199,7 +199,7 @@ Critères de validation :
 
 - **Durée :** 30 min
 - **Prérequis :**
-  - [La pompe haute pression : gonfler juste, relire juste](#suspension-pompe-haute-pression) `suspension-pompe-haute-pression`
+  - [La pompe haute pression](#suspension-pompe-haute-pression) `suspension-pompe-haute-pression`
 - **Outils :** Pompe de suspension, Réglet ou mètre, Balance, Un mur ou un partenaire pour se stabiliser, Carnet d'atelier, balance permettant de se peser en tenue de sortie complète
 
 **Objectifs :**
@@ -313,7 +313,7 @@ Critères de validation :
 - doc — SRAM/RockShox : positions ouvert/pédale/ferme des cartouches
 - article — Glisse Alpine : compression : comprendre et régler en français
 
-### 6. Suspensions à ressort : tarage et précharge, du VTT au vélo de ville `ressort-helicoidal-precharge`
+### 6. Suspensions à ressort `ressort-helicoidal-precharge`
 
 - **Durée :** 30 min
 - **Prérequis :**
@@ -350,7 +350,7 @@ Critères de validation :
 - **Prérequis :**
   - [Régler le SAG de l'amortisseur](#sag-amortisseur) `sag-amortisseur`
   - [Régler le SAG de la fourche](#sag-fourche) `sag-fourche`
-  - [Suspensions à ressort : tarage et précharge, du VTT au vélo de ville](#ressort-helicoidal-precharge) `ressort-helicoidal-precharge`
+  - [Suspensions à ressort](#ressort-helicoidal-precharge) `ressort-helicoidal-precharge`
   - [Reconnaître un VAE et identifier son architecture](vae.md) `vae-identifier-architecture`
 - **Outils :** Pompe de suspension, Balance (pèse-personne), Réglet, Carnet d'atelier
 
@@ -376,7 +376,7 @@ Critères de validation :
 - doc — SR Suntour : fourches renforcées pour VAE urbains et cargo
 - article — E-MOUNTAINBIKE : réglage des suspensions sur e-MTB
 
-### 8. Le contrôle 25 h : intervalles, couples et joint témoin `controle-25h-suspension`
+### 8. Le contrôle 25 h : intervalles et couples `controle-25h-suspension`
 
 - **Durée :** 30 min
 - **Prérequis :**
@@ -406,13 +406,13 @@ Critères de validation :
 - article — Park Tool : couples de serrage des composants de suspension
 - article — Vojo Magazine : quand entretenir ses suspensions en français
 
-### 9. Tiges de selle et potences suspendues : choisir, régler, entretenir `tige-selle-potence-suspendues`
+### 9. Tiges de selle et potences suspendues `tige-selle-potence-suspendues`
 
 - **Durée :** 40 min
 - **Prérequis :**
   - [Panorama des types de suspension](#suspension-panorama-types) `suspension-panorama-types`
-  - [Suspensions à ressort : tarage et précharge, du VTT au vélo de ville](#ressort-helicoidal-precharge) `ressort-helicoidal-precharge`
-  - [Tige de selle : mesurer, graisser ou pâter, prévenir le grippage](direction-et-peripheriques.md) `entretien-tige-selle`
+  - [Suspensions à ressort](#ressort-helicoidal-precharge) `ressort-helicoidal-precharge`
+  - [Tige de selle : graisser et prévenir le grippage](direction-et-peripheriques.md) `entretien-tige-selle`
   - [Régler sa selle : hauteur, assiette, serrage](direction-et-peripheriques.md) `reglages-selle-essentiels`
 - **Outils :** Jeu de six pans 4, 5, 6 mm et torx T25/T30, Clé dynamométrique 2-20 N·m, Pèse-personne, Réglet et mètre ruban, Collier témoin ou joint torique de repère, Graisse et dégraissant, Kit d'élastomères ou de ressorts constructeur, Chasse-bagues ou tourillon adapté si bagues à remplacer, Chiffons non pelucheux
 - **⚠️ Sécurité :**
@@ -453,7 +453,7 @@ Critères de validation :
 
 ## Niveau 3 — Avancé
 
-### 1. Identifier sa suspension : numéro de série, kit joints et tableau d'huiles `identifier-modele-kit-huiles`
+### 1. Identifier sa suspension `identifier-modele-kit-huiles`
 
 - **Durée :** 30 min
 - **Prérequis :**
@@ -487,8 +487,8 @@ Critères de validation :
 
 - **Durée :** 35 min
 - **Prérequis :**
-  - [Identifier sa suspension : numéro de série, kit joints et tableau d'huiles](#identifier-modele-kit-huiles) `identifier-modele-kit-huiles`
-  - [Le contrôle 25 h : intervalles, couples et joint témoin](#controle-25h-suspension) `controle-25h-suspension`
+  - [Identifier sa suspension](#identifier-modele-kit-huiles) `identifier-modele-kit-huiles`
+  - [Le contrôle 25 h : intervalles et couples](#controle-25h-suspension) `controle-25h-suspension`
   - [La clé dynamométrique : choisir, utiliser, préserver](fondamentaux.md) `cle-dynamometrique`
 - **Outils :** Douille ou clé pour bouchon supérieur (souvent 24 ou 26 mm, ou outil cassette selon marque), Clé dynamométrique, Pompe de suspension, Tokens du bon diamètre de plongeur, Carnet d'atelier
 - **⚠️ Sécurité :**
@@ -520,7 +520,7 @@ Critères de validation :
 
 - **Durée :** 45 min
 - **Prérequis :**
-  - [Identifier sa suspension : numéro de série, kit joints et tableau d'huiles](#identifier-modele-kit-huiles) `identifier-modele-kit-huiles`
+  - [Identifier sa suspension](#identifier-modele-kit-huiles) `identifier-modele-kit-huiles`
   - [La clé dynamométrique : choisir, utiliser, préserver](fondamentaux.md) `cle-dynamometrique`
   - [Déposer et reposer une roue](roues-et-pneus.md) `depose-repose-roue`
 - **Outils :** Clés hex/douilles selon manuel, Maillet plastique ou outil de décollage, Seringue graduée, Huile de bain au grade du manuel (souvent 0W-30), Kit joints (racleurs + mousses), Outil de pose de joints racleurs du bon diamètre, Graisse spécifiée (SRAM Butter ou équivalent), Bac de récupération d'huile, Alcool isopropylique et chiffons, Clé dynamométrique
@@ -553,12 +553,12 @@ Critères de validation :
 - video — Park Tool : principes du service de fourche suspendue
 - article — Endurotribe : tutoriel service bas de fourche en français
 
-### 4. Service bas de fourche Fox (50 h) : les différences qui comptent `service-bas-fourche-fox`
+### 4. Service bas de fourche Fox (50 h) `service-bas-fourche-fox`
 
 - **Durée :** 45 min
 - **Prérequis :**
   - [Service bas de fourche RockShox (50 h)](#service-bas-fourche-rockshox) `service-bas-fourche-rockshox`
-  - [Identifier sa suspension : numéro de série, kit joints et tableau d'huiles](#identifier-modele-kit-huiles) `identifier-modele-kit-huiles`
+  - [Identifier sa suspension](#identifier-modele-kit-huiles) `identifier-modele-kit-huiles`
 - **Outils :** Douilles et clés selon manuel Fox, Rondelles d'écrasement neuves, Huile de bain Fox 20WT Gold ou équivalent documenté, Kit joints Fox du bon diamètre, Outil de pose de racleurs, Seringue graduée, Maillet plastique, Clé dynamométrique, Bac de récupération, Alcool isopropylique
 - **⚠️ Sécurité :**
   - Dépressuriser totalement avant de dévisser les écrous de pied, vérifier deux fois.
@@ -588,11 +588,11 @@ Critères de validation :
 - doc — Fox Factory (centre d'aide) : tableau volumes et grades d'huile par fourche
 - video — GMBN Tech : service bas de fourche Fox pas à pas
 
-### 5. Service d'une fourche urbaine à ressort (SR Suntour et compagnie) `service-fourche-ville-ressort`
+### 5. Service d'une fourche urbaine à ressort `service-fourche-ville-ressort`
 
 - **Durée :** 40 min
 - **Prérequis :**
-  - [Suspensions à ressort : tarage et précharge, du VTT au vélo de ville](#ressort-helicoidal-precharge) `ressort-helicoidal-precharge`
+  - [Suspensions à ressort](#ressort-helicoidal-precharge) `ressort-helicoidal-precharge`
   - [Service bas de fourche RockShox (50 h)](#service-bas-fourche-rockshox) `service-bas-fourche-rockshox`
 - **Outils :** Clés hex et douille selon modèle, Graisse au lithium ou graisse spécifiée, Chiffons et dégraissant, Clé dynamométrique, Étau avec mordaches (optionnel)
 - **⚠️ Sécurité :**
@@ -621,11 +621,11 @@ Critères de validation :
 - article — Park Tool : entretien des fourches à ressort basiques
 - article — Cyclurba : entretien fourche de vélo de ville en français
 
-### 6. Service air can : joints, graisse et progressivité de l'amortisseur `service-air-can-amortisseur`
+### 6. Service air can : joints et progressivité `service-air-can-amortisseur`
 
 - **Durée :** 40 min
 - **Prérequis :**
-  - [Identifier sa suspension : numéro de série, kit joints et tableau d'huiles](#identifier-modele-kit-huiles) `identifier-modele-kit-huiles`
+  - [Identifier sa suspension](#identifier-modele-kit-huiles) `identifier-modele-kit-huiles`
   - [Tokens : régler la progressivité de ta fourche](#tokens-fourche) `tokens-fourche`
   - [La clé dynamométrique : choisir, utiliser, préserver](fondamentaux.md) `cle-dynamometrique`
 - **Outils :** Clés hex pour la visserie d'amortisseur, Sangle ou étau avec mordaches douces, Kit joints air can du modèle, Graisse spécifiée + lubrifiant interne (type Fox Float Fluid), Seringue graduée, Pick à joints non métallique, Pompe de suspension, Clé dynamométrique
@@ -656,11 +656,11 @@ Critères de validation :
 - video — RockShox (YouTube) : service air can 50 heures
 - article — Vojo Magazine : entretien amortisseur en français
 
-### 7. Douilles et visserie d'amortisseur : le jeu qui se prend pour un roulement mort `douilles-amortisseur`
+### 7. Douilles et visserie d'amortisseur `douilles-amortisseur`
 
 - **Durée :** 30 min
 - **Prérequis :**
-  - [Service air can : joints, graisse et progressivité de l'amortisseur](#service-air-can-amortisseur) `service-air-can-amortisseur`
+  - [Service air can : joints et progressivité](#service-air-can-amortisseur) `service-air-can-amortisseur`
   - [Mesurer et décoder : pied à coulisse et marquages](fondamentaux.md) `pied-a-coulisse-et-marquages`
 - **Outils :** Outil d'extraction/pose de douilles (ou presse improvisée à tige filetée documentée), Pied à coulisse, Douilles et visserie neuves aux cotes, Graisse, Clé dynamométrique
 
@@ -686,11 +686,11 @@ Critères de validation :
 - video — Park Tool : diagnostic des jeux dans la liaison amortisseur-cadre
 - doc — Enduro Bearings : douilles à aiguilles de remplacement pour amortisseurs
 
-### 8. Pivots de cadre : contrôle, jeu et couples de la cinématique `controle-pivots-tout-suspendu`
+### 8. Pivots de cadre : contrôle, jeu et couples `controle-pivots-tout-suspendu`
 
 - **Durée :** 30 min
 - **Prérequis :**
-  - [Douilles et visserie d'amortisseur : le jeu qui se prend pour un roulement mort](#douilles-amortisseur) `douilles-amortisseur`
+  - [Douilles et visserie d'amortisseur](#douilles-amortisseur) `douilles-amortisseur`
   - [La clé dynamométrique : choisir, utiliser, préserver](fondamentaux.md) `cle-dynamometrique`
   - [Régler le jeu d'un moyeu à cônes et billes](roues-et-pneus.md) `reglage-cones-moyeu`
 - **Outils :** Clé dynamométrique et embouts hex/Torx, Manuel du cadre (tableau des couples de pivots), Pied d'atelier, Carnet d'atelier
@@ -719,7 +719,7 @@ Critères de validation :
 
 ## Niveau 4 — Expert
 
-### 1. Le bracketing : affiner ses réglages comme un pilote d'usine `bracketing-fox-dialed`
+### 1. Le bracketing : affiner ses réglages `bracketing-fox-dialed`
 
 - **Durée :** 40 min
 - **Prérequis :**
@@ -756,7 +756,7 @@ Critères de validation :
 
 - **Durée :** 35 min
 - **Prérequis :**
-  - [Le bracketing : affiner ses réglages comme un pilote d'usine](#bracketing-fox-dialed) `bracketing-fox-dialed`
+  - [Le bracketing : affiner ses réglages](#bracketing-fox-dialed) `bracketing-fox-dialed`
   - [Compression basse vitesse et positions de pédalage](#suspension-reglage-compression-lsc) `suspension-reglage-compression-lsc`
 - **Outils :** Clés ou molettes intégrées selon cartouche, Pompe de suspension, Carnet d'atelier, Segment de test avec freinage appuyé et gros impact identifié
 
@@ -787,9 +787,9 @@ Critères de validation :
 - **Durée :** 45 min
 - **Prérequis :**
   - [Service bas de fourche RockShox (50 h)](#service-bas-fourche-rockshox) `service-bas-fourche-rockshox`
-  - [Service air can : joints, graisse et progressivité de l'amortisseur](#service-air-can-amortisseur) `service-air-can-amortisseur`
+  - [Service air can : joints et progressivité](#service-air-can-amortisseur) `service-air-can-amortisseur`
   - [T'équiper niveau 4 : diagnostic et électronique](fondamentaux.md) `outillage-expert`
-  - [Jeu de direction ahead : détecter le jeu et régler la précharge](direction-et-peripheriques.md) `precharge-jeu-direction-ahead`
+  - [Jeu de direction ahead](direction-et-peripheriques.md) `precharge-jeu-direction-ahead`
 - **Outils :** Pompe de suspension, Pied d'atelier, Lampe, Pied à coulisse, Carnet d'atelier
 
 **Objectifs :**
@@ -815,12 +815,12 @@ Critères de validation :
 - video — Park Tool : diagnostic des jeux sur le train avant
 - article — Glisse Alpine : diagnostiquer une fourche fatiguée en français
 
-### 4. Cinématique : ratio, progressivité et anti-squat sans les maths qui piquent `cinematique-tout-suspendu`
+### 4. Cinématique : ratio, progressivité, anti-squat `cinematique-tout-suspendu`
 
 - **Durée :** 40 min
 - **Prérequis :**
   - [Anatomie d'un amortisseur arrière](#suspension-anatomie-amortisseur) `suspension-anatomie-amortisseur`
-  - [Pivots de cadre : contrôle, jeu et couples de la cinématique](#controle-pivots-tout-suspendu) `controle-pivots-tout-suspendu`
+  - [Pivots de cadre : contrôle, jeu et couples](#controle-pivots-tout-suspendu) `controle-pivots-tout-suspendu`
 - **Outils :** Mètre et réglet, Pompe de suspension (pour dégonfler/regonfler proprement), Sangle, Carnet d'atelier
 
 **Objectifs :**
@@ -845,12 +845,12 @@ Critères de validation :
 - outil — Linkage Design : base de données de courbes de cinématique
 - video — GMBN Tech : les architectures de suspension arrière comparées
 
-### 5. Choisir un tarage coil et convertir de l'air au ressort `choix-ressort-coil`
+### 5. Choisir un tarage coil et passer au ressort `choix-ressort-coil`
 
 - **Durée :** 35 min
 - **Prérequis :**
-  - [Suspensions à ressort : tarage et précharge, du VTT au vélo de ville](#ressort-helicoidal-precharge) `ressort-helicoidal-precharge`
-  - [Cinématique : ratio, progressivité et anti-squat sans les maths qui piquent](#cinematique-tout-suspendu) `cinematique-tout-suspendu`
+  - [Suspensions à ressort](#ressort-helicoidal-precharge) `ressort-helicoidal-precharge`
+  - [Cinématique : ratio, progressivité, anti-squat](#cinematique-tout-suspendu) `cinematique-tout-suspendu`
 - **Outils :** Balance, Calculatrice, Pied à coulisse, Ressorts de test si disponibles, Carnet d'atelier
 - **⚠️ Sécurité :**
   - Détendre la précharge à zéro avant de déposer un ressort ; ne jamais démonter la bague de retenue d'un ressort comprimé.
@@ -877,13 +877,13 @@ Critères de validation :
 - video — Vorsprung Suspension : coil vs air et choix du tarage
 - doc — Sprindex : ressorts à tarage ajustable
 
-### 6. Remplacer les roulements de pivots d'un cadre tout-suspendu `remplacement-roulements-pivots`
+### 6. Remplacer les roulements de pivots de cadre `remplacement-roulements-pivots`
 
 - **Durée :** 45 min
 - **Prérequis :**
-  - [Pivots de cadre : contrôle, jeu et couples de la cinématique](#controle-pivots-tout-suspendu) `controle-pivots-tout-suspendu`
-  - [Moyeux à roulements scellés : extraction et pose de cartouches](roues-et-pneus.md) `service-roulements-scelles-moyeu`
-  - [Graisse, pâte carbone, frein-filet, antiseize : quoi, où, pourquoi](fondamentaux.md) `pates-assemblage`
+  - [Pivots de cadre : contrôle, jeu et couples](#controle-pivots-tout-suspendu) `controle-pivots-tout-suspendu`
+  - [Moyeux à roulements scellés](roues-et-pneus.md) `service-roulements-scelles-moyeu`
+  - [Graisse, pâte carbone, frein-filet, antiseize](fondamentaux.md) `pates-assemblage`
 - **Outils :** Extracteur de roulements internes ou jeu d'extraction, Presse à tige filetée avec entretoises aux diamètres, Kit de roulements du cadre (références vérifiées), Graisse marine, Frein filet selon manuel, Clé dynamométrique, Pied à coulisse
 
 **Objectifs :**
@@ -916,9 +916,9 @@ Critères de validation :
 - **Durée :** 45 min
 - **Prérequis :**
   - [Service bas de fourche RockShox (50 h)](#service-bas-fourche-rockshox) `service-bas-fourche-rockshox`
-  - [Service bas de fourche Fox (50 h) : les différences qui comptent](#service-bas-fourche-fox) `service-bas-fourche-fox`
+  - [Service bas de fourche Fox (50 h)](#service-bas-fourche-fox) `service-bas-fourche-fox`
   - [Diagnostic méthodique d'une suspension malade](#diagnostic-suspension) `diagnostic-suspension`
-  - [Identifier sa suspension : numéro de série, kit joints et tableau d'huiles](#identifier-modele-kit-huiles) `identifier-modele-kit-huiles`
+  - [Identifier sa suspension](#identifier-modele-kit-huiles) `identifier-modele-kit-huiles`
 - **Outils :** Douilles et clés à cassette selon manuel, Seringues de purge avec adaptateurs, Huile damper au grade exact du manuel (viscosité cSt vérifiée), Étau avec mordaches douces, Bac de récupération, Chiffons non pelucheux, Clé dynamométrique
 - **⚠️ Sécurité :**
   - Dépressuriser la chambre à air avant tout démontage, vérifier deux fois.
@@ -953,7 +953,7 @@ Critères de validation :
 - **Durée :** 45 min
 - **Prérequis :**
   - [Service et purge d'une cartouche RockShox Charger](#service-cartouche-charger) `service-cartouche-charger`
-  - [Identifier sa suspension : numéro de série, kit joints et tableau d'huiles](#identifier-modele-kit-huiles) `identifier-modele-kit-huiles`
+  - [Identifier sa suspension](#identifier-modele-kit-huiles) `identifier-modele-kit-huiles`
 - **Outils :** Douilles et clés selon manuel Fox, Seringues de purge, Huiles Fox aux grades exacts (damper ET bain, différentes), Étau avec mordaches, Bac de récupération, Chiffons non pelucheux, Clé dynamométrique
 - **⚠️ Sécurité :**
   - Dépressuriser la chambre à air avant démontage, vérifier deux fois.
@@ -983,61 +983,14 @@ Critères de validation :
 - doc — Fox Factory (centre d'aide) : tableau des huiles par circuit et par cartouche
 - video — Vorsprung Suspension : différences bladder vs IFP dans les cartouches
 
-### 3. Service d'amortisseur 3/3 : recharge gaz, remontage et validation `damper-azote-et-validation`
-
-- **Durée :** 40 min
-- **Prérequis :**
-  - [Service d'amortisseur 2/3 : IFP, remplissage et purge](#damper-ifp-et-huile) `damper-ifp-et-huile`
-  - [Douilles et visserie d'amortisseur : le jeu qui se prend pour un roulement mort](#douilles-amortisseur) `douilles-amortisseur`
-  - [Régler le SAG de l'amortisseur](#sag-amortisseur) `sag-amortisseur`
-  - [Régler le rebond : la molette qui change tout](#suspension-reglage-rebond) `suspension-reglage-rebond`
-  - [La clé dynamométrique : choisir, utiliser, préserver](fondamentaux.md) `cle-dynamometrique`
-- **Outils :** bouteille d'azote avec détendeur haute pression et manomètre, ou station de charge dédiée, aiguille de charge / adaptateur de valve du modèle, manomètre de contrôle indépendant pour recoupement, clés dynamométriques 2-20 Nm et 5-60 Nm, pompe haute pression pour la chambre air, eau savonneuse et pinceau pour test de fuite, pied à coulisse et collier témoin pour la mesure de course, thermomètre infrarouge, lunettes de protection
-- **⚠️ Sécurité :**
-  - L'azote est stocké à très haute pression : bouteille arrimée verticalement, détendeur contrôlé, chapeau en place au transport. Une bouteille qui tombe et casse son robinet devient un projectile.
-  - N'utilise jamais d'oxygène, ni l'air d'un compresseur d'atelier huileux, pour charger une chambre de damper : mélange huile + oxygène sous pression = risque d'inflammation. Azote sec, ou air parfaitement sec et filtré si le constructeur l'autorise explicitement.
-  - Ne dépasse jamais la pression constructeur de la chambre à gaz, même « un peu, pour compenser » : tu déformes l'IFP et tu peux faire sauter un circlip.
-  - Lunettes obligatoires pendant toute la phase de charge et lors du premier cycle après charge.
-  - Un amortisseur qui sort de cette leçon est un composant sous pression : dépressurisation obligatoire avant tout démontage ultérieur, y compris pour « juste vérifier ».
-
-**Objectifs :**
-- Recharger une chambre à gaz d'amortisseur à la pression constructeur, en sécurité.
-- Remonter l'amortisseur aux couples prescrits, douilles et visserie comprises.
-- Valider un service sans banc dyno : course, étanchéité, comportement sur le vélo.
-- Archiver une fiche de service traçable et définir le prochain intervalle.
-
-**TP — Recharger, remonter et valider l'amortisseur sur le vélo**
-
-Tu charges la chambre à gaz à la pression du manuel, tu remontes l'amortisseur complet (air can, douilles, visserie) aux couples prescrits, puis tu valides le service sans banc : course restituée, étanchéité dans le temps, comportement mesuré sur le vélo et sur une sortie de contrôle.
-
-Critères de validation :
-1. 1. Matériel contrôlé avant charge : détendeur en état, manomètre recoupé avec un second manomètre indépendant (écart ≤ 5 %), bouteille arrimée, lunettes portées 100 % de la phase de charge.
-2. 2. Pression de charge = spécification constructeur à ±5 % (exemple : 200 psi → 190-210 psi), relevée après 2 minutes de stabilisation et non au moment de la fermeture de la valve.
-3. 3. Couples de remontage 100 % conformes au manuel, contrôlés à la clé dynamométrique, tolérance ±5 % ; douilles et entretoises remontées au bon jeu, 0 jeu perceptible à la main sur les œillets.
-4. 4. Test d'étanchéité immédiat : eau savonneuse sur valve et joints, 0 bulle après 5 minutes d'observation.
-5. 5. Test d'étanchéité différé : perte de pression de la chambre à gaz < 3 % après 72 h, et perte de la chambre air < 5 % sur la même durée.
-6. 6. Course restituée : course mesurée au collier témoin ≥ 98 % de la course nominale du modèle, en compression plein débattement, hors vélo puis sur vélo.
-7. 7. Validation sur vélo : SAG remis à la valeur cible à ±2 % du débattement, rebond réglé et vérifié (le vélo revient sans rebondir deux fois), 20 compressions plein débattement sans bruit anormal ni point dur.
-8. 8. Sortie de contrôle de 30 minutes minimum sur un parcours défini et répétable ; au retour : 0 trace d'huile sur le racleur (papier absorbant, 60 s), température du corps au thermomètre IR < 60 °C.
-9. 9. Comparatif avant/après documenté : SAG, nombre de clics de rebond retenus, ressenti noté sur 3 critères (sensibilité au départ, tenue en milieu de course, contrôle en fin de course), avec les valeurs d'avant service en regard.
-10. 10. Fiche de service archivée : numéro de série, date, huile et volume, cote IFP, pression de gaz, couples appliqués, prochain intervalle de service en heures d'utilisation.
-
-**Pistes de références** *(URLs vérifiées à la rédaction de la leçon)* :
-- doc — Fox Factory : procédure de recharge azote, pressions IFP par modèle et couples de remontage
-- doc — SRAM / RockShox : charge de la chambre à gaz et remontage des amortisseurs Super Deluxe
-- article — Shockcraft : azote contre air dans un damper : pourquoi, risques et pressions de service
-- doc — Air Liquide : sécurité d'emploi des bouteilles de gaz comprimé et des détendeurs en atelier
-- video — Vorsprung Suspension : valider un service d'amortisseur sans banc dyno : tests reproductibles
-- doc — Öhlins : contrôle final et fiche de service d'un amortisseur remis en pression
-
-### 4. Service d'amortisseur 1/3 : ouverture, diagnostic et état des joints `damper-demontage-diagnostic`
+### 3. Service d'amortisseur 1/3 `damper-demontage-diagnostic`
 
 - **Durée :** 45 min
 - **Prérequis :**
   - [Anatomie d'un amortisseur arrière](#suspension-anatomie-amortisseur) `suspension-anatomie-amortisseur`
-  - [Identifier sa suspension : numéro de série, kit joints et tableau d'huiles](#identifier-modele-kit-huiles) `identifier-modele-kit-huiles`
-  - [Service air can : joints, graisse et progressivité de l'amortisseur](#service-air-can-amortisseur) `service-air-can-amortisseur`
-  - [Douilles et visserie d'amortisseur : le jeu qui se prend pour un roulement mort](#douilles-amortisseur) `douilles-amortisseur`
+  - [Identifier sa suspension](#identifier-modele-kit-huiles) `identifier-modele-kit-huiles`
+  - [Service air can : joints et progressivité](#service-air-can-amortisseur) `service-air-can-amortisseur`
+  - [Douilles et visserie d'amortisseur](#douilles-amortisseur) `douilles-amortisseur`
   - [Diagnostic méthodique d'une suspension malade](#diagnostic-suspension) `diagnostic-suspension`
   - [La clé dynamométrique : choisir, utiliser, préserver](fondamentaux.md) `cle-dynamometrique`
   - [Service d'une cartouche Fox FIT/GRIP](#service-cartouche-fox-grip) `service-cartouche-fox-grip`
@@ -1080,12 +1033,12 @@ Critères de validation :
 - doc — Öhlins : procédures de service TTX et exigences de propreté en salle de montage
 - video — Park Tool : organisation d'un poste de travail pour démontage de composants à huile
 
-### 5. Service d'amortisseur 2/3 : IFP, remplissage et purge `damper-ifp-et-huile`
+### 4. Service d'amortisseur 2/3 `damper-ifp-et-huile`
 
 - **Durée :** 45 min
 - **Prérequis :**
-  - [Service d'amortisseur 1/3 : ouverture, diagnostic et état des joints](#damper-demontage-diagnostic) `damper-demontage-diagnostic`
-  - [Identifier sa suspension : numéro de série, kit joints et tableau d'huiles](#identifier-modele-kit-huiles) `identifier-modele-kit-huiles`
+  - [Service d'amortisseur 1/3](#damper-demontage-diagnostic) `damper-demontage-diagnostic`
+  - [Identifier sa suspension](#identifier-modele-kit-huiles) `identifier-modele-kit-huiles`
   - [Service et purge d'une cartouche RockShox Charger](#service-cartouche-charger) `service-cartouche-charger`
   - [La clé dynamométrique : choisir, utiliser, préserver](fondamentaux.md) `cle-dynamometrique`
 - **Outils :** manuel de service constructeur du modèle exact, huile de suspension du grade prescrit, seringues graduées et éprouvette, outil de positionnement d'IFP du modèle, ou équivalent fabriqué, jauge de profondeur ou pied à coulisse à jauge, outil de maintien du corps (mors doux), clé dynamométrique 2-20 Nm, chiffons non pelucheux et alcool isopropylique, graisse de montage prescrite pour les joints
@@ -1124,3 +1077,50 @@ Critères de validation :
 - video — Vorsprung Suspension : pourquoi la cote IFP conditionne la course et le comportement du damper
 - doc — Motorex / Fuchs Silkolene : fiches techniques des huiles de suspension : viscosité, indice et compatibilité joints
 - doc — Öhlins : procédure de remplissage et contrôle d'absence d'air
+
+### 5. Service d'amortisseur 3/3 `damper-azote-et-validation`
+
+- **Durée :** 40 min
+- **Prérequis :**
+  - [Service d'amortisseur 2/3](#damper-ifp-et-huile) `damper-ifp-et-huile`
+  - [Douilles et visserie d'amortisseur](#douilles-amortisseur) `douilles-amortisseur`
+  - [Régler le SAG de l'amortisseur](#sag-amortisseur) `sag-amortisseur`
+  - [Régler le rebond : la molette qui change tout](#suspension-reglage-rebond) `suspension-reglage-rebond`
+  - [La clé dynamométrique : choisir, utiliser, préserver](fondamentaux.md) `cle-dynamometrique`
+- **Outils :** bouteille d'azote avec détendeur haute pression et manomètre, ou station de charge dédiée, aiguille de charge / adaptateur de valve du modèle, manomètre de contrôle indépendant pour recoupement, clés dynamométriques 2-20 Nm et 5-60 Nm, pompe haute pression pour la chambre air, eau savonneuse et pinceau pour test de fuite, pied à coulisse et collier témoin pour la mesure de course, thermomètre infrarouge, lunettes de protection
+- **⚠️ Sécurité :**
+  - L'azote est stocké à très haute pression : bouteille arrimée verticalement, détendeur contrôlé, chapeau en place au transport. Une bouteille qui tombe et casse son robinet devient un projectile.
+  - N'utilise jamais d'oxygène, ni l'air d'un compresseur d'atelier huileux, pour charger une chambre de damper : mélange huile + oxygène sous pression = risque d'inflammation. Azote sec, ou air parfaitement sec et filtré si le constructeur l'autorise explicitement.
+  - Ne dépasse jamais la pression constructeur de la chambre à gaz, même « un peu, pour compenser » : tu déformes l'IFP et tu peux faire sauter un circlip.
+  - Lunettes obligatoires pendant toute la phase de charge et lors du premier cycle après charge.
+  - Un amortisseur qui sort de cette leçon est un composant sous pression : dépressurisation obligatoire avant tout démontage ultérieur, y compris pour « juste vérifier ».
+
+**Objectifs :**
+- Recharger une chambre à gaz d'amortisseur à la pression constructeur, en sécurité.
+- Remonter l'amortisseur aux couples prescrits, douilles et visserie comprises.
+- Valider un service sans banc dyno : course, étanchéité, comportement sur le vélo.
+- Archiver une fiche de service traçable et définir le prochain intervalle.
+
+**TP — Recharger, remonter et valider l'amortisseur sur le vélo**
+
+Tu charges la chambre à gaz à la pression du manuel, tu remontes l'amortisseur complet (air can, douilles, visserie) aux couples prescrits, puis tu valides le service sans banc : course restituée, étanchéité dans le temps, comportement mesuré sur le vélo et sur une sortie de contrôle.
+
+Critères de validation :
+1. 1. Matériel contrôlé avant charge : détendeur en état, manomètre recoupé avec un second manomètre indépendant (écart ≤ 5 %), bouteille arrimée, lunettes portées 100 % de la phase de charge.
+2. 2. Pression de charge = spécification constructeur à ±5 % (exemple : 200 psi → 190-210 psi), relevée après 2 minutes de stabilisation et non au moment de la fermeture de la valve.
+3. 3. Couples de remontage 100 % conformes au manuel, contrôlés à la clé dynamométrique, tolérance ±5 % ; douilles et entretoises remontées au bon jeu, 0 jeu perceptible à la main sur les œillets.
+4. 4. Test d'étanchéité immédiat : eau savonneuse sur valve et joints, 0 bulle après 5 minutes d'observation.
+5. 5. Test d'étanchéité différé : perte de pression de la chambre à gaz < 3 % après 72 h, et perte de la chambre air < 5 % sur la même durée.
+6. 6. Course restituée : course mesurée au collier témoin ≥ 98 % de la course nominale du modèle, en compression plein débattement, hors vélo puis sur vélo.
+7. 7. Validation sur vélo : SAG remis à la valeur cible à ±2 % du débattement, rebond réglé et vérifié (le vélo revient sans rebondir deux fois), 20 compressions plein débattement sans bruit anormal ni point dur.
+8. 8. Sortie de contrôle de 30 minutes minimum sur un parcours défini et répétable ; au retour : 0 trace d'huile sur le racleur (papier absorbant, 60 s), température du corps au thermomètre IR < 60 °C.
+9. 9. Comparatif avant/après documenté : SAG, nombre de clics de rebond retenus, ressenti noté sur 3 critères (sensibilité au départ, tenue en milieu de course, contrôle en fin de course), avec les valeurs d'avant service en regard.
+10. 10. Fiche de service archivée : numéro de série, date, huile et volume, cote IFP, pression de gaz, couples appliqués, prochain intervalle de service en heures d'utilisation.
+
+**Pistes de références** *(URLs vérifiées à la rédaction de la leçon)* :
+- doc — Fox Factory : procédure de recharge azote, pressions IFP par modèle et couples de remontage
+- doc — SRAM / RockShox : charge de la chambre à gaz et remontage des amortisseurs Super Deluxe
+- article — Shockcraft : azote contre air dans un damper : pourquoi, risques et pressions de service
+- doc — Air Liquide : sécurité d'emploi des bouteilles de gaz comprimé et des détendeurs en atelier
+- video — Vorsprung Suspension : valider un service d'amortisseur sans banc dyno : tests reproductibles
+- doc — Öhlins : contrôle final et fiche de service d'un amortisseur remis en pression

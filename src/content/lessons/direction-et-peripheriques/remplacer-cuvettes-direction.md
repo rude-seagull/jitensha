@@ -1,5 +1,5 @@
 ---
-title: "Extraire et presser cuvettes et crown race de jeu de direction"
+title: "Extraire et presser cuvettes et crown race"
 level: 4
 system: "direction-et-peripheriques"
 order: 2

@@ -1,5 +1,5 @@
 ---
-title: "Standards d'axes et d'entraxes : identifier ce que ton cadre accepte"
+title: "Standards d'axes et d'entraxes"
 level: 2
 system: "roues-et-pneus"
 order: 1

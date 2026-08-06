@@ -216,7 +216,7 @@ Critères de validation :
 - article — BikeRadar : how to size a bike chain
 - article — Bike Gremlin : chain length calculation, formule et vérifications
 
-### 2. Remplacer une chaîne : dérive-chaîne, attache rapide, rivet `chaine-remplacement`
+### 2. Remplacer une chaîne `chaine-remplacement`
 
 - **Durée :** 40 min
 - **Prérequis :**
@@ -251,7 +251,7 @@ Critères de validation :
 - doc — KMC : MissingLink, réutilisable ou non selon le modèle
 - article — Bike Gremlin : chain installation, erreurs classiques
 
-### 3. Patte de dérailleur : contrôle visuel, standards et UDH `patte-derailleur-controle-visuel`
+### 3. Patte de dérailleur `patte-derailleur-controle-visuel`
 
 - **Durée :** 35 min
 - **Prérequis :**
@@ -289,7 +289,7 @@ Critères de validation :
 
 - **Durée :** 30 min
 - **Prérequis :**
-  - [Patte de dérailleur : contrôle visuel, standards et UDH](#patte-derailleur-controle-visuel) `patte-derailleur-controle-visuel`
+  - [Patte de dérailleur](#patte-derailleur-controle-visuel) `patte-derailleur-controle-visuel`
   - [Visserie : empreintes, filetages et pas inversés](fondamentaux.md) `empreintes-et-filetages`
 - **Outils :** tournevis JIS n°2, jeu de clés Allen, pied d'atelier, lampe, réglet
 - **⚠️ Sécurité :**
@@ -323,7 +323,7 @@ Critères de validation :
 - **Durée :** 30 min
 - **Prérequis :**
   - [Mesurer l'usure d'une chaîne](#usure-chaine-mesure-jauge) `usure-chaine-mesure-jauge`
-  - [Remplacer une chaîne : dérive-chaîne, attache rapide, rivet](#chaine-remplacement) `chaine-remplacement`
+  - [Remplacer une chaîne](#chaine-remplacement) `chaine-remplacement`
 - **Outils :** multi-outil avec dérive-chaîne intégré, attache rapide de secours au bon nombre de vitesses, pince à attache rapide compacte, gants jetables, chronomètre
 
 **Objectifs :**
@@ -354,7 +354,7 @@ Critères de validation :
 - **Durée :** 40 min
 - **Prérequis :**
   - [Régler les butées H et L d'un dérailleur arrière](#derailleur-arriere-butees-h-l) `derailleur-arriere-butees-h-l`
-  - [Câbles et gaines : matériaux, coupe parfaite et routage externe](direction-et-peripheriques.md) `cables-gaines-routage-externe`
+  - [Câbles et gaines : coupe et routage externe](direction-et-peripheriques.md) `cables-gaines-routage-externe`
 - **Outils :** pince coupe-câble de qualité, clés Allen 4 et 5, tournevis, embouts de câble, pied d'atelier, lubrifiant fluide
 
 **Objectifs :**
@@ -417,7 +417,7 @@ Critères de validation :
 - **Durée :** 40 min
 - **Prérequis :**
   - [Indexer un dérailleur arrière (tension de câble)](#derailleur-arriere-indexation) `derailleur-arriere-indexation`
-  - [Graisse, pâte carbone, frein-filet, antiseize : quoi, où, pourquoi](fondamentaux.md) `pates-assemblage`
+  - [Graisse, pâte carbone, frein-filet, antiseize](fondamentaux.md) `pates-assemblage`
 - **Outils :** jeu de clés Allen, tournevis JIS, réglet acier, pince coupe-câble, clé dynamométrique 2-14 N·m, pied d'atelier
 
 **Objectifs :**
@@ -545,7 +545,7 @@ Critères de validation :
 - doc — Shimano : manuel SI, couples des vis de plateau et rampes de passage
 - article — Bike Gremlin : chainring wear and BCD measurement
 
-### 12. Pédales automatiques : SPD, Look, Time, SPD-SL et plates à broches `pedales-automatiques-typologie`
+### 12. Pédales automatiques `pedales-automatiques-typologie`
 
 - **Durée :** 35 min
 - **Prérequis :**
@@ -632,12 +632,12 @@ Critères de validation :
 - article — Sheldon Brown : chainline, calcul et cas du singlespeed
 - article — Bike Gremlin : chainline explained and how to fix it
 
-### 2. Boîtiers filetés : identifier et remplacer (BSA, italien, T47) `boitier-pedalier-filete`
+### 2. Boîtiers filetés : identifier et remplacer `boitier-pedalier-filete`
 
 - **Durée :** 45 min
 - **Prérequis :**
   - [Déposer et reposer un pédalier](#pedalier-depose-repose) `pedalier-depose-repose`
-  - [Graisse, pâte carbone, frein-filet, antiseize : quoi, où, pourquoi](fondamentaux.md) `pates-assemblage`
+  - [Graisse, pâte carbone, frein-filet, antiseize](fondamentaux.md) `pates-assemblage`
 - **Outils :** outils de boîtier adaptés (type BBT-9, BBT-69, outil T47), clé dynamométrique 10-60 N·m, pied à coulisse numérique, graisse, antiseize, brosse laiton, dégraissant
 
 **Objectifs :**
@@ -698,11 +698,11 @@ Critères de validation :
 - doc — SRAM : Type 3 roller bearing clutch, entretien
 - article — BikeRadar : clutch derailleurs, comment ça marche et quand les régler
 
-### 4. Diagnostiquer une transmission qui saute (méthode d'élimination) `diagnostic-passage-defaillant`
+### 4. Diagnostiquer une transmission qui saute `diagnostic-passage-defaillant`
 
 - **Durée :** 40 min
 - **Prérequis :**
-  - [Patte de dérailleur : contrôle visuel, standards et UDH](#patte-derailleur-controle-visuel) `patte-derailleur-controle-visuel`
+  - [Patte de dérailleur](#patte-derailleur-controle-visuel) `patte-derailleur-controle-visuel`
   - [Indexer un dérailleur arrière (tension de câble)](#derailleur-arriere-indexation) `derailleur-arriere-indexation`
   - [Mesurer l'usure d'une chaîne](#usure-chaine-mesure-jauge) `usure-chaine-mesure-jauge`
   - [Le carnet d'atelier et la pratique délibérée](fondamentaux.md) `carnet-atelier`
@@ -737,7 +737,7 @@ Critères de validation :
 - **Durée :** 40 min
 - **Prérequis :**
   - [Indexer un dérailleur arrière (tension de câble)](#derailleur-arriere-indexation) `derailleur-arriere-indexation`
-  - [Routage interne : passer câbles, gaines et durites dans le cadre sans y laisser tes nerfs](direction-et-peripheriques.md) `routage-interne-cadre`
+  - [Routage interne : câbles, gaines et durites](direction-et-peripheriques.md) `routage-interne-cadre`
 - **Outils :** clés Allen 4 et 5, pince à becs fins, pince coupe-câble, dégraissant volatile, huile fine, tournevis JIS, inclinomètre ou application inclinomètre, clé dynamométrique 2-14 N·m
 - **⚠️ Sécurité :**
   - Ne noie jamais un mécanisme de manette au dégraissant puissant : tu lessives la graisse des cliquets et la manette lâche quelques centaines de kilomètres plus tard, souvent en plein passage. Dégraissant volatile, puis relubrification immédiate.
@@ -772,8 +772,8 @@ Critères de validation :
 - **Durée :** 45 min
 - **Prérequis :**
   - [Mesurer et corriger la ligne de chaîne](#ligne-de-chaine) `ligne-de-chaine`
-  - [Corps de roue libre : HG, XD/XDR, Microspline — identifier et entretenir](roues-et-pneus.md) `corps-roue-libre-standards-service`
-  - [Tension de chaîne sur pattes horizontales : la méthode propre](cas-exotiques.md) `fixie-tension-chaine`
+  - [Corps de roue libre](roues-et-pneus.md) `corps-roue-libre-standards-service`
+  - [Tension de chaîne sur pattes horizontales](cas-exotiques.md) `fixie-tension-chaine`
 - **Outils :** kit d'entretoises singlespeed, fouet à chaîne, démonte-cassette, tendeur de chaîne, dérive-chaîne, pied à coulisse, réglet, clé dynamométrique, clé à cône 15 mm
 - **⚠️ Sécurité :**
   - Sur un pignon fixe, le contre-écrou a un filetage à gauche : sans lui, le pignon se dévisse au rétropédalage et tu perds à la fois la transmission et ton frein moteur, souvent en descente.
@@ -838,7 +838,7 @@ Critères de validation :
 - article — Bike Gremlin : belt drive bicycles, avantages et contraintes
 - doc — Gates Carbon Drive : belt wear inspection guide
 
-### 8. Moyeux à vitesses intégrées : réglage du câble (Nexus, Alfine, Enviolo) `moyeux-integres-reglage`
+### 8. Moyeux à vitesses intégrées : réglage `moyeux-integres-reglage`
 
 - **Durée :** 35 min
 - **Prérequis :**
@@ -871,7 +871,7 @@ Critères de validation :
 - article — Bike Gremlin : internally geared hubs, réglage et entretien
 - doc — Rohloff : montage du bras de réaction et des rondelles anti-rotation
 
-### 9. Choisir tes développements : plage, sauts et capacité de chape `choisir-developpements`
+### 9. Choisir tes développements `choisir-developpements`
 
 - **Durée :** 45 min
 - **Prérequis :**
@@ -915,14 +915,14 @@ Critères de validation :
 - article — Rene Herse Cycles (Jan Heine) : choisir ses développements pour la randonnée chargée et la montagne
 - article — Matos Vélo : convertir un double plateau en 1x sans se tromper de cassette
 
-### 10. Réviser des pédales : roulements, axes, broches et mécanismes `pedales-entretien-roulements`
+### 10. Réviser des pédales `pedales-entretien-roulements`
 
 - **Durée :** 45 min
 - **Prérequis :**
   - [Pédales : dépose, repose et le piège du pas inversé](#pedales-depose-repose-filetage) `pedales-depose-repose-filetage`
-  - [Pédales automatiques : SPD, Look, Time, SPD-SL et plates à broches](#pedales-automatiques-typologie) `pedales-automatiques-typologie`
+  - [Pédales automatiques](#pedales-automatiques-typologie) `pedales-automatiques-typologie`
   - [Régler le jeu d'un moyeu à cônes et billes](roues-et-pneus.md) `reglage-cones-moyeu`
-  - [Graisse, pâte carbone, frein-filet, antiseize : quoi, où, pourquoi](fondamentaux.md) `pates-assemblage`
+  - [Graisse, pâte carbone, frein-filet, antiseize](fondamentaux.md) `pates-assemblage`
 - **Outils :** Douille de démontage de pédale (type Shimano TL-PD40 / TL-PD63) ou clé à cône fine 13/15 mm, Clés à cône fines et clé plate 7/8 mm, Pince à circlips intérieur/extérieur, Jeu de six pans 2, 2,5, 3 mm et torx T10/T20, Étau avec mors doux, Graisse roulement, dégraissant, chiffons non pelucheux, Frein-filet moyen (bleu), Comparateur ou V de contrôle pour axe, Bac de récupération et aimant à billes, Kit de joints/roulements constructeur
 - **⚠️ Sécurité :**
   - Un axe de pédale tordu ou un corps fissuré se remplace, jamais ne se redresse : la rupture arrive en danseuse, à pleine charge, et la chute est violente.
@@ -975,7 +975,7 @@ Critères de validation :
 - **Prérequis :**
   - [Anatomie de la transmission : nommer et identifier](#anatomie-transmission) `anatomie-transmission`
   - [Mesurer et corriger la ligne de chaîne](#ligne-de-chaine) `ligne-de-chaine`
-  - [Corps de roue libre : HG, XD/XDR, Microspline — identifier et entretenir](roues-et-pneus.md) `corps-roue-libre-standards-service`
+  - [Corps de roue libre](roues-et-pneus.md) `corps-roue-libre-standards-service`
 - **Outils :** pied à coulisse numérique, tableaux de spécifications constructeur, tableur ou calculateur de développement, carnet d'atelier
 
 **Objectifs :**
@@ -1006,7 +1006,7 @@ Critères de validation :
 
 - **Durée :** 45 min
 - **Prérequis :**
-  - [Boîtiers filetés : identifier et remplacer (BSA, italien, T47)](#boitier-pedalier-filete) `boitier-pedalier-filete`
+  - [Boîtiers filetés : identifier et remplacer](#boitier-pedalier-filete) `boitier-pedalier-filete`
   - [Déposer et reposer un pédalier](#pedalier-depose-repose) `pedalier-depose-repose`
   - [Mesurer et décoder : pied à coulisse et marquages](fondamentaux.md) `pied-a-coulisse-et-marquages`
 - **Outils :** pied à coulisse numérique, extracteur de roulement press-fit, presse à jeu de direction ou presse à boîtier, graisse, frein-filet de fixation type Loctite 641, boîtier vissé de type thread-together, clé dynamométrique, chiffons
@@ -1044,7 +1044,7 @@ Critères de validation :
 - **Prérequis :**
   - [Indexer un dérailleur arrière (tension de câble)](#derailleur-arriere-indexation) `derailleur-arriere-indexation`
   - [Régler un dérailleur avant](#derailleur-avant-reglage) `derailleur-avant-reglage`
-  - [Routage interne : passer câbles, gaines et durites dans le cadre sans y laisser tes nerfs](direction-et-peripheriques.md) `routage-interne-cadre`
+  - [Routage interne : câbles, gaines et durites](direction-et-peripheriques.md) `routage-interne-cadre`
 - **Outils :** outil d'insertion E-Tube (type TL-EW02), fils E-Tube de longueurs variées, tire-câble interne magnétique, clés Allen, clé dynamométrique 2-14 N·m, PC ou smartphone avec le logiciel E-Tube Project, chargeur Di2
 - **⚠️ Sécurité :**
   - Les fils E-Tube ne se tirent jamais par le câble : on pousse et on tire sur le connecteur avec l'outil. Un contact arraché, c'est un composant à renvoyer, pas une réparation d'atelier.
@@ -1074,7 +1074,7 @@ Critères de validation :
 - video — GCN Tech : how to install Di2 from scratch
 - doc — Shimano : manuel SI de la batterie interne et des jonctions
 
-### 4. Di2 : configuration E-Tube, firmware et diagnostic de pannes `di2-etube-configuration`
+### 4. Di2 : configuration E-Tube et diagnostic `di2-etube-configuration`
 
 - **Durée :** 40 min
 - **Prérequis :**
@@ -1141,11 +1141,11 @@ Critères de validation :
 - video — GCN Tech : SRAM AXS setup et personnalisation
 - article — BikeRadar : SRAM AXS expliqué, batteries et compatibilités
 
-### 6. SRAM Eagle Transmission T-Type sur UDH : montage et calibration `t-type-udh`
+### 6. SRAM Eagle Transmission T-Type sur UDH `t-type-udh`
 
 - **Durée :** 45 min
 - **Prérequis :**
-  - [Patte de dérailleur : contrôle visuel, standards et UDH](#patte-derailleur-controle-visuel) `patte-derailleur-controle-visuel`
+  - [Patte de dérailleur](#patte-derailleur-controle-visuel) `patte-derailleur-controle-visuel`
   - [SRAM AXS : installation, appairage et réglages](#sram-axs-appairage) `sram-axs-appairage`
 - **Outils :** clé dynamométrique 10-60 N·m, clé Torx T25, application AXS, batterie AXS chargée, chaîne Flattop Eagle et attache PowerLock, setup cog et gabarit fournis avec le groupe
 - **⚠️ Sécurité :**
@@ -1176,11 +1176,11 @@ Critères de validation :
 - doc — SRAM : spécification Universal Derailleur Hanger (UDH)
 - video — GCN Tech : T-Type Transmission, ce qui change vraiment
 
-### 7. Moyeux à vitesses intégrées : vidange et service (Alfine, Rohloff, Enviolo) `igh-vidange-service`
+### 7. Moyeux intégrés : vidange et service `igh-vidange-service`
 
 - **Durée :** 40 min
 - **Prérequis :**
-  - [Moyeux à vitesses intégrées : réglage du câble (Nexus, Alfine, Enviolo)](#moyeux-integres-reglage) `moyeux-integres-reglage`
+  - [Moyeux à vitesses intégrées : réglage](#moyeux-integres-reglage) `moyeux-integres-reglage`
   - savoir organiser un poste de travail avec récupération de fluides et EPI *(fondamentaux)*
 - **Outils :** kit de vidange constructeur (seringues graduées, tubes), huile de moyeu spécifique, bac de récupération, gants nitrile, chiffons, clés plates, clé dynamométrique, bidon étiqueté pour huile usagée
 - **⚠️ Sécurité :**
@@ -1211,7 +1211,7 @@ Critères de validation :
 - doc — Enviolo : service manual, entretien et diagnostic
 - article — Bike Gremlin : internally geared hub maintenance intervals
 
-### 8. Transmission de VAE : usure accélérée et choix de composants `transmission-vae-usure-composants`
+### 8. Transmission de VAE `transmission-vae-usure-composants`
 
 - **Durée :** 35 min
 - **Prérequis :**
@@ -1249,14 +1249,14 @@ Critères de validation :
 
 ## Niveau 5 — Maître
 
-### 1. Installer un groupe complet : séquence, contrôles et points de non-retour `montage-groupe-complet`
+### 1. Installer un groupe complet `montage-groupe-complet`
 
 - **Durée :** 35 min
 - **Prérequis :**
   - [Déposer et reposer un pédalier](#pedalier-depose-repose) `pedalier-depose-repose`
   - [Mesurer et corriger la ligne de chaîne](#ligne-de-chaine) `ligne-de-chaine`
   - [Planifier un montage complet : la gamme d'assemblage](montage-et-peinture.md) `ordre-montage-cadre-nu`
-  - [Câbles et gaines : matériaux, coupe parfaite et routage externe](direction-et-peripheriques.md) `cables-gaines-routage-externe`
+  - [Câbles et gaines : coupe et routage externe](direction-et-peripheriques.md) `cables-gaines-routage-externe`
 - **Outils :** jeu complet de clés Allen et Torx, clés dynamométriques 2-14 et 10-60 N·m, outils de boîtier, dérive-chaîne d'atelier, pince coupe-câble et coupe-gaine, alésoir de gaine, tire-câble interne, graisse, frein-filet, fiche de couples imprimée
 
 **Objectifs :**
@@ -1284,12 +1284,12 @@ Critères de validation :
 - video — GCN Tech : full bike build, partie transmission
 - article — Bike Gremlin : bicycle assembly order and torque checklist
 
-### 2. Transmission haut rendement : cirage en immersion et protocole d'atelier `transmission-cire-rendement`
+### 2. Transmission haut rendement `transmission-cire-rendement`
 
 - **Durée :** 45 min
 - **Prérequis :**
   - [Mesurer l'usure d'une chaîne](#usure-chaine-mesure-jauge) `usure-chaine-mesure-jauge`
-  - [Remplacer une chaîne : dérive-chaîne, attache rapide, rivet](#chaine-remplacement) `chaine-remplacement`
+  - [Remplacer une chaîne](#chaine-remplacement) `chaine-remplacement`
   - [Ton calendrier d'entretien : 25 h, 50 h, 100 h](fondamentaux.md) `calendrier-entretien`
 - **Outils :** mijoteuse dédiée à thermostat, paraffine et additifs, essence minérale et alcool dénaturé, bocaux à couvercle, crochet ou fil de suspension, thermomètre de cuisson, jauge d'usure de chaîne, gants nitrile, extincteur
 - **⚠️ Sécurité :**
@@ -1321,14 +1321,14 @@ Critères de validation :
 - video — GCN Tech : chain wax vs oil, tests comparatifs
 - article — Zero Friction Cycling : comparatif d'usure entre lubrifiants
 
-### 3. Sauvetage transmission : manivelle grippée, vis cassée, interface abîmée `reparation-filetages-secours`
+### 3. Sauvetage transmission `reparation-filetages-secours`
 
 - **Durée :** 45 min
 - **Prérequis :**
-  - [Boîtiers filetés : identifier et remplacer (BSA, italien, T47)](#boitier-pedalier-filete) `boitier-pedalier-filete`
+  - [Boîtiers filetés : identifier et remplacer](#boitier-pedalier-filete) `boitier-pedalier-filete`
   - [Déposer et reposer un pédalier](#pedalier-depose-repose) `pedalier-depose-repose`
   - maîtriser tarauds, filières, pâtes de montage et notions de tolérance *(fondamentaux)*
-  - [Réparer un filetage : taraud et filet rapporté (Helicoil)](fondamentaux.md) `filetages-reparation-taraud-helicoil`
+  - [Réparer un filetage](fondamentaux.md) `filetages-reparation-taraud-helicoil`
 - **Outils :** kit d'insert rapporté pour filetage de pédale, jeu de tarauds et filières, perceuse à colonne ou guide de perçage, extracteur de vis cassée, dégrippant pénétrant, pistolet à air chaud, étau avec mordaches, clé dynamométrique, pied à coulisse, équerre
 - **⚠️ Sécurité :**
   - Une manivelle alu réparée par insert reste une pièce de sécurité : contrôle systématique après 100 km, et refus catégorique de réparation sur manivelle carbone ou sur toute manivelle présentant une fissure.

@@ -1,5 +1,5 @@
 ---
-title: "Couper un pivot de fourche : mesure, coupe, étoile ou expandeur"
+title: "Couper un pivot de fourche"
 level: 5
 system: "montage-et-peinture"
 order: 5

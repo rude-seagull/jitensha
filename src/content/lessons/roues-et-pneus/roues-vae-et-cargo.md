@@ -1,5 +1,5 @@
 ---
-title: "Roues VAE et cargo : renforts, moteurs moyeu et contrôles spécifiques"
+title: "Roues VAE et cargo"
 level: 4
 system: "roues-et-pneus"
 order: 4

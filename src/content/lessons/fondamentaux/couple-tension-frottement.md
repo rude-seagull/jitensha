@@ -1,5 +1,5 @@
 ---
-title: "Couple, tension, frottement : pourquoi un boulon tient"
+title: "Couple, tension, frottement"
 level: 2
 system: "fondamentaux"
 order: 2

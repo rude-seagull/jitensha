@@ -1,5 +1,5 @@
 ---
-title: "Atelier VAE : stockage, transport, déchets et traçabilité"
+title: "Atelier VAE : stockage, transport, déchets"
 level: 5
 system: "vae"
 order: 2

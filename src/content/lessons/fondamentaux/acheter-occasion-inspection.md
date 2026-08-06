@@ -1,5 +1,5 @@
 ---
-title: "Acheter d'occasion : inspection en 20 minutes et devis de remise en état"
+title: "Acheter d'occasion"
 level: 2
 system: "fondamentaux"
 order: 11

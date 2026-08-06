@@ -1,5 +1,5 @@
 ---
-title: "Finition d'une roue neuve : stress relieving et tolérances pro"
+title: "Finition d'une roue neuve"
 level: 5
 system: "roues-et-pneus"
 order: 6

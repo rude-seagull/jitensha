@@ -1,5 +1,5 @@
 ---
-title: "Réparer en pleine cambrousse : la trousse et les gestes bikepacking"
+title: "Réparer en pleine cambrousse"
 level: 2
 system: "cas-exotiques"
 order: 8

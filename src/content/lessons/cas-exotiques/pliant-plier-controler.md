@@ -1,5 +1,5 @@
 ---
-title: "Vélo pliant : plier, déplier et contrôler sans rien casser"
+title: "Vélo pliant : plier, déplier, contrôler"
 level: 2
 system: "cas-exotiques"
 order: 6

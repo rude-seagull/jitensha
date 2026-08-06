@@ -1,5 +1,5 @@
 ---
-title: "Roue à moteur moyeu : dépose, repose et bras de couple"
+title: "Roue à moteur moyeu"
 level: 3
 system: "vae"
 order: 9

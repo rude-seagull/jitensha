@@ -1,8 +1,8 @@
 ---
-title: "Service d'amortisseur 2/3 : IFP, remplissage et purge"
+title: "Service d'amortisseur 2/3"
 level: 5
 system: "suspension"
-order: 5
+order: 4
 status: "draft"
 duration: 45
 objectives:

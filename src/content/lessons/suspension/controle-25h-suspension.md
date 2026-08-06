@@ -1,5 +1,5 @@
 ---
-title: "Le contrôle 25 h : intervalles, couples et joint témoin"
+title: "Le contrôle 25 h : intervalles et couples"
 level: 2
 system: "suspension"
 order: 8

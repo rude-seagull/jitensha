@@ -1,8 +1,8 @@
 ---
-title: "Hiver, pluie et sel : le protocole qui sauve ton vélo"
+title: "Hiver, pluie et sel"
 level: 2
 system: "fondamentaux"
-order: 14
+order: 13
 status: "draft"
 duration: 40
 objectives:

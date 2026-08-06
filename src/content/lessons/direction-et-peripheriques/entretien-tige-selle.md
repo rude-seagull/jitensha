@@ -1,5 +1,5 @@
 ---
-title: "Tige de selle : mesurer, graisser ou pâter, prévenir le grippage"
+title: "Tige de selle : graisser et prévenir le grippage"
 level: 2
 system: "direction-et-peripheriques"
 order: 5

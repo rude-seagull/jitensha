@@ -1,5 +1,5 @@
 ---
-title: "Installer un groupe complet : séquence, contrôles et points de non-retour"
+title: "Installer un groupe complet"
 level: 5
 system: "transmission"
 order: 1

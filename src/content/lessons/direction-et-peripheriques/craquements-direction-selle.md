@@ -1,5 +1,5 @@
 ---
-title: "Diagnostiquer les craquements du poste de pilotage et de la selle"
+title: "Craquements du poste de pilotage et de la selle"
 level: 4
 system: "direction-et-peripheriques"
 order: 1

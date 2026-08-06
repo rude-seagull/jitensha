@@ -1,5 +1,5 @@
 ---
-title: "Moyeux à roulements scellés : extraction et pose de cartouches"
+title: "Moyeux à roulements scellés"
 level: 3
 system: "roues-et-pneus"
 order: 6

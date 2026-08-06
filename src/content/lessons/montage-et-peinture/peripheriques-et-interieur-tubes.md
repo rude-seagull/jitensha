@@ -1,5 +1,5 @@
 ---
-title: "Périphériques et intérieur des tubes : peindre le reste et protéger de l'intérieur"
+title: "Périphériques et intérieur des tubes"
 level: 5
 system: "montage-et-peinture"
 order: 14

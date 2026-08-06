@@ -1,5 +1,5 @@
 ---
-title: "Concevoir une roue : théorie de la précontrainte et choix des composants"
+title: "Concevoir une roue"
 level: 5
 system: "roues-et-pneus"
 order: 1

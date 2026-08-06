@@ -190,7 +190,7 @@ Critères de validation :
 
 ## Niveau 2 — Intermédiaire
 
-### 1. Standards d'axes et d'entraxes : identifier ce que ton cadre accepte `standards-axes-roues`
+### 1. Standards d'axes et d'entraxes `standards-axes-roues`
 
 - **Durée :** 35 min
 - **Prérequis :**
@@ -253,7 +253,7 @@ Critères de validation :
 - article — BikeRadar : pression des pneus, ce que dit la science
 - doc — Zipp/SRAM : limite de pression des jantes hookless 72,5 psi
 
-### 3. Fond de jante classique et ruban tubeless : la base de l'étanchéité `fond-de-jante-et-ruban-tubeless`
+### 3. Fond de jante classique et ruban tubeless `fond-de-jante-et-ruban-tubeless`
 
 - **Durée :** 40 min
 - **Prérequis :**
@@ -281,11 +281,11 @@ Critères de validation :
 - doc — Stan's NoTubes : procédure officielle de pose du ruban tubeless
 - doc — DT Swiss : préparation tubeless d'une jante, manuel technique
 
-### 4. Talonnage, préventif et inserts : finaliser un montage tubeless `talonnage-tubeless-et-inserts`
+### 4. Talonnage, préventif et inserts `talonnage-tubeless-et-inserts`
 
 - **Durée :** 45 min
 - **Prérequis :**
-  - [Fond de jante classique et ruban tubeless : la base de l'étanchéité](#fond-de-jante-et-ruban-tubeless) `fond-de-jante-et-ruban-tubeless`
+  - [Fond de jante classique et ruban tubeless](#fond-de-jante-et-ruban-tubeless) `fond-de-jante-et-ruban-tubeless`
   - [Choisir ses pneus et calculer la bonne pression](#choix-pneus-et-pression) `choix-pneus-et-pression`
 - **Outils :** Pompe à fût (booster) ou compresseur, Préventif et seringue doseuse, Démonte-obus, Eau savonneuse en pulvérisateur, Insert anti-pincement et démonte-pneus renforcés, Manomètre digital
 - **⚠️ Sécurité :**
@@ -322,11 +322,11 @@ Critères de validation :
 - video — CushCore : installation d'un insert anti-pincement
 - video — GCN en français : passer au tubeless sans compresseur
 
-### 5. Réparer et entretenir un tubeless : mèches, patchs internes, préventif `reparation-entretien-tubeless`
+### 5. Réparer et entretenir un tubeless `reparation-entretien-tubeless`
 
 - **Durée :** 40 min
 - **Prérequis :**
-  - [Talonnage, préventif et inserts : finaliser un montage tubeless](#talonnage-tubeless-et-inserts) `talonnage-tubeless-et-inserts`
+  - [Talonnage, préventif et inserts](#talonnage-tubeless-et-inserts) `talonnage-tubeless-et-inserts`
 - **Outils :** Kit mèches avec alène, Patchs internes et dissolution, Seringue et tuyau de jauge, Préventif, Pince coupante, Chiffons, alcool isopropylique
 - **⚠️ Sécurité :**
   - Une mèche sur le flanc ou une coupure > 6 mm n'est qu'un dépannage : le pneu doit être remplacé ou réparé par patch interne avant de rouler à pression normale.
@@ -353,7 +353,7 @@ Critères de validation :
 - doc — Stan's NoTubes : intervalles de renouvellement du préventif
 - video — Berm Peak : réparations tubeless comparées en conditions réelles
 
-### 6. Retoucher un voile sur le vélo et contrôler l'usure de la jante `retouche-voile-et-usure-jante`
+### 6. Retoucher un voile et contrôler l'usure de jante `retouche-voile-et-usure-jante`
 
 - **Durée :** 40 min
 - **Prérequis :**
@@ -388,7 +388,7 @@ Critères de validation :
 
 - **Durée :** 40 min
 - **Prérequis :**
-  - [Standards d'axes et d'entraxes : identifier ce que ton cadre accepte](#standards-axes-roues) `standards-axes-roues`
+  - [Standards d'axes et d'entraxes](#standards-axes-roues) `standards-axes-roues`
   - Connaître la logique serrage/contre-écrou et l'usage des clés plates fines *(fondamentaux)*
 - **Outils :** Clés à cônes 13/14/15/16/17 mm, Clé plate pour contre-écrou, Étau avec mordaches (optionnel), Chiffon
 
@@ -415,15 +415,15 @@ Critères de validation :
 - article — Sheldon Brown : réglage des cônes de moyeux
 - doc — Shimano : manuel du revendeur, moyeux à billes
 
-### 8. Roue en rade au bord de la route : dépannages d'urgence `depannage-roue-terrain`
+### 8. Roue en rade au bord de la route `depannage-roue-terrain`
 
 - **Durée :** 40 min
 - **Prérequis :**
   - [Déposer et reposer une roue](#depose-repose-roue) `depose-repose-roue`
   - [Démonter et remonter un pneu à chambre sans pincer](#demontage-pneu-chambre) `demontage-pneu-chambre`
   - [Réparer une crevaison et diagnostiquer sa cause](#reparation-crevaison-chambre) `reparation-crevaison-chambre`
-  - [Retoucher un voile sur le vélo et contrôler l'usure de la jante](#retouche-voile-et-usure-jante) `retouche-voile-et-usure-jante`
-  - [Réparer et entretenir un tubeless : mèches, patchs internes, préventif](#reparation-entretien-tubeless) `reparation-entretien-tubeless`
+  - [Retoucher un voile et contrôler l'usure de jante](#retouche-voile-et-usure-jante) `retouche-voile-et-usure-jante`
+  - [Réparer et entretenir un tubeless](#reparation-entretien-tubeless) `reparation-entretien-tubeless`
 - **Outils :** Démonte-pneus, Chambre de secours et rustines, Rustines de flanc (boot) ou matière de fortune : emballage de barre, billet, morceau de vieux pneu, Mèches tubeless et outil d'insertion, Pompe de terrain et cartouches CO2, Clé à rayons du bon calibre, Rayon d'urgence textile ou articulé, Colliers Rilsan et ruban adhésif toilé, Multitool, Chronomètre
 - **⚠️ Sécurité :**
   - Une rustine de flanc est un dépannage de retour, rien d'autre : pression réduite d'environ 20 %, pas de descente rapide, et surveillance de la hernie à chaque arrêt.
@@ -469,7 +469,7 @@ Critères de validation :
 
 - **Durée :** 45 min
 - **Prérequis :**
-  - [Retoucher un voile sur le vélo et contrôler l'usure de la jante](#retouche-voile-et-usure-jante) `retouche-voile-et-usure-jante`
+  - [Retoucher un voile et contrôler l'usure de jante](#retouche-voile-et-usure-jante) `retouche-voile-et-usure-jante`
 - **Outils :** Banc de dévoilage, Clés à rayons, Huile pénétrante, Marqueur, Tenseur de rayon plat (rayons aéro)
 
 **Objectifs :**
@@ -589,7 +589,7 @@ Critères de validation :
 - doc — Continental : montage des boyaux de compétition
 - video — GCN : coller un boyau comme un mécano pro
 
-### 5. Révision complète d'un moyeu à cônes : démontage, graissage, remontage `revision-moyeu-cones-billes`
+### 5. Révision complète d'un moyeu à cônes `revision-moyeu-cones-billes`
 
 - **Durée :** 45 min
 - **Prérequis :**
@@ -620,11 +620,11 @@ Critères de validation :
 - doc — Shimano : manuel du revendeur, entretien des moyeux
 - article — Sheldon Brown : entretien des roulements à cônes
 
-### 6. Moyeux à roulements scellés : extraction et pose de cartouches `service-roulements-scelles-moyeu`
+### 6. Moyeux à roulements scellés `service-roulements-scelles-moyeu`
 
 - **Durée :** 45 min
 - **Prérequis :**
-  - [Révision complète d'un moyeu à cônes : démontage, graissage, remontage](#revision-moyeu-cones-billes) `revision-moyeu-cones-billes`
+  - [Révision complète d'un moyeu à cônes](#revision-moyeu-cones-billes) `revision-moyeu-cones-billes`
   - Comprendre le principe presse/extraction et les appuis corrects sur bagues de roulement *(fondamentaux)*
 - **Outils :** Extracteur de roulements ou chasse adapté, Presse à roulements ou tige filetée + entretoises, Jeu de douilles comme appuis, Maillet, Graisse de montage, Pied à coulisse
 - **⚠️ Sécurité :**
@@ -652,13 +652,13 @@ Critères de validation :
 - doc — Enduro Bearings : guide des dimensions et références de roulements vélo
 - video — Hope : service des moyeux Pro, roulements scellés
 
-### 7. Corps de roue libre : HG, XD/XDR, Microspline — identifier et entretenir `corps-roue-libre-standards-service`
+### 7. Corps de roue libre `corps-roue-libre-standards-service`
 
 - **Durée :** 45 min
 - **Prérequis :**
   - [Déposer et reposer une cassette](transmission.md) `cassette-depose-repose`
-  - [Moyeux à roulements scellés : extraction et pose de cartouches](#service-roulements-scelles-moyeu) `service-roulements-scelles-moyeu`
-  - [Révision complète d'un moyeu à cônes : démontage, graissage, remontage](#revision-moyeu-cones-billes) `revision-moyeu-cones-billes`
+  - [Moyeux à roulements scellés](#service-roulements-scelles-moyeu) `service-roulements-scelles-moyeu`
+  - [Révision complète d'un moyeu à cônes](#revision-moyeu-cones-billes) `revision-moyeu-cones-billes`
 - **Outils :** Fouet à chaîne et démonte-cassette, Clés Allen dont 17 mm, Dégraissant, pinceau, Huile pour roue libre ou graisse ratchet, Chiffons, Gants nitrile
 
 **Objectifs :**
@@ -685,14 +685,14 @@ Critères de validation :
 - doc — SRAM : spécifications des corps XD et XDR
 - doc — Shimano : documentation Microspline
 
-### 8. Science du pneu : carcasse, gomme, largeur réelle et choix par usage `science-du-pneu`
+### 8. Science du pneu : carcasse, gomme, largeur `science-du-pneu`
 
 - **Durée :** 40 min
 - **Prérequis :**
   - [Lire un pneu : ETRTO, pouces et repères d'usure](#dimensions-pneu-etrto) `dimensions-pneu-etrto`
   - [Choisir ses pneus et calculer la bonne pression](#choix-pneus-et-pression) `choix-pneus-et-pression`
   - [Mesurer et décoder : pied à coulisse et marquages](fondamentaux.md) `pied-a-coulisse-et-marquages`
-  - [Fond de jante classique et ruban tubeless : la base de l'étanchéité](#fond-de-jante-et-ruban-tubeless) `fond-de-jante-et-ruban-tubeless`
+  - [Fond de jante classique et ruban tubeless](#fond-de-jante-et-ruban-tubeless) `fond-de-jante-et-ruban-tubeless`
 - **Outils :** Pied à coulisse à grande capacité (ou pied à coulisse et réglet), Jeu de cales d'épaisseur, Deux jantes de largeur interne différente (par exemple 19 et 25 mm), Trois pneus de largeurs nominales différentes, Pompe à manomètre fiable, Démonte-pneus, Tableau ETRTO de correspondance jante/pneu, Appareil photo, Carnet d'atelier
 - **⚠️ Sécurité :**
   - Garde au cadre et à la fourche : vise au minimum 4 mm de chaque côté et 6 mm en couronne, pneu gonflé. Un pneu qui touche sous charge ou par temps de boue peut bloquer la roue.
@@ -760,12 +760,12 @@ Critères de validation :
 - article — Bike Gremlin : causes de casse de rayons
 - livre — Roger Musson : The Professional Guide to Wheel Building, durabilité et tension
 
-### 2. Conversions d'axes, capuchons et compatibilités croisées `conversions-axes-et-compatibilites`
+### 2. Conversions d'axes et capuchons `conversions-axes-et-compatibilites`
 
 - **Durée :** 40 min
 - **Prérequis :**
-  - [Standards d'axes et d'entraxes : identifier ce que ton cadre accepte](#standards-axes-roues) `standards-axes-roues`
-  - [Corps de roue libre : HG, XD/XDR, Microspline — identifier et entretenir](#corps-roue-libre-standards-service) `corps-roue-libre-standards-service`
+  - [Standards d'axes et d'entraxes](#standards-axes-roues) `standards-axes-roues`
+  - [Corps de roue libre](#corps-roue-libre-standards-service) `corps-roue-libre-standards-service`
   - [Centrage (dish) et tension des rayons au tensiomètre](#centrage-dish-et-tension) `centrage-dish-et-tension`
 - **Outils :** Capuchons de conversion du fabricant du moyeu, Corps de roue libre alternatif, Jauge de centrage, Pied à coulisse, Tableaux de compatibilité fabricants, Clés Allen
 
@@ -791,11 +791,11 @@ Critères de validation :
 - outil — Robert Axle Project : identification des axes et adaptateurs
 - article — Bike Gremlin : compatibilités moyeux, corps et cassettes
 
-### 3. Jantes carbone et hookless : inspection et compatibilités strictes `jantes-carbone-et-hookless`
+### 3. Jantes carbone et hookless `jantes-carbone-et-hookless`
 
 - **Durée :** 40 min
 - **Prérequis :**
-  - [Acier, alu, carbone, titane : reconnaître et respecter chaque matériau](fondamentaux.md) `materiaux-cadres`
+  - [Acier, alu, carbone, titane](fondamentaux.md) `materiaux-cadres`
   - [Choisir ses pneus et calculer la bonne pression](#choix-pneus-et-pression) `choix-pneus-et-pression`
   - [Centrage (dish) et tension des rayons au tensiomètre](#centrage-dish-et-tension) `centrage-dish-et-tension`
 - **Outils :** Lampe puissante, Pièce de monnaie ou manche léger (tap test), Pied à coulisse, Tableaux de compatibilité hookless des fabricants, Tensiomètre, Manomètre digital
@@ -825,7 +825,7 @@ Critères de validation :
 - article — BikeRadar : hookless, avantages et controverses
 - video — Park Tool : particularités d'entretien des roues carbone
 
-### 4. Roues VAE et cargo : renforts, moteurs moyeu et contrôles spécifiques `roues-vae-et-cargo`
+### 4. Roues VAE et cargo `roues-vae-et-cargo`
 
 - **Durée :** 45 min
 - **Prérequis :**
@@ -862,14 +862,14 @@ Critères de validation :
 
 ## Niveau 5 — Maître
 
-### 1. Concevoir une roue : théorie de la précontrainte et choix des composants `conception-roue-composants`
+### 1. Concevoir une roue `conception-roue-composants`
 
 - **Durée :** 45 min
 - **Prérequis :**
   - [Dévoiler au banc : voile latéral et saut radial](#devoilage-banc-lateral-radial) `devoilage-banc-lateral-radial`
   - [Centrage (dish) et tension des rayons au tensiomètre](#centrage-dish-et-tension) `centrage-dish-et-tension`
-  - [Corps de roue libre : HG, XD/XDR, Microspline — identifier et entretenir](#corps-roue-libre-standards-service) `corps-roue-libre-standards-service`
-  - [Standards d'axes et d'entraxes : identifier ce que ton cadre accepte](#standards-axes-roues) `standards-axes-roues`
+  - [Corps de roue libre](#corps-roue-libre-standards-service) `corps-roue-libre-standards-service`
+  - [Standards d'axes et d'entraxes](#standards-axes-roues) `standards-axes-roues`
 - **Outils :** Catalogues fabricants (jantes, moyeux, rayons), Carnet d'atelier ou tableur, Grille de conception fournie par la leçon
 
 **Objectifs :**
@@ -899,7 +899,7 @@ Critères de validation :
 
 - **Durée :** 40 min
 - **Prérequis :**
-  - [Concevoir une roue : théorie de la précontrainte et choix des composants](#conception-roue-composants) `conception-roue-composants`
+  - [Concevoir une roue](#conception-roue-composants) `conception-roue-composants`
   - [Mesurer et décoder : pied à coulisse et marquages](fondamentaux.md) `pied-a-coulisse-et-marquages`
 - **Outils :** Deux rayons coupés + écrous (pige ERD maison) ou pige du commerce, Pied à coulisse numérique, Réglet, Marqueur, Tableur ou carnet
 
@@ -1016,7 +1016,7 @@ Critères de validation :
 - article — Wheel Fanatyk : contrôle du vrillage et qualité de tension
 - doc — DT Swiss : manuel du tensiomètre et tensions maximales
 
-### 6. Finition d'une roue neuve : stress relieving et tolérances pro `finition-roue-stress-relieving`
+### 6. Finition d'une roue neuve `finition-roue-stress-relieving`
 
 - **Durée :** 45 min
 - **Prérequis :**
@@ -1047,11 +1047,11 @@ Critères de validation :
 - video — Park Tool : construire une roue, finition et contrôles
 - article — Sheldon Brown : stress relieving, pourquoi et comment
 
-### 7. Laçages alternatifs : radial, croisé par 2, straight-pull, roues fortes `lacages-alternatifs`
+### 7. Laçages alternatifs `lacages-alternatifs`
 
 - **Durée :** 45 min
 - **Prérequis :**
-  - [Finition d'une roue neuve : stress relieving et tolérances pro](#finition-roue-stress-relieving) `finition-roue-stress-relieving`
+  - [Finition d'une roue neuve](#finition-roue-stress-relieving) `finition-roue-stress-relieving`
 - **Outils :** Jantes et moyeux d'exercice variés (dont straight-pull si possible), Rayons adaptés à chaque schéma, Banc de dévoilage, tensiomètre, jauge de dish, Calculateur de rayons
 - **⚠️ Sécurité :**
   - Jamais de laçage radial sur une flasque qui transmet un couple (disque, moteur, roue arrière côté transmission) ni sur un moyeu non homologué radial par son fabricant : risque d'arrachement de flasque.

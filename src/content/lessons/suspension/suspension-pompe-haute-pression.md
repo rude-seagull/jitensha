@@ -1,5 +1,5 @@
 ---
-title: "La pompe haute pression : gonfler juste, relire juste"
+title: "La pompe haute pression"
 level: 2
 system: "suspension"
 order: 1

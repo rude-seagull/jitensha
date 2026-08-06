@@ -218,7 +218,7 @@ Critères de validation :
 
 ## Niveau 2 — Intermédiaire
 
-### 1. Déposer et reposer une batterie : verrous, rails et packs intégrés `vae-depose-repose-batterie`
+### 1. Déposer et reposer une batterie `vae-depose-repose-batterie`
 
 - **Durée :** 30 min
 - **Prérequis :**
@@ -253,7 +253,7 @@ Critères de validation :
 - article — Upway : batterie de vélo électrique bloquée ou verrou grippé : diagnostic et remise en état
 - doc — LEVA (Light Electric Vehicle Association) : contrôle des interfaces de connexion des packs en atelier
 
-### 2. Capteur de vitesse : aimant, entrefer et remplacement `vae-capteur-vitesse-aimant-entrefer`
+### 2. Capteur de vitesse `vae-capteur-vitesse-aimant-entrefer`
 
 - **Durée :** 35 min
 - **Prérequis :**
@@ -288,7 +288,7 @@ Critères de validation :
 - article — Upway : diagnostic d'un capteur de vitesse de VAE défaillant
 - doc — Bafang : réglage du nombre d'aimants et de la circonférence de roue pour la mesure de vitesse
 
-### 3. Périphériques électriques : coupure au frein, éclairage et port USB `vae-peripheriques-electriques`
+### 3. Périphériques électriques `vae-peripheriques-electriques`
 
 - **Durée :** 30 min
 - **Prérequis :**
@@ -323,7 +323,7 @@ Critères de validation :
 - doc — Higo : connecteurs d'éclairage et de capteur de frein pour systèmes de mobilité électrique
 - doc — LEVA (Light Electric Vehicle Association) : circuits auxiliaires d'un light electric vehicle et protection par fusible
 
-### 4. Applications constructeur : appairage, mise à jour firmware et journal `vae-apps-appairage-firmware`
+### 4. Applications constructeur `vae-apps-appairage-firmware`
 
 - **Durée :** 35 min
 - **Prérequis :**
@@ -358,12 +358,12 @@ Critères de validation :
 - outil — Giant : application RideControl : appairage et mise à jour des systèmes SyncDrive
 - outil — Fazua : Fazua Toolbox : mise à jour et paramétrage du système Ride 60
 
-### 5. « Ça n'assiste plus » : arbre de décision sans instrument `vae-panne-assistance-arbre-decision`
+### 5. « Ça n'assiste plus » `vae-panne-assistance-arbre-decision`
 
 - **Durée :** 40 min
 - **Prérequis :**
-  - [Déposer et reposer une batterie : verrous, rails et packs intégrés](#vae-depose-repose-batterie) `vae-depose-repose-batterie`
-  - [Capteur de vitesse : aimant, entrefer et remplacement](#vae-capteur-vitesse-aimant-entrefer) `vae-capteur-vitesse-aimant-entrefer`
+  - [Déposer et reposer une batterie](#vae-depose-repose-batterie) `vae-depose-repose-batterie`
+  - [Capteur de vitesse](#vae-capteur-vitesse-aimant-entrefer) `vae-capteur-vitesse-aimant-entrefer`
   - [Le carnet d'atelier et la pratique délibérée](fondamentaux.md) `carnet-atelier`
 - **Outils :** chargeur d'origine, lampe d'inspection, chiffons, graisse diélectrique, fiche d'arbre de décision imprimée, chronomètre
 - **⚠️ Sécurité :**
@@ -433,7 +433,7 @@ Critères de validation :
 - article — Grin Technologies : méthodes de mesure sur les systèmes de propulsion électrique de vélo
 - doc — Bafang : tableaux de valeurs de référence pour les contrôles électriques des kits
 
-### 2. Mesurer un pack : tension, état de charge et premières conclusions `vae-mesure-batterie-tension-soc`
+### 2. Mesurer un pack : tension et état de charge `vae-mesure-batterie-tension-soc`
 
 - **Durée :** 40 min
 - **Prérequis :**
@@ -470,7 +470,7 @@ Critères de validation :
 - doc — Bosch eBike Systems : caractéristiques électriques des batteries PowerPack et PowerTube
 - doc — Bafang : spécifications des packs 36 V et 48 V et seuils de protection basse tension
 
-### 3. Chargeur : contrôler la sortie et identifier un chargeur inadapté `vae-chargeur-controle-mesure`
+### 3. Chargeur : contrôler la sortie `vae-chargeur-controle-mesure`
 
 - **Durée :** 30 min
 - **Prérequis :**
@@ -507,12 +507,12 @@ Critères de validation :
 - doc — INRS : risques liés aux chargeurs non conformes de batteries lithium-ion
 - doc — Bafang : spécifications de charge des packs 36 V et 48 V et connecteurs de charge
 
-### 4. Tester la continuité d'un faisceau et localiser une coupure `vae-continuite-faisceau`
+### 4. Tester la continuité d'un faisceau `vae-continuite-faisceau`
 
 - **Durée :** 40 min
 - **Prérequis :**
   - [Multimètre : prise en main sur un système 36/48 V](#vae-multimetre-prise-en-main) `vae-multimetre-prise-en-main`
-  - [« Ça n'assiste plus » : arbre de décision sans instrument](#vae-panne-assistance-arbre-decision) `vae-panne-assistance-arbre-decision`
+  - [« Ça n'assiste plus »](#vae-panne-assistance-arbre-decision) `vae-panne-assistance-arbre-decision`
 - **Outils :** multimètre numérique avec buzzer de continuité, cordons rallongés ou fil de rappel, pointes de test fines, loupe, lampe d'inspection, papier millimétré ou tablette pour le schéma
 - **⚠️ Sécurité :**
   - Toujours déposer la batterie et attendre la décharge des capacités avant un test de continuité : mesurer une continuité sur un circuit sous tension fausse la mesure et peut détruire le multimètre.
@@ -542,11 +542,11 @@ Critères de validation :
 - doc — Higo : brochages et codes couleur des connecteurs de mobilité électrique
 - doc — Shimano : câblage E-TUBE / EW-SD50 et EW-SD300 : cheminement et contrôle des liaisons
 
-### 5. Connectique Higo et Julet : identifier, ouvrir, entretenir, remplacer `vae-connecteurs-higo-julet`
+### 5. Connectique Higo et Julet `vae-connecteurs-higo-julet`
 
 - **Durée :** 40 min
 - **Prérequis :**
-  - [Tester la continuité d'un faisceau et localiser une coupure](#vae-continuite-faisceau) `vae-continuite-faisceau`
+  - [Tester la continuité d'un faisceau](#vae-continuite-faisceau) `vae-continuite-faisceau`
   - [Protéger l'électronique : lavage, pluie et humidité](#vae-protection-eau-electronique) `vae-protection-eau-electronique`
 - **Outils :** multimètre numérique, clés plates fines ou clé dédiée Higo, extracteur de broche / outil de dépose de contact, graisse diélectrique, nettoyant contacts électroniques, gaine thermorétractable, loupe binoculaire ou loupe éclairante, pied à coulisse
 - **⚠️ Sécurité :**
@@ -583,7 +583,7 @@ Critères de validation :
 - **Durée :** 45 min
 - **Prérequis :**
   - [Multimètre : prise en main sur un système 36/48 V](#vae-multimetre-prise-en-main) `vae-multimetre-prise-en-main`
-  - [Connectique Higo et Julet : identifier, ouvrir, entretenir, remplacer](#vae-connecteurs-higo-julet) `vae-connecteurs-higo-julet`
+  - [Connectique Higo et Julet](#vae-connecteurs-higo-julet) `vae-connecteurs-higo-julet`
 - **Outils :** pince à dénuder de précision, pince à sertir à matrice (pas de pince universelle), fer à souder à panne fine, 300-350 °C, étain avec flux, ou fil à souder sans plomb, gaine thermorétractable à colle, diamètres variés, décapeur thermique, troisième main / étau de précision, multimètre, dynamomètre à traction ou balance à ressort
 - **⚠️ Sécurité :**
   - Fer à souder : brûlures et projections d'étain. Support obligatoire, lunettes de protection, jamais de soudure au-dessus d'une batterie ou d'un pack.
@@ -620,8 +620,8 @@ Critères de validation :
 - **Durée :** 40 min
 - **Prérequis :**
   - [Écran et commande : piloter l'assistance](#vae-ecran-modes-assistance) `vae-ecran-modes-assistance`
-  - [Capteur de vitesse : aimant, entrefer et remplacement](#vae-capteur-vitesse-aimant-entrefer) `vae-capteur-vitesse-aimant-entrefer`
-  - [Tester la continuité d'un faisceau et localiser une coupure](#vae-continuite-faisceau) `vae-continuite-faisceau`
+  - [Capteur de vitesse](#vae-capteur-vitesse-aimant-entrefer) `vae-capteur-vitesse-aimant-entrefer`
+  - [Tester la continuité d'un faisceau](#vae-continuite-faisceau) `vae-continuite-faisceau`
 - **Outils :** VAE équipé Bosch avec écran fonctionnel, smartphone avec application constructeur, multimètre, réglet, tableau des codes imprimé, carnet d'atelier
 - **⚠️ Sécurité :**
   - Un code 504 (signal de vitesse manipulé) est le marqueur d'un débridage : ne jamais tenter de le masquer ou de le contourner, et documenter la constatation avant toute intervention.
@@ -655,9 +655,9 @@ Critères de validation :
 
 - **Durée :** 40 min
 - **Prérequis :**
-  - [Applications constructeur : appairage, mise à jour firmware et journal](#vae-apps-appairage-firmware) `vae-apps-appairage-firmware`
-  - [Tester la continuité d'un faisceau et localiser une coupure](#vae-continuite-faisceau) `vae-continuite-faisceau`
-  - [Capteur de vitesse : aimant, entrefer et remplacement](#vae-capteur-vitesse-aimant-entrefer) `vae-capteur-vitesse-aimant-entrefer`
+  - [Applications constructeur](#vae-apps-appairage-firmware) `vae-apps-appairage-firmware`
+  - [Tester la continuité d'un faisceau](#vae-continuite-faisceau) `vae-continuite-faisceau`
+  - [Capteur de vitesse](#vae-capteur-vitesse-aimant-entrefer) `vae-capteur-vitesse-aimant-entrefer`
 - **Outils :** VAE équipé Shimano STEPS, ordinateur ou smartphone avec E-TUBE PROJECT, interface de connexion SM-PCE02 ou liaison Bluetooth, outil de dépose des câbles E-TUBE (TL-EW02 ou équivalent), multimètre, réglet, carnet d'atelier
 - **⚠️ Sécurité :**
   - Ne jamais interrompre une restauration de firmware d'unité moteur : batterie chargée à plus de 50 % et alimentation de l'ordinateur sécurisée avant de lancer l'opération.
@@ -687,13 +687,13 @@ Critères de validation :
 - article — E-MOUNTAINBIKE Magazine : codes d'erreur Shimano STEPS et solutions pratiques
 - article — Upway : dépannage des systèmes Shimano STEPS en atelier
 
-### 9. Roue à moteur moyeu : dépose, repose et bras de couple `vae-roue-moteur-torque-arm`
+### 9. Roue à moteur moyeu `vae-roue-moteur-torque-arm`
 
 - **Durée :** 40 min
 - **Prérequis :**
   - [Déposer et reposer une roue](roues-et-pneus.md) `depose-repose-roue`
   - [La clé dynamométrique : choisir, utiliser, préserver](fondamentaux.md) `cle-dynamometrique`
-  - [Connectique Higo et Julet : identifier, ouvrir, entretenir, remplacer](#vae-connecteurs-higo-julet) `vae-connecteurs-higo-julet`
+  - [Connectique Higo et Julet](#vae-connecteurs-higo-julet) `vae-connecteurs-higo-julet`
 - **Outils :** clés plates 17/18 mm ou clé à douille selon axe, clé dynamométrique 10-60 N·m, bras de couple adapté, rondelles cannelées / rondelles anti-rotation d'origine, frein-filet moyenne résistance, pied à coulisse, lampe d'inspection, colliers rilsan
 - **⚠️ Sécurité :**
   - Une roue à moteur moyeu qui se déchausse sous couple à l'avant provoque une chute grave : sur une fourche aluminium ou carbone, un bras de couple est impératif et un moteur avant est à proscrire sur fourche carbone.
@@ -725,13 +725,13 @@ Critères de validation :
 - video — Park Tool : dépose et repose de roue avec axe à écrous et contrôle des pattes
 - doc — Mahle / ebikemotion : intégration des moyeux moteur X35 et X20 et prescriptions de montage
 
-### 10. Cartographier un faisceau : topologie, brochage et schéma d'un système non documenté `vae-cartographie-faisceau-brochage`
+### 10. Cartographier un faisceau `vae-cartographie-faisceau-brochage`
 
 - **Durée :** 45 min
 - **Prérequis :**
-  - [Tester la continuité d'un faisceau et localiser une coupure](#vae-continuite-faisceau) `vae-continuite-faisceau`
+  - [Tester la continuité d'un faisceau](#vae-continuite-faisceau) `vae-continuite-faisceau`
   - [Multimètre : prise en main sur un système 36/48 V](#vae-multimetre-prise-en-main) `vae-multimetre-prise-en-main`
-  - [Connectique Higo et Julet : identifier, ouvrir, entretenir, remplacer](#vae-connecteurs-higo-julet) `vae-connecteurs-higo-julet`
+  - [Connectique Higo et Julet](#vae-connecteurs-higo-julet) `vae-connecteurs-higo-julet`
   - [Reconnaître un VAE et identifier son architecture](#vae-identifier-architecture) `vae-identifier-architecture`
   - [Le carnet d'atelier et la pratique délibérée](fondamentaux.md) `carnet-atelier`
 - **Outils :** multimètre TRMS avec fusible HRC, pointes de touche fines et sondes de rétro-sondage (back-probe), pinces crocodile et fils de test, extracteur de contacts / outil de dépose de broches, loupe éclairante ou lampe frontale, étiquettes autocollantes et marqueur indélébile, appareil photo (smartphone) pour la traçabilité, pied à coulisse pour mesurer le pas et le diamètre des connecteurs, carnet, papier millimétré ou tableur pour le schéma, gaine thermo et adhésif toilé pour remise en état
@@ -772,7 +772,7 @@ Critères de validation :
 
 ## Niveau 4 — Expert
 
-### 1. Codes d'erreur des autres systèmes : Yamaha, Brose, Fazua, Mahle, Bafang, Giant `vae-codes-erreur-autres-marques`
+### 1. Codes d'erreur des autres systèmes `vae-codes-erreur-autres-marques`
 
 - **Durée :** 40 min
 - **Prérequis :**
@@ -807,13 +807,13 @@ Critères de validation :
 - doc — Bafang : table des codes d'erreur affichés par les écrans DP C18 et 500C
 - article — E-MOUNTAINBIKE Magazine : panorama des codes d'erreur VAE toutes marques et de leurs solutions
 
-### 2. Diagnostiquer un capteur de couple et distinguer couple, cadence et vitesse `vae-diagnostic-capteur-couple`
+### 2. Diagnostiquer un capteur de couple `vae-diagnostic-capteur-couple`
 
 - **Durée :** 45 min
 - **Prérequis :**
   - [Lire et exploiter les codes d'erreur Bosch](#vae-codes-erreur-bosch) `vae-codes-erreur-bosch`
   - [Multimètre : prise en main sur un système 36/48 V](#vae-multimetre-prise-en-main) `vae-multimetre-prise-en-main`
-  - [Capteur de vitesse : aimant, entrefer et remplacement](#vae-capteur-vitesse-aimant-entrefer) `vae-capteur-vitesse-aimant-entrefer`
+  - [Capteur de vitesse](#vae-capteur-vitesse-aimant-entrefer) `vae-capteur-vitesse-aimant-entrefer`
 - **Outils :** multimètre numérique, applications de diagnostic constructeur, pied d'atelier stable, home-trainer ou rouleau, balance ou masse étalon pour appliquer un couple connu à la manivelle, chronomètre, carnet d'atelier
 - **⚠️ Sécurité :**
   - Tester une assistance au pied d'atelier avec la roue arrière libre : sécuriser le vélo, s'écarter de la trajectoire de la chaîne et ne jamais approcher les doigts du plateau en rotation.
@@ -850,7 +850,7 @@ Critères de validation :
 - **Prérequis :**
   - [La clé dynamométrique : choisir, utiliser, préserver](fondamentaux.md) `cle-dynamometrique`
   - [Déposer et reposer un pédalier](transmission.md) `pedalier-depose-repose`
-  - [Déposer et reposer une batterie : verrous, rails et packs intégrés](#vae-depose-repose-batterie) `vae-depose-repose-batterie`
+  - [Déposer et reposer une batterie](#vae-depose-repose-batterie) `vae-depose-repose-batterie`
 - **Outils :** clés Allen et Torx complètes, clé dynamométrique 2-14 N·m et 10-60 N·m, extracteur de manivelle ou outil dédié à l'interface, clé à ergots pour bagues de blocage, graisse et pâte de montage adaptée au cadre, frein-filet moyenne résistance, dégraissant, réglet et jauge de planéité ou règle, pied d'atelier
 - **⚠️ Sécurité :**
   - Un moteur pédalier pèse 2,5 à 4 kg : le soutenir avant de retirer la dernière vis, sinon il tombe sur le pédalier ou sur le pied de l'opérateur.
@@ -883,13 +883,13 @@ Critères de validation :
 - article — E-MOUNTAINBIKE Magazine : remplacement d'un moteur de VAE en atelier : étapes et pièges
 - video — Park Tool : dépose de pédalier et contrôle d'interface de boîtier
 
-### 4. Diagnostiquer un moteur moyeu : phases, capteurs Hall et contrôleur `vae-diagnostic-moteur-moyeu`
+### 4. Diagnostiquer un moteur moyeu `vae-diagnostic-moteur-moyeu`
 
 - **Durée :** 45 min
 - **Prérequis :**
   - [Multimètre : prise en main sur un système 36/48 V](#vae-multimetre-prise-en-main) `vae-multimetre-prise-en-main`
-  - [Cartographier un faisceau : topologie, brochage et schéma d'un système non documenté](#vae-cartographie-faisceau-brochage) `vae-cartographie-faisceau-brochage`
-  - [Roue à moteur moyeu : dépose, repose et bras de couple](#vae-roue-moteur-torque-arm) `vae-roue-moteur-torque-arm`
+  - [Cartographier un faisceau](#vae-cartographie-faisceau-brochage) `vae-cartographie-faisceau-brochage`
+  - [Roue à moteur moyeu](#vae-roue-moteur-torque-arm) `vae-roue-moteur-torque-arm`
 - **Outils :** multimètre numérique avec gamme résistance basse et gamme tension continue, pointes de test fines, alimentation 5 V stabilisée ou source depuis le contrôleur, pied d'atelier, carnet d'atelier, schéma de brochage du moteur
 - **⚠️ Sécurité :**
   - Les phases d'un moteur moyeu en rotation génèrent une tension : ne jamais toucher les broches nues pendant qu'on fait tourner la roue à la main.
@@ -921,14 +921,52 @@ Critères de validation :
 - doc — Mahle / ebikemotion : architecture des moyeux moteur X35 / X20 et diagnostic constructeur
 - doc — Fluke : mesure d'isolement et de résistance faible sur bobinages
 
-### 5. BMS et pack ouvert : diagnostic d'un déséquilibre cellulaire `vae-bms-pack-diagnostic`
+### 5. Perte d'autonomie : mesurer la santé du pack `vae-autonomie-soh-diagnostic`
+
+- **Durée :** 45 min
+- **Prérequis :**
+  - [Mesurer un pack : tension et état de charge](#vae-mesure-batterie-tension-soc) `vae-mesure-batterie-tension-soc`
+  - [Applications constructeur](#vae-apps-appairage-firmware) `vae-apps-appairage-firmware`
+  - [Science du pneu : carcasse, gomme, largeur](roues-et-pneus.md) `science-du-pneu`
+- **Outils :** multimètre numérique, wattmètre / testeur de capacité DC adapté à la tension du pack (si disponible), applications de diagnostic constructeur, home-trainer ou parcours de référence, balance pour peser vélo et charge, chronomètre et compteur GPS, carnet d'atelier
+- **⚠️ Sécurité :**
+  - Un test de décharge produit de la chaleur : surveiller le pack en continu, le poser sur support incombustible, arrêter immédiatement si la température de surface dépasse 45 °C.
+  - Ne jamais décharger un pack sous le seuil de coupure BMS avec une charge externe non régulée : la sous-décharge profonde détruit les cellules et crée un risque à la recharge.
+
+**Objectifs :**
+- Distinguer une perte d'autonomie due au pack d'une perte due à l'usage, au terrain, au poids ou aux pneus
+- Relever le nombre de cycles et la capacité restante annoncée par l'outil de diagnostic constructeur
+- Réaliser un test de décharge encadré et en déduire une capacité mesurée en Wh
+- Rendre au client un verdict chiffré et honnête sur l'état de santé du pack
+
+**TP — Bilan de santé d'un pack et parcours de référence**
+
+Tu établis le bilan de santé d'un pack en croisant trois sources : les données du diagnostic constructeur, une mesure de capacité par décharge encadrée, et un parcours de référence reproductible avec relevé de consommation.
+
+Critères de validation :
+1. 1. Capacité nominale du pack relevée en Wh depuis l'étiquette, et données constructeur extraites : nombre de cycles et capacité restante annoncée si disponibles, valeurs notées avec la date.
+2. 2. Parcours de référence défini et documenté : distance, dénivelé, niveau d'assistance imposé, pression des pneus contrôlée à ±0,2 bar, masse totale pesée à ±1 kg près.
+3. 3. Parcours effectué 2 fois avec relevé de la consommation en Wh ou en pourcentage d'état de charge : écart entre les deux passages inférieur ou égal à 10 %, sinon un troisième passage est effectué.
+4. 4. Consommation ramenée en Wh/km calculée et comparée aux ordres de grandeur usuels (environ 8-15 Wh/km en ville, 15-25 Wh/km en VTTAE, 20-35 Wh/km en cargo chargé), écart commenté.
+5. 5. Capacité réelle estimée en Wh et état de santé exprimé en pourcentage de la capacité nominale, avec la méthode de calcul écrite.
+6. 6. Température du pack relevée au début, à mi-parcours et en fin de test : aucune valeur supérieure à 45 °C, sinon test interrompu et incident consigné.
+7. 7. Verdict client rédigé en moins de 150 mots, contenant le chiffre de santé, les facteurs d'usage identifiés, et une recommandation explicite (conserver, changer, adapter l'usage).
+
+**Pistes de références** *(URLs vérifiées à la rédaction de la leçon)* :
+- article — Battery University : mesure de l'état de santé (SOH) d'un pack lithium-ion et méthodes de test de capacité
+- doc — Bosch eBike Systems : lecture du nombre de cycles et de l'état de la batterie via l'outil de diagnostic
+- outil — Shimano : informations d'état de batterie disponibles dans E-TUBE PROJECT
+- article — Upway : comment évaluer l'autonomie réelle et la santé d'une batterie de vélo électrique
+- doc — LEVA (Light Electric Vehicle Association) : protocoles de test de capacité en atelier
+
+### 6. BMS et pack ouvert `vae-bms-pack-diagnostic`
 
 - **Durée :** 45 min
 - **Prérequis :**
   - [Charger et stocker une batterie Li-ion](#vae-batterie-charge-stockage) `vae-batterie-charge-stockage`
   - [Sertir, souder et réparer un conducteur de VAE](#vae-sertissage-reparation-fil) `vae-sertissage-reparation-fil`
   - [Batterie Li-ion : danger et conduite à tenir](#vae-securite-li-ion-incident) `vae-securite-li-ion-incident`
-  - [Perte d'autonomie : mesurer la santé réelle d'un pack](#vae-autonomie-soh-diagnostic) `vae-autonomie-soh-diagnostic`
+  - [Perte d'autonomie : mesurer la santé du pack](#vae-autonomie-soh-diagnostic) `vae-autonomie-soh-diagnostic`
 - **Outils :** multimètre numérique, pointes de test très fines, support isolant incombustible, tournevis de précision et outil de dépose de collage, gants isolants, sable sec ou bac de confinement à proximité, extincteur adapté accessible, thermomètre infrarouge, carnet d'atelier
 - **⚠️ Sécurité :**
   - Ouvrir un pack Li-ion est l'opération la plus dangereuse de tout le cursus : un tournevis qui glisse entre deux bandes de nickel provoque un court-circuit franc, un arc et un emballement en quelques secondes. Aucune ouverture sans espace dégagé, sans support incombustible et sans moyen d'extinction à portée immédiate.
@@ -963,49 +1001,11 @@ Critères de validation :
 - article — Grin Technologies : architecture des packs de vélos électriques et diagnostic des BMS
 - doc — Bafang : spécifications des BMS et seuils de protection des packs de kits
 
-### 6. Perte d'autonomie : mesurer la santé réelle d'un pack `vae-autonomie-soh-diagnostic`
-
-- **Durée :** 45 min
-- **Prérequis :**
-  - [Mesurer un pack : tension, état de charge et premières conclusions](#vae-mesure-batterie-tension-soc) `vae-mesure-batterie-tension-soc`
-  - [Applications constructeur : appairage, mise à jour firmware et journal](#vae-apps-appairage-firmware) `vae-apps-appairage-firmware`
-  - [Science du pneu : carcasse, gomme, largeur réelle et choix par usage](roues-et-pneus.md) `science-du-pneu`
-- **Outils :** multimètre numérique, wattmètre / testeur de capacité DC adapté à la tension du pack (si disponible), applications de diagnostic constructeur, home-trainer ou parcours de référence, balance pour peser vélo et charge, chronomètre et compteur GPS, carnet d'atelier
-- **⚠️ Sécurité :**
-  - Un test de décharge produit de la chaleur : surveiller le pack en continu, le poser sur support incombustible, arrêter immédiatement si la température de surface dépasse 45 °C.
-  - Ne jamais décharger un pack sous le seuil de coupure BMS avec une charge externe non régulée : la sous-décharge profonde détruit les cellules et crée un risque à la recharge.
-
-**Objectifs :**
-- Distinguer une perte d'autonomie due au pack d'une perte due à l'usage, au terrain, au poids ou aux pneus
-- Relever le nombre de cycles et la capacité restante annoncée par l'outil de diagnostic constructeur
-- Réaliser un test de décharge encadré et en déduire une capacité mesurée en Wh
-- Rendre au client un verdict chiffré et honnête sur l'état de santé du pack
-
-**TP — Bilan de santé d'un pack et parcours de référence**
-
-Tu établis le bilan de santé d'un pack en croisant trois sources : les données du diagnostic constructeur, une mesure de capacité par décharge encadrée, et un parcours de référence reproductible avec relevé de consommation.
-
-Critères de validation :
-1. 1. Capacité nominale du pack relevée en Wh depuis l'étiquette, et données constructeur extraites : nombre de cycles et capacité restante annoncée si disponibles, valeurs notées avec la date.
-2. 2. Parcours de référence défini et documenté : distance, dénivelé, niveau d'assistance imposé, pression des pneus contrôlée à ±0,2 bar, masse totale pesée à ±1 kg près.
-3. 3. Parcours effectué 2 fois avec relevé de la consommation en Wh ou en pourcentage d'état de charge : écart entre les deux passages inférieur ou égal à 10 %, sinon un troisième passage est effectué.
-4. 4. Consommation ramenée en Wh/km calculée et comparée aux ordres de grandeur usuels (environ 8-15 Wh/km en ville, 15-25 Wh/km en VTTAE, 20-35 Wh/km en cargo chargé), écart commenté.
-5. 5. Capacité réelle estimée en Wh et état de santé exprimé en pourcentage de la capacité nominale, avec la méthode de calcul écrite.
-6. 6. Température du pack relevée au début, à mi-parcours et en fin de test : aucune valeur supérieure à 45 °C, sinon test interrompu et incident consigné.
-7. 7. Verdict client rédigé en moins de 150 mots, contenant le chiffre de santé, les facteurs d'usage identifiés, et une recommandation explicite (conserver, changer, adapter l'usage).
-
-**Pistes de références** *(URLs vérifiées à la rédaction de la leçon)* :
-- article — Battery University : mesure de l'état de santé (SOH) d'un pack lithium-ion et méthodes de test de capacité
-- doc — Bosch eBike Systems : lecture du nombre de cycles et de l'état de la batterie via l'outil de diagnostic
-- outil — Shimano : informations d'état de batterie disponibles dans E-TUBE PROJECT
-- article — Upway : comment évaluer l'autonomie réelle et la santé d'une batterie de vélo électrique
-- doc — LEVA (Light Electric Vehicle Association) : protocoles de test de capacité en atelier
-
 ### 7. Installer un kit Bafang BBS01 / BBS02 / BBSHD `vae-bafang-installation`
 
 - **Durée :** 45 min
 - **Prérequis :**
-  - [Boîtiers filetés : identifier et remplacer (BSA, italien, T47)](transmission.md) `boitier-pedalier-filete`
+  - [Boîtiers filetés : identifier et remplacer](transmission.md) `boitier-pedalier-filete`
   - [Mesurer et corriger la ligne de chaîne](transmission.md) `ligne-de-chaine`
   - [Sertir, souder et réparer un conducteur de VAE](#vae-sertissage-reparation-fil) `vae-sertissage-reparation-fil`
   - [La clé dynamométrique : choisir, utiliser, préserver](fondamentaux.md) `cle-dynamometrique`
@@ -1048,7 +1048,7 @@ Critères de validation :
 - **Durée :** 45 min
 - **Prérequis :**
   - [Installer un kit Bafang BBS01 / BBS02 / BBSHD](#vae-bafang-installation) `vae-bafang-installation`
-  - [Mesurer un pack : tension, état de charge et premières conclusions](#vae-mesure-batterie-tension-soc) `vae-mesure-batterie-tension-soc`
+  - [Mesurer un pack : tension et état de charge](#vae-mesure-batterie-tension-soc) `vae-mesure-batterie-tension-soc`
   - connaître le cadre légal EN 15194 et les catégories de véhicules *(vae)*
 - **Outils :** câble de programmation USB-TTL Bafang, ordinateur avec pilote série et logiciel de configuration Bafang, batterie chargée à plus de 50 %, pied d'atelier, chronomètre et compteur GPS, carnet d'atelier
 - **⚠️ Sécurité :**
@@ -1090,7 +1090,7 @@ Critères de validation :
 - **Prérequis :**
   - connaître le cadre légal EN 15194 et les catégories de véhicules électriques *(vae)*
   - [Lire et exploiter les codes d'erreur Bosch](#vae-codes-erreur-bosch) `vae-codes-erreur-bosch`
-  - [Capteur de vitesse : aimant, entrefer et remplacement](#vae-capteur-vitesse-aimant-entrefer) `vae-capteur-vitesse-aimant-entrefer`
+  - [Capteur de vitesse](#vae-capteur-vitesse-aimant-entrefer) `vae-capteur-vitesse-aimant-entrefer`
 - **Outils :** VAE variés, dont au moins un présentant des traces d'intervention, applications de diagnostic constructeur, lampe d'inspection et miroir, réglet, appareil photo, modèle de fiche de refus d'intervention
 - **⚠️ Sécurité :**
   - Un vélo débridé dépasse la vitesse pour laquelle ses freins, ses pneus et son cadre ont été homologués : ne jamais l'essayer sur route ouverte, ne jamais le rendre en l'état sans l'avoir signalé au client par écrit.
@@ -1121,16 +1121,16 @@ Critères de validation :
 - article — Fédération française des usagers de la bicyclette (FUB) : conséquences légales et assurantielles du débridage d'un vélo à assistance électrique
 - article — E-MOUNTAINBIKE Magazine : tuning et débridage des VAE : réalité technique et conséquences
 
-### 10. Remplacer une batterie : compatibilité, marché, arnaques et fin de vie `vae-remplacer-batterie-marche`
+### 10. Remplacer une batterie `vae-remplacer-batterie-marche`
 
 - **Durée :** 45 min
 - **Prérequis :**
-  - [Mesurer un pack : tension, état de charge et premières conclusions](#vae-mesure-batterie-tension-soc) `vae-mesure-batterie-tension-soc`
-  - [Perte d'autonomie : mesurer la santé réelle d'un pack](#vae-autonomie-soh-diagnostic) `vae-autonomie-soh-diagnostic`
+  - [Mesurer un pack : tension et état de charge](#vae-mesure-batterie-tension-soc) `vae-mesure-batterie-tension-soc`
+  - [Perte d'autonomie : mesurer la santé du pack](#vae-autonomie-soh-diagnostic) `vae-autonomie-soh-diagnostic`
   - [Charger et stocker une batterie Li-ion](#vae-batterie-charge-stockage) `vae-batterie-charge-stockage`
   - [Batterie Li-ion : danger et conduite à tenir](#vae-securite-li-ion-incident) `vae-securite-li-ion-incident`
-  - [Déposer et reposer une batterie : verrous, rails et packs intégrés](#vae-depose-repose-batterie) `vae-depose-repose-batterie`
-  - [Chargeur : contrôler la sortie et identifier un chargeur inadapté](#vae-chargeur-controle-mesure) `vae-chargeur-controle-mesure`
+  - [Déposer et reposer une batterie](#vae-depose-repose-batterie) `vae-depose-repose-batterie`
+  - [Chargeur : contrôler la sortie](#vae-chargeur-controle-mesure) `vae-chargeur-controle-mesure`
 - **Outils :** multimètre, pied à coulisse et réglet pour relever les interfaces mécaniques, balance (le poids d'un pack trahit une capacité fantaisiste), appareil photo pour documenter références, étiquettes et numéros de série, tableur pour le comparatif chiffré, application constructeur ou outil de diagnostic (E-TUBE, Bosch, Bafang) selon le système, bac de transport non conducteur pour le pack déposé
 - **⚠️ Sécurité :**
   - Un pack tiers non certifié (pas de marquage crédible, pas d'EN 50604 / UN 38.3, pas de cellules identifiables) est un risque d'incendie réel : refuse-le, quel que soit le prix.
@@ -1171,16 +1171,16 @@ Critères de validation :
 
 ## Niveau 5 — Maître
 
-### 1. Concevoir un retrofit complet : ville, vintage, pliant, cargo `vae-retrofit-conception`
+### 1. Concevoir un retrofit complet `vae-retrofit-conception`
 
 - **Durée :** 45 min
 - **Prérequis :**
   - [Installer un kit Bafang BBS01 / BBS02 / BBSHD](#vae-bafang-installation) `vae-bafang-installation`
-  - [Roue à moteur moyeu : dépose, repose et bras de couple](#vae-roue-moteur-torque-arm) `vae-roue-moteur-torque-arm`
-  - [Perte d'autonomie : mesurer la santé réelle d'un pack](#vae-autonomie-soh-diagnostic) `vae-autonomie-soh-diagnostic`
+  - [Roue à moteur moyeu](#vae-roue-moteur-torque-arm) `vae-roue-moteur-torque-arm`
+  - [Perte d'autonomie : mesurer la santé du pack](#vae-autonomie-soh-diagnostic) `vae-autonomie-soh-diagnostic`
   - savoir identifier les matériaux de cadre et évaluer leurs limites *(fondamentaux)*
-  - [Compatibilités de freinage : tirages, fixations, mélanges de marques](freinage.md) `compatibilite-freinage`
-  - [Roues VAE et cargo : renforts, moteurs moyeu et contrôles spécifiques](roues-et-pneus.md) `roues-vae-et-cargo`
+  - [Compatibilités de freinage](freinage.md) `compatibilite-freinage`
+  - [Roues VAE et cargo](roues-et-pneus.md) `roues-vae-et-cargo`
 - **Outils :** pied à coulisse, réglet et mètre ruban, balance (vélo, charge utile), catalogue de kits et de packs, tableur pour le dimensionnement, appareil photo, carnet d'atelier
 - **⚠️ Sécurité :**
   - Aucun moteur moyeu avant sur une fourche carbone, et aucun moteur moyeu sur des pattes aluminium sans bras de couple correctement dimensionné.
@@ -1215,12 +1215,12 @@ Critères de validation :
 - article — Sheldon Brown : évaluation de l'état et des limites d'un cadre ancien avant transformation
 - doc — Cycles cargo — documentation constructeur : charges admissibles, dimensionnement du freinage et des roues sur longtail et biporteur
 
-### 2. Atelier VAE : stockage, transport, déchets et traçabilité `vae-atelier-conformite-stockage`
+### 2. Atelier VAE : stockage, transport, déchets `vae-atelier-conformite-stockage`
 
 - **Durée :** 45 min
 - **Prérequis :**
   - [Batterie Li-ion : danger et conduite à tenir](#vae-securite-li-ion-incident) `vae-securite-li-ion-incident`
-  - [Perte d'autonomie : mesurer la santé réelle d'un pack](#vae-autonomie-soh-diagnostic) `vae-autonomie-soh-diagnostic`
+  - [Perte d'autonomie : mesurer la santé du pack](#vae-autonomie-soh-diagnostic) `vae-autonomie-soh-diagnostic`
   - [Le carnet d'atelier et la pratique délibérée](fondamentaux.md) `carnet-atelier`
   - [Passer pro : certifications, formations, statut](fondamentaux.md) `passer-pro`
 - **Outils :** armoire ou bac de stockage résistant au feu, sacs de confinement pour batteries, détecteur de fumée et extincteur adapté, thermomètre d'ambiance, étiquettes de traçabilité, modèles de fiches de réception et de décharge, tableur ou logiciel d'atelier
@@ -1262,8 +1262,8 @@ Critères de validation :
 
 - **Durée :** 45 min
 - **Prérequis :**
-  - [Tester la continuité d'un faisceau et localiser une coupure](#vae-continuite-faisceau) `vae-continuite-faisceau`
-  - [Diagnostiquer un moteur moyeu : phases, capteurs Hall et contrôleur](#vae-diagnostic-moteur-moyeu) `vae-diagnostic-moteur-moyeu`
+  - [Tester la continuité d'un faisceau](#vae-continuite-faisceau) `vae-continuite-faisceau`
+  - [Diagnostiquer un moteur moyeu](#vae-diagnostic-moteur-moyeu) `vae-diagnostic-moteur-moyeu`
   - savoir extraire et interpréter les journaux et codes de plusieurs marques *(vae)*
   - [Ton calendrier d'entretien : 25 h, 50 h, 100 h](fondamentaux.md) `calendrier-entretien`
 - **Outils :** multimètre numérique, idéalement avec fonction min/max ou enregistrement, pointes de test fines et cordons longs, home-trainer permettant de charger le moteur, pistolet thermique ou sèche-cheveux et bombe de froid (test thermique), brumisateur d'eau (test d'humidité contrôlé), caméra ou smartphone pour filmer l'écran en roulage, carnet d'atelier et fiche de suivi
@@ -1299,11 +1299,62 @@ Critères de validation :
 - article — Grin Technologies : mesure de chute de tension sous charge et localisation des contacts dégradés
 - doc — Bosch eBike Systems : exploitation du journal d'évènements et de l'historique d'erreurs en diagnostic atelier
 
-### 4. Reconstruire un pack 2/3 : soudure par points et assemblage mécanique `vae-pack-assemblage-soudure`
+### 4. Reconstruire un pack 1/3 `vae-pack-choix-cellules`
 
 - **Durée :** 45 min
 - **Prérequis :**
-  - [Reconstruire un pack 1/3 : choisir et apparier les cellules](#vae-pack-choix-cellules) `vae-pack-choix-cellules`
+  - [BMS et pack ouvert](#vae-bms-pack-diagnostic) `vae-bms-pack-diagnostic`
+  - [Mesurer un pack : tension et état de charge](#vae-mesure-batterie-tension-soc) `vae-mesure-batterie-tension-soc`
+  - [Perte d'autonomie : mesurer la santé du pack](#vae-autonomie-soh-diagnostic) `vae-autonomie-soh-diagnostic`
+  - [Batterie Li-ion : danger et conduite à tenir](#vae-securite-li-ion-incident) `vae-securite-li-ion-incident`
+  - [Atelier VAE : stockage, transport, déchets](#vae-atelier-conformite-stockage) `vae-atelier-conformite-stockage`
+  - savoir diagnostiquer un BMS et mesurer l'équilibrage d'un pack ouvert *(vae)*
+  - [Sertir, souder et réparer un conducteur de VAE](#vae-sertissage-reparation-fil) `vae-sertissage-reparation-fil`
+  - maîtriser intégralement les règles de sécurité Li-ion et la conduite en cas d'incident *(vae)*
+- **Outils :** multimètre de résolution 0,01 V minimum, testeur de résistance interne 4 fils ou banc à charge connue, chargeur/déchargeur analyseur de cellules pour mesure de capacité, support de cellules isolé et bac non conducteur, marqueur indélébile et étiquettes numérotées, balance de précision 0,1 g, thermomètre infrarouge, tableur pour le tri et l'appariement
+- **⚠️ Sécurité :**
+  - Une cellule Li-ion nue court-circuitée par un outil, un bijou ou une chute sur une surface métallique part en emballement thermique en quelques secondes. Plan de travail non conducteur, ni montre ni bague, un seul lot ouvert à la fois.
+  - Une cellule descendue sous 2,5 V est réputée dégradée ; sous 2,0 V elle peut avoir formé des dendrites de cuivre : recharge interdite, direction recyclage. C'est le critère le plus souvent ignoré des rebuilds ratés.
+  - Ne mélange jamais des cellules de chimies, formats, âges ou marques différents dans un même pack : le groupe le plus faible se fait tirer du courant par les autres et chauffe.
+  - Stockage du lot en attente d'assemblage à 3,6-3,8 V par cellule, bornes protégées, dans un contenant incombustible, à l'écart de tout combustible.
+  - Cellules récupérées (portables, trottinettes) : historique inconnu, micro-court-circuits invisibles. À proscrire pour un pack de VAE qui roule sur route.
+
+**Objectifs :**
+- Choisir une chimie et un format de cellule adaptés à l'usage, au courant demandé et au volume disponible.
+- Calculer la configuration S/P d'un pack pour une tension et une capacité cibles.
+- Mesurer capacité réelle et résistance interne d'un lot de cellules et les apparier en groupes parallèles.
+- Sourcer des cellules authentiques et écarter un lot douteux avant assemblage.
+- Tracer un lot de cellules pour rendre le pack diagnosticable des années plus tard.
+
+**TP — Constituer et apparier un lot de cellules pour un pack cible**
+
+Tu définis une cible (tension nominale, capacité Wh, courant continu maximal), tu en déduis la configuration S/P, puis tu qualifies un lot d'au moins 16 cellules : marquage, OCV, résistance interne, capacité réelle par cycle contrôlé, et enfin constitution des groupes parallèles appariés.
+
+Critères de validation :
+1. 1. Cahier des charges écrit avant tout achat : tension nominale visée, tension de fin de charge (4,20 V × S), tension de coupure basse, capacité Wh cible, courant continu et courant de crête demandés par le contrôleur. 0 valeur estimée au jugé.
+2. 2. Configuration S/P calculée et justifiée : S déduit de la tension du contrôleur (compatible avec ses coupures haute et basse, 0 erreur), P déduit du courant par cellule (courant crête ÷ P ≤ courant continu admissible de la fiche technique, marge ≥ 20 %). Wh théoriques recalculés et à ±5 % de la cible.
+3. 3. Lot d'au moins 16 cellules du même modèle, même lot de production si possible ; chaque cellule porte un numéro unique indélébile reporté dans le tableur.
+4. 4. OCV mesurée à 0,01 V près sur 100 % des cellules ; toute cellule < 2,50 V est écartée, consignée et dirigée vers le recyclage — 0 exception.
+5. 5. Résistance interne mesurée 3 fois par cellule ; dispersion des 3 mesures ≤ 5 %, sinon contact ou température en cause et on refait.
+6. 6. Capacité réelle mesurée par cycle de décharge contrôlée à courant documenté ; toute cellule restituant ≤ 80 % de la capacité nominale annoncée est écartée.
+7. 7. Appariement : à l'intérieur de chaque groupe parallèle, écart de capacité ≤ 3 % entre la plus faible et la plus forte, et écart de résistance interne ≤ 15 %.
+8. 8. Équilibre inter-groupes : écart de capacité moyenne entre deux groupes parallèles quelconques ≤ 2 %.
+9. 9. Mise à niveau avant assemblage : toutes les cellules retenues à la même tension à ±0,02 V le jour de l'assemblage.
+10. 10. Authenticité et traçabilité : fiche de lot renseignée (fournisseur, date, numéro de lot, fiche technique du fabricant, photos des marquages) pour 100 % des cellules, plus un contrôle de plausibilité par pesée comparée à la masse de la fiche technique, écart ≤ 5 %.
+
+**Pistes de références** *(URLs vérifiées à la rédaction de la leçon)* :
+- article — Battery University (Cadex) : chimies Li-ion (NMC, NCA, LFP), formats 18650/21700 et effets de l'appariement
+- doc — Samsung SDI / Molicel : fiches techniques de cellules cylindriques : courant continu, résistance interne, courbes de décharge
+- livre — Micah Toll — DIY Lithium Batteries : calcul de configuration S/P et sélection de cellules pour un pack de VAE
+- article — lygte-info (Henrik Karlsen) : tests indépendants de cellules 18650/21700 et détection des capacités surévaluées
+- outil — Testeur de résistance interne 4 fils (type YR1035+) : protocole de mesure de résistance interne sur cellule cylindrique
+- doc — INRS : risques des accumulateurs lithium : stockage, manipulation et prévention de l'emballement thermique
+
+### 5. Reconstruire un pack 2/3 `vae-pack-assemblage-soudure`
+
+- **Durée :** 45 min
+- **Prérequis :**
+  - [Reconstruire un pack 1/3](#vae-pack-choix-cellules) `vae-pack-choix-cellules`
   - [Sertir, souder et réparer un conducteur de VAE](#vae-sertissage-reparation-fil) `vae-sertissage-reparation-fil`
   - [Batterie Li-ion : danger et conduite à tenir](#vae-securite-li-ion-incident) `vae-securite-li-ion-incident`
 - **Outils :** soudeuse par points à décharge capacitive ou machine à transformateur adaptée, bande de nickel pur 0,15 à 0,20 mm, largeur adaptée au courant, rondelles isolantes (fish paper) et film Kapton, holders / spacers plastiques pour cellules, ruban adhésif fibre et gaine thermorétractable de pack, pince coupante et cisaille à métal fine, multimètre et charge de test connue pour la mesure de chute de tension, thermomètre infrarouge, lunettes de protection et gants non conducteurs, bac de sable ou extincteur adapté à portée immédiate
@@ -1347,15 +1398,15 @@ Critères de validation :
 - video — GreatScott! : comparatif des méthodes d'assemblage de packs et pièges de la soudure à l'étain
 - doc — INRS : prévention du risque incendie lors de l'assemblage d'accumulateurs lithium
 
-### 5. Reconstruire un pack 3/3 : BMS, câblage et première charge surveillée `vae-pack-bms-premiere-charge`
+### 6. Reconstruire un pack 3/3 `vae-pack-bms-premiere-charge`
 
 - **Durée :** 45 min
 - **Prérequis :**
-  - [Reconstruire un pack 2/3 : soudure par points et assemblage mécanique](#vae-pack-assemblage-soudure) `vae-pack-assemblage-soudure`
-  - [BMS et pack ouvert : diagnostic d'un déséquilibre cellulaire](#vae-bms-pack-diagnostic) `vae-bms-pack-diagnostic`
-  - [Chargeur : contrôler la sortie et identifier un chargeur inadapté](#vae-chargeur-controle-mesure) `vae-chargeur-controle-mesure`
+  - [Reconstruire un pack 2/3](#vae-pack-assemblage-soudure) `vae-pack-assemblage-soudure`
+  - [BMS et pack ouvert](#vae-bms-pack-diagnostic) `vae-bms-pack-diagnostic`
+  - [Chargeur : contrôler la sortie](#vae-chargeur-controle-mesure) `vae-chargeur-controle-mesure`
   - [Charger et stocker une batterie Li-ion](#vae-batterie-charge-stockage) `vae-batterie-charge-stockage`
-  - [Atelier VAE : stockage, transport, déchets et traçabilité](#vae-atelier-conformite-stockage) `vae-atelier-conformite-stockage`
+  - [Atelier VAE : stockage, transport, déchets](#vae-atelier-conformite-stockage) `vae-atelier-conformite-stockage`
 - **Outils :** BMS adapté (S correct, courants continu et de crête suffisants, port de charge séparé ou commun selon le montage), multimètre de résolution 0,01 V, fer à souder et connectique de fils d'équilibrage, chargeur à courant réglable ou alimentation de laboratoire pour la première charge, charge résistive ou banc de décharge pour le test de capacité, thermomètre infrarouge et sonde de température, support incombustible et bac ou sac de charge, extincteur adapté ou bac de sable, détecteur de fumée dans la pièce, chronomètre et feuille de relevé
 - **⚠️ Sécurité :**
   - Le câblage des fils d'équilibrage est l'étape la plus dangereuse d'un rebuild : un fil inversé ou décalé d'un rang court-circuite un ou plusieurs groupes à travers le BMS et peut mettre le feu instantanément. Ordre croissant obligatoire, du B- vers le dernier, mesure au voltmètre avant chaque insertion.
@@ -1395,54 +1446,3 @@ Critères de validation :
 - video — Jehu Garcia : câblage et test d'un BMS sur pack reconstruit, erreurs classiques
 - doc — INRS : charge et stockage des accumulateurs lithium en atelier : mesures de prévention incendie
 - doc — EN 50604-1 : exigences de sécurité applicables aux batteries lithium de cycles à assistance électrique
-
-### 6. Reconstruire un pack 1/3 : choisir et apparier les cellules `vae-pack-choix-cellules`
-
-- **Durée :** 45 min
-- **Prérequis :**
-  - [BMS et pack ouvert : diagnostic d'un déséquilibre cellulaire](#vae-bms-pack-diagnostic) `vae-bms-pack-diagnostic`
-  - [Mesurer un pack : tension, état de charge et premières conclusions](#vae-mesure-batterie-tension-soc) `vae-mesure-batterie-tension-soc`
-  - [Perte d'autonomie : mesurer la santé réelle d'un pack](#vae-autonomie-soh-diagnostic) `vae-autonomie-soh-diagnostic`
-  - [Batterie Li-ion : danger et conduite à tenir](#vae-securite-li-ion-incident) `vae-securite-li-ion-incident`
-  - [Atelier VAE : stockage, transport, déchets et traçabilité](#vae-atelier-conformite-stockage) `vae-atelier-conformite-stockage`
-  - savoir diagnostiquer un BMS et mesurer l'équilibrage d'un pack ouvert *(vae)*
-  - [Sertir, souder et réparer un conducteur de VAE](#vae-sertissage-reparation-fil) `vae-sertissage-reparation-fil`
-  - maîtriser intégralement les règles de sécurité Li-ion et la conduite en cas d'incident *(vae)*
-- **Outils :** multimètre de résolution 0,01 V minimum, testeur de résistance interne 4 fils ou banc à charge connue, chargeur/déchargeur analyseur de cellules pour mesure de capacité, support de cellules isolé et bac non conducteur, marqueur indélébile et étiquettes numérotées, balance de précision 0,1 g, thermomètre infrarouge, tableur pour le tri et l'appariement
-- **⚠️ Sécurité :**
-  - Une cellule Li-ion nue court-circuitée par un outil, un bijou ou une chute sur une surface métallique part en emballement thermique en quelques secondes. Plan de travail non conducteur, ni montre ni bague, un seul lot ouvert à la fois.
-  - Une cellule descendue sous 2,5 V est réputée dégradée ; sous 2,0 V elle peut avoir formé des dendrites de cuivre : recharge interdite, direction recyclage. C'est le critère le plus souvent ignoré des rebuilds ratés.
-  - Ne mélange jamais des cellules de chimies, formats, âges ou marques différents dans un même pack : le groupe le plus faible se fait tirer du courant par les autres et chauffe.
-  - Stockage du lot en attente d'assemblage à 3,6-3,8 V par cellule, bornes protégées, dans un contenant incombustible, à l'écart de tout combustible.
-  - Cellules récupérées (portables, trottinettes) : historique inconnu, micro-court-circuits invisibles. À proscrire pour un pack de VAE qui roule sur route.
-
-**Objectifs :**
-- Choisir une chimie et un format de cellule adaptés à l'usage, au courant demandé et au volume disponible.
-- Calculer la configuration S/P d'un pack pour une tension et une capacité cibles.
-- Mesurer capacité réelle et résistance interne d'un lot de cellules et les apparier en groupes parallèles.
-- Sourcer des cellules authentiques et écarter un lot douteux avant assemblage.
-- Tracer un lot de cellules pour rendre le pack diagnosticable des années plus tard.
-
-**TP — Constituer et apparier un lot de cellules pour un pack cible**
-
-Tu définis une cible (tension nominale, capacité Wh, courant continu maximal), tu en déduis la configuration S/P, puis tu qualifies un lot d'au moins 16 cellules : marquage, OCV, résistance interne, capacité réelle par cycle contrôlé, et enfin constitution des groupes parallèles appariés.
-
-Critères de validation :
-1. 1. Cahier des charges écrit avant tout achat : tension nominale visée, tension de fin de charge (4,20 V × S), tension de coupure basse, capacité Wh cible, courant continu et courant de crête demandés par le contrôleur. 0 valeur estimée au jugé.
-2. 2. Configuration S/P calculée et justifiée : S déduit de la tension du contrôleur (compatible avec ses coupures haute et basse, 0 erreur), P déduit du courant par cellule (courant crête ÷ P ≤ courant continu admissible de la fiche technique, marge ≥ 20 %). Wh théoriques recalculés et à ±5 % de la cible.
-3. 3. Lot d'au moins 16 cellules du même modèle, même lot de production si possible ; chaque cellule porte un numéro unique indélébile reporté dans le tableur.
-4. 4. OCV mesurée à 0,01 V près sur 100 % des cellules ; toute cellule < 2,50 V est écartée, consignée et dirigée vers le recyclage — 0 exception.
-5. 5. Résistance interne mesurée 3 fois par cellule ; dispersion des 3 mesures ≤ 5 %, sinon contact ou température en cause et on refait.
-6. 6. Capacité réelle mesurée par cycle de décharge contrôlée à courant documenté ; toute cellule restituant ≤ 80 % de la capacité nominale annoncée est écartée.
-7. 7. Appariement : à l'intérieur de chaque groupe parallèle, écart de capacité ≤ 3 % entre la plus faible et la plus forte, et écart de résistance interne ≤ 15 %.
-8. 8. Équilibre inter-groupes : écart de capacité moyenne entre deux groupes parallèles quelconques ≤ 2 %.
-9. 9. Mise à niveau avant assemblage : toutes les cellules retenues à la même tension à ±0,02 V le jour de l'assemblage.
-10. 10. Authenticité et traçabilité : fiche de lot renseignée (fournisseur, date, numéro de lot, fiche technique du fabricant, photos des marquages) pour 100 % des cellules, plus un contrôle de plausibilité par pesée comparée à la masse de la fiche technique, écart ≤ 5 %.
-
-**Pistes de références** *(URLs vérifiées à la rédaction de la leçon)* :
-- article — Battery University (Cadex) : chimies Li-ion (NMC, NCA, LFP), formats 18650/21700 et effets de l'appariement
-- doc — Samsung SDI / Molicel : fiches techniques de cellules cylindriques : courant continu, résistance interne, courbes de décharge
-- livre — Micah Toll — DIY Lithium Batteries : calcul de configuration S/P et sélection de cellules pour un pack de VAE
-- article — lygte-info (Henrik Karlsen) : tests indépendants de cellules 18650/21700 et détection des capacités surévaluées
-- outil — Testeur de résistance interne 4 fils (type YR1035+) : protocole de mesure de résistance interne sur cellule cylindrique
-- doc — INRS : risques des accumulateurs lithium : stockage, manipulation et prévention de l'emballement thermique

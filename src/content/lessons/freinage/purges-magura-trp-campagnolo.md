@@ -1,5 +1,5 @@
 ---
-title: "Purger hors Shimano/SRAM : Magura, TRP, Campagnolo, freins jante hydrauliques"
+title: "Purger hors Shimano/SRAM"
 level: 4
 system: "freinage"
 order: 4

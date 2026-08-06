@@ -1,5 +1,5 @@
 ---
-title: "Vélos couchés, tricycles et cycles adaptés : ce qui change mécaniquement"
+title: "Vélos couchés, tricycles et cycles adaptés"
 level: 3
 system: "cas-exotiques"
 order: 11

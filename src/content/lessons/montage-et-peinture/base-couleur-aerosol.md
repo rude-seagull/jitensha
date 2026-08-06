@@ -1,8 +1,8 @@
 ---
-title: "Poser la base couleur : couches croisées, tendu et opacité"
+title: "Poser la base couleur"
 level: 4
 system: "montage-et-peinture"
-order: 10
+order: 7
 status: "draft"
 duration: 40
 objectives:

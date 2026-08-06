@@ -1,5 +1,5 @@
 ---
-title: "Chasse, offset, empattement : la géométrie qui pilote"
+title: "Chasse, offset, empattement"
 level: 3
 system: "fondamentaux"
 order: 2

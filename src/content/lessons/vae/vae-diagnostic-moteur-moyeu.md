@@ -1,5 +1,5 @@
 ---
-title: "Diagnostiquer un moteur moyeu : phases, capteurs Hall et contrôleur"
+title: "Diagnostiquer un moteur moyeu"
 level: 4
 system: "vae"
 order: 4

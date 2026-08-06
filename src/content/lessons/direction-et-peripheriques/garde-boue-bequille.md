@@ -1,5 +1,5 @@
 ---
-title: "Garde-boue fixes, clipsables et béquilles : monter sans frottement ni danger"
+title: "Garde-boue fixes, clipsables et béquilles"
 level: 2
 system: "direction-et-peripheriques"
 order: 8

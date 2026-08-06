@@ -1,5 +1,5 @@
 ---
-title: "Adapter le montage : VAE, cargo, bikepacking et cas particuliers"
+title: "Adapter le montage"
 level: 5
 system: "montage-et-peinture"
 order: 11

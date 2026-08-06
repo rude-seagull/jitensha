@@ -1,5 +1,5 @@
 ---
-title: "La chaîne peinture : étapes, produits 1K/2K et sécurité isocyanates"
+title: "La chaîne peinture"
 level: 4
 system: "montage-et-peinture"
 order: 3

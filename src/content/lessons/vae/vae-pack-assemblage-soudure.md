@@ -1,8 +1,8 @@
 ---
-title: "Reconstruire un pack 2/3 : soudure par points et assemblage mécanique"
+title: "Reconstruire un pack 2/3"
 level: 5
 system: "vae"
-order: 4
+order: 5
 status: "draft"
 duration: 45
 objectives:

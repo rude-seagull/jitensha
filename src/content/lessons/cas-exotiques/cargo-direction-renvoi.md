@@ -1,5 +1,5 @@
 ---
-title: "Biporteur : contrôler et régler la direction à tringlerie ou à câbles"
+title: "Biporteur : direction à tringlerie ou câbles"
 level: 3
 system: "cas-exotiques"
 order: 7

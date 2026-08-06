@@ -2,7 +2,7 @@
 title: "Poser des décalcomanies : sous vernis ou sur vernis"
 level: 4
 system: "montage-et-peinture"
-order: 5
+order: 9
 status: "draft"
 duration: 30
 objectives:

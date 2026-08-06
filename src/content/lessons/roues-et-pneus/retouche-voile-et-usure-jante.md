@@ -1,5 +1,5 @@
 ---
-title: "Retoucher un voile sur le vélo et contrôler l'usure de la jante"
+title: "Retoucher un voile et contrôler l'usure de jante"
 level: 2
 system: "roues-et-pneus"
 order: 6

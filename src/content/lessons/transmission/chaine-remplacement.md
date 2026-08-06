@@ -1,5 +1,5 @@
 ---
-title: "Remplacer une chaîne : dérive-chaîne, attache rapide, rivet"
+title: "Remplacer une chaîne"
 level: 2
 system: "transmission"
 order: 2

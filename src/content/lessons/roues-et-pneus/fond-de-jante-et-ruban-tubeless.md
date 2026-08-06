@@ -1,5 +1,5 @@
 ---
-title: "Fond de jante classique et ruban tubeless : la base de l'étanchéité"
+title: "Fond de jante classique et ruban tubeless"
 level: 2
 system: "roues-et-pneus"
 order: 3

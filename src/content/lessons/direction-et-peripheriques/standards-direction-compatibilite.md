@@ -1,5 +1,5 @@
 ---
-title: "Standards de direction exotiques et décisions de compatibilité"
+title: "Standards de direction exotiques"
 level: 4
 system: "direction-et-peripheriques"
 order: 3

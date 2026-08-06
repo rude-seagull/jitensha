@@ -1,5 +1,5 @@
 ---
-title: "Transmission de VAE : usure accélérée et choix de composants"
+title: "Transmission de VAE"
 level: 4
 system: "transmission"
 order: 8

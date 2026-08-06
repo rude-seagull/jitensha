@@ -1,8 +1,8 @@
 ---
-title: "Le thermolaquage (powder coating) : quand, comment, chez qui"
+title: "Le thermolaquage (powder coating)"
 level: 4
 system: "montage-et-peinture"
-order: 6
+order: 12
 status: "draft"
 duration: 30
 objectives:

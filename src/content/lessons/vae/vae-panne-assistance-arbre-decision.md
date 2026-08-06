@@ -1,5 +1,5 @@
 ---
-title: "« Ça n'assiste plus » : arbre de décision sans instrument"
+title: "« Ça n'assiste plus »"
 level: 2
 system: "vae"
 order: 5

@@ -2,7 +2,7 @@
 title: "Peindre au Spray.Bike : la technique poudre-aérosol"
 level: 4
 system: "montage-et-peinture"
-order: 4
+order: 8
 status: "draft"
 duration: 35
 objectives:

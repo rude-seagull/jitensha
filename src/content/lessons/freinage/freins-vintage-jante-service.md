@@ -1,5 +1,5 @@
 ---
-title: "Freins vintage sur jante : centerpull, single pivot, tringles"
+title: "Freins vintage sur jante"
 level: 4
 system: "freinage"
 order: 7

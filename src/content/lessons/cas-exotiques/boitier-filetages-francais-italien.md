@@ -1,5 +1,5 @@
 ---
-title: "Boîtiers à filetage français, italien et suisse : identifier et réviser"
+title: "Boîtiers à filetage français, italien et suisse"
 level: 3
 system: "cas-exotiques"
 order: 2

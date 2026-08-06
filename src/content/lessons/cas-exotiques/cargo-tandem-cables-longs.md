@@ -1,5 +1,5 @@
 ---
-title: "Câbles et durites très longs : freiner net sur cargo, longtail et tandem"
+title: "Câbles et durites très longs"
 level: 3
 system: "cas-exotiques"
 order: 8

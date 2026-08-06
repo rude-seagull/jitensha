@@ -1,5 +1,5 @@
 ---
-title: "Moyeux à vitesses intégrées : vidange et service (Alfine, Rohloff, Enviolo)"
+title: "Moyeux intégrés : vidange et service"
 level: 4
 system: "transmission"
 order: 7

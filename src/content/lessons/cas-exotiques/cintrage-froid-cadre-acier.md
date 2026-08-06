@@ -1,5 +1,5 @@
 ---
-title: "Cintrage à froid d'un cadre acier : élargir l'arrière de 120 à 130 mm"
+title: "Cintrage à froid d'un cadre acier"
 level: 5
 system: "cas-exotiques"
 order: 1

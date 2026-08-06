@@ -1,5 +1,5 @@
 ---
-title: "Protéger un cadre : film polyuréthane, protège-base et zones d'usure"
+title: "Protéger un cadre : film et protège-base"
 level: 2
 system: "montage-et-peinture"
 order: 2

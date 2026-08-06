@@ -1,5 +1,5 @@
 ---
-title: "Douilles et visserie d'amortisseur : le jeu qui se prend pour un roulement mort"
+title: "Douilles et visserie d'amortisseur"
 level: 3
 system: "suspension"
 order: 7

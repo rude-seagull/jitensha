@@ -1,5 +1,5 @@
 ---
-title: "Boîtiers filetés : identifier et remplacer (BSA, italien, T47)"
+title: "Boîtiers filetés : identifier et remplacer"
 level: 3
 system: "transmission"
 order: 2

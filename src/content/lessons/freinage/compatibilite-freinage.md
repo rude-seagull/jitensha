@@ -1,5 +1,5 @@
 ---
-title: "Compatibilités de freinage : tirages, fixations, mélanges de marques"
+title: "Compatibilités de freinage"
 level: 4
 system: "freinage"
 order: 5

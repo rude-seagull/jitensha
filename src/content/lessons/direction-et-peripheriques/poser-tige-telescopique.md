@@ -1,5 +1,5 @@
 ---
-title: "Installer une tige télescopique (dropper) : câble interne ou sans fil"
+title: "Installer une tige télescopique (dropper)"
 level: 3
 system: "direction-et-peripheriques"
 order: 6

@@ -1,5 +1,5 @@
 ---
-title: "Poser et régler un levier de frein : position, angle, garde"
+title: "Poser et régler un levier de frein"
 level: 2
 system: "freinage"
 order: 12

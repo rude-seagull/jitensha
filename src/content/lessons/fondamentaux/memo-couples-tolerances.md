@@ -1,8 +1,8 @@
 ---
-title: "Ton mémo de couples et de tolérances : le construire et le tenir à jour"
+title: "Ton mémo de couples et de tolérances"
 level: 2
 system: "fondamentaux"
-order: 16
+order: 15
 status: "draft"
 duration: 35
 objectives:

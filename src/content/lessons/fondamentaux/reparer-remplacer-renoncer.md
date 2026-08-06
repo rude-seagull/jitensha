@@ -1,8 +1,8 @@
 ---
-title: "Réparer, remplacer ou renoncer : arbres de décision d'usure et de coût"
+title: "Réparer, remplacer ou renoncer"
 level: 3
 system: "fondamentaux"
-order: 7
+order: 8
 status: "draft"
 duration: 45
 objectives:

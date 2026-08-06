@@ -67,7 +67,7 @@ references:
     # their absence is what marks a lead as still unresearched.
 ```
 
-**Title length: 52 characters maximum.** Lesson cards have a fixed height, so a bloated title either overflows or gets clipped. The long titles all followed the pattern « Sujet : a, b et c », where the enumeration after the colon simply repeats the lesson's own `objectives` — cut it. Applied to Niveau 1; the other levels follow when their path layout ships.
+**Title length: 52 characters maximum**, enforced across all 317 lessons. Cards have a fixed height, so a bloated title gets clipped. The long titles all followed the pattern « Sujet : a, b et c », where the enumeration after the colon simply repeats the lesson's own `objectives` — cut it, keeping the subject.
 
 `docs/curriculum/curriculum.json` is the source of truth for the whole curriculum; the lesson Markdown and the curriculum docs are generated from it. After any edit run **`npm run curriculum:build`** — it validates the structural invariants, regenerates the 317 lesson files (rewriting frontmatter only, preserving prose written below the closing `---`), and re-renders `CURRICULUM.md` and `docs/curriculum/*.md`. Never edit those by hand.
 
@@ -117,7 +117,9 @@ Grounded in keirin frame culture: an approved NJS frame carries a stamp, and thi
 - **The seal** (`Stamp.astro`) carries 自, "self", from 自転車. It lands on a finished lesson, a fully ticked exercise, or a completed level — never as decoration, and always in flow rather than absolutely positioned, so it cannot land on text.
 - **Logo** (`HeadBadge.astro`) is a head badge, the plate riveted to a frame's head tube. Flat and geometric; a vintage heraldic crest is the failure mode.
 - **Motion** is one orchestrated moment (the press) plus state transitions. `prefers-reduced-motion` must remove the animation without removing the seal.
-- **The lesson path** (`LessonPath.astro`) draws an ordered sequence as a serpentine. Its layout is a grid whose **column count is fixed per breakpoint**, in **mutually exclusive media ranges**: a wrapping flex row cannot tell which card ends a row, and overlapping `min-width` blocks leak because a lower breakpoint's `nth-child` rule outranks a higher one's reset — media queries add no specificity. Piloted on Niveau 1; rolling it out is deleting one condition in `niveau/[level].astro`.
+- **The lesson path** (`LessonPath.astro`) renders every ordered sequence — on level pages and system pages alike, since both show the same (system, level) groups. Its layout is a grid whose **column count is fixed per breakpoint**, in **mutually exclusive media ranges**: a wrapping flex row cannot tell which card ends a row, and overlapping `min-width` blocks leak because a lower breakpoint's `nth-child` rule outranks a higher one's reset — media queries add no specificity. Connectors run through the **middle of the row gap**; drawn flush against the cards they merge with the borders and disappear.
+
+**Order within a (system, level) is load-bearing**, because the path renders it as the sequence to follow. `curriculum:validate` fails on any lesson placed before a prerequisite from its own group — an invariant added after a renumbering pass alphabetised three-part chains and put part 3 ahead of part 2. Re-sequence with a stable topological sort, never by hand.
 
 **Progressive enhancement has a trap worth remembering:** the UA rule for `[hidden]` is `display: none` at the lowest specificity, so any component `display` silently defeats it. `base.css` restores it globally with `!important`. When verifying that no dead control appears without JavaScript, check the **computed display**, not the presence of the attribute.
 

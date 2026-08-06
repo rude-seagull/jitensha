@@ -1,5 +1,5 @@
 ---
-title: "Concevoir un freinage pour charges extrêmes : cargo, tandem, descente"
+title: "Concevoir un freinage pour charges extrêmes"
 level: 5
 system: "freinage"
 order: 2

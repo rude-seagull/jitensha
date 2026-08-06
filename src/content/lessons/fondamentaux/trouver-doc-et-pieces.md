@@ -1,8 +1,8 @@
 ---
-title: "Trouver la doc et la bonne pièce : manuels constructeurs, références et équivalences"
+title: "Trouver la doc et la bonne pièce"
 level: 3
 system: "fondamentaux"
-order: 9
+order: 7
 status: "draft"
 duration: 45
 objectives:

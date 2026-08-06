@@ -1,5 +1,5 @@
 ---
-title: "Contrôle final et première sortie : le M-check de livraison"
+title: "Contrôle final et première sortie"
 level: 5
 system: "montage-et-peinture"
 order: 10

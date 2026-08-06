@@ -1,5 +1,5 @@
 ---
-title: "Monter un freinage hydraulique complet depuis la boîte"
+title: "Monter un freinage hydraulique complet"
 level: 5
 system: "freinage"
 order: 1

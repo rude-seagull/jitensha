@@ -1,5 +1,5 @@
 ---
-title: "Étude posturale complète : conduire un fit statique de A à Z"
+title: "Étude posturale complète"
 level: 4
 system: "direction-et-peripheriques"
 order: 7

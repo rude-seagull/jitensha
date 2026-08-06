@@ -1,5 +1,5 @@
 ---
-title: "Porte-bagages : fixations, limites de charge et alternatives bikepacking"
+title: "Porte-bagages : fixations et limites de charge"
 level: 2
 system: "direction-et-peripheriques"
 order: 9

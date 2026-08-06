@@ -1,5 +1,5 @@
 ---
-title: "Mesurer un pack : tension, état de charge et premières conclusions"
+title: "Mesurer un pack : tension et état de charge"
 level: 3
 system: "vae"
 order: 2

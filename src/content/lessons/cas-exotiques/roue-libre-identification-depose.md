@@ -1,5 +1,5 @@
 ---
-title: "Roue libre vissée : identifier l'extracteur et déposer sans casse"
+title: "Roue libre vissée : extracteur et dépose"
 level: 2
 system: "cas-exotiques"
 order: 3

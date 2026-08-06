@@ -1,5 +1,5 @@
 ---
-title: "Capteur de vitesse : aimant, entrefer et remplacement"
+title: "Capteur de vitesse"
 level: 2
 system: "vae"
 order: 2

@@ -1,5 +1,5 @@
 ---
-title: "Le bracketing : affiner ses réglages comme un pilote d'usine"
+title: "Le bracketing : affiner ses réglages"
 level: 4
 system: "suspension"
 order: 1

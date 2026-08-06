@@ -1,5 +1,5 @@
 ---
-title: "La carte d'identité d'un cadre : décoder tous ses standards"
+title: "La carte d'identité d'un cadre"
 level: 3
 system: "fondamentaux"
 order: 5

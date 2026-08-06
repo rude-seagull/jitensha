@@ -1,5 +1,5 @@
 ---
-title: "Sécurité et déchets à l'atelier : EPI, poussières de carbone, solvants, huiles et ergonomie"
+title: "Sécurité et déchets à l'atelier"
 level: 2
 system: "fondamentaux"
 order: 17

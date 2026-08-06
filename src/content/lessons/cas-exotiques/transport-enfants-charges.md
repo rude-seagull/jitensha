@@ -1,5 +1,5 @@
 ---
-title: "Transporter des enfants et des charges : sièges, remorques, attelages"
+title: "Transporter des enfants et des charges"
 level: 3
 system: "cas-exotiques"
 order: 12

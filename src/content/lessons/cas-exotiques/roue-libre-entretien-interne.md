@@ -1,5 +1,5 @@
 ---
-title: "Entretien interne d'une roue libre : cliquets, billes et relubrification"
+title: "Entretien interne d'une roue libre"
 level: 4
 system: "cas-exotiques"
 order: 4

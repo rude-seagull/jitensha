@@ -1,5 +1,5 @@
 ---
-title: "Routage intégré via le jeu de direction : entretien sans tout casser"
+title: "Routage intégré via le jeu de direction"
 level: 4
 system: "direction-et-peripheriques"
 order: 4

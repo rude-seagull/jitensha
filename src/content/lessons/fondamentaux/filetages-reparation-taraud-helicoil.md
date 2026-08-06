@@ -1,5 +1,5 @@
 ---
-title: "Réparer un filetage : taraud et filet rapporté (Helicoil)"
+title: "Réparer un filetage"
 level: 4
 system: "fondamentaux"
 order: 3

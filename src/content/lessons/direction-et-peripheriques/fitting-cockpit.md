@@ -1,5 +1,5 @@
 ---
-title: "Ajuster le cockpit à ton corps : reach, drop et largeur de cintre"
+title: "Ajuster le cockpit à ton corps"
 level: 3
 system: "direction-et-peripheriques"
 order: 8

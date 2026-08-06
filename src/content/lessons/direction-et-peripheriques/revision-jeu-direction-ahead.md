@@ -1,5 +1,5 @@
 ---
-title: "Réviser un jeu de direction ahead : dépose de fourche, roulements, graissage"
+title: "Réviser un jeu de direction ahead"
 level: 3
 system: "direction-et-peripheriques"
 order: 2

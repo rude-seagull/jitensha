@@ -1,5 +1,5 @@
 ---
-title: "Sauvetage transmission : manivelle grippée, vis cassée, interface abîmée"
+title: "Sauvetage transmission"
 level: 5
 system: "transmission"
 order: 3

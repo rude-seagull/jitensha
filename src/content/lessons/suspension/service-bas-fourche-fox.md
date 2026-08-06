@@ -1,5 +1,5 @@
 ---
-title: "Service bas de fourche Fox (50 h) : les différences qui comptent"
+title: "Service bas de fourche Fox (50 h)"
 level: 3
 system: "suspension"
 order: 4

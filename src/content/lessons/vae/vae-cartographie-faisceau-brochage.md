@@ -1,5 +1,5 @@
 ---
-title: "Cartographier un faisceau : topologie, brochage et schéma d'un système non documenté"
+title: "Cartographier un faisceau"
 level: 3
 system: "vae"
 order: 10

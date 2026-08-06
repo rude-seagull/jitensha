@@ -1,5 +1,5 @@
 ---
-title: "Chargeur : contrôler la sortie et identifier un chargeur inadapté"
+title: "Chargeur : contrôler la sortie"
 level: 3
 system: "vae"
 order: 3

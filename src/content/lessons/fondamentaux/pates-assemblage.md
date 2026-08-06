@@ -1,5 +1,5 @@
 ---
-title: "Graisse, pâte carbone, frein-filet, antiseize : quoi, où, pourquoi"
+title: "Graisse, pâte carbone, frein-filet, antiseize"
 level: 2
 system: "fondamentaux"
 order: 5

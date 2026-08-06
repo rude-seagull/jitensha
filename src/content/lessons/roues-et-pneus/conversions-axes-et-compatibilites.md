@@ -1,5 +1,5 @@
 ---
-title: "Conversions d'axes, capuchons et compatibilités croisées"
+title: "Conversions d'axes et capuchons"
 level: 4
 system: "roues-et-pneus"
 order: 2

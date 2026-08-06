@@ -1,5 +1,5 @@
 ---
-title: "Diagnostiquer un capteur de couple et distinguer couple, cadence et vitesse"
+title: "Diagnostiquer un capteur de couple"
 level: 4
 system: "vae"
 order: 2

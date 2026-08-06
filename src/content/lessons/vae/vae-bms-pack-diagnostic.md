@@ -1,8 +1,8 @@
 ---
-title: "BMS et pack ouvert : diagnostic d'un déséquilibre cellulaire"
+title: "BMS et pack ouvert"
 level: 4
 system: "vae"
-order: 5
+order: 6
 status: "draft"
 duration: 45
 objectives:

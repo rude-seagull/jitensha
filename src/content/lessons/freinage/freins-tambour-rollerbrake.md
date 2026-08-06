@@ -1,5 +1,5 @@
 ---
-title: "Freins de moyeu : roller brake, tambour et rétropédalage"
+title: "Freins de moyeu : roller brake et tambour"
 level: 4
 system: "freinage"
 order: 6

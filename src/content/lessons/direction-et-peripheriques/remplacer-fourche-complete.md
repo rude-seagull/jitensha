@@ -1,5 +1,5 @@
 ---
-title: "Remplacer une fourche complète : compatibilité, transfert et géométrie"
+title: "Remplacer une fourche complète"
 level: 5
 system: "direction-et-peripheriques"
 order: 1

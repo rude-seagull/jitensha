@@ -1,5 +1,5 @@
 ---
-title: "Réviser des pédales : roulements, axes, broches et mécanismes"
+title: "Réviser des pédales"
 level: 3
 system: "transmission"
 order: 10

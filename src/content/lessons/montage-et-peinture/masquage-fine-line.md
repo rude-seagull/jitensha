@@ -2,7 +2,7 @@
 title: "Masquer des motifs : fine line, bi-ton et dégradés"
 level: 4
 system: "montage-et-peinture"
-order: 11
+order: 10
 status: "draft"
 duration: 45
 objectives:

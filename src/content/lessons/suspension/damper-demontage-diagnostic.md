@@ -1,8 +1,8 @@
 ---
-title: "Service d'amortisseur 1/3 : ouverture, diagnostic et état des joints"
+title: "Service d'amortisseur 1/3"
 level: 5
 system: "suspension"
-order: 4
+order: 3
 status: "draft"
 duration: 45
 objectives:

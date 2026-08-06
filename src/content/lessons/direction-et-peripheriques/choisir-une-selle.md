@@ -1,5 +1,5 @@
 ---
-title: "Choisir une selle : largeur d'ischions, forme et protocole d'essai"
+title: "Choisir une selle : ischions, forme, essai"
 level: 2
 system: "direction-et-peripheriques"
 order: 11

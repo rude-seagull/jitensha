@@ -2,7 +2,7 @@
 title: "Vernir au 2K : activation, application, durcissement"
 level: 4
 system: "montage-et-peinture"
-order: 12
+order: 11
 status: "draft"
 duration: 40
 objectives:

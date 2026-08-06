@@ -1,5 +1,5 @@
 ---
-title: "Réparer et entretenir un tubeless : mèches, patchs internes, préventif"
+title: "Réparer et entretenir un tubeless"
 level: 2
 system: "roues-et-pneus"
 order: 5

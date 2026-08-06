@@ -1,5 +1,5 @@
 ---
-title: "Science du pneu : carcasse, gomme, largeur réelle et choix par usage"
+title: "Science du pneu : carcasse, gomme, largeur"
 level: 3
 system: "roues-et-pneus"
 order: 8

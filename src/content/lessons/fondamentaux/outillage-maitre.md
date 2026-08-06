@@ -1,5 +1,5 @@
 ---
-title: "T'équiper niveau 5 : concevoir l'atelier complet, du passionné au pro"
+title: "T'équiper niveau 5"
 level: 5
 system: "fondamentaux"
 order: 1

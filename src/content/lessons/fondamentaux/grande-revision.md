@@ -1,8 +1,8 @@
 ---
-title: "La grande révision : remettre à neuf un vélo complet de A à Z"
+title: "La grande révision"
 level: 4
 system: "fondamentaux"
-order: 6
+order: 5
 status: "draft"
 duration: 45
 objectives:

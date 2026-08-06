@@ -1,5 +1,5 @@
 ---
-title: "Périphériques électriques : coupure au frein, éclairage et port USB"
+title: "Périphériques électriques"
 level: 2
 system: "vae"
 order: 3

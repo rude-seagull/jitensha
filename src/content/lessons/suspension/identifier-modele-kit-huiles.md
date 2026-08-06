@@ -1,5 +1,5 @@
 ---
-title: "Identifier sa suspension : numéro de série, kit joints et tableau d'huiles"
+title: "Identifier sa suspension"
 level: 3
 system: "suspension"
 order: 1

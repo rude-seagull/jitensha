@@ -1,8 +1,8 @@
 ---
-title: "Service d'amortisseur 3/3 : recharge gaz, remontage et validation"
+title: "Service d'amortisseur 3/3"
 level: 5
 system: "suspension"
-order: 3
+order: 5
 status: "draft"
 duration: 40
 objectives:

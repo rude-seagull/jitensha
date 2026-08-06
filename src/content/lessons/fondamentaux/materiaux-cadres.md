@@ -1,5 +1,5 @@
 ---
-title: "Acier, alu, carbone, titane : reconnaître et respecter chaque matériau"
+title: "Acier, alu, carbone, titane"
 level: 2
 system: "fondamentaux"
 order: 10

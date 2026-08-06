@@ -1,5 +1,5 @@
 ---
-title: "Extraire une tige de selle grippée sans sacrifier le cadre"
+title: "Extraire une tige de selle grippée"
 level: 3
 system: "direction-et-peripheriques"
 order: 5

@@ -1,5 +1,5 @@
 ---
-title: "Pédales automatiques : SPD, Look, Time, SPD-SL et plates à broches"
+title: "Pédales automatiques"
 level: 2
 system: "transmission"
 order: 12

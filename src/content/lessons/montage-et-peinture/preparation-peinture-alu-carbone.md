@@ -2,7 +2,7 @@
 title: "Préparer un cadre alu ou carbone pour la peinture"
 level: 4
 system: "montage-et-peinture"
-order: 8
+order: 5
 status: "draft"
 duration: 40
 objectives:

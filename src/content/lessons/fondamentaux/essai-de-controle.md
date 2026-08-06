@@ -1,8 +1,8 @@
 ---
-title: "L'essai de contrôle : valider une intervention en roulant"
+title: "L'essai de contrôle"
 level: 2
 system: "fondamentaux"
-order: 13
+order: 16
 status: "draft"
 duration: 30
 objectives:

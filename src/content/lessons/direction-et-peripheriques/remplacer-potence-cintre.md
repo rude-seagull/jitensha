@@ -1,5 +1,5 @@
 ---
-title: "Remplacer potence et cintre : diamètres, couples et croisement de serrage"
+title: "Remplacer potence et cintre"
 level: 2
 system: "direction-et-peripheriques"
 order: 2

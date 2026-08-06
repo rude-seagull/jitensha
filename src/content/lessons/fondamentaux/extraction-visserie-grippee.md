@@ -1,5 +1,5 @@
 ---
-title: "Vis grippées, arrondies, cassées : les libérer sans casse"
+title: "Vis grippées, arrondies, cassées"
 level: 3
 system: "fondamentaux"
 order: 6

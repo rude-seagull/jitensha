@@ -2,7 +2,7 @@
 import { getCollection } from 'astro:content';
 import BaseLayout from '../../layouts/BaseLayout.astro';
 import Breadcrumb from '../../components/Breadcrumb.astro';
-import LessonCard from '../../components/LessonCard.astro';
+import LessonPath from '../../components/LessonPath.astro';
 import ProgressBar from '../../components/ProgressBar.astro';
 import { SYSTEMS } from '../../content.config';
 import { groupByLevel, levelMeta, levelUrl, SYSTEM_META, totalHours } from '../../lib/curriculum';
@@ -50,11 +50,11 @@ const ids = lessons.map((lesson) => lesson.id);
             </h2>
             <span class="level-group__count">{group.lessons.length} leçons</span>
           </div>
-          <div class="grid">
-            {group.lessons.map((lesson) => (
-              <LessonCard lesson={lesson} />
-            ))}
-          </div>
+          {/* Same ordered sequence as on the level page — one rendering, not two. */}
+          <LessonPath
+            lessons={group.lessons}
+            label={`${meta.label} — niveau ${group.level}`}
+          />
         </section>
       ))
     }
@@ -120,10 +120,4 @@ const ids = lessons.map((lesson) => lesson.id);
     white-space: nowrap;
   }
 
-  .grid {
-    margin-top: var(--space-4);
-    display: grid;
-    gap: var(--space-3);
-    grid-template-columns: repeat(auto-fill, minmax(min(100%, 20rem), 1fr));
-  }
 </style>

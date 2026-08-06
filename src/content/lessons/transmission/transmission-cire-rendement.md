@@ -1,5 +1,5 @@
 ---
-title: "Transmission haut rendement : cirage en immersion et protocole d'atelier"
+title: "Transmission haut rendement"
 level: 5
 system: "transmission"
 order: 2

@@ -1,5 +1,5 @@
 ---
-title: "Contrôler et redresser une patte de dérailleur au comparateur (DAG)"
+title: "Redresser une patte de dérailleur au DAG"
 level: 3
 system: "montage-et-peinture"
 order: 1

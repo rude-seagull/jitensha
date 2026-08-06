@@ -1,5 +1,5 @@
 ---
-title: "Éclairage et visibilité : choisir, poser, régler le faisceau"
+title: "Éclairage et visibilité"
 level: 2
 system: "direction-et-peripheriques"
 order: 12

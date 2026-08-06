@@ -1,5 +1,5 @@
 ---
-title: "Jeu de direction fileté : réglage aux contre-écrous et entretien (ville et vintage)"
+title: "Jeu de direction fileté"
 level: 3
 system: "direction-et-peripheriques"
 order: 3

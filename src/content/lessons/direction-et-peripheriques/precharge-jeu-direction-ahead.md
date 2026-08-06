@@ -1,5 +1,5 @@
 ---
-title: "Jeu de direction ahead : détecter le jeu et régler la précharge"
+title: "Jeu de direction ahead"
 level: 2
 system: "direction-et-peripheriques"
 order: 1

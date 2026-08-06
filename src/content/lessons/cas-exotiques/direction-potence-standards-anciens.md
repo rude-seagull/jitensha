@@ -1,5 +1,5 @@
 ---
-title: "Directions et potences anciennes : français, Raleigh 26 TPI, 1 pouce"
+title: "Directions et potences anciennes"
 level: 4
 system: "cas-exotiques"
 order: 2

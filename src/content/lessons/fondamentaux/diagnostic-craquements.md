@@ -1,5 +1,5 @@
 ---
-title: "Diagnostiquer un craquement : la méthode d'élimination"
+title: "Diagnostiquer un craquement"
 level: 4
 system: "fondamentaux"
 order: 4

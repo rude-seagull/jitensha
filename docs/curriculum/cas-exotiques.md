@@ -106,7 +106,7 @@ Critères de validation :
 
 - **Durée :** 30 min
 - **Prérequis :**
-  - [Couple, tension, frottement : pourquoi un boulon tient](fondamentaux.md) `couple-tension-frottement`
+  - [Couple, tension, frottement](fondamentaux.md) `couple-tension-frottement`
   - [Contrôle de sécurité d'un vélo ancien](#controle-securite-velo-ancien) `controle-securite-velo-ancien`
 - **Outils :** Clés Allen 6 mm, Clé dynamométrique 2-25 N·m, Maillet plastique, Graisse, Mètre ruban, Dégrippant
 - **⚠️ Sécurité :**
@@ -136,7 +136,7 @@ Critères de validation :
 - video — RJ The Bike Guy : débloquer une potence plongeur grippée
 - article — Bike Gremlin : standards de potences et diamètres de plongeurs
 
-### 2. Dimensions de pneus et jantes vintage : décoder le chaos `pneus-jantes-vintage-dimensions`
+### 2. Dimensions de pneus et jantes vintage `pneus-jantes-vintage-dimensions`
 
 - **Durée :** 30 min
 - **Prérequis :**
@@ -164,7 +164,7 @@ Critères de validation :
 - article — Park Tool : dimensionnement pneus et jantes
 - article — Bike Gremlin : dimensions de pneus vélo expliquées
 
-### 3. Roue libre vissée : identifier l'extracteur et déposer sans casse `roue-libre-identification-depose`
+### 3. Roue libre vissée : extracteur et dépose `roue-libre-identification-depose`
 
 - **Durée :** 30 min
 - **Prérequis :**
@@ -197,7 +197,7 @@ Critères de validation :
 - video — RJ The Bike Guy : déposer une roue libre avec et sans étau
 - doc — Park Tool : identification des outils de roue libre FR-1 à FR-8
 
-### 4. Pignon fixe : ratio, développement, skid patches et cadre légal `fixie-ratio-skid-legalite`
+### 4. Pignon fixe : ratio, skid patches, cadre légal `fixie-ratio-skid-legalite`
 
 - **Durée :** 25 min
 - **Prérequis :**
@@ -228,7 +228,7 @@ Critères de validation :
 - video — GCN : rouler en pignon fixe : technique et sécurité
 - article — Weelz : réglementation vélo en France : freins et équipements obligatoires
 
-### 5. Tension de chaîne sur pattes horizontales : la méthode propre `fixie-tension-chaine`
+### 5. Tension de chaîne sur pattes horizontales `fixie-tension-chaine`
 
 - **Durée :** 30 min
 - **Prérequis :**
@@ -260,7 +260,7 @@ Critères de validation :
 - video — Park Tool : réglage de chaîne singlespeed
 - doc — Surly : utilisation des pattes horizontales et tendeurs
 
-### 6. Vélo pliant : plier, déplier et contrôler sans rien casser `pliant-plier-controler`
+### 6. Vélo pliant : plier, déplier, contrôler `pliant-plier-controler`
 
 - **Durée :** 25 min
 - **Prérequis :**
@@ -321,11 +321,11 @@ Critères de validation :
 - article — Sheldon Brown : systèmes d'éclairage dynamo : câblage et masse
 - article — Bikepacking.com : installer un éclairage dynamo pour la longue distance
 
-### 8. Réparer en pleine cambrousse : la trousse et les gestes bikepacking `bikepacking-trousse-terrain`
+### 8. Réparer en pleine cambrousse `bikepacking-trousse-terrain`
 
 - **Durée :** 35 min
 - **Prérequis :**
-  - [Talonnage, préventif et inserts : finaliser un montage tubeless](roues-et-pneus.md) `talonnage-tubeless-et-inserts`
+  - [Talonnage, préventif et inserts](roues-et-pneus.md) `talonnage-tubeless-et-inserts`
   - [Mesurer l'usure d'une chaîne](transmission.md) `usure-chaine-mesure-jauge`
 - **Outils :** Multi-outil avec dérive-chaîne, Kit mèches tubeless, Maillons rapides (au bon nombre de vitesses), Boot de pneu (ou billet plié), Mini-pompe ou cartouches CO2, Chambre de secours
 - **⚠️ Sécurité :**
@@ -406,13 +406,13 @@ Critères de validation :
 
 ## Niveau 3 — Avancé
 
-### 1. Manivelles à clavettes : dépose et repose dans les règles `manivelles-clavettes-service`
+### 1. Manivelles à clavettes `manivelles-clavettes-service`
 
 - **Durée :** 40 min
 - **Prérequis :**
   - [Anatomie d'un vélo vintage](#anatomie-velo-vintage) `anatomie-velo-vintage`
   - [Anatomie du vélo : nomme chaque pièce](fondamentaux.md) `anatomie-velo`
-  - [Révision complète d'un moyeu à cônes : démontage, graissage, remontage](roues-et-pneus.md) `revision-moyeu-cones-billes`
+  - [Révision complète d'un moyeu à cônes](roues-et-pneus.md) `revision-moyeu-cones-billes`
 - **Outils :** Presse à clavettes (ou chasse-goupille + support massif), Maillet, Lime plate fine, Clé plate 9-10 mm, Graisse, Lunettes de protection, Clavettes neuves 9 ou 9,5 mm
 - **⚠️ Sécurité :**
   - Ne chasse jamais une clavette au marteau sans soutenir fermement la manivelle par en dessous (support massif ou étau) : les chocs se transmettent aux billes du boîtier et les marquent définitivement.
@@ -441,7 +441,7 @@ Critères de validation :
 - article — Park Tool : entretien des pédaliers anciens à axe carré et à clavettes
 - article — Tonton Vélo : retours d'expérience sur le remplacement de clavettes
 
-### 2. Boîtiers à filetage français, italien et suisse : identifier et réviser `boitier-filetages-francais-italien`
+### 2. Boîtiers à filetage français, italien et suisse `boitier-filetages-francais-italien`
 
 - **Durée :** 40 min
 - **Prérequis :**
@@ -477,7 +477,7 @@ Critères de validation :
 
 - **Durée :** 30 min
 - **Prérequis :**
-  - [Diagnostiquer une transmission qui saute (méthode d'élimination)](transmission.md) `diagnostic-passage-defaillant`
+  - [Diagnostiquer une transmission qui saute](transmission.md) `diagnostic-passage-defaillant`
   - [Régler les butées H et L d'un dérailleur arrière](transmission.md) `derailleur-arriere-butees-h-l`
 - **Outils :** Tournevis plat, Clés Allen, Dégraissant, Graisse fine, Câble de dérailleur neuf, Pince coupe-câble
 
@@ -503,12 +503,12 @@ Critères de validation :
 - video — RJ The Bike Guy : démontage et révision de manettes downtube
 - article — Rivendell : plaidoyer et mode d'emploi de la friction
 
-### 4. Moyeu Sturmey-Archer 3 vitesses : réglage de la chaînette indicatrice `sturmey-archer-reglage`
+### 4. Moyeu Sturmey-Archer 3 vitesses `sturmey-archer-reglage`
 
 - **Durée :** 35 min
 - **Prérequis :**
   - [Régler un dérailleur avant](transmission.md) `derailleur-avant-reglage`
-  - [Tension de chaîne sur pattes horizontales : la méthode propre](#fixie-tension-chaine) `fixie-tension-chaine`
+  - [Tension de chaîne sur pattes horizontales](#fixie-tension-chaine) `fixie-tension-chaine`
 - **Outils :** Clés plates 15 mm et 13 mm, Huile fluide (type SAE 20/30), Chiffons, Lampe de poche
 - **⚠️ Sécurité :**
   - Un faux point mort (chaînette mal réglée) fait patiner le moyeu sous effort : la pédale part dans le vide d'un coup, genou dans le cintre et chute possible. Le test en charge après réglage est obligatoire.
@@ -535,12 +535,12 @@ Critères de validation :
 - video — RJ The Bike Guy : réglage et entretien d'un moyeu 3 vitesses ancien
 - article — Park Tool : réglage des moyeux à vitesses intégrées
 
-### 5. Moyeu piste : monter pignon et contre-écrou sans risquer ta peau `fixie-moyeu-piste`
+### 5. Moyeu piste : pignon et contre-écrou `fixie-moyeu-piste`
 
 - **Durée :** 30 min
 - **Prérequis :**
   - [Visserie : empreintes, filetages et pas inversés](fondamentaux.md) `empreintes-et-filetages`
-  - [Tension de chaîne sur pattes horizontales : la méthode propre](#fixie-tension-chaine) `fixie-tension-chaine`
+  - [Tension de chaîne sur pattes horizontales](#fixie-tension-chaine) `fixie-tension-chaine`
   - [Déposer et reposer une cassette](transmission.md) `cassette-depose-repose`
 - **Outils :** Fouet à chaîne, Clé à ergots pour contre-écrou de piste, Clé dynamométrique 10-60 N·m, Graisse, Feutre peinture
 - **⚠️ Sécurité :**
@@ -568,7 +568,7 @@ Critères de validation :
 - video — GCN : montage d'une transmission pignon fixe
 - doc — Surly : moyeux flip-flop : côtés fixe et roue libre
 
-### 6. Tandem : chaîne de synchronisation et boîtier excentrique `tandem-timing-excentrique`
+### 6. Tandem : chaîne de synchronisation `tandem-timing-excentrique`
 
 - **Durée :** 35 min
 - **Prérequis :**
@@ -599,11 +599,11 @@ Critères de validation :
 - article — Park Tool : particularités d'entretien des tandems
 - doc — Santana : documentation technique tandems : timing et phasage
 
-### 7. Biporteur : contrôler et régler la direction à tringlerie ou à câbles `cargo-direction-renvoi`
+### 7. Biporteur : direction à tringlerie ou câbles `cargo-direction-renvoi`
 
 - **Durée :** 35 min
 - **Prérequis :**
-  - [Jeu de direction ahead : détecter le jeu et régler la précharge](direction-et-peripheriques.md) `precharge-jeu-direction-ahead`
+  - [Jeu de direction ahead](direction-et-peripheriques.md) `precharge-jeu-direction-ahead`
   - [La clé dynamométrique : choisir, utiliser, préserver](fondamentaux.md) `cle-dynamometrique`
 - **Outils :** Clés Allen et plates, Clé dynamométrique 2-25 N·m, Frein filet moyen, Rapporteur d'angle ou application inclinomètre, Graisse
 - **⚠️ Sécurité :**
@@ -632,12 +632,12 @@ Critères de validation :
 - doc — Urban Arrow : manuel d'entretien : direction à câbles
 - doc — Babboe / Carqon : documentation technique direction à tringle de biporteur
 
-### 8. Câbles et durites très longs : freiner net sur cargo, longtail et tandem `cargo-tandem-cables-longs`
+### 8. Câbles et durites très longs `cargo-tandem-cables-longs`
 
 - **Durée :** 35 min
 - **Prérequis :**
   - [Remplacer câble et gaine de frein](freinage.md) `cable-gaine-frein-remplacement`
-  - [Câbles et gaines : matériaux, coupe parfaite et routage externe](direction-et-peripheriques.md) `cables-gaines-routage-externe`
+  - [Câbles et gaines : coupe et routage externe](direction-et-peripheriques.md) `cables-gaines-routage-externe`
 - **Outils :** Câble de frein tandem/cargo (2,5-3,5 m), Gaine de frein au mètre, Pince coupe-câble de qualité, Poinçon, Embouts de gaine et de câble, Lubrifiant PTFE pour câble
 - **⚠️ Sécurité :**
   - Sur un vélo chargé de 100 kg et plus, un frein arrière médiocre ne pardonne pas : le test de blocage de roue en charge fait partie de la procédure, pas de la garantie.
@@ -665,11 +665,11 @@ Critères de validation :
 - doc — Jagwire : gaines au mètre et kits tandem/cargo
 - doc — Thorn Cycles : freinage des tandems : choix techniques
 
-### 9. Vélo pliant : service des charnières et rattrapage de jeu `pliant-service-charnieres`
+### 9. Vélo pliant : service des charnières `pliant-service-charnieres`
 
 - **Durée :** 40 min
 - **Prérequis :**
-  - [Vélo pliant : plier, déplier et contrôler sans rien casser](#pliant-plier-controler) `pliant-plier-controler`
+  - [Vélo pliant : plier, déplier, contrôler](#pliant-plier-controler) `pliant-plier-controler`
   - [La clé dynamométrique : choisir, utiliser, préserver](fondamentaux.md) `cle-dynamometrique`
 - **Outils :** Clés Allen, Clé dynamométrique 2-25 N·m, Comparateur ou jeu de cales, Graisse, Dégraissant, Manuel constructeur du modèle
 - **⚠️ Sécurité :**
@@ -698,12 +698,12 @@ Critères de validation :
 - doc — Dahon : manuel de service des charnières de cadre
 - article — Park Tool : entretien des vélos pliants
 
-### 10. Bikepacking : monter porteurs, cages et sacoches sans ruiner le cadre `bikepacking-porteurs-fixations`
+### 10. Bikepacking : porteurs, cages et sacoches `bikepacking-porteurs-fixations`
 
 - **Durée :** 30 min
 - **Prérequis :**
   - [Étalonne ta main : pratique délibérée du couple](fondamentaux.md) `etalonnage-sensoriel-couple`
-  - [Porte-bagages : fixations, limites de charge et alternatives bikepacking](direction-et-peripheriques.md) `porte-bagages-charge`
+  - [Porte-bagages : fixations et limites de charge](direction-et-peripheriques.md) `porte-bagages-charge`
 - **Outils :** Clés Allen, Clé dynamométrique 2-14 N·m, Film de protection de cadre, Colliers de fixation (si pas d'inserts), Sangles, Balance
 - **⚠️ Sécurité :**
   - Sur une fourche carbone sans inserts, ne monte jamais de colliers serrés sans validation constructeur : l'écrasement local peut amorcer une rupture.
@@ -731,13 +731,13 @@ Critères de validation :
 - doc — Apidura : installation et protection du cadre
 - doc — Salsa Cycles : inserts de fourche et charges maximales
 
-### 11. Vélos couchés, tricycles et cycles adaptés : ce qui change mécaniquement `cycles-adaptes`
+### 11. Vélos couchés, tricycles et cycles adaptés `cycles-adaptes`
 
 - **Durée :** 45 min
 - **Prérequis :**
   - [Panorama des vélos atypiques](#panorama-velos-atypiques) `panorama-velos-atypiques`
-  - [Câbles et durites très longs : freiner net sur cargo, longtail et tandem](#cargo-tandem-cables-longs) `cargo-tandem-cables-longs`
-  - [Biporteur : contrôler et régler la direction à tringlerie ou à câbles](#cargo-direction-renvoi) `cargo-direction-renvoi`
+  - [Câbles et durites très longs](#cargo-tandem-cables-longs) `cargo-tandem-cables-longs`
+  - [Biporteur : direction à tringlerie ou câbles](#cargo-direction-renvoi) `cargo-direction-renvoi`
   - [Calculer la longueur de chaîne](transmission.md) `chaine-longueur-calcul`
   - [Régler un frein à disque mécanique](freinage.md) `frein-disque-mecanique-reglage`
 - **Outils :** Notices constructeur du cycle (couché, trike, handbike), Clés Allen et Torx, jeu de clés plates pour les contre-écrous de tringlerie, Clé dynamométrique, Comparateur à cadran et support magnétique, Règle longue et décamètre pour le pincement, Inclinomètre pour mesurer la pente d'essai, Jauge d'usure de chaîne et dérive-chaîne, Pince coupe-gaine de qualité et gaine compressionless, Câbles de très grande longueur et coupleurs si prévus, Graisse, lubrifiant chaîne et dégraissant, Lest ≥ 70 kg pour le test du frein de parking, Chronomètre, marqueur et appareil photo pour construire le schéma
@@ -782,13 +782,13 @@ Critères de validation :
 - outil — TerraCycle : Galets et renvois de chaîne pour vélos couchés : choix, montage et entretien des roulements
 - article — Fédération Française Handisport : Cycles adaptés et handbikes : familles de matériel et rôle du professionnel de santé dans le réglage
 
-### 12. Transporter des enfants et des charges : sièges, remorques, attelages `transport-enfants-charges`
+### 12. Transporter des enfants et des charges `transport-enfants-charges`
 
 - **Durée :** 45 min
 - **Prérequis :**
   - [Vélos d'enfants : dimensionner, régler, sécuriser](#velos-enfants) `velos-enfants`
-  - [Porte-bagages : fixations, limites de charge et alternatives bikepacking](direction-et-peripheriques.md) `porte-bagages-charge`
-  - [Standards d'axes et d'entraxes : identifier ce que ton cadre accepte](roues-et-pneus.md) `standards-axes-roues`
+  - [Porte-bagages : fixations et limites de charge](direction-et-peripheriques.md) `porte-bagages-charge`
+  - [Standards d'axes et d'entraxes](roues-et-pneus.md) `standards-axes-roues`
   - [La clé dynamométrique : choisir, utiliser, préserver](fondamentaux.md) `cle-dynamometrique`
   - [Le M-check : contrôle de sécurité en 8 minutes](fondamentaux.md) `m-check`
 - **Outils :** Siège enfant avec sa notice, Remorque avec son attelage et sa notice, Adaptateurs d'attelage pour axe traversant (pas et longueur adaptés), Clés Allen et Torx, Clé dynamométrique, Lest pesé : sacs de sable ou bidons d'eau, Balance ou pèse-bagage, Décamètre et craie pour les distances d'arrêt, Chronomètre ou compteur GPS, Marqueur indélébile pour repérer chaque serrage, Sangle de sécurité de remorque, Pompe à manomètre, Inclinomètre (ou application niveau) pour la pente latérale
@@ -835,13 +835,13 @@ Critères de validation :
 
 ## Niveau 4 — Expert
 
-### 1. La méthode des pièces mystères : identifier n'importe quel standard `methode-identification-standards`
+### 1. La méthode des pièces mystères `methode-identification-standards`
 
 - **Durée :** 45 min
 - **Prérequis :**
   - [Mesurer et décoder : pied à coulisse et marquages](fondamentaux.md) `pied-a-coulisse-et-marquages`
-  - [Boîtiers à filetage français, italien et suisse : identifier et réviser](#boitier-filetages-francais-italien) `boitier-filetages-francais-italien`
-  - [La carte d'identité d'un cadre : décoder tous ses standards](fondamentaux.md) `carte-identite-cadre`
+  - [Boîtiers à filetage français, italien et suisse](#boitier-filetages-francais-italien) `boitier-filetages-francais-italien`
+  - [La carte d'identité d'un cadre](fondamentaux.md) `carte-identite-cadre`
 - **Outils :** Pied à coulisse numérique 0,01 mm, Peigne à filets métrique et impérial, Micromètre (optionnel), Tables de standards imprimées, Carnet d'atelier
 
 **Objectifs :**
@@ -867,12 +867,12 @@ Critères de validation :
 - doc — Velo Orange : cales et adaptateurs pour standards anciens
 - doc — Problem Solvers : catalogue d'adaptateurs entre standards
 
-### 2. Directions et potences anciennes : français, Raleigh 26 TPI, 1 pouce `direction-potence-standards-anciens`
+### 2. Directions et potences anciennes `direction-potence-standards-anciens`
 
 - **Durée :** 35 min
 - **Prérequis :**
-  - [Jeu de direction fileté : réglage aux contre-écrous et entretien (ville et vintage)](direction-et-peripheriques.md) `jeu-direction-filete`
-  - [La méthode des pièces mystères : identifier n'importe quel standard](#methode-identification-standards) `methode-identification-standards`
+  - [Jeu de direction fileté](direction-et-peripheriques.md) `jeu-direction-filete`
+  - [La méthode des pièces mystères](#methode-identification-standards) `methode-identification-standards`
 - **Outils :** Pied à coulisse numérique, Peigne à filets impérial et métrique, Tables de standards de direction, Carnet d'atelier
 - **⚠️ Sécurité :**
   - Une potence de 22,2 mm forcée dans un pivot français de 22,0 mm fissure le pivot ; l'inverse (22,0 dans 22,2) laisse un jeu qui matera le plongeur. Mesure avant tout montage.
@@ -899,11 +899,11 @@ Critères de validation :
 - article — Tonton Vélo : restauration de directions sur vélos français anciens
 - article — Bike Gremlin : dimensions des jeux de direction filetés
 
-### 3. Conversions de taille de roue : 27 pouces vers 700C, 700C vers 650B `conversion-650b-700c`
+### 3. Conversions de taille de roue `conversion-650b-700c`
 
 - **Durée :** 40 min
 - **Prérequis :**
-  - [Dimensions de pneus et jantes vintage : décoder le chaos](#pneus-jantes-vintage-dimensions) `pneus-jantes-vintage-dimensions`
+  - [Dimensions de pneus et jantes vintage](#pneus-jantes-vintage-dimensions) `pneus-jantes-vintage-dimensions`
   - [Réglage express d'un frein sur jante](freinage.md) `reglage-express-frein-jante`
 - **Outils :** Pied à coulisse, Réglet, Mètre ruban, Roues de prêt au nouveau diamètre (idéalement), Carnet d'atelier
 - **⚠️ Sécurité :**
@@ -931,11 +931,11 @@ Critères de validation :
 - doc — Velo Orange : étriers longue portée pour conversions
 - article — Bike Gremlin : interchangeabilité des tailles de roues
 
-### 4. Entretien interne d'une roue libre : cliquets, billes et relubrification `roue-libre-entretien-interne`
+### 4. Entretien interne d'une roue libre `roue-libre-entretien-interne`
 
 - **Durée :** 40 min
 - **Prérequis :**
-  - [Roue libre vissée : identifier l'extracteur et déposer sans casse](#roue-libre-identification-depose) `roue-libre-identification-depose`
+  - [Roue libre vissée : extracteur et dépose](#roue-libre-identification-depose) `roue-libre-identification-depose`
   - [Régler le jeu d'un moyeu à cônes et billes](roues-et-pneus.md) `reglage-cones-moyeu`
 - **Outils :** Clé à ergots ou poinçon (plaque de fermeture), Huile fluide et graisse légère, Bac magnétique, Pinceau et dégraissant, Chiffons, Loupe
 
@@ -962,12 +962,12 @@ Critères de validation :
 - article — Park Tool : entretien des mécanismes de roue libre et cliquets
 - article — Tonton Vélo : révision de roues libres anciennes (Atom, Maillard, Regina)
 
-### 5. Freiner un tandem : frein de ralentissement et gestion de la chaleur `tandem-freinage-specifique`
+### 5. Freiner un tandem : ralentisseur et chaleur `tandem-freinage-specifique`
 
 - **Durée :** 40 min
 - **Prérequis :**
   - [Inspecter les freins et mesurer l'usure](freinage.md) `inspection-freins-usure`
-  - [Câbles et durites très longs : freiner net sur cargo, longtail et tandem](#cargo-tandem-cables-longs) `cargo-tandem-cables-longs`
+  - [Câbles et durites très longs](#cargo-tandem-cables-longs) `cargo-tandem-cables-longs`
 - **Outils :** Clés Allen et plates, Clé dynamométrique, Thermomètre infrarouge, Manette à friction pour commande dédiée, Câblerie longue
 - **⚠️ Sécurité :**
   - Sur un tandem chargé en longue descente, une jante qui dépasse la température critique fait éclater la chambre : c'est la raison d'être du frein de ralentissement. Ne pars jamais en montagne en tandem avec deux freins sur jante seuls.
@@ -1028,13 +1028,13 @@ Critères de validation :
 
 ## Niveau 5 — Maître
 
-### 1. Cintrage à froid d'un cadre acier : élargir l'arrière de 120 à 130 mm `cintrage-froid-cadre-acier`
+### 1. Cintrage à froid d'un cadre acier `cintrage-froid-cadre-acier`
 
 - **Durée :** 45 min
 - **Prérequis :**
-  - [Graisse, pâte carbone, frein-filet, antiseize : quoi, où, pourquoi](fondamentaux.md) `pates-assemblage`
-  - [Contrôler et redresser une patte de dérailleur au comparateur (DAG)](montage-et-peinture.md) `alignement-patte-dag`
-  - [Conversions de taille de roue : 27 pouces vers 700C, 700C vers 650B](#conversion-650b-700c) `conversion-650b-700c`
+  - [Graisse, pâte carbone, frein-filet, antiseize](fondamentaux.md) `pates-assemblage`
+  - [Redresser une patte de dérailleur au DAG](montage-et-peinture.md) `alignement-patte-dag`
+  - [Conversions de taille de roue](#conversion-650b-700c) `conversion-650b-700c`
 - **Outils :** Ficelle fine, Réglet et pied à coulisse, Barre de levier (tube ou outil dédié), Outils d'alignement de pattes (ou grandes clés plates ajustées), Mètre ruban, Feutre
 - **⚠️ Sécurité :**
   - Le cintrage à froid ne s'applique QU'À l'acier. Un cadre aluminium ou carbone cintré à froid casse — immédiatement ou, pire, plus tard en roulant. En cas de doute sur le matériau, abstiens-toi.
@@ -1067,9 +1067,9 @@ Critères de validation :
 
 - **Durée :** 45 min
 - **Prérequis :**
-  - [La méthode des pièces mystères : identifier n'importe quel standard](#methode-identification-standards) `methode-identification-standards`
+  - [La méthode des pièces mystères](#methode-identification-standards) `methode-identification-standards`
   - Avoir révisé boîtier exotique, roue libre et direction ancienne (leçons niveau 3-4 du système) *(cas-exotiques)*
-  - [Retoucher la peinture d'un cadre : éclats, rayures, points de rouille](montage-et-peinture.md) `retouche-peinture-cadre`
+  - [Retoucher la peinture d'un cadre](montage-et-peinture.md) `retouche-peinture-cadre`
 - **Outils :** Pied à coulisse, Appareil photo, Balance, Jauge d'usure de chaîne, Tableur ou carnet d'atelier, Étiquettes et sachets zip
 
 **Objectifs :**
@@ -1096,12 +1096,12 @@ Critères de validation :
 - article — The Radavist : portfolios de restaurations et choix esthétiques
 - video — RJ The Bike Guy : restaurations complètes filmées étape par étape
 
-### 3. Projet néo-rétro : moderniser un cadre ancien sans faute de compatibilité `neo-retro-conversion-projet`
+### 3. Projet néo-rétro : moderniser un cadre ancien `neo-retro-conversion-projet`
 
 - **Durée :** 45 min
 - **Prérequis :**
-  - [Cintrage à froid d'un cadre acier : élargir l'arrière de 120 à 130 mm](#cintrage-froid-cadre-acier) `cintrage-froid-cadre-acier`
-  - [Conversions de taille de roue : 27 pouces vers 700C, 700C vers 650B](#conversion-650b-700c) `conversion-650b-700c`
+  - [Cintrage à froid d'un cadre acier](#cintrage-froid-cadre-acier) `cintrage-froid-cadre-acier`
+  - [Conversions de taille de roue](#conversion-650b-700c) `conversion-650b-700c`
   - [Utiliser ses vitesses : cadence et croisement](transmission.md) `utiliser-vitesses-cadence-croisement`
   - [Planifier un montage complet : la gamme d'assemblage](montage-et-peinture.md) `ordre-montage-cadre-nu`
 - **Outils :** Pied à coulisse, Tableur, Tables de compatibilité, Carnet d'atelier

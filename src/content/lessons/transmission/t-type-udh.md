@@ -1,5 +1,5 @@
 ---
-title: "SRAM Eagle Transmission T-Type sur UDH : montage et calibration"
+title: "SRAM Eagle Transmission T-Type sur UDH"
 level: 4
 system: "transmission"
 order: 6

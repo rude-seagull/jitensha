@@ -1,5 +1,5 @@
 ---
-title: "Manivelles à clavettes : dépose et repose dans les règles"
+title: "Manivelles à clavettes"
 level: 3
 system: "cas-exotiques"
 order: 1

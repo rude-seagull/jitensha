@@ -1,5 +1,5 @@
 ---
-title: "Tarauder et surfacer un boîtier de pédalier fileté (BSA, ITA, T47)"
+title: "Tarauder et surfacer un boîtier fileté"
 level: 5
 system: "montage-et-peinture"
 order: 1

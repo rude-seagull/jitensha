@@ -130,7 +130,7 @@ Critères de validation :
 
 ## Niveau 2 — Intermédiaire
 
-### 1. Jeu de direction ahead : détecter le jeu et régler la précharge `precharge-jeu-direction-ahead`
+### 1. Jeu de direction ahead `precharge-jeu-direction-ahead`
 
 - **Durée :** 30 min
 - **Prérequis :**
@@ -164,13 +164,13 @@ Critères de validation :
 - doc — Cane Creek : principe de fonctionnement et réglage d'un jeu de direction
 - video — GCN : détecter et supprimer le jeu dans la direction
 
-### 2. Remplacer potence et cintre : diamètres, couples et croisement de serrage `remplacer-potence-cintre`
+### 2. Remplacer potence et cintre `remplacer-potence-cintre`
 
 - **Durée :** 45 min
 - **Prérequis :**
   - [La clé dynamométrique : choisir, utiliser, préserver](fondamentaux.md) `cle-dynamometrique`
   - [Mesurer et décoder : pied à coulisse et marquages](fondamentaux.md) `pied-a-coulisse-et-marquages`
-  - [Jeu de direction ahead : détecter le jeu et régler la précharge](#precharge-jeu-direction-ahead) `precharge-jeu-direction-ahead`
+  - [Jeu de direction ahead](#precharge-jeu-direction-ahead) `precharge-jeu-direction-ahead`
 - **Outils :** clés Allen 4/5 mm, clé Torx T25, clé dynamométrique 2-14 N·m, pied à coulisse, pâte carbone, graisse
 - **⚠️ Sécurité :**
   - Cintre ou potence carbone : jamais de serrage au-delà du couple marqué, jamais de graisse sur les zones de serrage — pâte carbone uniquement.
@@ -229,7 +229,7 @@ Critères de validation :
 - doc — Lizard Skins : instructions de pose de guidoline
 - video — Alltricks : tutoriel guidoline en français
 
-### 4. Câbles et gaines : matériaux, coupe parfaite et routage externe `cables-gaines-routage-externe`
+### 4. Câbles et gaines : coupe et routage externe `cables-gaines-routage-externe`
 
 - **Durée :** 45 min
 - **Prérequis :**
@@ -261,7 +261,7 @@ Critères de validation :
 - doc — Shimano : spécifications gaines et câbles (SP41, embouts)
 - article — Bike Gremlin : câbles et gaines de vélo expliqués
 
-### 5. Tige de selle : mesurer, graisser ou pâter, prévenir le grippage `entretien-tige-selle`
+### 5. Tige de selle : graisser et prévenir le grippage `entretien-tige-selle`
 
 - **Durée :** 30 min
 - **Prérequis :**
@@ -295,12 +295,12 @@ Critères de validation :
 - article — Bike Gremlin : graisse, pâte carbone et antiseize : quand utiliser quoi
 - doc — FSA : consignes de montage des tiges carbone
 
-### 6. Position de selle chiffrée : hauteur (LeMond, Holmes) et recul (KOPS) `position-selle-methodes`
+### 6. Position de selle chiffrée `position-selle-methodes`
 
 - **Durée :** 45 min
 - **Prérequis :**
   - [Régler sa selle : hauteur, assiette, serrage](#reglages-selle-essentiels) `reglages-selle-essentiels`
-  - [Tige de selle : mesurer, graisser ou pâter, prévenir le grippage](#entretien-tige-selle) `entretien-tige-selle`
+  - [Tige de selle : graisser et prévenir le grippage](#entretien-tige-selle) `entretien-tige-selle`
 - **Outils :** mètre ruban, grand livre ou niveau pour l'entrejambe, fil à plomb, application goniomètre/inclinomètre ou goniomètre, pied d'atelier ou home-trainer
 
 **Objectifs :**
@@ -326,7 +326,7 @@ Critères de validation :
 - article — BikeFit : principes du positionnement selle et genou
 - doc — Cytech Theory One : module fitting : position de base
 
-### 7. Régler ses cales : position, angle et tension de déchaussage `regler-cales-chaussures`
+### 7. Régler ses cales : position, angle, tension `regler-cales-chaussures`
 
 - **Durée :** 30 min
 - **Prérequis :**
@@ -358,7 +358,7 @@ Critères de validation :
 - doc — Look : réglage des cales Keo (mémoire de position, float)
 - video — GCN : régler ses cales correctement
 
-### 8. Garde-boue fixes, clipsables et béquilles : monter sans frottement ni danger `garde-boue-bequille`
+### 8. Garde-boue fixes, clipsables et béquilles `garde-boue-bequille`
 
 - **Durée :** 40 min
 - **Prérequis :**
@@ -392,12 +392,12 @@ Critères de validation :
 - article — Citycle : équiper son vélo de ville : garde-boue et béquille
 - doc — Gilles Berthoud : montage de garde-boue inox à tringles
 
-### 9. Porte-bagages : fixations, limites de charge et alternatives bikepacking `porte-bagages-charge`
+### 9. Porte-bagages : fixations et limites de charge `porte-bagages-charge`
 
 - **Durée :** 35 min
 - **Prérequis :**
   - [La clé dynamométrique : choisir, utiliser, préserver](fondamentaux.md) `cle-dynamometrique`
-  - [Garde-boue fixes, clipsables et béquilles : monter sans frottement ni danger](#garde-boue-bequille) `garde-boue-bequille`
+  - [Garde-boue fixes, clipsables et béquilles](#garde-boue-bequille) `garde-boue-bequille`
 - **Outils :** clés Allen 4/5 mm, clé dynamométrique, niveau, frein-filet faible, entretoises et colliers adaptateurs
 - **⚠️ Sécurité :**
   - Respecte la charge maximale du porte-bagages ET du cadre : une rupture à pleine charge déstabilise brutalement le vélo, surtout à l'avant.
@@ -433,7 +433,7 @@ Critères de validation :
   - [Anatomie du vélo : nomme chaque pièce](fondamentaux.md) `anatomie-velo`
   - [Le carnet d'atelier et la pratique délibérée](fondamentaux.md) `carnet-atelier`
   - [Visserie : empreintes, filetages et pas inversés](fondamentaux.md) `empreintes-et-filetages`
-  - [Déposer et reposer une batterie : verrous, rails et packs intégrés](vae.md) `vae-depose-repose-batterie`
+  - [Déposer et reposer une batterie](vae.md) `vae-depose-repose-batterie`
 - **Outils :** Antivol(s) certifié(s) : U, chaîne, pliant, Ancrage mural ou de sol pour le stationnement au domicile, Clés Allen et Torx, Axes et écrous sécurisés (type Pitlock, Hexlox ou équivalent), Collier de selle boulonné en remplacement d'un blocage rapide, Smartphone pour les photos d'audit et le dossier d'identification, Lampe pour relever un numéro de série sous la boîte de pédalier, Kit de marquage agréé ou rendez-vous chez un opérateur habilité, Chronomètre, Carnet d'atelier, facture d'achat, contrat d'assurance
 - **⚠️ Sécurité :**
   - Ne laisse jamais un antivol, un câble ou une chaîne pendre près des rayons ou de la fourche pendant que tu roules : engagé dans la roue avant, il bloque le vélo net et t'envoie par-dessus le cintre.
@@ -472,13 +472,13 @@ Critères de validation :
 - article — Sheldon Brown : Stratégies de cadenassage, points d'ancrage et sécurisation des composants
 - doc — Bosch eBike Systems : eBike Lock et verrouillage électronique de l'assistance
 
-### 11. Choisir une selle : largeur d'ischions, forme et protocole d'essai `choisir-une-selle`
+### 11. Choisir une selle : ischions, forme, essai `choisir-une-selle`
 
 - **Durée :** 40 min
 - **Prérequis :**
   - [Régler sa selle : hauteur, assiette, serrage](#reglages-selle-essentiels) `reglages-selle-essentiels`
-  - [Position de selle chiffrée : hauteur (LeMond, Holmes) et recul (KOPS)](#position-selle-methodes) `position-selle-methodes`
-  - [Tige de selle : mesurer, graisser ou pâter, prévenir le grippage](#entretien-tige-selle) `entretien-tige-selle`
+  - [Position de selle chiffrée](#position-selle-methodes) `position-selle-methodes`
+  - [Tige de selle : graisser et prévenir le grippage](#entretien-tige-selle) `entretien-tige-selle`
   - [La clé dynamométrique : choisir, utiliser, préserver](fondamentaux.md) `cle-dynamometrique`
 - **Outils :** Carton ondulé (cannelures visibles) ou banc de mesure d'ischions, Marche ou tabouret dur pour l'assise de mesure, Pied à coulisse et réglet, Niveau numérique au dixième de degré, Clés Allen et clé dynamométrique, Marqueur et ruban de repère, Deux selles candidates et une tige de selle compatible, Cuissard de référence, toujours le même, Pompe à manomètre pour reproduire les pressions, Carnet de suivi ou fiche d'essai imprimée
 - **⚠️ Sécurité :**
@@ -515,7 +515,7 @@ Critères de validation :
 - livre — Phil Burt : Bike Fit (chapitres sur l'interface selle-périnée et le choix de selle)
 - doc — Fizik : Classification des formes de selle par souplesse et morphologie (Spine Concept)
 
-### 12. Éclairage et visibilité : choisir, poser, régler le faisceau `eclairage-visibilite`
+### 12. Éclairage et visibilité `eclairage-visibilite`
 
 - **Durée :** 35 min
 - **Prérequis :**
@@ -562,13 +562,13 @@ Critères de validation :
 
 ## Niveau 3 — Avancé
 
-### 1. Identifier un jeu de direction : le code SHIS au pied à coulisse `identifier-jeu-direction-shis`
+### 1. Identifier un jeu de direction `identifier-jeu-direction-shis`
 
 - **Durée :** 35 min
 - **Prérequis :**
   - [Mesurer et décoder : pied à coulisse et marquages](fondamentaux.md) `pied-a-coulisse-et-marquages`
-  - [La carte d'identité d'un cadre : décoder tous ses standards](fondamentaux.md) `carte-identite-cadre`
-  - [Jeu de direction ahead : détecter le jeu et régler la précharge](#precharge-jeu-direction-ahead) `precharge-jeu-direction-ahead`
+  - [La carte d'identité d'un cadre](fondamentaux.md) `carte-identite-cadre`
+  - [Jeu de direction ahead](#precharge-jeu-direction-ahead) `precharge-jeu-direction-ahead`
 - **Outils :** pied à coulisse numérique, lampe d'inspection, fiches SHIS (tableau de référence), chiffon
 
 **Objectifs :**
@@ -594,12 +594,12 @@ Critères de validation :
 - article — Bike Gremlin : standards de jeux de direction expliqués
 - video — Park Tool : identifier son type de jeu de direction
 
-### 2. Réviser un jeu de direction ahead : dépose de fourche, roulements, graissage `revision-jeu-direction-ahead`
+### 2. Réviser un jeu de direction ahead `revision-jeu-direction-ahead`
 
 - **Durée :** 40 min
 - **Prérequis :**
-  - [Jeu de direction ahead : détecter le jeu et régler la précharge](#precharge-jeu-direction-ahead) `precharge-jeu-direction-ahead`
-  - [Identifier un jeu de direction : le code SHIS au pied à coulisse](#identifier-jeu-direction-shis) `identifier-jeu-direction-shis`
+  - [Jeu de direction ahead](#precharge-jeu-direction-ahead) `precharge-jeu-direction-ahead`
+  - [Identifier un jeu de direction](#identifier-jeu-direction-shis) `identifier-jeu-direction-shis`
   - savoir déposer la roue avant et détacher un étrier ou déclipser une durite de ses guides si nécessaire *(freinage)*
 - **Outils :** clés Allen 4/5 mm, clé dynamométrique 2-14 N·m, graisse marine/roulements, chiffons, dégraissant, pied d'atelier
 - **⚠️ Sécurité :**
@@ -628,11 +628,11 @@ Critères de validation :
 - video — GMBN : entretien des roulements de direction VTT
 - doc — Cane Creek : entretien des jeux de direction et intervalles de service
 
-### 3. Jeu de direction fileté : réglage aux contre-écrous et entretien (ville et vintage) `jeu-direction-filete`
+### 3. Jeu de direction fileté `jeu-direction-filete`
 
 - **Durée :** 40 min
 - **Prérequis :**
-  - [Réviser un jeu de direction ahead : dépose de fourche, roulements, graissage](#revision-jeu-direction-ahead) `revision-jeu-direction-ahead`
+  - [Réviser un jeu de direction ahead](#revision-jeu-direction-ahead) `revision-jeu-direction-ahead`
   - [Anatomie d'un vélo vintage](cas-exotiques.md) `anatomie-velo-vintage`
 - **Outils :** clés plates fines à jeu de direction 32/36/40 mm, clés Allen 6 mm, maillet, graisse, pince à billes ou tournevis aimanté, chiffons
 - **⚠️ Sécurité :**
@@ -661,11 +661,11 @@ Critères de validation :
 - video — RJ The Bike Guy : révision d'un jeu de direction fileté sur vélo ancien
 - video — Park Tool : dépose et pose d'une potence plongeur
 
-### 4. Routage interne : passer câbles, gaines et durites dans le cadre sans y laisser tes nerfs `routage-interne-cadre`
+### 4. Routage interne : câbles, gaines et durites `routage-interne-cadre`
 
 - **Durée :** 45 min
 - **Prérequis :**
-  - [Câbles et gaines : matériaux, coupe parfaite et routage externe](#cables-gaines-routage-externe) `cables-gaines-routage-externe`
+  - [Câbles et gaines : coupe et routage externe](#cables-gaines-routage-externe) `cables-gaines-routage-externe`
   - savoir déposer boîtier de pédalier ou trappes d'accès si le cadre l'exige (notions) *(transmission)*
 - **Outils :** kit de routage interne à aimant (type IR-1.2), liners, manchons mousse, ruban adhésif, lampe d'inspection, pince fine
 
@@ -692,12 +692,12 @@ Critères de validation :
 - video — GMBN Tech : astuces de routage interne sans outil dédié
 - article — BikeRadar : guide du routage interne moderne
 
-### 5. Extraire une tige de selle grippée sans sacrifier le cadre `extraction-tige-selle-grippee`
+### 5. Extraire une tige de selle grippée `extraction-tige-selle-grippee`
 
 - **Durée :** 45 min
 - **Prérequis :**
-  - [Tige de selle : mesurer, graisser ou pâter, prévenir le grippage](#entretien-tige-selle) `entretien-tige-selle`
-  - [Hiver, pluie et sel : le protocole qui sauve ton vélo](fondamentaux.md) `hiver-pluie-sel`
+  - [Tige de selle : graisser et prévenir le grippage](#entretien-tige-selle) `entretien-tige-selle`
+  - [Hiver, pluie et sel](fondamentaux.md) `hiver-pluie-sel`
 - **Outils :** dégrippant pénétrant, étau ou pince-étau, vieille selle sacrificielle, scie à métaux à lame seule, papier abrasif fin ou rodoir, gants, lunettes de protection
 - **⚠️ Sécurité :**
   - Dégrippants et solvants : ventile l'atelier, pas de flamme ni de meulage à proximité.
@@ -726,12 +726,12 @@ Critères de validation :
 - article — Bike Gremlin : corrosion galvanique entre tige et cadre
 - article — Park Tool : prévention et traitement des pièces grippées
 
-### 6. Installer une tige télescopique (dropper) : câble interne ou sans fil `poser-tige-telescopique`
+### 6. Installer une tige télescopique (dropper) `poser-tige-telescopique`
 
 - **Durée :** 45 min
 - **Prérequis :**
-  - [Routage interne : passer câbles, gaines et durites dans le cadre sans y laisser tes nerfs](#routage-interne-cadre) `routage-interne-cadre`
-  - [Tige de selle : mesurer, graisser ou pâter, prévenir le grippage](#entretien-tige-selle) `entretien-tige-selle`
+  - [Routage interne : câbles, gaines et durites](#routage-interne-cadre) `routage-interne-cadre`
+  - [Tige de selle : graisser et prévenir le grippage](#entretien-tige-selle) `entretien-tige-selle`
   - [La clé dynamométrique : choisir, utiliser, préserver](fondamentaux.md) `cle-dynamometrique`
 - **Outils :** kit routage interne, coupe-câble, clés Allen 2/3/4/5 mm, clé dynamométrique, pied à coulisse, mètre
 - **⚠️ Sécurité :**
@@ -761,11 +761,11 @@ Critères de validation :
 - video — GMBN Tech : installer une dropper post en interne
 - article — BikeRadar : choisir la course et le diamètre de sa dropper
 
-### 7. Purger une commande hydraulique de dropper (RockShox Reverb) `purge-dropper-reverb`
+### 7. Purger une dropper hydraulique (Reverb) `purge-dropper-reverb`
 
 - **Durée :** 40 min
 - **Prérequis :**
-  - [Installer une tige télescopique (dropper) : câble interne ou sans fil](#poser-tige-telescopique) `poser-tige-telescopique`
+  - [Installer une tige télescopique (dropper)](#poser-tige-telescopique) `poser-tige-telescopique`
   - gestes de purge hydraulique propres (seringues, chasse aux bulles) *(freinage)*
 - **Outils :** kit de purge Reverb (2 seringues), fluide hydraulique RockShox Reverb, clés Torx T10/T25, gants nitrile, lunettes, chiffons, alcool isopropylique
 - **⚠️ Sécurité :**
@@ -795,12 +795,12 @@ Critères de validation :
 - video — GMBN Tech : purger une Reverb à l'atelier maison
 - article — Park Tool : principes des commandes hydrauliques de tiges télescopiques
 
-### 8. Ajuster le cockpit à ton corps : reach, drop et largeur de cintre `fitting-cockpit`
+### 8. Ajuster le cockpit à ton corps `fitting-cockpit`
 
 - **Durée :** 40 min
 - **Prérequis :**
-  - [Remplacer potence et cintre : diamètres, couples et croisement de serrage](#remplacer-potence-cintre) `remplacer-potence-cintre`
-  - [Position de selle chiffrée : hauteur (LeMond, Holmes) et recul (KOPS)](#position-selle-methodes) `position-selle-methodes`
+  - [Remplacer potence et cintre](#remplacer-potence-cintre) `remplacer-potence-cintre`
+  - [Position de selle chiffrée](#position-selle-methodes) `position-selle-methodes`
 - **Outils :** mètre ruban, niveau ou règle longue, fil à plomb, appareil photo/smartphone (profil), clés Allen + clé dynamométrique
 
 **Objectifs :**
@@ -835,7 +835,7 @@ Critères de validation :
   - [Visserie : empreintes, filetages et pas inversés](fondamentaux.md) `empreintes-et-filetages`
   - [La clé dynamométrique : choisir, utiliser, préserver](fondamentaux.md) `cle-dynamometrique`
   - [Aligner et resserrer le cockpit](#alignement-cockpit-serrage) `alignement-cockpit-serrage`
-  - [Patte de dérailleur : contrôle visuel, standards et UDH](transmission.md) `patte-derailleur-controle-visuel`
+  - [Patte de dérailleur](transmission.md) `patte-derailleur-controle-visuel`
 - **Outils :** Carton vélo ou valise/housse de transport, Mousse tubulaire, papier bulle, protège-fourche et protège-pattes, Cales de transport d'étriers hydrauliques (une par étrier), Entretoises d'axe (dummy axles) avant et arrière, Clé à pédale et clés Allen/Torx, Clé dynamométrique, Colliers plastiques et sangles à cliquet, Pompe à manomètre, Pèse-bagage, Sacs zip repérés pour la visserie et la patte de dérailleur, Marqueur indélébile et ruban adhésif renforcé, Porte-vélos d'attelage, de hayon ou de toit selon le cas étudié
 - **⚠️ Sécurité :**
   - Les batteries lithium de VAE dépassant 100 Wh — et a fortiori 160 Wh — sont interdites en soute comme en cabine sur la quasi-totalité des vols. Tu organises une expédition spécialisée ou une location sur place ; tu ne tentes jamais de faire passer un pack en fraude.
@@ -878,14 +878,14 @@ Critères de validation :
 
 ## Niveau 4 — Expert
 
-### 1. Diagnostiquer les craquements du poste de pilotage et de la selle `craquements-direction-selle`
+### 1. Craquements du poste de pilotage et de la selle `craquements-direction-selle`
 
 - **Durée :** 45 min
 - **Prérequis :**
   - méthodologie générale de diagnostic par élimination *(fondamentaux)*
-  - [Réviser un jeu de direction ahead : dépose de fourche, roulements, graissage](#revision-jeu-direction-ahead) `revision-jeu-direction-ahead`
-  - [Tige de selle : mesurer, graisser ou pâter, prévenir le grippage](#entretien-tige-selle) `entretien-tige-selle`
-  - [Diagnostiquer un craquement : la méthode d'élimination](fondamentaux.md) `diagnostic-craquements`
+  - [Réviser un jeu de direction ahead](#revision-jeu-direction-ahead) `revision-jeu-direction-ahead`
+  - [Tige de selle : graisser et prévenir le grippage](#entretien-tige-selle) `entretien-tige-selle`
+  - [Diagnostiquer un craquement](fondamentaux.md) `diagnostic-craquements`
 - **Outils :** clés Allen + clé dynamométrique, graisse, pâte carbone, chiffons, dégraissant, carnet d'atelier
 
 **Objectifs :**
@@ -911,12 +911,12 @@ Critères de validation :
 - video — GCN : faire taire les craquements de son vélo
 - article — Bike Gremlin : diagnostic méthodique des bruits de vélo
 
-### 2. Extraire et presser cuvettes et crown race de jeu de direction `remplacer-cuvettes-direction`
+### 2. Extraire et presser cuvettes et crown race `remplacer-cuvettes-direction`
 
 - **Durée :** 45 min
 - **Prérequis :**
-  - [Identifier un jeu de direction : le code SHIS au pied à coulisse](#identifier-jeu-direction-shis) `identifier-jeu-direction-shis`
-  - [Réviser un jeu de direction ahead : dépose de fourche, roulements, graissage](#revision-jeu-direction-ahead) `revision-jeu-direction-ahead`
+  - [Identifier un jeu de direction](#identifier-jeu-direction-shis) `identifier-jeu-direction-shis`
+  - [Réviser un jeu de direction ahead](#revision-jeu-direction-ahead) `revision-jeu-direction-ahead`
   - notions de frappe contrôlée et d'outillage de presse *(fondamentaux)*
 - **Outils :** chasse-cuvettes (type RT-1) ou tube extracteur, presse à jeu de direction (ou tige filetée M12 + rondelles larges), chasse crown race, maillet, graisse, jauge d'épaisseur 0,05 mm, lunettes de protection
 - **⚠️ Sécurité :**
@@ -946,13 +946,13 @@ Critères de validation :
 - doc — Cane Creek : instructions de pressage et compatibilité des cuvettes
 - video — GMBN Tech : remplacer un jeu de direction avec outillage maison
 
-### 3. Standards de direction exotiques et décisions de compatibilité `standards-direction-compatibilite`
+### 3. Standards de direction exotiques `standards-direction-compatibilite`
 
 - **Durée :** 40 min
 - **Prérequis :**
-  - [Identifier un jeu de direction : le code SHIS au pied à coulisse](#identifier-jeu-direction-shis) `identifier-jeu-direction-shis`
-  - [Extraire et presser cuvettes et crown race de jeu de direction](#remplacer-cuvettes-direction) `remplacer-cuvettes-direction`
-  - [Directions et potences anciennes : français, Raleigh 26 TPI, 1 pouce](cas-exotiques.md) `direction-potence-standards-anciens`
+  - [Identifier un jeu de direction](#identifier-jeu-direction-shis) `identifier-jeu-direction-shis`
+  - [Extraire et presser cuvettes et crown race](#remplacer-cuvettes-direction) `remplacer-cuvettes-direction`
+  - [Directions et potences anciennes](cas-exotiques.md) `direction-potence-standards-anciens`
 - **Outils :** pied à coulisse numérique, tableaux SHIS et catalogues fabricants, jauge de profondeur, carnet d'atelier
 
 **Objectifs :**
@@ -979,12 +979,12 @@ Critères de validation :
 - article — BikeRadar : pivots coniques et solutions de conversion
 - doc — Wheels Manufacturing : cônes réducteurs et adaptateurs de direction
 
-### 4. Routage intégré via le jeu de direction : entretien sans tout casser `routage-via-jeu-direction`
+### 4. Routage intégré via le jeu de direction `routage-via-jeu-direction`
 
 - **Durée :** 45 min
 - **Prérequis :**
-  - [Réviser un jeu de direction ahead : dépose de fourche, roulements, graissage](#revision-jeu-direction-ahead) `revision-jeu-direction-ahead`
-  - [Routage interne : passer câbles, gaines et durites dans le cadre sans y laisser tes nerfs](#routage-interne-cadre) `routage-interne-cadre`
+  - [Réviser un jeu de direction ahead](#revision-jeu-direction-ahead) `revision-jeu-direction-ahead`
+  - [Routage interne : câbles, gaines et durites](#routage-interne-cadre) `routage-interne-cadre`
   - [Raccourcir une durite Shimano (olive et insert)](freinage.md) `raccourcir-durite-shimano`
 - **Outils :** clés Allen/Torx, clé dynamométrique 2-14 N·m, kit routage interne, entretoises fendues du système, graisse, chiffons
 - **⚠️ Sécurité :**
@@ -1014,12 +1014,12 @@ Critères de validation :
 - article — BikeRadar : routage par le jeu de direction : entretien et pièges
 - doc — Acros : jeux de direction à passage de durites
 
-### 5. Réviser une dropper : service du fût et remplacement de cartouche `revision-dropper-cartouche`
+### 5. Réviser une dropper `revision-dropper-cartouche`
 
 - **Durée :** 45 min
 - **Prérequis :**
-  - [Installer une tige télescopique (dropper) : câble interne ou sans fil](#poser-tige-telescopique) `poser-tige-telescopique`
-  - [Purger une commande hydraulique de dropper (RockShox Reverb)](#purge-dropper-reverb) `purge-dropper-reverb`
+  - [Installer une tige télescopique (dropper)](#poser-tige-telescopique) `poser-tige-telescopique`
+  - [Purger une dropper hydraulique (Reverb)](#purge-dropper-reverb) `purge-dropper-reverb`
 - **Outils :** clés Allen, clé à ergots ou douille selon modèle, graisse pour coulisseaux, cartouche de rechange, pompe haute pression avec embout fin, chiffons, étau à mors doux, lunettes
 - **⚠️ Sécurité :**
   - Dépressurise complètement la cartouche ou la chambre d'air AVANT toute ouverture : l'air comprimé peut éjecter violemment des pièces.
@@ -1048,11 +1048,11 @@ Critères de validation :
 - video — GMBN Tech : service complet d'une dropper post
 - doc — PNW Components : entretien et garantie des cartouches de dropper
 
-### 6. Direction de vélo cargo : tringlerie, rotules et alignement `direction-velo-cargo`
+### 6. Direction de vélo cargo `direction-velo-cargo`
 
 - **Durée :** 40 min
 - **Prérequis :**
-  - [Réviser un jeu de direction ahead : dépose de fourche, roulements, graissage](#revision-jeu-direction-ahead) `revision-jeu-direction-ahead`
+  - [Réviser un jeu de direction ahead](#revision-jeu-direction-ahead) `revision-jeu-direction-ahead`
   - [Panorama des vélos atypiques](cas-exotiques.md) `panorama-velos-atypiques`
 - **Outils :** clés Allen et plates, clé dynamométrique, frein-filet moyen, réglet et fil tendu pour l'alignement, graisse, comparateur ou réglet précis
 - **⚠️ Sécurité :**
@@ -1082,13 +1082,13 @@ Critères de validation :
 - article — Weelz : entretien spécifique des vélos cargo
 - article — Park Tool : principes des directions à renvoi et rotules
 
-### 7. Étude posturale complète : conduire un fit statique de A à Z `etude-posturale-complete`
+### 7. Étude posturale complète `etude-posturale-complete`
 
 - **Durée :** 45 min
 - **Prérequis :**
-  - [Position de selle chiffrée : hauteur (LeMond, Holmes) et recul (KOPS)](#position-selle-methodes) `position-selle-methodes`
-  - [Régler ses cales : position, angle et tension de déchaussage](#regler-cales-chaussures) `regler-cales-chaussures`
-  - [Ajuster le cockpit à ton corps : reach, drop et largeur de cintre](#fitting-cockpit) `fitting-cockpit`
+  - [Position de selle chiffrée](#position-selle-methodes) `position-selle-methodes`
+  - [Régler ses cales : position, angle, tension](#regler-cales-chaussures) `regler-cales-chaussures`
+  - [Ajuster le cockpit à ton corps](#fitting-cockpit) `fitting-cockpit`
 - **Outils :** mètre ruban, fil à plomb, goniomètre ou application, niveau, home-trainer, appareil photo/vidéo, fiche de fit vierge
 
 **Objectifs :**
@@ -1119,11 +1119,11 @@ Critères de validation :
 
 - **Durée :** 45 min
 - **Prérequis :**
-  - [Étude posturale complète : conduire un fit statique de A à Z](#etude-posturale-complete) `etude-posturale-complete`
-  - [Position de selle chiffrée : hauteur (LeMond, Holmes) et recul (KOPS)](#position-selle-methodes) `position-selle-methodes`
-  - [Régler ses cales : position, angle et tension de déchaussage](#regler-cales-chaussures) `regler-cales-chaussures`
-  - [Ajuster le cockpit à ton corps : reach, drop et largeur de cintre](#fitting-cockpit) `fitting-cockpit`
-  - [Choisir une selle : largeur d'ischions, forme et protocole d'essai](#choisir-une-selle) `choisir-une-selle`
+  - [Étude posturale complète](#etude-posturale-complete) `etude-posturale-complete`
+  - [Position de selle chiffrée](#position-selle-methodes) `position-selle-methodes`
+  - [Régler ses cales : position, angle, tension](#regler-cales-chaussures) `regler-cales-chaussures`
+  - [Ajuster le cockpit à ton corps](#fitting-cockpit) `fitting-cockpit`
+  - [Choisir une selle : ischions, forme, essai](#choisir-une-selle) `choisir-une-selle`
 - **Outils :** Fiche d'entretien structurée imprimée, Mètre ruban, fil à plomb et réglet, Niveau numérique au dixième de degré, Pied à coulisse, Marqueur et ruban de repère pour figer les cotes de départ, Smartphone sur trépied pour vidéo latérale et arrière, Home trainer ou pied d'atelier, Clés Allen et clé dynamométrique, Outil de réglage de cales et gabarit de position, Carnet de suivi avec échelle de gêne 0-10, Liste écrite des signaux d'alerte
 - **⚠️ Sécurité :**
   - Tu es mécanicien, pas soignant : tu ajustes une machine à un corps. Tu ne poses aucun diagnostic médical, tu ne proposes aucun traitement, tu n'interprètes aucun examen.
@@ -1165,10 +1165,10 @@ Critères de validation :
 
 - **Durée :** 45 min
 - **Prérequis :**
-  - [Remplacer potence et cintre : diamètres, couples et croisement de serrage](#remplacer-potence-cintre) `remplacer-potence-cintre`
-  - [Routage interne : passer câbles, gaines et durites dans le cadre sans y laisser tes nerfs](#routage-interne-cadre) `routage-interne-cadre`
+  - [Remplacer potence et cintre](#remplacer-potence-cintre) `remplacer-potence-cintre`
+  - [Routage interne : câbles, gaines et durites](#routage-interne-cadre) `routage-interne-cadre`
   - [Poser une guidoline propre et durable](#poser-guidoline) `poser-guidoline`
-  - [Routage intégré via le jeu de direction : entretien sans tout casser](#routage-via-jeu-direction) `routage-via-jeu-direction`
+  - [Routage intégré via le jeu de direction](#routage-via-jeu-direction) `routage-via-jeu-direction`
   - [La clé dynamométrique : choisir, utiliser, préserver](fondamentaux.md) `cle-dynamometrique`
 - **Outils :** Jeu de clés Allen et Torx qualité atelier, Clé dynamométrique 1-10 N·m, Aiguille de routage magnétique ou kit de guides (type Park Tool IR-1.2), Fil-guide fin et gaine thermorétractable, Pince coupe-câble et coupe-durite propre, Outil de connecteur électronique (type Shimano TL-EW02) ou équivalent marque, Pince à becs fins et pince à dénuder, Gabarit de rayon ou cylindres étalons pour vérifier les courbures, Mètre ruban, réglet et marqueur fin, Pâte carbone et graisse adaptée, Guidoline neuve, ruban de finition, bouchons de cintre, Pied d'atelier et notice constructeur du cockpit
 - **⚠️ Sécurité :**
@@ -1209,11 +1209,11 @@ Critères de validation :
 
 ## Niveau 5 — Maître
 
-### 1. Remplacer une fourche complète : compatibilité, transfert et géométrie `remplacer-fourche-complete`
+### 1. Remplacer une fourche complète `remplacer-fourche-complete`
 
 - **Durée :** 45 min
 - **Prérequis :**
-  - [Couper un pivot de fourche : mesure, coupe, étoile ou expandeur](montage-et-peinture.md) `coupe-pivot-fourche`
+  - [Couper un pivot de fourche](montage-et-peinture.md) `coupe-pivot-fourche`
   - [Frein à disque : le contrôle express](freinage.md) `controle-express-frein-disque`
   - [Relevé géométrique complet d'un cadre](fondamentaux.md) `releve-geometrique-cadre`
 - **Outils :** guide de coupe + scie, chasse et pose crown race, clé dynamométrique, pied à coulisse, kit routage si durite interne, clés Allen/Torx, masque FFP3 si carbone

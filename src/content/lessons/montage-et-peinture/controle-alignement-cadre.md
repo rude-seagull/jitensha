@@ -1,5 +1,5 @@
 ---
-title: "Contrôler l'alignement d'un cadre et de ses pattes arrière"
+title: "Contrôler l'alignement d'un cadre"
 level: 4
 system: "montage-et-peinture"
 order: 1

@@ -1,5 +1,5 @@
 ---
-title: "Tiges de selle et potences suspendues : choisir, régler, entretenir"
+title: "Tiges de selle et potences suspendues"
 level: 2
 system: "suspension"
 order: 9

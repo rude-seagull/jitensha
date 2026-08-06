@@ -1,5 +1,5 @@
 ---
-title: "Établir la fiche de montage d'un cadre nu : standards et compatibilités"
+title: "Établir la fiche de montage d'un cadre nu"
 level: 4
 system: "montage-et-peinture"
 order: 2

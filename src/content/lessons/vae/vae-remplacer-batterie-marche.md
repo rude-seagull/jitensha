@@ -1,5 +1,5 @@
 ---
-title: "Remplacer une batterie : compatibilité, marché, arnaques et fin de vie"
+title: "Remplacer une batterie"
 level: 4
 system: "vae"
 order: 10

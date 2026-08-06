@@ -1,5 +1,5 @@
 ---
-title: "Service d'une fourche urbaine à ressort (SR Suntour et compagnie)"
+title: "Service d'une fourche urbaine à ressort"
 level: 3
 system: "suspension"
 order: 5
