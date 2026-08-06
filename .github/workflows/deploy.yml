@@ -38,3 +38,10 @@ jobs:
       - name: Deploy
         id: deployment
         uses: actions/deploy-pages@v5
+        with:
+          # The action's default is 10 minutes, and it is a wait, not a build: it polls
+          # `deployment_queued` until the Pages backend picks the deployment up. That
+          # wait grew from 18 s to over 6 minutes across a single morning with no change
+          # on our side, then crossed the default and aborted. 30 minutes rides out a
+          # slow queue instead of giving up on a deployment that is merely waiting.
+          timeout: 1800000
